@@ -17,3 +17,12 @@ This project uses Python with a virtual environment (`venv`).
 ```powershell
 .\venv\Scripts\pytest.exe -v
 ```
+
+## Step 2: PostgreSQL Setup
+
+Initialize the database tables:
+
+```powershell
+.\venv\Scripts\python.exe scripts/setup_db.py
+```
+
