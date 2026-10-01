@@ -1,0 +1,20 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Environment variables (secrets, passwords)
+.env
+
+# Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Downloaded files and logs
+data/raw/*
+data/processed/*
+data/logs/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/logs/.gitkeep

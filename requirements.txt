@@ -1,0 +1,16 @@
+# HTTP and Web Scraping
+requests
+beautifulsoup4
+
+# PDF Processing
+pymupdf
+
+# Database
+psycopg[binary]
+
+# Data Validation and Environment
+pydantic
+python-dotenv
+
+# Testing
+pytest
