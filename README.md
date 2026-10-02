@@ -58,6 +58,15 @@ Download discovered scheme documents, verify SHA-256 fingerprints, and store met
 .\venv\Scripts\python.exe scripts/run_download.py
 ```
 
+## Step 7: Version Detection
+
+Detect document versions, identify changes, and preserve historical scheme versions in PostgreSQL:
+
+```powershell
+.\venv\Scripts\python.exe scripts/run_versioning.py
+```
+
+
 
 
 
