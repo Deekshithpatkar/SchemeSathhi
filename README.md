@@ -50,6 +50,15 @@ Extract, classify, and filter scheme PDFs, guidelines, and Government Orders fro
 .\venv\Scripts\python.exe scripts/run_document_discovery.py
 ```
 
+## Step 6: Document Downloader
+
+Download discovered scheme documents, verify SHA-256 fingerprints, and store metadata in PostgreSQL:
+
+```powershell
+.\venv\Scripts\python.exe scripts/run_download.py
+```
+
+
 
 
 
