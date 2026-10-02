@@ -34,4 +34,13 @@ Seed initial official Karnataka sources:
 .\venv\Scripts\python.exe scripts/seed_sources.py
 ```
 
+## Step 4: Website Discovery
+
+Scan registered portals for scheme pages and document links:
+
+```powershell
+.\venv\Scripts\python.exe scripts/run_discovery.py
+```
+
+
 
