@@ -42,5 +42,14 @@ Scan registered portals for scheme pages and document links:
 .\venv\Scripts\python.exe scripts/run_discovery.py
 ```
 
+## Step 5: Document Discovery
+
+Extract, classify, and filter scheme PDFs, guidelines, and Government Orders from discovered pages:
+
+```powershell
+.\venv\Scripts\python.exe scripts/run_document_discovery.py
+```
+
+
 
 
