@@ -28,11 +28,15 @@ LLM_MODEL = os.getenv("LLM_MODEL", "gemini-2.5-flash")
 DATA_DIR = BASE_DIR / "data"
 RAW_DIR = DATA_DIR / "raw"
 PROCESSED_DIR = DATA_DIR / "processed"
+STRUCTURED_DIR = DATA_DIR / "structured"
+IMAGES_DIR = DATA_DIR / "images"
 LOGS_DIR = DATA_DIR / "logs"
 
 # Ensure all data directories exist
 RAW_DIR.mkdir(parents=True, exist_ok=True)
 PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+STRUCTURED_DIR.mkdir(parents=True, exist_ok=True)
+IMAGES_DIR.mkdir(parents=True, exist_ok=True)
 LOGS_DIR.mkdir(parents=True, exist_ok=True)
 
 

@@ -1,0 +1,93 @@
+{
+  "document": {
+    "filename": "scanned_doc.pdf",
+    "filepath": "C:\\Users\\deeks\\AppData\\Local\\Temp\\pytest-of-deeks\\pytest-13\\test_process_with_ocr_fallback1\\scanned_doc.pdf",
+    "total_pages": 1,
+    "processed_at": "2026-10-02T12:00:10.550394+00:00",
+    "pipeline_version": "2.0_document_understanding"
+  },
+  "summary": {
+    "total_pages": 1,
+    "usable_pages_count": 0,
+    "scanned_pages_count": 1,
+    "ocr_pages_count": 1,
+    "total_tables_detected": 0,
+    "requires_ocr": true,
+    "ocr_performed": true
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "page_type": "SCANNED",
+      "tags": [
+        "SCANNED"
+      ],
+      "extraction_method": "tesseract_ocr",
+      "dpi": 300,
+      "blocks": [
+        {
+          "block_number": 1,
+          "text": "Scanned Government Notification 2026",
+          "word_count": 4
+        }
+      ],
+      "tables": [],
+      "forms": null,
+      "full_text": "Scanned Government Notification 2026",
+      "avg_confidence": 91.8,
+      "is_ocr": true,
+      "words": [
+        {
+          "text": "Scanned",
+          "bbox": [
+            211,
+            278,
+            289,
+            58
+          ],
+          "confidence": 90.0,
+          "block_num": 1,
+          "line_num": 1
+        },
+        {
+          "text": "Government",
+          "bbox": [
+            528,
+            278,
+            408,
+            58
+          ],
+          "confidence": 90.0,
+          "block_num": 1,
+          "line_num": 1
+        },
+        {
+          "text": "Notification",
+          "bbox": [
+            964,
+            278,
+            360,
+            58
+          ],
+          "confidence": 91.0,
+          "block_num": 1,
+          "line_num": 1
+        },
+        {
+          "text": "2026",
+          "bbox": [
+            1353,
+            280,
+            161,
+            56
+          ],
+          "confidence": 96.0,
+          "block_num": 1,
+          "line_num": 1
+        }
+      ],
+      "low_conf_percentage": 0.0,
+      "ocr_preprocessing": "kannada_sharpen"
+    }
+  ]
+}

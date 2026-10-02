@@ -5,6 +5,12 @@ beautifulsoup4
 # PDF Processing
 pymupdf
 
+# OCR and Image Processing
+pytesseract
+pillow
+opencv-python-headless
+numpy
+
 # Database
 psycopg[binary]
 

@@ -1,0 +1,36 @@
+{
+  "document": {
+    "filename": "scanned_kannada.pdf",
+    "filepath": "C:\\Users\\deeks\\AppData\\Local\\Temp\\pytest-of-deeks\\pytest-10\\test_scenario_2_scanned_kannad0\\scanned_kannada.pdf",
+    "total_pages": 1,
+    "processed_at": "2026-10-02T11:55:42.733768+00:00",
+    "pipeline_version": "2.0_document_understanding"
+  },
+  "summary": {
+    "total_pages": 1,
+    "usable_pages_count": 0,
+    "scanned_pages_count": 1,
+    "total_tables_detected": 0,
+    "requires_ocr": true,
+    "ocr_performed": true
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "page_type": "SCANNED",
+      "tags": [
+        "SCANNED"
+      ],
+      "extraction_method": "tesseract_ocr",
+      "dpi": 300,
+      "blocks": [],
+      "tables": [],
+      "forms": null,
+      "full_text": "",
+      "avg_confidence": 0.0,
+      "words": [],
+      "low_conf_percentage": 0.0,
+      "ocr_preprocessing": "kannada_sharpen"
+    }
+  ]
+}

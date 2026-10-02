@@ -1,0 +1,46 @@
+{
+  "document": {
+    "filename": "digital_text.pdf",
+    "filepath": "C:\\Users\\deeks\\AppData\\Local\\Temp\\pytest-of-deeks\\pytest-13\\test_scenario_1_normal_digital0\\digital_text.pdf",
+    "total_pages": 1,
+    "processed_at": "2026-10-02T11:59:42.476384+00:00",
+    "pipeline_version": "2.0_document_understanding"
+  },
+  "summary": {
+    "total_pages": 1,
+    "usable_pages_count": 1,
+    "scanned_pages_count": 0,
+    "ocr_pages_count": 0,
+    "total_tables_detected": 0,
+    "requires_ocr": false,
+    "ocr_performed": false
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "page_type": "TEXT",
+      "tags": [
+        "TEXT"
+      ],
+      "extraction_method": "direct_pymupdf",
+      "dpi": 300,
+      "blocks": [
+        {
+          "bbox": [
+            50.0,
+            50.0,
+            390.6,
+            47.6
+          ],
+          "text": "Government of Karnataka - Agriculture Department.\nGuidelines for Scheme Implementation 2026.\nAll small and marginal farmers owning agricultural land in Karnataka are eligible.",
+          "type": "text",
+          "confidence": 100.0
+        }
+      ],
+      "tables": [],
+      "forms": null,
+      "full_text": "Government of Karnataka - Agriculture Department.\nGuidelines for Scheme Implementation 2026.\nAll small and marginal farmers owning agricultural land in Karnataka are eligible.",
+      "avg_confidence": 100.0
+    }
+  ]
+}

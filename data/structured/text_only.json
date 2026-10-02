@@ -1,0 +1,46 @@
+{
+  "document": {
+    "filename": "text_only.pdf",
+    "filepath": "C:\\Users\\deeks\\AppData\\Local\\Temp\\pytest-of-deeks\\pytest-13\\test_process_with_ocr_fallback0\\text_only.pdf",
+    "total_pages": 1,
+    "processed_at": "2026-10-02T12:00:10.193174+00:00",
+    "pipeline_version": "2.0_document_understanding"
+  },
+  "summary": {
+    "total_pages": 1,
+    "usable_pages_count": 1,
+    "scanned_pages_count": 0,
+    "ocr_pages_count": 0,
+    "total_tables_detected": 0,
+    "requires_ocr": false,
+    "ocr_performed": false
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "page_type": "TEXT",
+      "tags": [
+        "TEXT"
+      ],
+      "extraction_method": "direct_pymupdf",
+      "dpi": 300,
+      "blocks": [
+        {
+          "bbox": [
+            50.0,
+            50.0,
+            470.7,
+            31.4
+          ],
+          "text": "Government Order 2026 for Agriculture Support.\nAll small and marginal farmers owning agricultural land in Karnataka are eligible for this program.",
+          "type": "text",
+          "confidence": 100.0
+        }
+      ],
+      "tables": [],
+      "forms": null,
+      "full_text": "Government Order 2026 for Agriculture Support.\nAll small and marginal farmers owning agricultural land in Karnataka are eligible for this program.",
+      "avg_confidence": 100.0
+    }
+  ]
+}

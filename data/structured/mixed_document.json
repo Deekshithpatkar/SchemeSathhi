@@ -1,0 +1,107 @@
+{
+  "document": {
+    "filename": "mixed_document.pdf",
+    "filepath": "C:\\Users\\deeks\\AppData\\Local\\Temp\\pytest-of-deeks\\pytest-13\\test_scenario_5_mixed_pdf0\\mixed_document.pdf",
+    "total_pages": 2,
+    "processed_at": "2026-10-02T12:00:08.147479+00:00",
+    "pipeline_version": "2.0_document_understanding"
+  },
+  "summary": {
+    "total_pages": 2,
+    "usable_pages_count": 1,
+    "scanned_pages_count": 1,
+    "ocr_pages_count": 1,
+    "total_tables_detected": 0,
+    "requires_ocr": true,
+    "ocr_performed": true
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "page_type": "TEXT",
+      "tags": [
+        "TEXT"
+      ],
+      "extraction_method": "direct_pymupdf",
+      "dpi": 300,
+      "blocks": [
+        {
+          "bbox": [
+            50.0,
+            50.0,
+            235.3,
+            31.4
+          ],
+          "text": "Official Notification from Agriculture Department.\nDetailed instructions follow below in Annexure.",
+          "type": "text",
+          "confidence": 100.0
+        }
+      ],
+      "tables": [],
+      "forms": null,
+      "full_text": "Official Notification from Agriculture Department.\nDetailed instructions follow below in Annexure.",
+      "avg_confidence": 100.0
+    },
+    {
+      "page_number": 2,
+      "page_type": "SCANNED",
+      "tags": [
+        "SCANNED"
+      ],
+      "extraction_method": "tesseract_ocr",
+      "dpi": 300,
+      "blocks": [
+        {
+          "block_number": 1,
+          "text": "Annexure Form Scanned",
+          "word_count": 3
+        }
+      ],
+      "tables": [],
+      "forms": null,
+      "full_text": "Annexure Form Scanned",
+      "avg_confidence": 90.0,
+      "is_ocr": true,
+      "words": [
+        {
+          "text": "Annexure",
+          "bbox": [
+            209,
+            285,
+            283,
+            51
+          ],
+          "confidence": 90.0,
+          "block_num": 1,
+          "line_num": 1
+        },
+        {
+          "text": "Form",
+          "bbox": [
+            517,
+            285,
+            146,
+            51
+          ],
+          "confidence": 90.0,
+          "block_num": 1,
+          "line_num": 1
+        },
+        {
+          "text": "Scanned",
+          "bbox": [
+            689,
+            284,
+            257,
+            52
+          ],
+          "confidence": 90.0,
+          "block_num": 1,
+          "line_num": 1
+        }
+      ],
+      "low_conf_percentage": 0.0,
+      "ocr_preprocessing": "kannada_sharpen"
+    }
+  ]
+}

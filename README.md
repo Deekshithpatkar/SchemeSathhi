@@ -74,6 +74,15 @@ Extract Unicode text directly using PyMuPDF and evaluate page usability (flaggin
 .\venv\Scripts\python.exe scripts/run_pdf_processing.py
 ```
 
+## Step 9: Kannada & English OCR Fallback
+
+Automatically detect scanned / photocopied PDF pages and extract Kannada & English text using Tesseract OCR:
+
+```powershell
+.\venv\Scripts\python.exe scripts/run_ocr.py
+```
+
+
 
 
 
