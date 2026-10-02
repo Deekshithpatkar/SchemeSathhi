@@ -66,6 +66,15 @@ Detect document versions, identify changes, and preserve historical scheme versi
 .\venv\Scripts\python.exe scripts/run_versioning.py
 ```
 
+## Step 8: PDF Text Processing
+
+Extract Unicode text directly using PyMuPDF and evaluate page usability (flagging scanned pages for OCR):
+
+```powershell
+.\venv\Scripts\python.exe scripts/run_pdf_processing.py
+```
+
+
 
 
 
