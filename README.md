@@ -26,3 +26,12 @@ Initialize the database tables:
 .\venv\Scripts\python.exe scripts/setup_db.py
 ```
 
+## Step 3: Source Registry
+
+Seed initial official Karnataka sources:
+
+```powershell
+.\venv\Scripts\python.exe scripts/seed_sources.py
+```
+
+
