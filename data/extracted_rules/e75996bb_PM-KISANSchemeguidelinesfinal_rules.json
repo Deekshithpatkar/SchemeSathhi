@@ -1,0 +1,23 @@
+{
+  "scheme_name": "ಕರ್ನಾಟಕ ರಾಜ್ಯ ಕೃಷಿ ಇಲಾಖೆ",
+  "department": null,
+  "document_type": null,
+  "document_date": null,
+  "version_information": null,
+  "purpose": "ನಿಯತಕಾಲಿಕವಾಗಿ ತಾಲ್ಲೂಕು ಮಟ್ಟದ ಸಹಾಯಕ ಕೃಷಿ ನಿರ್ದೇಶಕರ ಕಛೇರಿಗೆ ಪರಿಶೀಲಿಸಲು ಮತ್ತು ಸಂರಕ್ಷಿಸಲು",
+  "eligibility_rules": [],
+  "exclusion_rules": [],
+  "sources": [],
+  "review_required": false,
+  "review_reasons": [],
+  "extraction_metadata": {
+    "pipeline_version": "1.0_semantic_extraction",
+    "model": "qwen2.5:3b-instruct",
+    "processed_at": "2026-10-05T02:23:55.502080+00:00",
+    "source_document": "e75996bb_PM-KISANSchemeguidelinesfinal.pdf",
+    "validation_status": "valid",
+    "rule_count": 0,
+    "review_required_count": 0,
+    "errors": []
+  }
+}

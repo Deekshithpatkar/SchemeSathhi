@@ -20,15 +20,17 @@ DATABASE_URL = os.getenv(
     "postgresql://postgres:postgres@localhost:5432/scheme_agent"
 )
 
-# LLM Settings (for later checkpoints)
+# LLM Settings (Ollama / Local or API)
 LLM_API_KEY = os.getenv("LLM_API_KEY", "")
-LLM_MODEL = os.getenv("LLM_MODEL", "gemini-2.5-flash")
+LLM_MODEL = os.getenv("LLM_MODEL", "qwen2.5:7b-instruct")
+OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 
 # Storage folders
 DATA_DIR = BASE_DIR / "data"
 RAW_DIR = DATA_DIR / "raw"
 PROCESSED_DIR = DATA_DIR / "processed"
 STRUCTURED_DIR = DATA_DIR / "structured"
+EXTRACTED_RULES_DIR = DATA_DIR / "extracted_rules"
 IMAGES_DIR = DATA_DIR / "images"
 LOGS_DIR = DATA_DIR / "logs"
 
@@ -36,6 +38,7 @@ LOGS_DIR = DATA_DIR / "logs"
 RAW_DIR.mkdir(parents=True, exist_ok=True)
 PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 STRUCTURED_DIR.mkdir(parents=True, exist_ok=True)
+EXTRACTED_RULES_DIR.mkdir(parents=True, exist_ok=True)
 IMAGES_DIR.mkdir(parents=True, exist_ok=True)
 LOGS_DIR.mkdir(parents=True, exist_ok=True)
 
