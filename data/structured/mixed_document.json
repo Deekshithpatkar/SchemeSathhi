@@ -1,9 +1,10 @@
 {
   "document": {
     "filename": "mixed_document.pdf",
-    "filepath": "C:\\Users\\deeks\\AppData\\Local\\Temp\\pytest-of-deeks\\pytest-13\\test_scenario_5_mixed_pdf0\\mixed_document.pdf",
+    "filepath": "C:\\Users\\deeks\\AppData\\Local\\Temp\\pytest-of-deeks\\pytest-34\\test_scenario_5_mixed_pdf0\\mixed_document.pdf",
+    "source_url": null,
     "total_pages": 2,
-    "processed_at": "2026-10-02T12:00:08.147479+00:00",
+    "processed_at": "2026-10-05T09:26:48.832391+00:00",
     "pipeline_version": "2.0_document_understanding"
   },
   "summary": {

@@ -84,9 +84,11 @@ def get_scheme_by_key(
 ) -> Optional[Dict[str, Any]]:
     """
     Looks up master scheme by scheme_key (slug).
+    Supports exact slug match and smart fallback matching on scheme name or key tokens.
     """
     slug = make_slug(scheme_key)
     with get_db_cursor(conn) as cur:
+        # 1. Exact slug match
         cur.execute(
             """
             SELECT id, slug, slug AS scheme_key, name, name AS scheme_name, department, state, created_at, updated_at
@@ -95,7 +97,28 @@ def get_scheme_by_key(
             """,
             (slug,),
         )
-        return cur.fetchone()
+        exact = cur.fetchone()
+        if exact:
+            return exact
+
+        # 2. Smart fallback: token matching (ignoring generic prefixes)
+        tokens = [t for t in slug.split("-") if len(t) >= 3 and t not in ("karnataka", "scheme", "gov", "in", "dept")]
+        for tok in tokens:
+            cur.execute(
+                """
+                SELECT id, slug, slug AS scheme_key, name, name AS scheme_name, department, state, created_at, updated_at
+                FROM schemes
+                WHERE slug ILIKE %s OR name ILIKE %s
+                ORDER BY (slug ILIKE %s) DESC
+                LIMIT 1;
+                """,
+                (f"%{tok}%", f"%{tok}%", f"%{tok}%"),
+            )
+            partial = cur.fetchone()
+            if partial:
+                return partial
+
+        return None
 
 
 # ==============================================================================
