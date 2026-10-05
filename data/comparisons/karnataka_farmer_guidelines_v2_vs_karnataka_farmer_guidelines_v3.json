@@ -1,0 +1,66 @@
+{
+  "old_document": "karnataka_farmer_guidelines_v2.pdf",
+  "new_document": "karnataka_farmer_guidelines_v3.pdf",
+  "hash_status": "different",
+  "overall_status": "possible_change",
+  "metadata_changes": [],
+  "page_comparisons": [
+    {
+      "page_number": 1,
+      "status": "modified",
+      "similarity_ratio": 0.8387096774193549,
+      "text_changes": [
+        {
+          "page_number": 1,
+          "change_type": "modified",
+          "old_text": "Agriculture Department Karnataka.\nAnnual family income shall not exceed Rs. 3,00,000 to be eligible.\nApplications submitted to Taluk office.",
+          "new_text": "Agriculture Department Karnataka.\nAnnual family income shall not exceed Rs. 3,00,000 to be eligible.\nApplications shall be submitted through the designated online portal.",
+          "similarity_ratio": 0.8387096774193549,
+          "is_ocr_noise": false,
+          "section": null
+        }
+      ],
+      "old_page_type": "TEXT",
+      "new_page_type": "TEXT"
+    }
+  ],
+  "text_changes": [
+    {
+      "page_number": 1,
+      "change_type": "modified",
+      "old_text": "Agriculture Department Karnataka.\nAnnual family income shall not exceed Rs. 3,00,000 to be eligible.\nApplications submitted to Taluk office.",
+      "new_text": "Agriculture Department Karnataka.\nAnnual family income shall not exceed Rs. 3,00,000 to be eligible.\nApplications shall be submitted through the designated online portal.",
+      "similarity_ratio": 0.8387096774193549,
+      "is_ocr_noise": false,
+      "section": null
+    }
+  ],
+  "semantic_comparison_required": true,
+  "semantic_changes": [
+    {
+      "category": "procedural",
+      "description": "Application submission method changed from physical office to online portal.",
+      "eligibility_relevance": "none",
+      "affected_attribute": null,
+      "old_evidence": "Applications submitted to Taluk office.",
+      "new_evidence": "Applications shall be submitted through the designated online portal."
+    }
+  ],
+  "semantic_summary": "Application submission method changed from physical office to online portal.",
+  "eligibility_relevance": "none",
+  "review_required": false,
+  "review_reasons": [],
+  "comparison_metadata": {
+    "pipeline_version": "1.0_document_comparison",
+    "compared_at": "2026-10-05T06:27:45.324219+00:00",
+    "model_used": "qwen2.5:3b-instruct",
+    "old_sha256": "bbbb111122223333444455556666777788889999000011112222333344445555",
+    "new_sha256": "cccc111122223333444455556666777788889999000011112222333344445555",
+    "deterministic_match": false,
+    "total_pages_old": 1,
+    "total_pages_new": 1,
+    "pages_modified": 1,
+    "pages_added": 0,
+    "pages_removed": 0
+  }
+}

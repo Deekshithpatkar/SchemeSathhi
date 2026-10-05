@@ -31,6 +31,7 @@ RAW_DIR = DATA_DIR / "raw"
 PROCESSED_DIR = DATA_DIR / "processed"
 STRUCTURED_DIR = DATA_DIR / "structured"
 EXTRACTED_RULES_DIR = DATA_DIR / "extracted_rules"
+COMPARISONS_DIR = DATA_DIR / "comparisons"
 IMAGES_DIR = DATA_DIR / "images"
 LOGS_DIR = DATA_DIR / "logs"
 
@@ -39,6 +40,7 @@ RAW_DIR.mkdir(parents=True, exist_ok=True)
 PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 STRUCTURED_DIR.mkdir(parents=True, exist_ok=True)
 EXTRACTED_RULES_DIR.mkdir(parents=True, exist_ok=True)
+COMPARISONS_DIR.mkdir(parents=True, exist_ok=True)
 IMAGES_DIR.mkdir(parents=True, exist_ok=True)
 LOGS_DIR.mkdir(parents=True, exist_ok=True)
 

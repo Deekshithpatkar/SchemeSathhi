@@ -1,0 +1,66 @@
+{
+  "old_document": "karnataka_farmer_guidelines_v1.pdf",
+  "new_document": "karnataka_farmer_guidelines_v2.pdf",
+  "hash_status": "different",
+  "overall_status": "possible_change",
+  "metadata_changes": [],
+  "page_comparisons": [
+    {
+      "page_number": 1,
+      "status": "modified",
+      "similarity_ratio": 0.9857142857142858,
+      "text_changes": [
+        {
+          "page_number": 1,
+          "change_type": "modified",
+          "old_text": "Agriculture Department Karnataka.\nAnnual family income shall not exceed Rs. 2,50,000 to be eligible.\nApplications submitted to Taluk office.",
+          "new_text": "Agriculture Department Karnataka.\nAnnual family income shall not exceed Rs. 3,00,000 to be eligible.\nApplications submitted to Taluk office.",
+          "similarity_ratio": 0.9857142857142858,
+          "is_ocr_noise": false,
+          "section": null
+        }
+      ],
+      "old_page_type": "TEXT",
+      "new_page_type": "TEXT"
+    }
+  ],
+  "text_changes": [
+    {
+      "page_number": 1,
+      "change_type": "modified",
+      "old_text": "Agriculture Department Karnataka.\nAnnual family income shall not exceed Rs. 2,50,000 to be eligible.\nApplications submitted to Taluk office.",
+      "new_text": "Agriculture Department Karnataka.\nAnnual family income shall not exceed Rs. 3,00,000 to be eligible.\nApplications submitted to Taluk office.",
+      "similarity_ratio": 0.9857142857142858,
+      "is_ocr_noise": false,
+      "section": null
+    }
+  ],
+  "semantic_comparison_required": true,
+  "semantic_changes": [
+    {
+      "category": "eligibility_related",
+      "description": "Annual family income limit for eligibility has been changed from Rs. 2,50,000 to Rs. 3,00,000.",
+      "eligibility_relevance": "clearly_relevant",
+      "affected_attribute": "income",
+      "old_evidence": "Annual family income shall not exceed Rs. 2,50,000 to be eligible.",
+      "new_evidence": "Annual family income shall not exceed Rs. 3,00,000 to be eligible."
+    }
+  ],
+  "semantic_summary": "The annual income limit for eligibility has been increased from Rs. 2,50,000 to Rs. 3,00,000.",
+  "eligibility_relevance": "clearly_relevant",
+  "review_required": false,
+  "review_reasons": [],
+  "comparison_metadata": {
+    "pipeline_version": "1.0_document_comparison",
+    "compared_at": "2026-10-05T06:27:25.593402+00:00",
+    "model_used": "qwen2.5:3b-instruct",
+    "old_sha256": "aaaa111122223333444455556666777788889999000011112222333344445555",
+    "new_sha256": "bbbb111122223333444455556666777788889999000011112222333344445555",
+    "deterministic_match": false,
+    "total_pages_old": 1,
+    "total_pages_new": 1,
+    "pages_modified": 1,
+    "pages_added": 0,
+    "pages_removed": 0
+  }
+}

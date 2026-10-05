@@ -1,0 +1,61 @@
+{
+  "old_document": "e75996bb_PM-KISANSchemeguidelinesfinal.pdf",
+  "new_document": "e75996bb_PM-KISANSchemeguidelinesfinal.pdf",
+  "hash_status": "identical",
+  "overall_status": "unchanged",
+  "metadata_changes": [],
+  "page_comparisons": [
+    {
+      "page_number": 1,
+      "status": "unchanged",
+      "similarity_ratio": 1.0,
+      "text_changes": [],
+      "old_page_type": null,
+      "new_page_type": null
+    },
+    {
+      "page_number": 2,
+      "status": "unchanged",
+      "similarity_ratio": 1.0,
+      "text_changes": [],
+      "old_page_type": null,
+      "new_page_type": null
+    },
+    {
+      "page_number": 3,
+      "status": "unchanged",
+      "similarity_ratio": 1.0,
+      "text_changes": [],
+      "old_page_type": null,
+      "new_page_type": null
+    },
+    {
+      "page_number": 4,
+      "status": "unchanged",
+      "similarity_ratio": 1.0,
+      "text_changes": [],
+      "old_page_type": null,
+      "new_page_type": null
+    }
+  ],
+  "text_changes": [],
+  "semantic_comparison_required": false,
+  "semantic_changes": [],
+  "semantic_summary": "Documents are bit-for-bit identical based on SHA-256 hash.",
+  "eligibility_relevance": "none",
+  "review_required": false,
+  "review_reasons": [],
+  "comparison_metadata": {
+    "pipeline_version": "1.0_document_comparison",
+    "compared_at": "2026-10-05T06:27:25.590670+00:00",
+    "model_used": null,
+    "old_sha256": "e75996bbf497690ca298b38a2438ff56c2f08f876658cac2d6c07d1023cb7baf",
+    "new_sha256": "e75996bbf497690ca298b38a2438ff56c2f08f876658cac2d6c07d1023cb7baf",
+    "deterministic_match": true,
+    "total_pages_old": 4,
+    "total_pages_new": 4,
+    "pages_modified": 0,
+    "pages_added": 0,
+    "pages_removed": 0
+  }
+}
