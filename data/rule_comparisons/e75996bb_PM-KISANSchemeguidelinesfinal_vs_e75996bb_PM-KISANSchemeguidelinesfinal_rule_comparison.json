@@ -1,0 +1,22 @@
+{
+  "old_document": "e75996bb_PM-KISANSchemeguidelinesfinal.pdf",
+  "new_document": "e75996bb_PM-KISANSchemeguidelinesfinal.pdf",
+  "rule_changes": [],
+  "added_rules": [],
+  "removed_rules": [],
+  "modified_rules": [],
+  "unchanged_rules": [],
+  "eligibility_relevance": "none",
+  "summary": "Both document versions contain 0 candidate eligibility or exclusion rules. No eligibility rule changes exist.",
+  "review_required": false,
+  "review_reasons": [],
+  "comparison_metadata": {
+    "pipeline_version": "1.0_rule_comparison",
+    "compared_at": "2026-10-05T06:47:41.165073+00:00",
+    "model_used": null,
+    "deterministic_match": true,
+    "total_old_rules": 0,
+    "total_new_rules": 0,
+    "total_changes": 0
+  }
+}

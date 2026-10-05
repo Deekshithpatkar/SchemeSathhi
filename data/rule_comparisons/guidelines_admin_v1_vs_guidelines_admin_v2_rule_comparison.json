@@ -1,0 +1,142 @@
+{
+  "old_document": "guidelines_admin_v1.pdf",
+  "new_document": "guidelines_admin_v2.pdf",
+  "rule_changes": [
+    {
+      "old_rule": {
+        "rule": "Applications shall be submitted to the Taluk office.",
+        "type": "eligibility",
+        "value": null,
+        "category": "other",
+        "evidence": {
+          "page_number": 4,
+          "source_text": "Applications shall be submitted to the Taluk office.",
+          "section": null,
+          "table_index": null,
+          "row_index": null,
+          "column_index": null,
+          "cell_text": null,
+          "ocr_confidence": null
+        },
+        "semantic_confidence": 0.85,
+        "review_required": false,
+        "review_reasons": []
+      },
+      "new_rule": {
+        "rule": "Applications shall be submitted through the online portal.",
+        "type": "eligibility",
+        "value": null,
+        "category": "other",
+        "evidence": {
+          "page_number": 4,
+          "source_text": "Applications shall be submitted through the online portal.",
+          "section": null,
+          "table_index": null,
+          "row_index": null,
+          "column_index": null,
+          "cell_text": null,
+          "ocr_confidence": null
+        },
+        "semantic_confidence": 0.85,
+        "review_required": false,
+        "review_reasons": []
+      },
+      "change_type": "modified",
+      "category": "other",
+      "impact": "no_eligibility_impact",
+      "evidence": {
+        "page_number": 4,
+        "source_text": "Applications shall be submitted through the online portal.",
+        "section": null,
+        "table_index": null,
+        "row_index": null,
+        "column_index": null,
+        "cell_text": null,
+        "ocr_confidence": null
+      },
+      "confidence": 0.9,
+      "review_required": true,
+      "review_reasons": [
+        "Administrative or document status text ignored as non-eligibility rule."
+      ]
+    }
+  ],
+  "added_rules": [],
+  "removed_rules": [],
+  "modified_rules": [
+    {
+      "old_rule": {
+        "rule": "Applications shall be submitted to the Taluk office.",
+        "type": "eligibility",
+        "value": null,
+        "category": "other",
+        "evidence": {
+          "page_number": 4,
+          "source_text": "Applications shall be submitted to the Taluk office.",
+          "section": null,
+          "table_index": null,
+          "row_index": null,
+          "column_index": null,
+          "cell_text": null,
+          "ocr_confidence": null
+        },
+        "semantic_confidence": 0.85,
+        "review_required": false,
+        "review_reasons": []
+      },
+      "new_rule": {
+        "rule": "Applications shall be submitted through the online portal.",
+        "type": "eligibility",
+        "value": null,
+        "category": "other",
+        "evidence": {
+          "page_number": 4,
+          "source_text": "Applications shall be submitted through the online portal.",
+          "section": null,
+          "table_index": null,
+          "row_index": null,
+          "column_index": null,
+          "cell_text": null,
+          "ocr_confidence": null
+        },
+        "semantic_confidence": 0.85,
+        "review_required": false,
+        "review_reasons": []
+      },
+      "change_type": "modified",
+      "category": "other",
+      "impact": "no_eligibility_impact",
+      "evidence": {
+        "page_number": 4,
+        "source_text": "Applications shall be submitted through the online portal.",
+        "section": null,
+        "table_index": null,
+        "row_index": null,
+        "column_index": null,
+        "cell_text": null,
+        "ocr_confidence": null
+      },
+      "confidence": 0.9,
+      "review_required": true,
+      "review_reasons": [
+        "Administrative or document status text ignored as non-eligibility rule."
+      ]
+    }
+  ],
+  "unchanged_rules": [],
+  "eligibility_relevance": "potentially_relevant",
+  "summary": "Rule comparison completed: 1 rule(s) modified. Overall eligibility relevance: 'potentially_relevant'.",
+  "review_required": true,
+  "review_reasons": [
+    "Administrative or document status text ignored as non-eligibility rule."
+  ],
+  "comparison_metadata": {
+    "pipeline_version": "1.0_rule_comparison",
+    "compared_at": "2026-10-05T06:47:41.169488+00:00",
+    "model_used": null,
+    "deterministic_match": true,
+    "total_old_rules": 1,
+    "total_new_rules": 1,
+    "total_changes": 1
+  }
+}

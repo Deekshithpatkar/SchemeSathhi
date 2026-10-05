@@ -1,0 +1,325 @@
+{
+  "old_document": "farmer_guidelines_2025.pdf",
+  "new_document": "farmer_guidelines_2026.pdf",
+  "rule_changes": [
+    {
+      "old_rule": {
+        "rule": "Annual household income shall not exceed Rs. 3,00,000",
+        "type": "eligibility",
+        "value": null,
+        "category": "income",
+        "evidence": {
+          "page_number": 2,
+          "source_text": "Annual household income shall not exceed Rs. 3,00,000",
+          "section": null,
+          "table_index": null,
+          "row_index": null,
+          "column_index": null,
+          "cell_text": null,
+          "ocr_confidence": 99.0
+        },
+        "semantic_confidence": 0.85,
+        "review_required": false,
+        "review_reasons": []
+      },
+      "new_rule": {
+        "rule": "Annual household income shall not exceed Rs. 3,00,000",
+        "type": "eligibility",
+        "value": null,
+        "category": "income",
+        "evidence": {
+          "page_number": 2,
+          "source_text": "Annual household income shall not exceed Rs. 3,00,000",
+          "section": null,
+          "table_index": null,
+          "row_index": null,
+          "column_index": null,
+          "cell_text": null,
+          "ocr_confidence": 99.0
+        },
+        "semantic_confidence": 0.85,
+        "review_required": false,
+        "review_reasons": []
+      },
+      "change_type": "unchanged",
+      "category": "income",
+      "impact": "no_eligibility_impact",
+      "evidence": {
+        "page_number": 2,
+        "source_text": "Annual household income shall not exceed Rs. 3,00,000",
+        "section": null,
+        "table_index": null,
+        "row_index": null,
+        "column_index": null,
+        "cell_text": null,
+        "ocr_confidence": 99.0
+      },
+      "confidence": 0.95,
+      "review_required": false,
+      "review_reasons": []
+    },
+    {
+      "old_rule": {
+        "rule": "Government employees are not eligible",
+        "type": "exclusion",
+        "value": null,
+        "category": "government_employee",
+        "evidence": {
+          "page_number": 3,
+          "source_text": "Government employees are not eligible",
+          "section": null,
+          "table_index": null,
+          "row_index": null,
+          "column_index": null,
+          "cell_text": null,
+          "ocr_confidence": 98.0
+        },
+        "semantic_confidence": 0.85,
+        "review_required": false,
+        "review_reasons": []
+      },
+      "new_rule": {
+        "rule": "Government employees are not eligible",
+        "type": "exclusion",
+        "value": null,
+        "category": "government_employee",
+        "evidence": {
+          "page_number": 3,
+          "source_text": "Government employees are not eligible",
+          "section": null,
+          "table_index": null,
+          "row_index": null,
+          "column_index": null,
+          "cell_text": null,
+          "ocr_confidence": 98.0
+        },
+        "semantic_confidence": 0.85,
+        "review_required": false,
+        "review_reasons": []
+      },
+      "change_type": "unchanged",
+      "category": "government_employee",
+      "impact": "no_eligibility_impact",
+      "evidence": {
+        "page_number": 3,
+        "source_text": "Government employees are not eligible",
+        "section": null,
+        "table_index": null,
+        "row_index": null,
+        "column_index": null,
+        "cell_text": null,
+        "ocr_confidence": 98.0
+      },
+      "confidence": 0.95,
+      "review_required": false,
+      "review_reasons": []
+    },
+    {
+      "old_rule": null,
+      "new_rule": {
+        "rule": "Institutional landholders are not eligible",
+        "type": "exclusion",
+        "value": null,
+        "category": "institutional_landholder",
+        "evidence": {
+          "page_number": 3,
+          "source_text": "Institutional landholders are not eligible",
+          "section": null,
+          "table_index": null,
+          "row_index": null,
+          "column_index": null,
+          "cell_text": null,
+          "ocr_confidence": 98.5
+        },
+        "semantic_confidence": 0.85,
+        "review_required": false,
+        "review_reasons": []
+      },
+      "change_type": "added",
+      "category": "institutional_landholder",
+      "impact": "exclusion_added",
+      "evidence": {
+        "page_number": 3,
+        "source_text": "Institutional landholders are not eligible",
+        "section": null,
+        "table_index": null,
+        "row_index": null,
+        "column_index": null,
+        "cell_text": null,
+        "ocr_confidence": 98.5
+      },
+      "confidence": 0.9,
+      "review_required": false,
+      "review_reasons": []
+    }
+  ],
+  "added_rules": [
+    {
+      "old_rule": null,
+      "new_rule": {
+        "rule": "Institutional landholders are not eligible",
+        "type": "exclusion",
+        "value": null,
+        "category": "institutional_landholder",
+        "evidence": {
+          "page_number": 3,
+          "source_text": "Institutional landholders are not eligible",
+          "section": null,
+          "table_index": null,
+          "row_index": null,
+          "column_index": null,
+          "cell_text": null,
+          "ocr_confidence": 98.5
+        },
+        "semantic_confidence": 0.85,
+        "review_required": false,
+        "review_reasons": []
+      },
+      "change_type": "added",
+      "category": "institutional_landholder",
+      "impact": "exclusion_added",
+      "evidence": {
+        "page_number": 3,
+        "source_text": "Institutional landholders are not eligible",
+        "section": null,
+        "table_index": null,
+        "row_index": null,
+        "column_index": null,
+        "cell_text": null,
+        "ocr_confidence": 98.5
+      },
+      "confidence": 0.9,
+      "review_required": false,
+      "review_reasons": []
+    }
+  ],
+  "removed_rules": [],
+  "modified_rules": [],
+  "unchanged_rules": [
+    {
+      "old_rule": {
+        "rule": "Annual household income shall not exceed Rs. 3,00,000",
+        "type": "eligibility",
+        "value": null,
+        "category": "income",
+        "evidence": {
+          "page_number": 2,
+          "source_text": "Annual household income shall not exceed Rs. 3,00,000",
+          "section": null,
+          "table_index": null,
+          "row_index": null,
+          "column_index": null,
+          "cell_text": null,
+          "ocr_confidence": 99.0
+        },
+        "semantic_confidence": 0.85,
+        "review_required": false,
+        "review_reasons": []
+      },
+      "new_rule": {
+        "rule": "Annual household income shall not exceed Rs. 3,00,000",
+        "type": "eligibility",
+        "value": null,
+        "category": "income",
+        "evidence": {
+          "page_number": 2,
+          "source_text": "Annual household income shall not exceed Rs. 3,00,000",
+          "section": null,
+          "table_index": null,
+          "row_index": null,
+          "column_index": null,
+          "cell_text": null,
+          "ocr_confidence": 99.0
+        },
+        "semantic_confidence": 0.85,
+        "review_required": false,
+        "review_reasons": []
+      },
+      "change_type": "unchanged",
+      "category": "income",
+      "impact": "no_eligibility_impact",
+      "evidence": {
+        "page_number": 2,
+        "source_text": "Annual household income shall not exceed Rs. 3,00,000",
+        "section": null,
+        "table_index": null,
+        "row_index": null,
+        "column_index": null,
+        "cell_text": null,
+        "ocr_confidence": 99.0
+      },
+      "confidence": 0.95,
+      "review_required": false,
+      "review_reasons": []
+    },
+    {
+      "old_rule": {
+        "rule": "Government employees are not eligible",
+        "type": "exclusion",
+        "value": null,
+        "category": "government_employee",
+        "evidence": {
+          "page_number": 3,
+          "source_text": "Government employees are not eligible",
+          "section": null,
+          "table_index": null,
+          "row_index": null,
+          "column_index": null,
+          "cell_text": null,
+          "ocr_confidence": 98.0
+        },
+        "semantic_confidence": 0.85,
+        "review_required": false,
+        "review_reasons": []
+      },
+      "new_rule": {
+        "rule": "Government employees are not eligible",
+        "type": "exclusion",
+        "value": null,
+        "category": "government_employee",
+        "evidence": {
+          "page_number": 3,
+          "source_text": "Government employees are not eligible",
+          "section": null,
+          "table_index": null,
+          "row_index": null,
+          "column_index": null,
+          "cell_text": null,
+          "ocr_confidence": 98.0
+        },
+        "semantic_confidence": 0.85,
+        "review_required": false,
+        "review_reasons": []
+      },
+      "change_type": "unchanged",
+      "category": "government_employee",
+      "impact": "no_eligibility_impact",
+      "evidence": {
+        "page_number": 3,
+        "source_text": "Government employees are not eligible",
+        "section": null,
+        "table_index": null,
+        "row_index": null,
+        "column_index": null,
+        "cell_text": null,
+        "ocr_confidence": 98.0
+      },
+      "confidence": 0.95,
+      "review_required": false,
+      "review_reasons": []
+    }
+  ],
+  "eligibility_relevance": "clearly_relevant",
+  "summary": "Rule comparison completed: 1 rule(s) added, 2 rule(s) unchanged. Overall eligibility relevance: 'clearly_relevant'.",
+  "review_required": false,
+  "review_reasons": [],
+  "comparison_metadata": {
+    "pipeline_version": "1.0_rule_comparison",
+    "compared_at": "2026-10-05T06:47:41.167574+00:00",
+    "model_used": null,
+    "deterministic_match": false,
+    "total_old_rules": 2,
+    "total_new_rules": 3,
+    "total_changes": 1
+  }
+}
