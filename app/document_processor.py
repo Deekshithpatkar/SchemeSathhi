@@ -198,8 +198,12 @@ def process_document_understanding(
             # Step 2b: Form Field Detection
             form_info = detect_form_fields(text="", tables=tables)
 
-            # Step 2c: OCR with Word Coordinates & Quality Control
-            ocr_res = ocr_with_quality_control(img, languages=languages)
+            # Step 2c: OCR with Word Coordinates & Quality Control via OCR Engine Registry
+            from app.ocr_engine import ocr_registry
+            ocr_engine = ocr_registry.get_engine()
+            ocr_res = ocr_engine.extract(img, languages=languages)
+            page_data["ocr_engine"] = ocr_engine.name()
+            page_data["extraction_method"] = "tesseract_ocr" if ocr_engine.name() == "tesseract" else f"{ocr_engine.name()}_ocr"
             page_data["blocks"] = ocr_res["blocks"]
             page_data["words"] = ocr_res["words"]
             page_data["avg_confidence"] = ocr_res["avg_confidence"]

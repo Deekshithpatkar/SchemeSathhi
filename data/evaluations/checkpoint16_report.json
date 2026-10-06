@@ -1,0 +1,175 @@
+{
+  "timestamp": "2026-10-06T04:11:57.067945+00:00",
+  "schemes_evaluated": 5,
+  "gold_standards": {
+    "secondary-agriculture": {
+      "scheme_key": "secondary-agriculture",
+      "scheme_name": "Secondary Agriculture Directorate",
+      "document_filename": "02a9ac3f_SecondaryAgriculturedirectorateGO.pdf",
+      "has_rules": false,
+      "eligibility_rules": [],
+      "exclusion_rules": [],
+      "notes": "Official Government Order establishing the Directorate of Secondary Agriculture, defining committee structure and administrative composition. Contains no individual citizen/farmer eligibility or exclusion rules."
+    },
+    "gruha-lakshmi": {
+      "scheme_key": "gruha-lakshmi",
+      "scheme_name": "Gruha Lakshmi Scheme",
+      "document_filename": "30af3c4d_GruhaLaxmiGO.pdf",
+      "has_rules": true,
+      "eligibility_rules": [
+        {
+          "rule": "Must be a woman recognized as head of the family (Yajamani) in Antyodaya, BPL, or APL ration cards issued by the Food and Civil Supplies Department",
+          "type": "eligibility",
+          "category": "gender_family_head",
+          "page_number": 1,
+          "evidence": "ಆಹಾರ ಮತ್ತು ನಾಗರಿಕ ಸರಬರಾಜು ಇಲಾಖೆಯು ವಿತರಿಸುವ ಅಂತ್ಯೋದಯ, ಬಿಪಿಎಲ್ ಮತ್ತು ಎಪಿಎಲ್ ಪಡಿತರ ಚೀಟಿಗಳಲ್ಲಿ ಕುಟುಂಬದ ಯಜಮಾನಿ ಎಂದು ನಮೂದಿಸಿರುವ ಮಹಿಳೆಗೆ"
+        }
+      ],
+      "exclusion_rules": [
+        {
+          "rule": "The woman head of household or her husband paying income tax or filing GST returns is excluded from the benefit",
+          "type": "exclusion",
+          "category": "taxpayer_exclusion",
+          "page_number": 1,
+          "evidence": "ಕುಟುಂಬದ ಯಜಮಾನಿ ಮಹಿಳೆ ಅಥವಾ ಆಕೆಯ ಪತಿ ಆದಾಯ ತೆರಿಗೆ ಅಥವಾ ಜಿಎಸ್‌ಟಿ ಪಾವತಿದಾರರಾಗಿದ್ದಲ್ಲಿ ಈ ಯೋಜನೆಯ ಸೌಲಭ್ಯಕ್ಕೆ ಅನರ್ಹರು"
+        }
+      ],
+      "notes": "Official Government Order launching Gruha Lakshmi providing Rs. 2000/month to women family heads. Non-standard font encoding prevents clean Unicode text extraction in PDF parser."
+    },
+    "cm-raitha-vidyanidhi": {
+      "scheme_key": "cm-raitha-vidyanidhi",
+      "scheme_name": "Chief Minister Raitha Vidyanidhi Scholarship",
+      "document_filename": "668bfe88_cmsclorship.pdf",
+      "has_rules": true,
+      "eligibility_rules": [
+        {
+          "rule": "Candidate must be a biological or legally adopted child of a farmer owning agricultural land in Karnataka, enrolled in an accredited post-matric course",
+          "type": "eligibility",
+          "category": "occupation_land_education",
+          "page_number": 2,
+          "evidence": "ರೈತ (Farmer), ಎಂದರೆ ರಾಜ್ಯದ ಯಾವುದೇ ಭಾಗದಲ್ಲಿ ಉಳುಮೆ ಮಾಡುವಂತಹ / ಕೃಷಿ ಮಾಡುವಂತಹ ಜಮೀನನ್ನು ತನ್ನ ಹೆಸರಿನಲ್ಲಿ ಹೊಂದಿರುವಂತಹ ವ್ಯಕ್ತಿ; ಮಕ್ಕಳು... ವಿದ್ಯಾಭ್ಯಾಸ"
+        }
+      ],
+      "exclusion_rules": [
+        {
+          "rule": "Students repeating an academic year or semester due to academic failure/re-examination are not eligible for scholarship continuation",
+          "type": "exclusion",
+          "category": "academic_failure_exclusion",
+          "page_number": 3,
+          "evidence": "ಕೋರ್ಸ್‌ನ ಸೆಮೆಸ್ಟರ್‌ನಲ್ಲಿ / ಶೈಕ್ಷಣಿಕ ವರ್ಷದಲ್ಲಿ ಅನುತ್ತೀರ್ಣ ಹೊಂದಿ ಪುನ: ಆ ಸೆಮಿಸ್ಟರ್‌ / ಶೈಕ್ಷಣಿಕ ವರ್ಷದಲ್ಲಿ ವಿದ್ಯಾಭ್ಯಾಸದ ಪುನರಾವರ್ತನೆಯಾದರೆ (ಪುನಃ ಪರೀಕ್ಷೆ ತೆಗೆದುಕೊಂಡರೆ) ವಿದ್ಯಾರ್ಥಿಗಳು ಶಿಷ್ಯವೇತನವನ್ನು ಪಡೆಯಲು ಅರ್ಹರಾಗಿರುವುದಿಲ್ಲ"
+        },
+        {
+          "rule": "Scholarship is limited to one degree course; students pursuing a second equivalent post-graduate degree after completing one are excluded",
+          "type": "exclusion",
+          "category": "duplicate_degree_exclusion",
+          "page_number": 3,
+          "evidence": "ಈ ಶಿಷ್ಯವೇತನವನ್ನು ಯಾವುದಾದರೂ ಒಂದು ವಿಧದ ಕೋರ್ಸ್‌ಗೆ ನೀಡಲಾಗುವುದು. ಉದಾಹರಣೆಗೆ, X ಎಂಬ ಸ್ನಾತಕೋತ್ತರ ಪದವಿಯನ್ನು ಪೂರೈಸಿದ ನಂತರ Y ಎಂಬ ಸ್ನಾತಕೋತ್ತರ ಕೋರ್ಸ್‌ಗೆ ವಿದ್ಯಾರ್ಥಿಯು ಪ್ರವೇಶ ಪಡೆದಲ್ಲಿ, ಈ ಕೋರ್ಸ್‌ಗೆ ಶಿಷ್ಯವೇತನವನ್ನು ಪಡೆಯಲು ಅರ್ಹವಾಗುವುದಿಲ್ಲ"
+        }
+      ],
+      "notes": "Purely scanned 4-page Kannada G.O. defining post-matric scholarship for farmers' children. Highly degraded OCR causes pipeline to miss all candidate rules."
+    },
+    "rkvy-karnataka": {
+      "scheme_key": "rkvy-karnataka",
+      "scheme_name": "Rashtriya Krishi Vikas Yojana (RKVY)",
+      "document_filename": "1333e107_Allocation2021-22.pdf",
+      "has_rules": false,
+      "eligibility_rules": [],
+      "exclusion_rules": [],
+      "notes": "Administrative Central Share funding allocation circular with state-wise funding table. Contains zero individual citizen eligibility conditions."
+    },
+    "pradhan-mantri-kisan-samman-nidhi": {
+      "scheme_key": "pradhan-mantri-kisan-samman-nidhi",
+      "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+      "document_filename": "e116e94b_PMKISANKarnatakaGO.pdf",
+      "has_rules": false,
+      "eligibility_rules": [],
+      "exclusion_rules": [],
+      "notes": "Karnataka State Government Order (13-08-2019) sanctioning state budgetary top-up release of Rs. 4,000 to existing PM-KISAN bank accounts via DBT. Contains no individual applicant qualification or exclusion criteria."
+    }
+  },
+  "eligibility_metrics": {
+    "true_positives": 0,
+    "false_positives": 4,
+    "false_negatives": 2,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  "exclusion_metrics": {
+    "true_positives": 0,
+    "false_positives": 2,
+    "false_negatives": 3,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  "combined_metrics": {
+    "true_positives": 0,
+    "false_positives": 6,
+    "false_negatives": 5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  "document_processing": {
+    "total_pages": 22,
+    "digital_pages": 11,
+    "scanned_pages": 11,
+    "ocr_pages": 11,
+    "table_pages": 7,
+    "pages_requiring_ocr": 11,
+    "ocr_completed_successfully": 11,
+    "unusable_or_degraded_pages": 9
+  },
+  "evidence_quality": {
+    "total_extracted_rules": 6,
+    "evidence_supported_count": 0,
+    "evidence_supported_pct": 0.0,
+    "incorrect_evidence_count": 6,
+    "incorrect_evidence_pct": 100.0,
+    "missing_evidence_count": 0,
+    "missing_evidence_pct": 0.0,
+    "rule_level_review_required_count": 0,
+    "rule_level_review_required_pct": 0.0,
+    "doc_level_review_required_count": 5,
+    "doc_level_review_required_pct": 100.0
+  },
+  "agent_evaluation": {
+    "end_to_end_success_rate": 0.8,
+    "total_schemes_tested": 5,
+    "successful_schemes": 4,
+    "failed_or_timeout_schemes": 1,
+    "average_steps_per_scheme": 7.8,
+    "average_tool_calls_per_scheme": 7.0,
+    "tool_selection_accuracy": 0.85,
+    "unnecessary_tool_calls": 14,
+    "failed_tool_calls": 1,
+    "retry_handling": "Handled without crashing (agent recovered and called extract_eligibility_rules)",
+    "max_step_failures": 1,
+    "idempotency_rerun_verified": true,
+    "successful_kb_updates": 3
+  },
+  "knowledge_base_evaluation": {
+    "duplicate_versions_found": 0,
+    "duplicate_rules_found": 0,
+    "active_versions_per_scheme_enforced": true,
+    "historical_version_preservation_verified": true,
+    "idempotent_rerun_no_duplicate_rows": true,
+    "review_version_status_enforced": true,
+    "transaction_safety_verified": true
+  },
+  "limitations": [
+    "Small evaluation corpus (5 real government documents); while diverse in format, larger statistical validation is needed.",
+    "Character-level OCR Ground Truth / WER is unmeasured because manual verbatim transcripts for all Kannada pages are not available.",
+    "Non-standard Kannada font encodings (Nudi / Baraha ASCII mappings) in digital PDFs are misread by PyMuPDF as English text and bypassed by OCR triggers.",
+    "Local small model (qwen2.5:3b-instruct) exhibits strong prompt hallucination when fed unreadable font-encoded ASCII mojibake text, inventing generic farmer and government employee rules.",
+    "Rule-level review_required failed to trigger on hallucinated rules because PyMuPDF reported artificial 100% text confidence on font-encoded ASCII characters."
+  ],
+  "recommended_next_steps": [
+    "1. Font-Encoding Mojibake Detector: Add an automated pre-check in CP9 to inspect ASCII text for non-standard font encoding; if character n-gram entropy matches ASCII mojibake, force full-page Kannada OCR regardless of digital text presence.",
+    "2. Strict Hallucination Grounding in CP10: Verify that candidate rules extracted by the LLM have verbatim semantic alignment with Kannada text blocks before accepting them into SchemeExtraction.",
+    "3. Committee / Administrative Composition Filter: Add explicit rules to reject member nomination lists (e.g. 'Two Progressive Farmers to be nominated by the Government') from being classified as citizen eligibility rules.",
+    "4. Agent Step Optimization: Update system prompt and tool schema for discover_documents to prevent the agent from redundantly calling discovery when the document URL is already present in state."
+  ],
+  "conclusion": "The pipeline demonstrates robust infrastructural architecture (PostgreSQL transaction safety, idempotency, versioning, and administrative funding rejection on RKVY). However, on genuine citizen candidate rule extraction across real Kannada documents, semantic accuracy is 0.0% F1 due to font-encoding mojibake and OCR degradation leading to prompt hallucinations. The system is NOT yet reliable for production or automated decision-making without human review."
+}

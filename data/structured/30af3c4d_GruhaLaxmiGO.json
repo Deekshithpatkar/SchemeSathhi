@@ -4,1350 +4,6974 @@
     "filepath": "D:\\scheme\\data\\raw\\30af3c4d_GruhaLaxmiGO.pdf",
     "source_url": null,
     "total_pages": 3,
-    "processed_at": "2026-10-05T15:03:46.667463+00:00",
+    "processed_at": "2026-10-06T05:15:08.535067+00:00",
     "pipeline_version": "2.0_document_understanding"
   },
   "summary": {
     "total_pages": 3,
-    "usable_pages_count": 3,
-    "scanned_pages_count": 0,
-    "ocr_pages_count": 0,
+    "usable_pages_count": 0,
+    "scanned_pages_count": 3,
+    "ocr_pages_count": 3,
     "total_tables_detected": 0,
-    "requires_ocr": false,
-    "ocr_performed": false
+    "requires_ocr": true,
+    "ocr_performed": true
   },
   "pages": [
     {
       "page_number": 1,
-      "page_type": "TEXT",
+      "page_type": "SCANNED",
       "tags": [
-        "TEXT"
+        "SCANNED"
       ],
-      "extraction_method": "direct_pymupdf",
+      "extraction_method": "tesseract_ocr",
       "dpi": 300,
       "blocks": [
         {
-          "bbox": [
-            36.6,
-            24.9,
-            14.4,
-            30.2
-          ],
-          "text": "/",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 1,
+          "text": "ಕರ್ನಾಟಕ ಸರ್ಕಾರದ ನಡವಳಿಗಳು",
+          "word_count": 3
         },
         {
-          "bbox": [
-            183.4,
-            69.4,
-            211.2,
-            18.3
-          ],
-          "text": "Wcve>FMW ;dvc>Fdci ~rjijj\"'r(C\\\".>",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 2,
+          "text": "ವಿಷಯ: ಕರ್ನಾಟಕ ರಾಜ್ಯದ ಕುಟು೦ಬದಲ್ಲಿನ ಯಜಮಾನಿ ಮಹಿಳೆಗೆ ಪ್ರತಿ ತಿಂಗಳು ರೂ. 2000/- ಗಳನ್ನು ನೀಡುವ “ಗೃಹಲಕ್ಕ್ಮಿ” ಯೋಜನೆಗೆ ಆಡಳಿತಾತ್ಮಕ ಅನುಮೋದನೆ ನೀಡುವ ಕುರಿತು ಓದಲಾಗಿದೆ: ಸರ್ಕಾರದ ಆದೇಶ ಸಂ: ಮಮಇ 70 ಎಸ್‌ಡಬ್ಲ್ಯೂಡಬ್ಲ್ಯೂ 2023, ದಿನಾ೦ಕ 20-5-2023",
+          "word_count": 28
         },
         {
-          "bbox": [
-            99.6,
-            95.2,
-            389.7,
-            21.2
-          ],
-          "text": "~~cm: 'cf ~Fe3'i5 ffi>~.sci 'cfje3.:>02Jcie''.t~ oi)~~c0 c'J.)coe!/lli c:Jjs sori~j",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 3,
+          "text": "ಪ್ರಸ್ತಾವನೆ:",
+          "word_count": 1
         },
         {
-          "bbox": [
-            84.1,
-            116.6,
-            413.0,
-            46.1
-          ],
-          "text": "dJc>. 20001- Ti~~.:> ... c0,ci.:>c:j \"ri.,ffie)u .... e.\" a:3Jc>,~~7i eci~&)se,'tf \ne>~.:>e::3Jc>,ci~ c0,~c:j tr.)Os.:> \nt..derc>f\\d: AJm>Fdci rn:;3,c!J AJO: c'J.)c'J.)~ 70 cwAtci2JJc>M.sci2JJc>M.s 2023, ~NC)Otr",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 4,
+          "text": "ರಾಜ್ಯದ ಮಹಿಳೆಯರ ಆರ್ಥಿಕ ಸಬಲೀಕರಣವನ್ನು ಹೆಚ್ಚಿಸುವ ನಿಟ್ಟಿನಲ್ಲಿ ಸರ್ಕಾರವು ಅನೇಕ ಯೋಜನೆಗಳನ್ನು ಹಮಿಶೊ೦ಡಿರುತ್ತದೆ. ಕುಟುಂಬದ ನಿರ್ವಹಣೆಯಲ್ಲಿ ಕುಟು೦ಬ ಯಜಮಾನಿಯ ಪಾತ್ರ ಪ್ರಮುಖವಾಗಿದ್ದು, ಯಜಮಾನಿಯು. ಆರ್ಥಿಕವಾಗಿ ಸಬಲೀಕರಣಗೊಂಡಲ್ಲಿ ಕುಟುಂಬ ನಿರ್ವಹಣೆಯು ಉತ್ತಮ ಗುಣಮಟ್ಟದಲ್ಲಿರುತ್ತದೆ. ಆದ್ದರಿಂದ ಕುಟುಂಬದ ಯಜಮಾನಿ ಮಹಿಳೆಗೆ ಪ್ರತಿ ತಿಂಗಳು. ರೂ. 2000/-ಗಳನ್ನು ನೀಡುವ 'ಗೃಹಲಕ್ಷ್ಮಿ ಯೋಜನೆ\"ಯನ್ನು ಜಾರಿಗೆ ತರಲು",
+          "word_count": 36
         },
         {
-          "bbox": [
-            144.3,
-            165.3,
-            54.7,
-            13.1
-          ],
-          "text": "20-5-2023",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 5,
+          "text": "ಪ್ರಸ್ತಾಪಿಸಲಾಗಿದೆ.",
+          "word_count": 1
         },
         {
-          "bbox": [
-            102.9,
-            231.7,
-            404.9,
-            13.9
-          ],
-          "text": "Oe)~,5ci c:j)co~®d e55.)F=tr ;;;i2Jve=trdffi~;;:l.:>.._ ffi23-.,;;;i.:>~ c0e3e1;;:lvM ;;;iuc>Fd<QJ e\"3e=tr",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 6,
+          "text": "ಮೇಲೆ ಓದಲಾದ ಸರ್ಕಾರದ ದಿನಾ೦ಕ 20-5-2023ರ ಆದೇಶದಲ್ಲಿ, ದಿನಾ೦ಕ 20-5-2023 ರಂದು ನಡೆದ ಸಚಿವ ಸಂಪುಟಿ ಸಭೆಯಲ್ಲಿ ನೀಡಿದ ತಾತ್ವಿಕ ಅನುಮೋದನೆ: ಮೇರೆಗೆ, ಕರ್ನಾಟಕ ರಾಜ್ಯದ ಕುಟುಂಬದ ಯಜಮಾನಿ ಮಹಿಳೆಗೆ ಪ್ರತಿ ತಿಂಗಳು ರೂ. 2000/-ಗಳನ್ನು ನೀಡುವ “ಗೃಹಲಕ್ಷ್ಮಿ ಯೋಜನೆ\"ಯನ್ನು ಜಾರಿಗೆ ತರಲು ತಾತ್ವಿಕ ಅನುಮೋದನೆ ನೀಡಿ ಆದೇಶಿಸಲಾಗಿದೆ ಹಾಗೂ ಈ ಯೋಜನೆಯ ವಿವರವಾದ ರೂಪುರೇಷೆ. ಹಾಗೂ ಮಾರ್ಗಸೂಚಿಗಳನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಹೊರಡಿಸಲಾಗುವುದೆಂದು ತಿಳಿಸಲಾಗಿದೆ.",
+          "word_count": 45
         },
         {
-          "bbox": [
-            65.8,
-            253.9,
-            445.4,
-            14.2
-          ],
-          "text": "m..Be~\"3n'1?';;:l.).._ a,c.'J.:>e,~oe:ed.:>sci. \n=trJe.3.:>oZJci c0~FcoC'<S®v rue3.:>o2J ®~~c0® \nM",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 7,
+          "text": "ಅದರಂತೆ ಆರ್ಥಿಕ ಇಲಾಖೆ ಹಾಗೂ ಯೋಜನಾ ಇಲಾಖೆಗಳೊ೦ದಿಗೆ ಸಮಾಲೋಚಿಸಿ ಸಚಿವ ಸಂಪುಟದ ಅನುಮೋದನೆ ಪಡೆದು; ಈ ಕೆಳಗಿನಂತೆ ಆದೇಶಿಸಿದೆ.",
+          "word_count": 14
         },
         {
-          "bbox": [
-            65.7,
-            274.7,
-            113.1,
-            13.9
-          ],
-          "text": "c5e>~ \n~c:j),)ro~f\\ci.:>",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 8,
+          "text": "ರ್‌ T -",
+          "word_count": 3
         },
         {
-          "bbox": [
-            178.1,
-            274.7,
-            329.4,
-            16.6
-          ],
-          "text": "0\n, \n®~~c0®.:> \ne:,5-)F=trc:Jclf\\ \n;;;;ZJve=trdffiMoavM \nrue.3.:>oZJ",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 9,
+          "text": "[",
+          "word_count": 1
         },
         {
-          "bbox": [
-            66.0,
-            296.7,
-            443.2,
-            13.9
-          ],
-          "text": "c0~FcoC'<S®.:> em~c:j) rurac:j)eJe1cielch~ci. e:,ciJ)oci =trJe.3.:>oZJci o:b~~c0 c:j)&,~n ~,g",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 10,
+          "text": "ಸರ್ಕಾರದ ಆದೇಶ ಸಂ: ಮಮಇ 70 ಮಮಅ 2023, ಬೆ೦ಗಳೂರು, ದಿನಾ೦ಕ 6ನೇ ಜೂನ್‌ 2023",
+          "word_count": 12
         },
         {
-          "bbox": [
-            66.2,
-            318.1,
-            443.9,
-            13.9
-          ],
-          "text": ",gori'1?'J \nd..B. \n2000;-n'1?\";;:l.:>.._ \nc0ea.:>~ \n\"rie>coo8-.... 1,, \nm..Be~\"3\"o:b;;:l.:>.._ \n~Dn sdrn",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 12,
+          "text": "ಪ್ರಸ್ತಾವನೆಯಲ್ಲಿ ವಿವರಿಸಿರುವ ಅ೦ಶಗಳ ಹಿನ್ನೆಲೆಯಲ್ಲಿ, ರಾಜ್ಯದ ಕುಟುಂಬದಲ್ಲಿನ ಯಜಮಾನಿ ಮಹಿಳೆಗೆ ಪ್ರತಿ'ತಿ೦ಗಳು ರೂ.`2000/- ಗಳನ್ನು (ಎರಢು ಸಾವಿರ ರೂಪಾಯಿಗಳು ಮಾತ್ರ) ನೀಡುವ “ಗೃಹ ಲಕ್ಷ್ಮಿ” ಯೋಜನೆಯನ್ನು 2023-24ನೇ ಸಾಲಿಸಲ್ಲಿ ಈ ಕೆಳಕ೦ಡ೦ತೆ ಅನುಷ್ಠಾನಗೊಳಿಸಲು ಆಡಳಿತಾತ್ಮಕ ಅನುಮೋದನೆ ನೀಡಿ ಆದೇಶಿಸಿದೆ; . 1. ಆಹಾರ ಮತ್ತು ನಾಗರೀಕ ಸರಬರಾಜು ಇಲಾಖೆಯು ವಿತರಿಸುವ ಅಂತ್ಯೋದಯ, ಬಿಪಿಎಲ್‌ ಮತ್ತು ಎಪಿಎಲ್‌ ಪಡಿತರ ಚೀಟಿಗಳಲ್ಲಿ ಕುಟು೦ಬದ ಯಜಮಾನಿ ಎ೦ದು ನಮೂದಿಸಿರುವ ಮಹಿಳೆಯು ಈ ಯೋಜನೆಯ ಅರ್ಹ ಫಲಾನುಭವಿಯಾಗಿರುತ್ತಾರೆ.",
+          "word_count": 51
         },
         {
-          "bbox": [
-            66.6,
-            342.3,
-            80.9,
-            13.9
-          ],
-          "text": "~~c0;;;i~f\\ci.",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            101.2,
-            382.8,
-            406.2,
-            13.9
-          ],
-          "text": "c:iled Lci~ci ;;;iuc>Fdci t::>NC>otr 20-s-2023d e:,cie~cie'.'.L t::>NC>o=tr 20-s-2023 dor:;:i.)",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            66.7,
-            404.2,
-            440.3,
-            13.9
-          ],
-          "text": ";;:lraci ;;;;23-~ ;;;io~e.3 ;;;iz;3o:bvM c0eE:9ci &.>,g.;=tr e;;:l.)c:;3..Beci\"3 c:ileon, \n=trNC>Fe3tr Oe}~z1ci",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            66.9,
-            425.3,
-            439.5,
-            13.9
-          ],
-          "text": "=trJe.3.:>oZJci ®~~c0 c:j)co~n ~,g ,gori'1?'J o..B. 20001-rW;;:l).._ c0ea.:>~ \"rie>coe)-8-.._.1,,",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            67.5,
-            447.2,
-            418.8,
-            13.9
-          ],
-          "text": "m..Be~\"3\"o:b;;:l.:>.._ ~Dn sdrn &.>,g.;=tr e;;:l.:>c:;3Jcleci\"3 c0eE:9 e:,cie2;;;i~f\\ci a5c)TVcJ",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            67.4,
-            468.1,
-            440.0,
-            13.9
-          ],
-          "text": "OJ..Be~;;;'lo:b \nc.'J~dc:Jclci \nd..B~de~ \na5c)T\\Jc) \n~riF;;;i..B23-Ti'1?';;:l}.._ \n~j.,etrc:Jclfl",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            67.8,
-            494.9,
-            179.0,
-            11.5
-          ],
-          "text": "ffi..BdEe;;;i~ru<QJcioci.:> ,g~;;;i~f\\ci.",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            101.4,
-            526.6,
-            404.8,
-            13.9
-          ],
-          "text": "e=1cidoj e:,5-)Ftr ~~ro a5c)TVcJ m..Be~NC> 'bl~rori~..Bot::>n ;;;;~e5Jcle23-Ai ;;;;23-~",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            67.8,
-            550.2,
-            270.0,
-            13.9
-          ],
-          "text": ";;;;o~e3ci e;;:l.:>ai:rcJeci\"3 c;:$dci}, \ni'1?'f\\;;:loj e:,cie2Aici.",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            73.1,
-            580.4,
-            428.2,
-            12.9
-          ],
-          "text": ";t;f~F\"dd ~de!!l ;t;fo: ii>ii>~ 70 ii)ii)e, 2023. ?.:3ort'7'.ft>0.), f::>NC>OW 61\\3(' \n2023",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            68.0,
-            605.1,
-            440.0,
-            30.5
-          ],
-          "text": "~~~\"30:bvM c.'J~DAJO}~ eo~ri'1?' &\"3.._dai>e'.'.t, OeJ~,5ci rue3}02Jcie'.'.t;;:l o.i)~~c0 \nc:j)&,~li ~,g ,gOTWJ O-.B. 2000/- Ti'1,\";;:l.).._ (cwOCl.) ~a:'.ld O-.Bc:JelC:tbri'l?J \nc0eru~ \"rie>co",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            68.0,
-            638.1,
-            439.4,
-            13.9
-          ],
-          "text": "e)-8-.._.1,,\" \nOJ..Be~;;;'lo.i);;:l.).._ \n2023-24\"3e \n~e);;:'.:lel \ni'1?'=troaoj e;;:l.)~;;:lM~;;;irn",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            68.0,
-            656.9,
-            208.3,
-            13.9
-          ],
-          "text": "e:,a~&.>s1,,tr e;;:l.:>c:;3..Beci\"3 c0eE:9 e:,cie2AJci;",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            84.8,
-            679.7,
-            423.7,
-            44.6
-          ],
-          "text": "1. e:,a5c)d c:j)s~ NC>riDetr ;;;idZJOel~ c;Q~roo.i).) a:'.lsD;;;i.:>~ e>OM,5ecio.i), i'.lc0cwd \nc:j)s~ cwc0cwd c;:$Eesd 23-ee3n'1?'vM \ntrJe.3.:>oZJci @~~c0 cwoci.:> ;;j~t::>AJd.:>~ \nc:j)&,~@,) \nm..Be~\"3@ ecoF cp~;;:l.:>z;la:'.l01Jclf\\d.:>~d.",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            264.1,
-            749.1,
-            48.9,
-            10.0
-          ],
-          "text": "Page 1 of 3",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 13,
+          "text": "೧8868013",
+          "word_count": 1
         }
       ],
       "tables": [],
       "forms": null,
-      "full_text": "/\nWcve>FMW ;dvc>Fdci ~rjijj\"'r(C\\\".>\n~~cm: 'cf ~Fe3'i5 ffi>~.sci 'cfje3.:>02Jcie''.t~ oi)~~c0 c'J.)coe!/lli c:Jjs sori~j\ndJc>. 20001- Ti~~.:> ... c0,ci.:>c:j \"ri.,ffie)u .... e.\" a:3Jc>,~~7i eci~&)se,'tf \ne>~.:>e::3Jc>,ci~ c0,~c:j tr.)Os.:> \nt..derc>f\\d: AJm>Fdci rn:;3,c!J AJO: c'J.)c'J.)~ 70 cwAtci2JJc>M.sci2JJc>M.s 2023, ~NC)Otr\n20-5-2023\nOe)~,5ci c:j)co~®d e55.)F=tr ;;;i2Jve=trdffi~;;:l.:>.._ ffi23-.,;;;i.:>~ c0e3e1;;:lvM ;;;iuc>Fd<QJ e\"3e=tr\nm..Be~\"3n'1?';;:l.).._ a,c.'J.:>e,~oe:ed.:>sci. \n=trJe.3.:>oZJci c0~FcoC'<S®v rue3.:>o2J ®~~c0® \nM\nc5e>~ \n~c:j),)ro~f\\ci.:>\n0\n, \n®~~c0®.:> \ne:,5-)F=trc:Jclf\\ \n;;;;ZJve=trdffiMoavM \nrue.3.:>oZJ\nc0~FcoC'<S®.:> em~c:j) rurac:j)eJe1cielch~ci. e:,ciJ)oci =trJe.3.:>oZJci o:b~~c0 c:j)&,~n ~,g\n,gori'1?'J \nd..B. \n2000;-n'1?\";;:l.:>.._ \nc0ea.:>~ \n\"rie>coo8-.... 1,, \nm..Be~\"3\"o:b;;:l.:>.._ \n~Dn sdrn\n~~c0;;;i~f\\ci.\nc:iled Lci~ci ;;;iuc>Fdci t::>NC>otr 20-s-2023d e:,cie~cie'.'.L t::>NC>o=tr 20-s-2023 dor:;:i.)\n;;:lraci ;;;;23-~ ;;;io~e.3 ;;;iz;3o:bvM c0eE:9ci &.>,g.;=tr e;;:l.)c:;3..Beci\"3 c:ileon, \n=trNC>Fe3tr Oe}~z1ci\n=trJe.3.:>oZJci ®~~c0 c:j)co~n ~,g ,gori'1?'J o..B. 20001-rW;;:l).._ c0ea.:>~ \"rie>coe)-8-.._.1,,\nm..Be~\"3\"o:b;;:l.:>.._ ~Dn sdrn &.>,g.;=tr e;;:l.:>c:;3Jcleci\"3 c0eE:9 e:,cie2;;;i~f\\ci a5c)TVcJ\nOJ..Be~;;;'lo:b \nc.'J~dc:Jclci \nd..B~de~ \na5c)T\\Jc) \n~riF;;;i..B23-Ti'1?';;:l}.._ \n~j.,etrc:Jclfl\nffi..BdEe;;;i~ru<QJcioci.:> ,g~;;;i~f\\ci.\ne=1cidoj e:,5-)Ftr ~~ro a5c)TVcJ m..Be~NC> 'bl~rori~..Bot::>n ;;;;~e5Jcle23-Ai ;;;;23-~\n;;;;o~e3ci e;;:l.:>ai:rcJeci\"3 c;:$dci}, \ni'1?'f\\;;:loj e:,cie2Aici.\n;t;f~F\"dd ~de!!l ;t;fo: ii>ii>~ 70 ii)ii)e, 2023. ?.:3ort'7'.ft>0.), f::>NC>OW 61\\3(' \n2023\n~~~\"30:bvM c.'J~DAJO}~ eo~ri'1?' &\"3.._dai>e'.'.t, OeJ~,5ci rue3}02Jcie'.'.t;;:l o.i)~~c0 \nc:j)&,~li ~,g ,gOTWJ O-.B. 2000/- Ti'1,\";;:l.).._ (cwOCl.) ~a:'.ld O-.Bc:JelC:tbri'l?J \nc0eru~ \"rie>co\ne)-8-.._.1,,\" \nOJ..Be~;;;'lo.i);;:l.).._ \n2023-24\"3e \n~e);;:'.:lel \ni'1?'=troaoj e;;:l.)~;;:lM~;;;irn\ne:,a~&.>s1,,tr e;;:l.:>c:;3..Beci\"3 c0eE:9 e:,cie2AJci;\n1. e:,a5c)d c:j)s~ NC>riDetr ;;;idZJOel~ c;Q~roo.i).) a:'.lsD;;;i.:>~ e>OM,5ecio.i), i'.lc0cwd \nc:j)s~ cwc0cwd c;:$Eesd 23-ee3n'1?'vM \ntrJe.3.:>oZJci @~~c0 cwoci.:> ;;j~t::>AJd.:>~ \nc:j)&,~@,) \nm..Be~\"3@ ecoF cp~;;:l.:>z;la:'.l01Jclf\\d.:>~d.\nPage 1 of 3",
-      "avg_confidence": 100.0
+      "full_text": "ಕರ್ನಾಟಕ ಸರ್ಕಾರದ ನಡವಳಿಗಳು\nವಿಷಯ: ಕರ್ನಾಟಕ ರಾಜ್ಯದ ಕುಟು೦ಬದಲ್ಲಿನ ಯಜಮಾನಿ ಮಹಿಳೆಗೆ ಪ್ರತಿ ತಿಂಗಳು ರೂ. 2000/- ಗಳನ್ನು ನೀಡುವ “ಗೃಹಲಕ್ಕ್ಮಿ” ಯೋಜನೆಗೆ ಆಡಳಿತಾತ್ಮಕ ಅನುಮೋದನೆ ನೀಡುವ ಕುರಿತು ಓದಲಾಗಿದೆ: ಸರ್ಕಾರದ ಆದೇಶ ಸಂ: ಮಮಇ 70 ಎಸ್‌ಡಬ್ಲ್ಯೂಡಬ್ಲ್ಯೂ 2023, ದಿನಾ೦ಕ 20-5-2023\nಪ್ರಸ್ತಾವನೆ:\nರಾಜ್ಯದ ಮಹಿಳೆಯರ ಆರ್ಥಿಕ ಸಬಲೀಕರಣವನ್ನು ಹೆಚ್ಚಿಸುವ ನಿಟ್ಟಿನಲ್ಲಿ ಸರ್ಕಾರವು ಅನೇಕ ಯೋಜನೆಗಳನ್ನು ಹಮಿಶೊ೦ಡಿರುತ್ತದೆ. ಕುಟುಂಬದ ನಿರ್ವಹಣೆಯಲ್ಲಿ ಕುಟು೦ಬ ಯಜಮಾನಿಯ ಪಾತ್ರ ಪ್ರಮುಖವಾಗಿದ್ದು, ಯಜಮಾನಿಯು. ಆರ್ಥಿಕವಾಗಿ ಸಬಲೀಕರಣಗೊಂಡಲ್ಲಿ ಕುಟುಂಬ ನಿರ್ವಹಣೆಯು ಉತ್ತಮ ಗುಣಮಟ್ಟದಲ್ಲಿರುತ್ತದೆ. ಆದ್ದರಿಂದ ಕುಟುಂಬದ ಯಜಮಾನಿ ಮಹಿಳೆಗೆ ಪ್ರತಿ ತಿಂಗಳು. ರೂ. 2000/-ಗಳನ್ನು ನೀಡುವ 'ಗೃಹಲಕ್ಷ್ಮಿ ಯೋಜನೆ\"ಯನ್ನು ಜಾರಿಗೆ ತರಲು\nಪ್ರಸ್ತಾಪಿಸಲಾಗಿದೆ.\nಮೇಲೆ ಓದಲಾದ ಸರ್ಕಾರದ ದಿನಾ೦ಕ 20-5-2023ರ ಆದೇಶದಲ್ಲಿ, ದಿನಾ೦ಕ 20-5-2023 ರಂದು ನಡೆದ ಸಚಿವ ಸಂಪುಟಿ ಸಭೆಯಲ್ಲಿ ನೀಡಿದ ತಾತ್ವಿಕ ಅನುಮೋದನೆ: ಮೇರೆಗೆ, ಕರ್ನಾಟಕ ರಾಜ್ಯದ ಕುಟುಂಬದ ಯಜಮಾನಿ ಮಹಿಳೆಗೆ ಪ್ರತಿ ತಿಂಗಳು ರೂ. 2000/-ಗಳನ್ನು ನೀಡುವ “ಗೃಹಲಕ್ಷ್ಮಿ ಯೋಜನೆ\"ಯನ್ನು ಜಾರಿಗೆ ತರಲು ತಾತ್ವಿಕ ಅನುಮೋದನೆ ನೀಡಿ ಆದೇಶಿಸಲಾಗಿದೆ ಹಾಗೂ ಈ ಯೋಜನೆಯ ವಿವರವಾದ ರೂಪುರೇಷೆ. ಹಾಗೂ ಮಾರ್ಗಸೂಚಿಗಳನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಹೊರಡಿಸಲಾಗುವುದೆಂದು ತಿಳಿಸಲಾಗಿದೆ.\nಅದರಂತೆ ಆರ್ಥಿಕ ಇಲಾಖೆ ಹಾಗೂ ಯೋಜನಾ ಇಲಾಖೆಗಳೊ೦ದಿಗೆ ಸಮಾಲೋಚಿಸಿ ಸಚಿವ ಸಂಪುಟದ ಅನುಮೋದನೆ ಪಡೆದು; ಈ ಕೆಳಗಿನಂತೆ ಆದೇಶಿಸಿದೆ.\nರ್‌ T -\n[\nಸರ್ಕಾರದ ಆದೇಶ ಸಂ: ಮಮಇ 70 ಮಮಅ 2023, ಬೆ೦ಗಳೂರು, ದಿನಾ೦ಕ 6ನೇ ಜೂನ್‌ 2023\nಪ್ರಸ್ತಾವನೆಯಲ್ಲಿ ವಿವರಿಸಿರುವ ಅ೦ಶಗಳ ಹಿನ್ನೆಲೆಯಲ್ಲಿ, ರಾಜ್ಯದ ಕುಟುಂಬದಲ್ಲಿನ ಯಜಮಾನಿ ಮಹಿಳೆಗೆ ಪ್ರತಿ'ತಿ೦ಗಳು ರೂ.`2000/- ಗಳನ್ನು (ಎರಢು ಸಾವಿರ ರೂಪಾಯಿಗಳು ಮಾತ್ರ) ನೀಡುವ “ಗೃಹ ಲಕ್ಷ್ಮಿ” ಯೋಜನೆಯನ್ನು 2023-24ನೇ ಸಾಲಿಸಲ್ಲಿ ಈ ಕೆಳಕ೦ಡ೦ತೆ ಅನುಷ್ಠಾನಗೊಳಿಸಲು ಆಡಳಿತಾತ್ಮಕ ಅನುಮೋದನೆ ನೀಡಿ ಆದೇಶಿಸಿದೆ; . 1. ಆಹಾರ ಮತ್ತು ನಾಗರೀಕ ಸರಬರಾಜು ಇಲಾಖೆಯು ವಿತರಿಸುವ ಅಂತ್ಯೋದಯ, ಬಿಪಿಎಲ್‌ ಮತ್ತು ಎಪಿಎಲ್‌ ಪಡಿತರ ಚೀಟಿಗಳಲ್ಲಿ ಕುಟು೦ಬದ ಯಜಮಾನಿ ಎ೦ದು ನಮೂದಿಸಿರುವ ಮಹಿಳೆಯು ಈ ಯೋಜನೆಯ ಅರ್ಹ ಫಲಾನುಭವಿಯಾಗಿರುತ್ತಾರೆ.\n೧8868013",
+      "avg_confidence": 84.5,
+      "is_ocr": true,
+      "ocr_engine": "tesseract",
+      "words": [
+        {
+          "text": "ಕರ್ನಾಟಕ",
+          "bbox": [
+            763,
+            300,
+            261,
+            57
+          ],
+          "confidence": 95.0,
+          "block_num": 1,
+          "line_num": 1
+        },
+        {
+          "text": "ಸರ್ಕಾರದ",
+          "bbox": [
+            1043,
+            301,
+            250,
+            58
+          ],
+          "confidence": 96.0,
+          "block_num": 1,
+          "line_num": 1
+        },
+        {
+          "text": "ನಡವಳಿಗಳು",
+          "bbox": [
+            1314,
+            298,
+            320,
+            56
+          ],
+          "confidence": 96.0,
+          "block_num": 1,
+          "line_num": 1
+        },
+        {
+          "text": "ವಿಷಯ:",
+          "bbox": [
+            413,
+            426,
+            161,
+            43
+          ],
+          "confidence": 95.0,
+          "block_num": 2,
+          "line_num": 1
+        },
+        {
+          "text": "ಕರ್ನಾಟಕ",
+          "bbox": [
+            602,
+            428,
+            209,
+            44
+          ],
+          "confidence": 96.0,
+          "block_num": 2,
+          "line_num": 1
+        },
+        {
+          "text": "ರಾಜ್ಯದ",
+          "bbox": [
+            828,
+            431,
+            158,
+            51
+          ],
+          "confidence": 90.0,
+          "block_num": 2,
+          "line_num": 1
+        },
+        {
+          "text": "ಕುಟು೦ಬದಲ್ಲಿನ",
+          "bbox": [
+            1003,
+            427,
+            316,
+            56
+          ],
+          "confidence": 90.0,
+          "block_num": 2,
+          "line_num": 1
+        },
+        {
+          "text": "ಯಜಮಾನಿ",
+          "bbox": [
+            1337,
+            428,
+            232,
+            44
+          ],
+          "confidence": 95.0,
+          "block_num": 2,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಹಿಳೆಗೆ",
+          "bbox": [
+            1586,
+            425,
+            172,
+            45
+          ],
+          "confidence": 96.0,
+          "block_num": 2,
+          "line_num": 1
+        },
+        {
+          "text": "ಪ್ರತಿ",
+          "bbox": [
+            1776,
+            425,
+            80,
+            53
+          ],
+          "confidence": 96.0,
+          "block_num": 2,
+          "line_num": 1
+        },
+        {
+          "text": "ತಿಂಗಳು",
+          "bbox": [
+            1874,
+            424,
+            149,
+            42
+          ],
+          "confidence": 54.0,
+          "block_num": 2,
+          "line_num": 1
+        },
+        {
+          "text": "ರೂ.",
+          "bbox": [
+            600,
+            496,
+            86,
+            41
+          ],
+          "confidence": 92.0,
+          "block_num": 2,
+          "line_num": 2
+        },
+        {
+          "text": "2000/-",
+          "bbox": [
+            703,
+            500,
+            138,
+            43
+          ],
+          "confidence": 92.0,
+          "block_num": 2,
+          "line_num": 2
+        },
+        {
+          "text": "ಗಳನ್ನು",
+          "bbox": [
+            859,
+            497,
+            149,
+            53
+          ],
+          "confidence": 95.0,
+          "block_num": 2,
+          "line_num": 2
+        },
+        {
+          "text": "ನೀಡುವ",
+          "bbox": [
+            1024,
+            495,
+            164,
+            47
+          ],
+          "confidence": 93.0,
+          "block_num": 2,
+          "line_num": 2
+        },
+        {
+          "text": "“ಗೃಹಲಕ್ಕ್ಮಿ”",
+          "bbox": [
+            1205,
+            497,
+            243,
+            53
+          ],
+          "confidence": 27.0,
+          "block_num": 2,
+          "line_num": 2
+        },
+        {
+          "text": "ಯೋಜನೆಗೆ",
+          "bbox": [
+            1466,
+            492,
+            221,
+            52
+          ],
+          "confidence": 94.0,
+          "block_num": 2,
+          "line_num": 2
+        },
+        {
+          "text": "ಆಡಳಿತಾತ್ಮಕ",
+          "bbox": [
+            1705,
+            490,
+            266,
+            51
+          ],
+          "confidence": 94.0,
+          "block_num": 2,
+          "line_num": 2
+        },
+        {
+          "text": "ಅನುಮೋದನೆ",
+          "bbox": [
+            601,
+            561,
+            293,
+            45
+          ],
+          "confidence": 94.0,
+          "block_num": 2,
+          "line_num": 3
+        },
+        {
+          "text": "ನೀಡುವ",
+          "bbox": [
+            912,
+            561,
+            165,
+            46
+          ],
+          "confidence": 96.0,
+          "block_num": 2,
+          "line_num": 3
+        },
+        {
+          "text": "ಕುರಿತು",
+          "bbox": [
+            1094,
+            563,
+            134,
+            41
+          ],
+          "confidence": 95.0,
+          "block_num": 2,
+          "line_num": 3
+        },
+        {
+          "text": "ಓದಲಾಗಿದೆ:",
+          "bbox": [
+            348,
+            623,
+            262,
+            45
+          ],
+          "confidence": 95.0,
+          "block_num": 2,
+          "line_num": 4
+        },
+        {
+          "text": "ಸರ್ಕಾರದ",
+          "bbox": [
+            628,
+            627,
+            204,
+            44
+          ],
+          "confidence": 95.0,
+          "block_num": 2,
+          "line_num": 4
+        },
+        {
+          "text": "ಆದೇಶ",
+          "bbox": [
+            850,
+            628,
+            134,
+            46
+          ],
+          "confidence": 95.0,
+          "block_num": 2,
+          "line_num": 4
+        },
+        {
+          "text": "ಸಂ:",
+          "bbox": [
+            1002,
+            630,
+            77,
+            40
+          ],
+          "confidence": 92.0,
+          "block_num": 2,
+          "line_num": 4
+        },
+        {
+          "text": "ಮಮಇ",
+          "bbox": [
+            1096,
+            628,
+            156,
+            44
+          ],
+          "confidence": 89.0,
+          "block_num": 2,
+          "line_num": 4
+        },
+        {
+          "text": "70",
+          "bbox": [
+            1269,
+            632,
+            47,
+            36
+          ],
+          "confidence": 93.0,
+          "block_num": 2,
+          "line_num": 4
+        },
+        {
+          "text": "ಎಸ್‌ಡಬ್ಲ್ಯೂಡಬ್ಲ್ಯೂ",
+          "bbox": [
+            1333,
+            624,
+            421,
+            52
+          ],
+          "confidence": 88.0,
+          "block_num": 2,
+          "line_num": 4
+        },
+        {
+          "text": "2023,",
+          "bbox": [
+            1770,
+            623,
+            106,
+            42
+          ],
+          "confidence": 96.0,
+          "block_num": 2,
+          "line_num": 4
+        },
+        {
+          "text": "ದಿನಾ೦ಕ",
+          "bbox": [
+            1895,
+            617,
+            169,
+            42
+          ],
+          "confidence": 96.0,
+          "block_num": 2,
+          "line_num": 4
+        },
+        {
+          "text": "20-5-2023",
+          "bbox": [
+            600,
+            697,
+            215,
+            38
+          ],
+          "confidence": 96.0,
+          "block_num": 2,
+          "line_num": 5
+        },
+        {
+          "text": "ಪ್ರಸ್ತಾವನೆ:",
+          "bbox": [
+            269,
+            848,
+            211,
+            47
+          ],
+          "confidence": 81.0,
+          "block_num": 3,
+          "line_num": 1
+        },
+        {
+          "text": "ರಾಜ್ಯದ",
+          "bbox": [
+            427,
+            982,
+            146,
+            48
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಹಿಳೆಯರ",
+          "bbox": [
+            595,
+            979,
+            230,
+            42
+          ],
+          "confidence": 90.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಆರ್ಥಿಕ",
+          "bbox": [
+            847,
+            982,
+            138,
+            48
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಸಬಲೀಕರಣವನ್ನು",
+          "bbox": [
+            1005,
+            977,
+            345,
+            49
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಹೆಚ್ಚಿಸುವ",
+          "bbox": [
+            1370,
+            974,
+            186,
+            50
+          ],
+          "confidence": 92.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ನಿಟ್ಟಿನಲ್ಲಿ",
+          "bbox": [
+            1577,
+            940,
+            179,
+            79
+          ],
+          "confidence": 94.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಸರ್ಕಾರವು",
+          "bbox": [
+            1777,
+            961,
+            192,
+            49
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಅನೇಕ",
+          "bbox": [
+            1991,
+            960,
+            118,
+            41
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಯೋಜನೆಗಳನ್ನು",
+          "bbox": [
+            272,
+            1070,
+            322,
+            51
+          ],
+          "confidence": 93.0,
+          "block_num": 4,
+          "line_num": 2
+        },
+        {
+          "text": "ಹಮಿಶೊ೦ಡಿರುತ್ತದೆ.",
+          "bbox": [
+            621,
+            1070,
+            391,
+            50
+          ],
+          "confidence": 0.0,
+          "block_num": 4,
+          "line_num": 2
+        },
+        {
+          "text": "ಕುಟುಂಬದ",
+          "bbox": [
+            1066,
+            1068,
+            208,
+            41
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 2
+        },
+        {
+          "text": "ನಿರ್ವಹಣೆಯಲ್ಲಿ",
+          "bbox": [
+            1302,
+            1059,
+            301,
+            51
+          ],
+          "confidence": 93.0,
+          "block_num": 4,
+          "line_num": 2
+        },
+        {
+          "text": "ಕುಟು೦ಬ",
+          "bbox": [
+            1632,
+            1060,
+            171,
+            39
+          ],
+          "confidence": 90.0,
+          "block_num": 4,
+          "line_num": 2
+        },
+        {
+          "text": "ಯಜಮಾನಿಯ",
+          "bbox": [
+            1832,
+            1044,
+            278,
+            61
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 2
+        },
+        {
+          "text": "ಪಾತ್ರ",
+          "bbox": [
+            272,
+            1164,
+            101,
+            48
+          ],
+          "confidence": 93.0,
+          "block_num": 4,
+          "line_num": 3
+        },
+        {
+          "text": "ಪ್ರಮುಖವಾಗಿದ್ದು,",
+          "bbox": [
+            428,
+            1163,
+            340,
+            49
+          ],
+          "confidence": 93.0,
+          "block_num": 4,
+          "line_num": 3
+        },
+        {
+          "text": "ಯಜಮಾನಿಯು.",
+          "bbox": [
+            826,
+            1159,
+            296,
+            42
+          ],
+          "confidence": 89.0,
+          "block_num": 4,
+          "line_num": 3
+        },
+        {
+          "text": "ಆರ್ಥಿಕವಾಗಿ",
+          "bbox": [
+            1178,
+            1157,
+            227,
+            48
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 3
+        },
+        {
+          "text": "ಸಬಲೀಕರಣಗೊಂಡಲ್ಲಿ",
+          "bbox": [
+            1460,
+            1141,
+            423,
+            51
+          ],
+          "confidence": 37.0,
+          "block_num": 4,
+          "line_num": 3
+        },
+        {
+          "text": "ಕುಟುಂಬ",
+          "bbox": [
+            1939,
+            1140,
+            170,
+            40
+          ],
+          "confidence": 94.0,
+          "block_num": 4,
+          "line_num": 3
+        },
+        {
+          "text": "ನಿರ್ವಹಣೆಯು",
+          "bbox": [
+            273,
+            1249,
+            275,
+            80
+          ],
+          "confidence": 64.0,
+          "block_num": 4,
+          "line_num": 4
+        },
+        {
+          "text": "ಉತ್ತಮ",
+          "bbox": [
+            567,
+            1253,
+            141,
+            49
+          ],
+          "confidence": 93.0,
+          "block_num": 4,
+          "line_num": 4
+        },
+        {
+          "text": "ಗುಣಮಟ್ಟದಲ್ಲಿರುತ್ತದೆ.",
+          "bbox": [
+            725,
+            1246,
+            416,
+            53
+          ],
+          "confidence": 79.0,
+          "block_num": 4,
+          "line_num": 4
+        },
+        {
+          "text": "ಆದ್ದರಿಂದ",
+          "bbox": [
+            1172,
+            1246,
+            184,
+            48
+          ],
+          "confidence": 81.0,
+          "block_num": 4,
+          "line_num": 4
+        },
+        {
+          "text": "ಕುಟುಂಬದ",
+          "bbox": [
+            1401,
+            1240,
+            207,
+            42
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 4
+        },
+        {
+          "text": "ಯಜಮಾನಿ",
+          "bbox": [
+            1626,
+            1233,
+            216,
+            44
+          ],
+          "confidence": 94.0,
+          "block_num": 4,
+          "line_num": 4
+        },
+        {
+          "text": "ಮಹಿಳೆಗೆ",
+          "bbox": [
+            1859,
+            1228,
+            159,
+            44
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 4
+        },
+        {
+          "text": "ಪ್ರತಿ",
+          "bbox": [
+            2036,
+            1227,
+            73,
+            48
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 4
+        },
+        {
+          "text": "ತಿಂಗಳು.",
+          "bbox": [
+            274,
+            1346,
+            142,
+            39
+          ],
+          "confidence": 52.0,
+          "block_num": 4,
+          "line_num": 5
+        },
+        {
+          "text": "ರೂ.",
+          "bbox": [
+            478,
+            1345,
+            80,
+            38
+          ],
+          "confidence": 64.0,
+          "block_num": 4,
+          "line_num": 5
+        },
+        {
+          "text": "2000/-ಗಳನ್ನು",
+          "bbox": [
+            621,
+            1342,
+            268,
+            47
+          ],
+          "confidence": 69.0,
+          "block_num": 4,
+          "line_num": 5
+        },
+        {
+          "text": "ನೀಡುವ",
+          "bbox": [
+            949,
+            1333,
+            150,
+            47
+          ],
+          "confidence": 84.0,
+          "block_num": 4,
+          "line_num": 5
+        },
+        {
+          "text": "'ಗೃಹಲಕ್ಷ್ಮಿ",
+          "bbox": [
+            1160,
+            1337,
+            204,
+            48
+          ],
+          "confidence": 34.0,
+          "block_num": 4,
+          "line_num": 5
+        },
+        {
+          "text": "ಯೋಜನೆ\"ಯನ್ನು",
+          "bbox": [
+            1425,
+            1300,
+            327,
+            73
+          ],
+          "confidence": 38.0,
+          "block_num": 4,
+          "line_num": 5
+        },
+        {
+          "text": "ಜಾರಿಗೆ",
+          "bbox": [
+            1812,
+            1320,
+            118,
+            42
+          ],
+          "confidence": 81.0,
+          "block_num": 4,
+          "line_num": 5
+        },
+        {
+          "text": "ತರಲು",
+          "bbox": [
+            1992,
+            1318,
+            117,
+            39
+          ],
+          "confidence": 89.0,
+          "block_num": 4,
+          "line_num": 5
+        },
+        {
+          "text": "ಪ್ರಸ್ತಾಪಿಸಲಾಗಿದೆ.",
+          "bbox": [
+            275,
+            1432,
+            322,
+            52
+          ],
+          "confidence": 95.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "ಮೇಲೆ",
+          "bbox": [
+            419,
+            1619,
+            112,
+            42
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಓದಲಾದ",
+          "bbox": [
+            550,
+            1617,
+            177,
+            41
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಸರ್ಕಾರದ",
+          "bbox": [
+            745,
+            1614,
+            185,
+            40
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ದಿನಾ೦ಕ",
+          "bbox": [
+            949,
+            1610,
+            157,
+            40
+          ],
+          "confidence": 93.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "20-5-2023ರ",
+          "bbox": [
+            1124,
+            1605,
+            221,
+            41
+          ],
+          "confidence": 92.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಆದೇಶದಲ್ಲಿ,",
+          "bbox": [
+            1363,
+            1598,
+            220,
+            50
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ದಿನಾ೦ಕ",
+          "bbox": [
+            1602,
+            1598,
+            158,
+            40
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "20-5-2023",
+          "bbox": [
+            1778,
+            1597,
+            192,
+            36
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ರಂದು",
+          "bbox": [
+            1990,
+            1590,
+            118,
+            40
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ನಡೆದ",
+          "bbox": [
+            276,
+            1712,
+            115,
+            40
+          ],
+          "confidence": 73.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "ಸಚಿವ",
+          "bbox": [
+            418,
+            1710,
+            115,
+            39
+          ],
+          "confidence": 93.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "ಸಂಪುಟಿ",
+          "bbox": [
+            559,
+            1706,
+            153,
+            47
+          ],
+          "confidence": 82.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "ಸಭೆಯಲ್ಲಿ",
+          "bbox": [
+            738,
+            1698,
+            188,
+            52
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "ನೀಡಿದ",
+          "bbox": [
+            954,
+            1698,
+            131,
+            42
+          ],
+          "confidence": 38.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "ತಾತ್ವಿಕ",
+          "bbox": [
+            1111,
+            1695,
+            129,
+            47
+          ],
+          "confidence": 0.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "ಅನುಮೋದನೆ:",
+          "bbox": [
+            1266,
+            1689,
+            261,
+            42
+          ],
+          "confidence": 74.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "ಮೇರೆಗೆ,",
+          "bbox": [
+            1553,
+            1686,
+            137,
+            43
+          ],
+          "confidence": 92.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "ಕರ್ನಾಟಕ",
+          "bbox": [
+            1750,
+            1681,
+            186,
+            42
+          ],
+          "confidence": 94.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "ರಾಜ್ಯದ",
+          "bbox": [
+            1964,
+            1678,
+            143,
+            47
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "ಕುಟುಂಬದ",
+          "bbox": [
+            276,
+            1800,
+            213,
+            42
+          ],
+          "confidence": 95.0,
+          "block_num": 6,
+          "line_num": 3
+        },
+        {
+          "text": "ಯಜಮಾನಿ",
+          "bbox": [
+            533,
+            1792,
+            218,
+            44
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 3
+        },
+        {
+          "text": "ಮಹಿಳೆಗೆ",
+          "bbox": [
+            792,
+            1783,
+            161,
+            47
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 3
+        },
+        {
+          "text": "ಪ್ರತಿ",
+          "bbox": [
+            994,
+            1786,
+            74,
+            49
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 3
+        },
+        {
+          "text": "ತಿಂಗಳು",
+          "bbox": [
+            1109,
+            1783,
+            137,
+            40
+          ],
+          "confidence": 0.0,
+          "block_num": 6,
+          "line_num": 3
+        },
+        {
+          "text": "ರೂ.",
+          "bbox": [
+            1288,
+            1782,
+            76,
+            37
+          ],
+          "confidence": 93.0,
+          "block_num": 6,
+          "line_num": 3
+        },
+        {
+          "text": "2000/-ಗಳನ್ನು",
+          "bbox": [
+            1404,
+            1776,
+            261,
+            46
+          ],
+          "confidence": 91.0,
+          "block_num": 6,
+          "line_num": 3
+        },
+        {
+          "text": "ನೀಡುವ",
+          "bbox": [
+            1705,
+            1772,
+            151,
+            40
+          ],
+          "confidence": 93.0,
+          "block_num": 6,
+          "line_num": 3
+        },
+        {
+          "text": "“ಗೃಹಲಕ್ಷ್ಮಿ",
+          "bbox": [
+            1897,
+            1757,
+            209,
+            65
+          ],
+          "confidence": 48.0,
+          "block_num": 6,
+          "line_num": 3
+        },
+        {
+          "text": "ಯೋಜನೆ\"ಯನ್ನು",
+          "bbox": [
+            278,
+            1887,
+            334,
+            46
+          ],
+          "confidence": 76.0,
+          "block_num": 6,
+          "line_num": 4
+        },
+        {
+          "text": "ಜಾರಿಗೆ",
+          "bbox": [
+            651,
+            1881,
+            119,
+            41
+          ],
+          "confidence": 90.0,
+          "block_num": 6,
+          "line_num": 4
+        },
+        {
+          "text": "ತರಲು",
+          "bbox": [
+            810,
+            1880,
+            118,
+            39
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 4
+        },
+        {
+          "text": "ತಾತ್ವಿಕ",
+          "bbox": [
+            968,
+            1875,
+            129,
+            47
+          ],
+          "confidence": 89.0,
+          "block_num": 6,
+          "line_num": 4
+        },
+        {
+          "text": "ಅನುಮೋದನೆ",
+          "bbox": [
+            1136,
+            1868,
+            260,
+            45
+          ],
+          "confidence": 95.0,
+          "block_num": 6,
+          "line_num": 4
+        },
+        {
+          "text": "ನೀಡಿ",
+          "bbox": [
+            1435,
+            1865,
+            92,
+            41
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 4
+        },
+        {
+          "text": "ಆದೇಶಿಸಲಾಗಿದೆ",
+          "bbox": [
+            1567,
+            1857,
+            286,
+            46
+          ],
+          "confidence": 86.0,
+          "block_num": 6,
+          "line_num": 4
+        },
+        {
+          "text": "ಹಾಗೂ",
+          "bbox": [
+            1892,
+            1858,
+            129,
+            39
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 4
+        },
+        {
+          "text": "ಈ",
+          "bbox": [
+            2061,
+            1856,
+            45,
+            38
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 4
+        },
+        {
+          "text": "ಯೋಜನೆಯ",
+          "bbox": [
+            279,
+            1955,
+            240,
+            66
+          ],
+          "confidence": 95.0,
+          "block_num": 6,
+          "line_num": 5
+        },
+        {
+          "text": "ವಿವರವಾದ",
+          "bbox": [
+            607,
+            1970,
+            213,
+            46
+          ],
+          "confidence": 90.0,
+          "block_num": 6,
+          "line_num": 5
+        },
+        {
+          "text": "ರೂಪುರೇಷೆ.",
+          "bbox": [
+            906,
+            1961,
+            202,
+            51
+          ],
+          "confidence": 75.0,
+          "block_num": 6,
+          "line_num": 5
+        },
+        {
+          "text": "ಹಾಗೂ",
+          "bbox": [
+            1192,
+            1960,
+            128,
+            39
+          ],
+          "confidence": 92.0,
+          "block_num": 6,
+          "line_num": 5
+        },
+        {
+          "text": "ಮಾರ್ಗಸೂಚಿಗಳನ್ನು",
+          "bbox": [
+            1404,
+            1951,
+            388,
+            45
+          ],
+          "confidence": 20.0,
+          "block_num": 6,
+          "line_num": 5
+        },
+        {
+          "text": "ಪ್ರತ್ಯೇಕವಾಗಿ",
+          "bbox": [
+            1876,
+            1945,
+            229,
+            49
+          ],
+          "confidence": 81.0,
+          "block_num": 6,
+          "line_num": 5
+        },
+        {
+          "text": "ಹೊರಡಿಸಲಾಗುವುದೆಂದು",
+          "bbox": [
+            279,
+            2061,
+            473,
+            49
+          ],
+          "confidence": 81.0,
+          "block_num": 6,
+          "line_num": 6
+        },
+        {
+          "text": "ತಿಳಿಸಲಾಗಿದೆ.",
+          "bbox": [
+            767,
+            2053,
+            240,
+            44
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 6
+        },
+        {
+          "text": "ಅದರಂತೆ",
+          "bbox": [
+            421,
+            2220,
+            173,
+            43
+          ],
+          "confidence": 94.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಆರ್ಥಿಕ",
+          "bbox": [
+            622,
+            2206,
+            138,
+            60
+          ],
+          "confidence": 96.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಇಲಾಖೆ",
+          "bbox": [
+            788,
+            2213,
+            137,
+            44
+          ],
+          "confidence": 96.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಹಾಗೂ",
+          "bbox": [
+            951,
+            2210,
+            130,
+            40
+          ],
+          "confidence": 96.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಯೋಜನಾ",
+          "bbox": [
+            1109,
+            2206,
+            196,
+            40
+          ],
+          "confidence": 93.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಇಲಾಖೆಗಳೊ೦ದಿಗೆ",
+          "bbox": [
+            1332,
+            2195,
+            329,
+            48
+          ],
+          "confidence": 90.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಸಮಾಲೋಚಿಸಿ",
+          "bbox": [
+            1688,
+            2191,
+            279,
+            42
+          ],
+          "confidence": 96.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಸಚಿವ",
+          "bbox": [
+            1994,
+            2189,
+            110,
+            39
+          ],
+          "confidence": 96.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಸಂಪುಟದ",
+          "bbox": [
+            281,
+            2314,
+            187,
+            48
+          ],
+          "confidence": 96.0,
+          "block_num": 7,
+          "line_num": 2
+        },
+        {
+          "text": "ಅನುಮೋದನೆ",
+          "bbox": [
+            483,
+            2307,
+            266,
+            44
+          ],
+          "confidence": 75.0,
+          "block_num": 7,
+          "line_num": 2
+        },
+        {
+          "text": "ಪಡೆದು;",
+          "bbox": [
+            764,
+            2302,
+            203,
+            50
+          ],
+          "confidence": 71.0,
+          "block_num": 7,
+          "line_num": 2
+        },
+        {
+          "text": "ಈ",
+          "bbox": [
+            933,
+            2291,
+            19,
+            75
+          ],
+          "confidence": 90.0,
+          "block_num": 7,
+          "line_num": 2
+        },
+        {
+          "text": "ಕೆಳಗಿನಂತೆ",
+          "bbox": [
+            982,
+            2295,
+            192,
+            43
+          ],
+          "confidence": 45.0,
+          "block_num": 7,
+          "line_num": 2
+        },
+        {
+          "text": "ಆದೇಶಿಸಿದೆ.",
+          "bbox": [
+            1185,
+            2284,
+            203,
+            65
+          ],
+          "confidence": 96.0,
+          "block_num": 7,
+          "line_num": 2
+        },
+        {
+          "text": "ರ್‌",
+          "bbox": [
+            402,
+            2380,
+            78,
+            22
+          ],
+          "confidence": 2.0,
+          "block_num": 8,
+          "line_num": 1
+        },
+        {
+          "text": "T",
+          "bbox": [
+            559,
+            2384,
+            7,
+            16
+          ],
+          "confidence": 0.0,
+          "block_num": 8,
+          "line_num": 1
+        },
+        {
+          "text": "-",
+          "bbox": [
+            581,
+            2371,
+            14,
+            40
+          ],
+          "confidence": 0.0,
+          "block_num": 8,
+          "line_num": 1
+        },
+        {
+          "text": "[",
+          "bbox": [
+            403,
+            2403,
+            23,
+            9
+          ],
+          "confidence": 31.0,
+          "block_num": 9,
+          "line_num": 1
+        },
+        {
+          "text": "ಸರ್ಕಾರದ",
+          "bbox": [
+            303,
+            2441,
+            195,
+            46
+          ],
+          "confidence": 96.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ಆದೇಶ",
+          "bbox": [
+            515,
+            2421,
+            136,
+            61
+          ],
+          "confidence": 97.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ಸಂ:",
+          "bbox": [
+            666,
+            2436,
+            78,
+            40
+          ],
+          "confidence": 93.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಮಇ",
+          "bbox": [
+            770,
+            2432,
+            153,
+            42
+          ],
+          "confidence": 88.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "70",
+          "bbox": [
+            938,
+            2434,
+            48,
+            34
+          ],
+          "confidence": 91.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಮಅ",
+          "bbox": [
+            1000,
+            2421,
+            156,
+            45
+          ],
+          "confidence": 85.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "2023,",
+          "bbox": [
+            1170,
+            2427,
+            106,
+            38
+          ],
+          "confidence": 92.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ಬೆ೦ಗಳೂರು,",
+          "bbox": [
+            1293,
+            2416,
+            246,
+            43
+          ],
+          "confidence": 96.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ದಿನಾ೦ಕ",
+          "bbox": [
+            1555,
+            2412,
+            171,
+            41
+          ],
+          "confidence": 95.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "6ನೇ",
+          "bbox": [
+            1740,
+            2409,
+            82,
+            45
+          ],
+          "confidence": 96.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ಜೂನ್‌",
+          "bbox": [
+            1837,
+            2411,
+            137,
+            37
+          ],
+          "confidence": 96.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "2023",
+          "bbox": [
+            1987,
+            2410,
+            93,
+            34
+          ],
+          "confidence": 92.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ಪ್ರಸ್ತಾವನೆಯಲ್ಲಿ",
+          "bbox": [
+            421,
+            2542,
+            294,
+            56
+          ],
+          "confidence": 95.0,
+          "block_num": 12,
+          "line_num": 1
+        },
+        {
+          "text": "ವಿವರಿಸಿರುವ",
+          "bbox": [
+            732,
+            2539,
+            232,
+            43
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 1
+        },
+        {
+          "text": "ಅ೦ಶಗಳ",
+          "bbox": [
+            980,
+            2534,
+            165,
+            42
+          ],
+          "confidence": 58.0,
+          "block_num": 12,
+          "line_num": 1
+        },
+        {
+          "text": "ಹಿನ್ನೆಲೆಯಲ್ಲಿ,",
+          "bbox": [
+            1159,
+            2524,
+            253,
+            55
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 1
+        },
+        {
+          "text": "ರಾಜ್ಯದ",
+          "bbox": [
+            1429,
+            2524,
+            140,
+            48
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 1
+        },
+        {
+          "text": "ಕುಟುಂಬದಲ್ಲಿನ",
+          "bbox": [
+            1585,
+            2515,
+            290,
+            51
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 1
+        },
+        {
+          "text": "ಯಜಮಾನಿ",
+          "bbox": [
+            1891,
+            2511,
+            211,
+            44
+          ],
+          "confidence": 37.0,
+          "block_num": 12,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಹಿಳೆಗೆ",
+          "bbox": [
+            281,
+            2619,
+            158,
+            42
+          ],
+          "confidence": 93.0,
+          "block_num": 12,
+          "line_num": 2
+        },
+        {
+          "text": "ಪ್ರತಿ'ತಿ೦ಗಳು",
+          "bbox": [
+            467,
+            2614,
+            231,
+            51
+          ],
+          "confidence": 4.0,
+          "block_num": 12,
+          "line_num": 2
+        },
+        {
+          "text": "ರೂ.`2000/-",
+          "bbox": [
+            726,
+            2612,
+            217,
+            39
+          ],
+          "confidence": 36.0,
+          "block_num": 12,
+          "line_num": 2
+        },
+        {
+          "text": "ಗಳನ್ನು",
+          "bbox": [
+            960,
+            2605,
+            135,
+            46
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 2
+        },
+        {
+          "text": "(ಎರಢು",
+          "bbox": [
+            1110,
+            2601,
+            138,
+            51
+          ],
+          "confidence": 88.0,
+          "block_num": 12,
+          "line_num": 2
+        },
+        {
+          "text": "ಸಾವಿರ",
+          "bbox": [
+            1264,
+            2595,
+            125,
+            42
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 2
+        },
+        {
+          "text": "ರೂಪಾಯಿಗಳು",
+          "bbox": [
+            1404,
+            2590,
+            275,
+            43
+          ],
+          "confidence": 95.0,
+          "block_num": 12,
+          "line_num": 2
+        },
+        {
+          "text": "ಮಾತ್ರ)",
+          "bbox": [
+            1695,
+            2588,
+            126,
+            47
+          ],
+          "confidence": 87.0,
+          "block_num": 12,
+          "line_num": 2
+        },
+        {
+          "text": "ನೀಡುವ",
+          "bbox": [
+            1838,
+            2584,
+            149,
+            41
+          ],
+          "confidence": 94.0,
+          "block_num": 12,
+          "line_num": 2
+        },
+        {
+          "text": "“ಗೃಹ",
+          "bbox": [
+            2003,
+            2581,
+            99,
+            49
+          ],
+          "confidence": 94.0,
+          "block_num": 12,
+          "line_num": 2
+        },
+        {
+          "text": "ಲಕ್ಷ್ಮಿ”",
+          "bbox": [
+            281,
+            2692,
+            119,
+            47
+          ],
+          "confidence": 78.0,
+          "block_num": 12,
+          "line_num": 3
+        },
+        {
+          "text": "ಯೋಜನೆಯನ್ನು",
+          "bbox": [
+            457,
+            2681,
+            314,
+            46
+          ],
+          "confidence": 91.0,
+          "block_num": 12,
+          "line_num": 3
+        },
+        {
+          "text": "2023-24ನೇ",
+          "bbox": [
+            826,
+            2666,
+            205,
+            49
+          ],
+          "confidence": 93.0,
+          "block_num": 12,
+          "line_num": 3
+        },
+        {
+          "text": "ಸಾಲಿಸಲ್ಲಿ",
+          "bbox": [
+            1074,
+            2664,
+            192,
+            52
+          ],
+          "confidence": 78.0,
+          "block_num": 12,
+          "line_num": 3
+        },
+        {
+          "text": "ಈ",
+          "bbox": [
+            1322,
+            2665,
+            44,
+            39
+          ],
+          "confidence": 92.0,
+          "block_num": 12,
+          "line_num": 3
+        },
+        {
+          "text": "ಕೆಳಕ೦ಡ೦ತೆ",
+          "bbox": [
+            1421,
+            2657,
+            230,
+            44
+          ],
+          "confidence": 90.0,
+          "block_num": 12,
+          "line_num": 3
+        },
+        {
+          "text": "ಅನುಷ್ಠಾನಗೊಳಿಸಲು",
+          "bbox": [
+            1705,
+            2650,
+            397,
+            54
+          ],
+          "confidence": 95.0,
+          "block_num": 12,
+          "line_num": 3
+        },
+        {
+          "text": "ಆಡಳಿತಾತ್ಮಕ",
+          "bbox": [
+            281,
+            2750,
+            244,
+            51
+          ],
+          "confidence": 95.0,
+          "block_num": 12,
+          "line_num": 4
+        },
+        {
+          "text": "ಅನುಮೋದನೆ",
+          "bbox": [
+            541,
+            2742,
+            265,
+            49
+          ],
+          "confidence": 95.0,
+          "block_num": 12,
+          "line_num": 4
+        },
+        {
+          "text": "ನೀಡಿ",
+          "bbox": [
+            822,
+            2744,
+            92,
+            41
+          ],
+          "confidence": 94.0,
+          "block_num": 12,
+          "line_num": 4
+        },
+        {
+          "text": "ಆದೇಶಿಸಿದೆ;",
+          "bbox": [
+            930,
+            2736,
+            202,
+            60
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 4
+        },
+        {
+          "text": ".",
+          "bbox": [
+            2107,
+            2744,
+            7,
+            7
+          ],
+          "confidence": 77.0,
+          "block_num": 12,
+          "line_num": 4
+        },
+        {
+          "text": "1.",
+          "bbox": [
+            351,
+            2871,
+            27,
+            33
+          ],
+          "confidence": 93.0,
+          "block_num": 12,
+          "line_num": 5
+        },
+        {
+          "text": "ಆಹಾರ",
+          "bbox": [
+            420,
+            2862,
+            133,
+            41
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 5
+        },
+        {
+          "text": "ಮತ್ತು",
+          "bbox": [
+            582,
+            2860,
+            112,
+            47
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 5
+        },
+        {
+          "text": "ನಾಗರೀಕ",
+          "bbox": [
+            724,
+            2854,
+            167,
+            42
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 5
+        },
+        {
+          "text": "ಸರಬರಾಜು",
+          "bbox": [
+            919,
+            2852,
+            210,
+            39
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 5
+        },
+        {
+          "text": "ಇಲಾಖೆಯು",
+          "bbox": [
+            1158,
+            2844,
+            217,
+            44
+          ],
+          "confidence": 95.0,
+          "block_num": 12,
+          "line_num": 5
+        },
+        {
+          "text": "ವಿತರಿಸುವ",
+          "bbox": [
+            1404,
+            2838,
+            192,
+            42
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 5
+        },
+        {
+          "text": "ಅಂತ್ಯೋದಯ,",
+          "bbox": [
+            1625,
+            2832,
+            283,
+            50
+          ],
+          "confidence": 82.0,
+          "block_num": 12,
+          "line_num": 5
+        },
+        {
+          "text": "ಬಿಪಿಎಲ್‌",
+          "bbox": [
+            1938,
+            2828,
+            169,
+            41
+          ],
+          "confidence": 91.0,
+          "block_num": 12,
+          "line_num": 5
+        },
+        {
+          "text": "ಮತ್ತು",
+          "bbox": [
+            419,
+            2923,
+            110,
+            48
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 6
+        },
+        {
+          "text": "ಎಪಿಎಲ್‌",
+          "bbox": [
+            558,
+            2919,
+            170,
+            40
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 6
+        },
+        {
+          "text": "ಪಡಿತರ",
+          "bbox": [
+            754,
+            2914,
+            141,
+            40
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 6
+        },
+        {
+          "text": "ಚೀಟಿಗಳಲ್ಲಿ",
+          "bbox": [
+            923,
+            2905,
+            214,
+            51
+          ],
+          "confidence": 91.0,
+          "block_num": 12,
+          "line_num": 6
+        },
+        {
+          "text": "ಕುಟು೦ಬದ",
+          "bbox": [
+            1189,
+            2902,
+            207,
+            57
+          ],
+          "confidence": 83.0,
+          "block_num": 12,
+          "line_num": 6
+        },
+        {
+          "text": "ಯಜಮಾನಿ",
+          "bbox": [
+            1425,
+            2895,
+            215,
+            44
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 6
+        },
+        {
+          "text": "ಎ೦ದು",
+          "bbox": [
+            1668,
+            2891,
+            125,
+            44
+          ],
+          "confidence": 90.0,
+          "block_num": 12,
+          "line_num": 6
+        },
+        {
+          "text": "ನಮೂದಿಸಿರುವ",
+          "bbox": [
+            1820,
+            2890,
+            290,
+            50
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 6
+        },
+        {
+          "text": "ಮಹಿಳೆಯು",
+          "bbox": [
+            418,
+            2980,
+            213,
+            43
+          ],
+          "confidence": 95.0,
+          "block_num": 12,
+          "line_num": 7
+        },
+        {
+          "text": "ಈ",
+          "bbox": [
+            670,
+            2979,
+            21,
+            38
+          ],
+          "confidence": 95.0,
+          "block_num": 12,
+          "line_num": 7
+        },
+        {
+          "text": "ಯೋಜನೆಯ",
+          "bbox": [
+            706,
+            2973,
+            239,
+            43
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 7
+        },
+        {
+          "text": "ಅರ್ಹ",
+          "bbox": [
+            961,
+            2970,
+            112,
+            40
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 7
+        },
+        {
+          "text": "ಫಲಾನುಭವಿಯಾಗಿರುತ್ತಾರೆ.",
+          "bbox": [
+            1086,
+            2954,
+            500,
+            67
+          ],
+          "confidence": 91.0,
+          "block_num": 12,
+          "line_num": 7
+        },
+        {
+          "text": "೧8868013",
+          "bbox": [
+            1101,
+            3120,
+            188,
+            43
+          ],
+          "confidence": 24.0,
+          "block_num": 13,
+          "line_num": 1
+        }
+      ],
+      "low_conf_percentage": 9.7,
+      "ocr_preprocessing": "kannada_sharpen"
     },
     {
       "page_number": 2,
-      "page_type": "TEXT",
+      "page_type": "SCANNED",
       "tags": [
-        "TEXT"
+        "SCANNED"
       ],
-      "extraction_method": "direct_pymupdf",
+      "extraction_method": "tesseract_ocr",
       "dpi": 300,
       "blocks": [
         {
-          "bbox": [
-            506.5,
-            34.7,
-            40.0,
-            53.8
-          ],
-          "text": "... \nw",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 1,
+          "text": "ರಂದು",
+          "word_count": 1
         },
         {
-          "bbox": [
-            401.1,
-            72.6,
-            82.3,
-            13.6
-          ],
-          "text": "\"C \n1), \no-8 \n13 \n-6 \n0 \nc3",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 2,
+          "text": "ಇವರಿಗೆ:",
+          "word_count": 1
         },
         {
-          "bbox": [
-            307.8,
-            73.4,
-            84.2,
-            19.5
-          ],
-          "text": "r.} \n130 \n10 B \n'e), \no-8 \n13",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 3,
+          "text": "ಹಟ ಣ್‌",
+          "word_count": 2
         },
         {
-          "bbox": [
-            272.3,
-            75.6,
-            30.7,
-            12.6
-          ],
-          "text": "d \n1t3 \n18",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 4,
+          "text": "ಒಂದೇ ಕುಟುಂಬದಲ್ಲಿ ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಮಹಿಳೆಯರಿದ್ದಲ್ಲಿ, ಒ೦ದು ಮಹಿಳೆಗೆ ಮಾತ್ರ ಯೋಜನೆ ಅನ್ವಯಿಸತಕ್ಕದ್ದು",
+          "word_count": 10
         },
         {
-          "bbox": [
-            163.9,
-            75.6,
-            102.0,
-            30.1
-          ],
-          "text": "l1l) \n0 op \nl3 \n0 rio \nc3 l3 \n1P \ntlll) \n~lZ \nBB \nT2\"',j",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 5,
+          "text": ". ಈ ಯೋಜನೆಯ ಫಲಾನುಭವಿಗಳು 2023ರ ಜೂನ್‌ 15 ರಿ೦ದ ಜುಲೈ 15 ರವರೆಗೆ ಅರ್ಜಿ",
+          "word_count": 12
         },
         {
-          "bbox": [
-            98.5,
-            74.6,
-            52.8,
-            28.5
-          ],
-          "text": ",B i2 \n.,._,, .l3 \n'l3 .,._,, \n0 \nc3 B",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 6,
+          "text": "ಸಲ್ಲಿಸುವುದು. ನ೦ತರ ಜುಲೈ 15 ರಿಂದ ಫಲಾನುಭವಿಗಳ ಆಯ್ಕೆ ಮಾಡುವುದು. ಆಯ್ಕೆಗೊಂಡ ಫಲಾನುಭವಿಗಳಿಗೆ ಆಗಸ್ಟ್‌ 15 ರಂದು ಅವರ ಬ್ಯಾಂಕ್‌ ಖಾತೆಗೆ ಹಣವನ್ನು ವರ್ಗಾವಣೆ ಮಾಡುವುದು",
+          "word_count": 19
         },
         {
-          "bbox": [
-            81.7,
-            75.1,
-            11.4,
-            10.0
-          ],
-          "text": "N",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 7,
+          "text": ". ಅರ್ಜಿದಾರರು ಸೇವಾ ಸಿಂಧು ಪೋರ್ಟಲ್‌ ಮೂಲಕವಾಗಲೀ ಅಥವಾ ಭೌತಿಕವಾಗಿಯಾಗಲೀ",
+          "word_count": 8
         },
         {
-          "bbox": [
-            450.8,
-            120.4,
-            70.6,
-            46.1
-          ],
-          "text": "u.13 \n\"J3 O 12 \n-2 Lt.. \n\"C .d @ \n'O O 12 \n12 \nD \n4) \n--1 \nr,",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 8,
+          "text": "ಅರ್ಜಿ ಸಲ್ಲಿಸಲು ಅವಕಾಶ ಕಲ್ಪಿಸತಕ್ಕದ್ದು",
+          "word_count": 4
         },
         {
-          "bbox": [
-            403.0,
-            120.8,
-            50.8,
-            43.1
-          ],
-          "text": "1./) \n,--; T2 \n1312 \n~'f.3/~ \nJ3 -a 18",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 9,
+          "text": ". ಅರ್ಜಿದಾರರು ಸಲ್ಲಿಸುವ ಪೂರ್ಣ ಪ್ರಮಾಣದ ಅರ್ಜಿಯಲ್ಲಿನ ಸ್ವಯ೦ ಘೋಷಣೆ ಆಧಾರದ",
+          "word_count": 9
         },
         {
-          "bbox": [
-            368.3,
-            121.4,
-            29.7,
-            30.8
-          ],
-          "text": "l3 g '§",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 10,
+          "text": "ಮೇಲೆ ಮಂಜೂರಾತಿ ನೀಡುವುದು. ಅರ್ಜಿಯಲ್ಲಿನ ಅ೦ಶಗಳ ಬಗ್ಗೆ ತದನ೦ತರ ಪರಿಶೀಲನೆ ಮಾಡುವುದು. ತಪ್ಪು ಮಾಹಿತಿ ನೀಡಿ ಸೌಲಭ್ಯ ಪಡೆದಿರುವುದು ಕಂಡುಬಂದಲ್ಲಿ, ಈಗಾಗಲೇ ಪಾವತಿಸಲಾಗಿರುವ ಹಣವನ್ನು ಅರ್ಜಿದಾರರಿ೦ದ ವಸೂಲು ಮಾಡುವುದು ಮತ್ತು ಅಂತಹವರ LT, ಸೂಕ್ತ ಕ್ರಮ ಕೈಗೊಳ್ಳುವುದು;",
+          "word_count": 27
         },
         {
-          "bbox": [
-            346.6,
-            122.8,
-            20.8,
-            39.5
-          ],
-          "text": "1./) 4) 'fp \n\"e), 0",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 11,
+          "text": "ಈ ಯೋಜನೆಯ ಸೌಲಭ್ಯ ಪಡೆಯಲು ಫಲಾನುಭವಿಯ ಬ್ಯಾಂಕ್‌ ಖಾತೆ ಮತ್ತು ಆಧಾರ ಕಾರ್ಡ್‌ ಗಳನ್ನು ಜೋಡಣೆ ಮಾಡುವುದು",
+          "word_count": 13
         },
         {
-          "bbox": [
-            278.0,
-            122.3,
-            63.0,
-            41.0
-          ],
-          "text": "r2 \n13· \n,B ri D \nD °l] 12 \nm v \nT-3·",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 12,
+          "text": ". ಈ ಕೆಳಕಂಡ ಮಾನದಂಡಗಳನ್ನು ಹೊ೦ದಿರುವವರು ಈ ಯೋಜನೆಗೆ ಅರ್ಹರಾಗಿರುವುದಿಲ್ಲ;",
+          "word_count": 8
         },
         {
-          "bbox": [
-            249.4,
-            122.9,
-            31.6,
-            45.2
-          ],
-          "text": "N l3TI \n~oo \n.: 10 D",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 13,
+          "text": "i ಕುಟುಂಬದ. ಯಜಮಾನಿ ಅಥವಾ. ಯಜಮಾನಿಯ ಪತಿ ಆದಾಯ ತೆರಿಗೆ ಪಾವತಿದಾರರಾಗಿದ್ದಲ್ಲಿ",
+          "word_count": 9
         },
         {
-          "bbox": [
-            100.2,
-            121.4,
-            143.1,
-            59.6
-          ],
-          "text": "1./) \n13· \nT2] j./ \nD.: \nT-3· l1l) 4) \n0 \nB T2 \n.,..., \n. .: \nIG r, \nr, \n.l3l313-l3 \nt3/ r, t3/ \n'\"O r, T2 r, \nu 1Z@ 13 \n~t v \n1P le T-3-12",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 14,
+          "text": "1... ಕುಟುಂಬದ ಯಜಮಾನಿ ಅಥವಾ ಯಜಮಾನಿಯ ಪತಿ. ಜಿಎಸ್‌ಟಿ ರಿಟರ್ನ್ಸ್‌ - ಸಲ್ಲಿಸುವವರಾಗಿದ್ದಲ್ಲಿ",
+          "word_count": 10
         },
         {
-          "bbox": [
-            83.1,
-            122.4,
-            10.6,
-            10.0
-          ],
-          "text": "rri",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 15,
+          "text": "ಈ ಆದೇಶವನ್ನು ಸಚಿವ ಸಂಪುಟವು ಪ್ರಕರಣ ಸ೦ಖ್ಯೆ 322/2023 ರಲ್ಲಿ ದಿನಾ೦ಕ 02-06-2023 ನೀಡಿರುವ ಅನುಮೋದನೆ ಯನ್ವಯ ಹೊರಡಿಸಲಾಗಿದೆ.",
+          "word_count": 14
         },
         {
-          "bbox": [
-            495.6,
-            186.6,
-            13.5,
-            14.2
-          ],
-          "text": ".:",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 16,
+          "text": "ಕರ್ನಾಟಕ ರಾಜ್ಯ ಪಾಲರ ಆಜ್ಞಾನುಸಾರ ಮತ್ತು ಅವರ ಹೆಸರಿನಲ್ಲಿ",
+          "word_count": 7
         },
         {
-          "bbox": [
-            422.0,
-            187.2,
-            34.9,
-            12.9
-          ],
-          "text": "1P \n6\"6) \n~-",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 17,
+          "text": "V- 5.101 ಆಟೆಯ ೬ ಲ೮10/2ಎಾ (ನಿರ್ಮಲಾ ಎಸ್‌. ಖಟಾವ್‌ಕರ್‌)",
+          "word_count": 8
         },
         {
-          "bbox": [
-            391.2,
-            187.6,
-            11.3,
-            11.7
-          ],
-          "text": "B-",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 18,
+          "text": "ಸರ್ಕಾರದ ಅಧೀನ ಕಾರ್ಯದರ್ಶಿ-1 ಮಹಿಳಾ ಮತ್ತು ಮಕ್ಕಳ ಅಭಿವೃದ್ಧಿ; ವಿಕಲಚೇತನರ ಹಾಗೂ ಹಿರಿಯ ನಾಗರೀಕರ ಸಬಲೀಕರಣ ಇಲಾಖೆ",
+          "word_count": 13
         },
         {
-          "bbox": [
-            354.5,
-            187.8,
-            13.5,
-            14.7
-          ],
-          "text": ".:",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 19,
+          "text": "A",
+          "word_count": 1
         },
         {
-          "bbox": [
-            321.8,
-            188.1,
-            22.2,
-            11.8
-          ],
-          "text": "1P \n0",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 20,
+          "text": "ಪ್ರಧಾನ ಮಹಾಲೇಖಪಾಲರು ( & ಇ), ಕರ್ನಾಟಕ, ಅಂಜೆ ಪೆಟ್ಟೆಗೆ:5398, ಬೆ೦ಗಳೂರು ಸರ್ಕಾರದ ಮುಖ್ಯ ಕಾರ್ಯದರ್ಶಿ, ಕರ್ನಾಟಕ ಸರ್ಕಾರ, ಬೆ೦ಗಳೂರು",
+          "word_count": 15
         },
         {
-          "bbox": [
-            258.7,
-            188.7,
-            37.2,
-            30.6
-          ],
-          "text": "!J 0 o \nLt.. l3 \n~1P",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 21,
+          "text": ". ಸರ್ಕಾರದ ಅಪರ ಮುಖ್ಯ ಕಾರ್ಯದರ್ಶಿ, ಬೆ೦ಗಳೂರು",
+          "word_count": 6
         },
         {
-          "bbox": [
-            202.6,
-            188.7,
-            38.1,
-            29.3
-          ],
-          "text": "r, ~'l \nl3- 1P \n0 l:u \n<'(",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 22,
+          "text": "ಸರ್ಕಾರದ ಅಪರ ಮುಖ್ಯ ಕಾರ್ಯದರ್ಶಿ ಹಾಗೂ ಅಭಿವೃದ್ಧಿ ಆಯುಕ್ತರು, ಬೆ೦ಗಳೂರು",
+          "word_count": 8
         },
         {
-          "bbox": [
-            112.5,
-            188.7,
-            85.4,
-            31.3
-          ],
-          "text": "12 \n.,._,, \niZ ri \nr, 0 \nD l·C \nD~t \nt3 l•c \nLt.. \nLt.. \n\"J3 \"J3",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            83.9,
-            189.9,
-            10.3,
-            9.5
-          ],
-          "text": "-s:I'",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            444.5,
-            232.1,
-            79.0,
-            58.1
-          ],
-          "text": "l3i2.,._,,D \nD0~12 \n@ .,._,,.: \n[f.st\\l @ 18 \n4)10~lll) \nT-3 \n'-V 0 \n-~ \n\"@ D ~t 01 \n.,._,, \nl3 l1l)",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            102.7,
-            232.1,
-            342.6,
-            78.4
-          ],
-          "text": "1~-~ 813 \nolll)-§13 \nB \"Cc o tf \n1l J 1P -8 \nr, \nT2 \"e), l3 \n~[.: t3/ \nB~-85 \nLt..~ i!3 \n\"J3 \n13 lZ \nT2t T-3 12 \nl3 \n'\"\"l3 \n(c)Bno \nwu.010 \n\"J3 fi'?c \ntf \nil3 Ll \n.,._,, Lt.. . -\nu.B~\"J3f3 \n~'f.3/6\"6J~t3/ \n@08--1 .. \n'@13\"\" 12~ \n~6?~i~ \n7Z6\"6J \n-il9'll:l \n~test? \n13 \nlZ~lll)~\"lP' \nri ,B \nD \nD O ,--; \n1P, \nD \n13@~ \nQ 13 'f.3/ l~ lZ \nLt..~ -a 6\"6) 130 \n\"J3.,._,,~12ri \n~TJ12",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            86.2,
-            235.8,
-            9.9,
-            10.6
-          ],
-          "text": "vi",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            497.2,
-            320.9,
-            23.0,
-            11.8
-          ],
-          "text": "Lt.. h",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            408.8,
-            320.8,
-            76.5,
-            15.2
-          ],
-          "text": "D \n0-\n4) ~, \n13 \n,a)",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            369.7,
-            322.6,
-            21.2,
-            10.5
-          ],
-          "text": "'fp \n0",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            329.8,
-            322.3,
-            19.3,
-            18.3
-          ],
-          "text": "B",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            297.3,
-            322.3,
-            28.1,
-            13.9
-          ],
-          "text": "13· \nT2",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            206.0,
-            322.3,
-            82.0,
-            28.8
-          ],
-          "text": "T-3· \n5 \nB r, \n13 l3 \nT-3 t3/ \n'\"\" r, \n13-13",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            102.6,
-            322.6,
-            78.8,
-            31.4
-          ],
-          "text": "B~ \ni2 .,._,, \n£~ \n~,:f \nB T2 \n1P~",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            86.6,
-            324.3,
-            9.2,
-            9.6
-          ],
-          "text": "u::i",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            373.5,
-            371.2,
-            148.2,
-            39.0
-          ],
-          "text": "\"C \n61 \ni!3 tf B \n-8 0 \n4) \nes \n18 \n6\"6) \nT-3 \nB \n£",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            325.6,
-            372.4,
-            33.7,
-            38.4
-          ],
-          "text": "1P \n.l3 \nB B",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            265.2,
-            372.8,
-            44.9,
-            31.6
-          ],
-          "text": "-8 B-\n1!3 \n0 \n<ll",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            497.6,
-            430.6,
-            23.2,
-            14.0
-          ],
-          "text": "Lt.. rl",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            481.3,
-            430.4,
-            10.4,
-            11.0
-          ],
-          "text": "10",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            428.6,
-            431.0,
-            32.0,
-            12.9
-          ],
-          "text": "f.c \nQ \n\"J3",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            368.7,
-            430.6,
-            50.0,
-            18.9
-          ],
-          "text": "6\"6) \nT-3 \nB",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            316.1,
-            431.2,
-            29.5,
-            18.3
-          ],
-          "text": ".l3 B",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            281.1,
-            431.7,
-            11.3,
-            11.5
-          ],
-          "text": "B-",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            137.9,
-            373.2,
-            102.5,
-            92.0
-          ],
-          "text": "~t \nt \n.: \n.l3 130 \n.l3 ~o \n13 B \nB \nes \nes \nT2 13~ 1312 \nJLl Jl2 \n12 \n~6\"6) \n13 \n12 \n~t \n.g ,B \nl!3 lZ",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            102.9,
-            373.5,
-            34.2,
-            12.1
-          ],
-          "text": "\"e), \n')p \n1P",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            86.7,
-            375.0,
-            10.0,
-            9.1
-          ],
-          "text": "r---:",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            446.2,
-            476.2,
-            78.0,
-            11.6
-          ],
-          "text": "m \nN \n0 \nN \n<D \n9 \nN \n0 \n1P \n0",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            102.3,
-            475.9,
-            332.3,
-            36.6
-          ],
-          "text": "i!3 \n~t \nD \nm \nN \n0 \nN \n....... \nN \nN m \nTI \n0 \nl•c \n~7-c \nD il3 \n1P D \ntr<ll \n18 \ntfB \nT2':i \nt? \n,~ B \n12 i2 \n°.Bn \nlZ \nff~ \n12 \n12 \n'l3 \nr, \n4) D \nil3 \n1P 6?",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            70.8,
-            496.2,
-            26.3,
-            12.1
-          ],
-          "text": "13 \n0 \nD",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            484.2,
-            523.2,
-            11.1,
-            9.8
-          ],
-          "text": "D",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            457.1,
-            523.2,
-            18.4,
-            12.0
-          ],
-          "text": "r, \nT2",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            334.9,
-            523.6,
-            113.1,
-            36.1
-          ],
-          "text": "4) E \nD lZ \n0 18 \n~D \n'\"\"12 \n.l3 \nes ~, \n1P 13 \nt",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            315.7,
-            523.9,
-            12.9,
-            11.6
-          ],
-          "text": "1P",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            436.1,
-            564.7,
-            70.4,
-            89.8
-          ],
-          "text": "D~ \nT2 \n:;ii \n«I ~ \n' 1!3 \n-....c b \n0 D \nj~t -e",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            315.2,
-            563.0,
-            130.4,
-            92.7
-          ],
-          "text": ":;i -gEJ B \"68 \na~q,,z \nCf\"\\ \n· \n12 D \ncr \nf.c T2 6J· 1P \nQo-~o \n-\n.: \nV) \nu.13}~ \n13°E13B \n61. \n~, 10 \nlZ 13 \no-8",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            276.6,
-            623.2,
-            34.6,
-            49.7
-          ],
-          "text": "~rs~",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            79.5,
-            660.4,
-            28.3,
-            12.4
-          ],
-          "text": "'C \n10 \n12",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            467.4,
-            682.1,
-            17.7,
-            11.7
-          ],
-          "text": "-8",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            370.3,
-            681.9,
-            87.6,
-            33.8
-          ],
-          "text": ".: \n0 \n13 \na:5 \n0-, \nm \nr, \n\"C D \na~",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            471.3,
-            731.5,
-            17.7,
-            11.7
-          ],
-          "text": "-8",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            405.6,
-            731.3,
-            56.2,
-            18.3
-          ],
-          "text": ".: \n0 \n13 \nB \n\"H:>,",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            127.1,
-            682.8,
-            249.7,
-            88.8
-          ],
-          "text": "r-J .: \n1B o \nd \no 13 \nTcf \nti r, 6J· \n-\nLt.. D \nm \nLt.. lZ .: \no \n\"}p \nO \n@ \nN \n1P \n13 \n:½'a \n,....:: \nu: Lt.. \nr~ .stu .stu \n~1Pl3l3 \nQU:u.u. \n~.stuBB \n-8 -e \n0 B '\"\"'\"\" \n@ \na1P1313 \n.,._,, \n'\"\" \n~auu \nrs \nr, T-3 T-3 \n13 \n16 l3 l3 l3 \nT2DDD \n@U.U.U.",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            88.7,
-            687.2,
-            30.5,
-            63.3
-          ],
-          "text": "T-3 lZ lZ 7Z \n,....:NM-st",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 23,
+          "text": "೧3662013",
+          "word_count": 1
         }
       ],
       "tables": [],
       "forms": null,
-      "full_text": "... \nw\n\"C \n1), \no-8 \n13 \n-6 \n0 \nc3\nr.} \n130 \n10 B \n'e), \no-8 \n13\nd \n1t3 \n18\nl1l) \n0 op \nl3 \n0 rio \nc3 l3 \n1P \ntlll) \n~lZ \nBB \nT2\"',j\n,B i2 \n.,._,, .l3 \n'l3 .,._,, \n0 \nc3 B\nN\nu.13 \n\"J3 O 12 \n-2 Lt.. \n\"C .d @ \n'O O 12 \n12 \nD \n4) \n--1 \nr,\n1./) \n,--; T2 \n1312 \n~'f.3/~ \nJ3 -a 18\nl3 g '§\n1./) 4) 'fp \n\"e), 0\nr2 \n13· \n,B ri D \nD °l] 12 \nm v \nT-3·\nN l3TI \n~oo \n.: 10 D\n1./) \n13· \nT2] j./ \nD.: \nT-3· l1l) 4) \n0 \nB T2 \n.,..., \n. .: \nIG r, \nr, \n.l3l313-l3 \nt3/ r, t3/ \n'\"O r, T2 r, \nu 1Z@ 13 \n~t v \n1P le T-3-12\nrri\n.:\n1P \n6\"6) \n~-\nB-\n.:\n1P \n0\n!J 0 o \nLt.. l3 \n~1P\nr, ~'l \nl3- 1P \n0 l:u \n<'(\n12 \n.,._,, \niZ ri \nr, 0 \nD l·C \nD~t \nt3 l•c \nLt.. \nLt.. \n\"J3 \"J3\n-s:I'\nl3i2.,._,,D \nD0~12 \n@ .,._,,.: \n[f.st\\l @ 18 \n4)10~lll) \nT-3 \n'-V 0 \n-~ \n\"@ D ~t 01 \n.,._,, \nl3 l1l)\n1~-~ 813 \nolll)-§13 \nB \"Cc o tf \n1l J 1P -8 \nr, \nT2 \"e), l3 \n~[.: t3/ \nB~-85 \nLt..~ i!3 \n\"J3 \n13 lZ \nT2t T-3 12 \nl3 \n'\"\"l3 \n(c)Bno \nwu.010 \n\"J3 fi'?c \ntf \nil3 Ll \n.,._,, Lt.. . -\nu.B~\"J3f3 \n~'f.3/6\"6J~t3/ \n@08--1 .. \n'@13\"\" 12~ \n~6?~i~ \n7Z6\"6J \n-il9'll:l \n~test? \n13 \nlZ~lll)~\"lP' \nri ,B \nD \nD O ,--; \n1P, \nD \n13@~ \nQ 13 'f.3/ l~ lZ \nLt..~ -a 6\"6) 130 \n\"J3.,._,,~12ri \n~TJ12\nvi\nLt.. h\nD \n0-\n4) ~, \n13 \n,a)\n'fp \n0\nB\n13· \nT2\nT-3· \n5 \nB r, \n13 l3 \nT-3 t3/ \n'\"\" r, \n13-13\nB~ \ni2 .,._,, \n£~ \n~,:f \nB T2 \n1P~\nu::i\n\"C \n61 \ni!3 tf B \n-8 0 \n4) \nes \n18 \n6\"6) \nT-3 \nB \n£\n1P \n.l3 \nB B\n-8 B-\n1!3 \n0 \n<ll\nLt.. rl\n10\nf.c \nQ \n\"J3\n6\"6) \nT-3 \nB\n.l3 B\nB-\n~t \nt \n.: \n.l3 130 \n.l3 ~o \n13 B \nB \nes \nes \nT2 13~ 1312 \nJLl Jl2 \n12 \n~6\"6) \n13 \n12 \n~t \n.g ,B \nl!3 lZ\n\"e), \n')p \n1P\nr---:\nm \nN \n0 \nN \n<D \n9 \nN \n0 \n1P \n0\ni!3 \n~t \nD \nm \nN \n0 \nN \n....... \nN \nN m \nTI \n0 \nl•c \n~7-c \nD il3 \n1P D \ntr<ll \n18 \ntfB \nT2':i \nt? \n,~ B \n12 i2 \n°.Bn \nlZ \nff~ \n12 \n12 \n'l3 \nr, \n4) D \nil3 \n1P 6?\n13 \n0 \nD\nD\nr, \nT2\n4) E \nD lZ \n0 18 \n~D \n'\"\"12 \n.l3 \nes ~, \n1P 13 \nt\n1P\nD~ \nT2 \n:;ii \n«I ~ \n' 1!3 \n-....c b \n0 D \nj~t -e\n:;i -gEJ B \"68 \na~q,,z \nCf\"\\ \n· \n12 D \ncr \nf.c T2 6J· 1P \nQo-~o \n-\n.: \nV) \nu.13}~ \n13°E13B \n61. \n~, 10 \nlZ 13 \no-8\n~rs~\n'C \n10 \n12\n-8\n.: \n0 \n13 \na:5 \n0-, \nm \nr, \n\"C D \na~\n-8\n.: \n0 \n13 \nB \n\"H:>,\nr-J .: \n1B o \nd \no 13 \nTcf \nti r, 6J· \n-\nLt.. D \nm \nLt.. lZ .: \no \n\"}p \nO \n@ \nN \n1P \n13 \n:½'a \n,....:: \nu: Lt.. \nr~ .stu .stu \n~1Pl3l3 \nQU:u.u. \n~.stuBB \n-8 -e \n0 B '\"\"'\"\" \n@ \na1P1313 \n.,._,, \n'\"\" \n~auu \nrs \nr, T-3 T-3 \n13 \n16 l3 l3 l3 \nT2DDD \n@U.U.U.\nT-3 lZ lZ 7Z \n,....:NM-st",
-      "avg_confidence": 100.0
+      "full_text": "ರಂದು\nಇವರಿಗೆ:\nಹಟ ಣ್‌\nಒಂದೇ ಕುಟುಂಬದಲ್ಲಿ ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಮಹಿಳೆಯರಿದ್ದಲ್ಲಿ, ಒ೦ದು ಮಹಿಳೆಗೆ ಮಾತ್ರ ಯೋಜನೆ ಅನ್ವಯಿಸತಕ್ಕದ್ದು\n. ಈ ಯೋಜನೆಯ ಫಲಾನುಭವಿಗಳು 2023ರ ಜೂನ್‌ 15 ರಿ೦ದ ಜುಲೈ 15 ರವರೆಗೆ ಅರ್ಜಿ\nಸಲ್ಲಿಸುವುದು. ನ೦ತರ ಜುಲೈ 15 ರಿಂದ ಫಲಾನುಭವಿಗಳ ಆಯ್ಕೆ ಮಾಡುವುದು. ಆಯ್ಕೆಗೊಂಡ ಫಲಾನುಭವಿಗಳಿಗೆ ಆಗಸ್ಟ್‌ 15 ರಂದು ಅವರ ಬ್ಯಾಂಕ್‌ ಖಾತೆಗೆ ಹಣವನ್ನು ವರ್ಗಾವಣೆ ಮಾಡುವುದು\n. ಅರ್ಜಿದಾರರು ಸೇವಾ ಸಿಂಧು ಪೋರ್ಟಲ್‌ ಮೂಲಕವಾಗಲೀ ಅಥವಾ ಭೌತಿಕವಾಗಿಯಾಗಲೀ\nಅರ್ಜಿ ಸಲ್ಲಿಸಲು ಅವಕಾಶ ಕಲ್ಪಿಸತಕ್ಕದ್ದು\n. ಅರ್ಜಿದಾರರು ಸಲ್ಲಿಸುವ ಪೂರ್ಣ ಪ್ರಮಾಣದ ಅರ್ಜಿಯಲ್ಲಿನ ಸ್ವಯ೦ ಘೋಷಣೆ ಆಧಾರದ\nಮೇಲೆ ಮಂಜೂರಾತಿ ನೀಡುವುದು. ಅರ್ಜಿಯಲ್ಲಿನ ಅ೦ಶಗಳ ಬಗ್ಗೆ ತದನ೦ತರ ಪರಿಶೀಲನೆ ಮಾಡುವುದು. ತಪ್ಪು ಮಾಹಿತಿ ನೀಡಿ ಸೌಲಭ್ಯ ಪಡೆದಿರುವುದು ಕಂಡುಬಂದಲ್ಲಿ, ಈಗಾಗಲೇ ಪಾವತಿಸಲಾಗಿರುವ ಹಣವನ್ನು ಅರ್ಜಿದಾರರಿ೦ದ ವಸೂಲು ಮಾಡುವುದು ಮತ್ತು ಅಂತಹವರ LT, ಸೂಕ್ತ ಕ್ರಮ ಕೈಗೊಳ್ಳುವುದು;\nಈ ಯೋಜನೆಯ ಸೌಲಭ್ಯ ಪಡೆಯಲು ಫಲಾನುಭವಿಯ ಬ್ಯಾಂಕ್‌ ಖಾತೆ ಮತ್ತು ಆಧಾರ ಕಾರ್ಡ್‌ ಗಳನ್ನು ಜೋಡಣೆ ಮಾಡುವುದು\n. ಈ ಕೆಳಕಂಡ ಮಾನದಂಡಗಳನ್ನು ಹೊ೦ದಿರುವವರು ಈ ಯೋಜನೆಗೆ ಅರ್ಹರಾಗಿರುವುದಿಲ್ಲ;\ni ಕುಟುಂಬದ. ಯಜಮಾನಿ ಅಥವಾ. ಯಜಮಾನಿಯ ಪತಿ ಆದಾಯ ತೆರಿಗೆ ಪಾವತಿದಾರರಾಗಿದ್ದಲ್ಲಿ\n1... ಕುಟುಂಬದ ಯಜಮಾನಿ ಅಥವಾ ಯಜಮಾನಿಯ ಪತಿ. ಜಿಎಸ್‌ಟಿ ರಿಟರ್ನ್ಸ್‌ - ಸಲ್ಲಿಸುವವರಾಗಿದ್ದಲ್ಲಿ\nಈ ಆದೇಶವನ್ನು ಸಚಿವ ಸಂಪುಟವು ಪ್ರಕರಣ ಸ೦ಖ್ಯೆ 322/2023 ರಲ್ಲಿ ದಿನಾ೦ಕ 02-06-2023 ನೀಡಿರುವ ಅನುಮೋದನೆ ಯನ್ವಯ ಹೊರಡಿಸಲಾಗಿದೆ.\nಕರ್ನಾಟಕ ರಾಜ್ಯ ಪಾಲರ ಆಜ್ಞಾನುಸಾರ ಮತ್ತು ಅವರ ಹೆಸರಿನಲ್ಲಿ\nV- 5.101 ಆಟೆಯ ೬ ಲ೮10/2ಎಾ (ನಿರ್ಮಲಾ ಎಸ್‌. ಖಟಾವ್‌ಕರ್‌)\nಸರ್ಕಾರದ ಅಧೀನ ಕಾರ್ಯದರ್ಶಿ-1 ಮಹಿಳಾ ಮತ್ತು ಮಕ್ಕಳ ಅಭಿವೃದ್ಧಿ; ವಿಕಲಚೇತನರ ಹಾಗೂ ಹಿರಿಯ ನಾಗರೀಕರ ಸಬಲೀಕರಣ ಇಲಾಖೆ\nA\nಪ್ರಧಾನ ಮಹಾಲೇಖಪಾಲರು ( & ಇ), ಕರ್ನಾಟಕ, ಅಂಜೆ ಪೆಟ್ಟೆಗೆ:5398, ಬೆ೦ಗಳೂರು ಸರ್ಕಾರದ ಮುಖ್ಯ ಕಾರ್ಯದರ್ಶಿ, ಕರ್ನಾಟಕ ಸರ್ಕಾರ, ಬೆ೦ಗಳೂರು\n. ಸರ್ಕಾರದ ಅಪರ ಮುಖ್ಯ ಕಾರ್ಯದರ್ಶಿ, ಬೆ೦ಗಳೂರು\nಸರ್ಕಾರದ ಅಪರ ಮುಖ್ಯ ಕಾರ್ಯದರ್ಶಿ ಹಾಗೂ ಅಭಿವೃದ್ಧಿ ಆಯುಕ್ತರು, ಬೆ೦ಗಳೂರು\n೧3662013",
+      "avg_confidence": 86.5,
+      "is_ocr": true,
+      "ocr_engine": "tesseract",
+      "words": [
+        {
+          "text": "ರಂದು",
+          "bbox": [
+            304,
+            2069,
+            120,
+            38
+          ],
+          "confidence": 95.0,
+          "block_num": 1,
+          "line_num": 1
+        },
+        {
+          "text": "ಇವರಿಗೆ:",
+          "bbox": [
+            305,
+            2753,
+            146,
+            44
+          ],
+          "confidence": 95.0,
+          "block_num": 2,
+          "line_num": 1
+        },
+        {
+          "text": "ಹಟ",
+          "bbox": [
+            375,
+            3012,
+            32,
+            100
+          ],
+          "confidence": 42.0,
+          "block_num": 3,
+          "line_num": 1
+        },
+        {
+          "text": "ಣ್‌",
+          "bbox": [
+            377,
+            2869,
+            30,
+            95
+          ],
+          "confidence": 39.0,
+          "block_num": 3,
+          "line_num": 1
+        },
+        {
+          "text": "ಒಂದೇ",
+          "bbox": [
+            423,
+            311,
+            127,
+            43
+          ],
+          "confidence": 69.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಕುಟುಂಬದಲ್ಲಿ",
+          "bbox": [
+            586,
+            315,
+            276,
+            53
+          ],
+          "confidence": 47.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಒಂದಕ್ಕಿಂತ",
+          "bbox": [
+            898,
+            318,
+            210,
+            49
+          ],
+          "confidence": 85.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಹೆಚ್ಚು",
+          "bbox": [
+            1146,
+            316,
+            116,
+            48
+          ],
+          "confidence": 85.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಹಿಳೆಯರಿದ್ದಲ್ಲಿ,",
+          "bbox": [
+            1299,
+            306,
+            344,
+            53
+          ],
+          "confidence": 90.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಒ೦ದು",
+          "bbox": [
+            1682,
+            307,
+            126,
+            41
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಹಿಳೆಗೆ",
+          "bbox": [
+            1845,
+            303,
+            163,
+            43
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಾತ್ರ",
+          "bbox": [
+            2045,
+            303,
+            117,
+            50
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಯೋಜನೆ",
+          "bbox": [
+            425,
+            370,
+            183,
+            45
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 2
+        },
+        {
+          "text": "ಅನ್ವಯಿಸತಕ್ಕದ್ದು",
+          "bbox": [
+            637,
+            376,
+            346,
+            52
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 2
+        },
+        {
+          "text": ".",
+          "bbox": [
+            378,
+            538,
+            7,
+            6
+          ],
+          "confidence": 92.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "ಈ",
+          "bbox": [
+            427,
+            507,
+            47,
+            39
+          ],
+          "confidence": 96.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "ಯೋಜನೆಯ",
+          "bbox": [
+            508,
+            508,
+            249,
+            43
+          ],
+          "confidence": 96.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "ಫಲಾನುಭವಿಗಳು",
+          "bbox": [
+            790,
+            507,
+            320,
+            54
+          ],
+          "confidence": 96.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "2023ರ",
+          "bbox": [
+            1144,
+            509,
+            125,
+            40
+          ],
+          "confidence": 96.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "ಜೂನ್‌",
+          "bbox": [
+            1300,
+            511,
+            127,
+            36
+          ],
+          "confidence": 96.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "15",
+          "bbox": [
+            1461,
+            511,
+            41,
+            35
+          ],
+          "confidence": 96.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "ರಿ೦ದ",
+          "bbox": [
+            1536,
+            506,
+            101,
+            39
+          ],
+          "confidence": 95.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "ಜುಲೈ",
+          "bbox": [
+            1668,
+            504,
+            110,
+            50
+          ],
+          "confidence": 96.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "15",
+          "bbox": [
+            1806,
+            508,
+            48,
+            35
+          ],
+          "confidence": 91.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "ರವರೆಗೆ",
+          "bbox": [
+            1888,
+            502,
+            131,
+            40
+          ],
+          "confidence": 96.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "ಅರ್ಜಿ",
+          "bbox": [
+            2053,
+            505,
+            107,
+            37
+          ],
+          "confidence": 95.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "ಸಲ್ಲಿಸುವುದು.",
+          "bbox": [
+            428,
+            565,
+            256,
+            54
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ನ೦ತರ",
+          "bbox": [
+            724,
+            573,
+            131,
+            39
+          ],
+          "confidence": 95.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಜುಲೈ",
+          "bbox": [
+            871,
+            572,
+            107,
+            50
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "15",
+          "bbox": [
+            995,
+            577,
+            41,
+            34
+          ],
+          "confidence": 91.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ರಿಂದ",
+          "bbox": [
+            1052,
+            572,
+            100,
+            39
+          ],
+          "confidence": 95.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಫಲಾನುಭವಿಗಳ",
+          "bbox": [
+            1168,
+            567,
+            305,
+            52
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಆಯ್ಕೆ",
+          "bbox": [
+            1488,
+            566,
+            116,
+            50
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಾಡುವುದು.",
+          "bbox": [
+            1619,
+            565,
+            257,
+            48
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಆಯ್ಕೆಗೊಂಡ",
+          "bbox": [
+            1904,
+            562,
+            254,
+            51
+          ],
+          "confidence": 9.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಫಲಾನುಭವಿಗಳಿಗೆ",
+          "bbox": [
+            430,
+            631,
+            343,
+            50
+          ],
+          "confidence": 95.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "ಆಗಸ್ಟ್‌",
+          "bbox": [
+            814,
+            634,
+            119,
+            47
+          ],
+          "confidence": 95.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "15",
+          "bbox": [
+            975,
+            637,
+            41,
+            34
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "ರಂದು",
+          "bbox": [
+            1056,
+            632,
+            119,
+            39
+          ],
+          "confidence": 95.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "ಅವರ",
+          "bbox": [
+            1215,
+            630,
+            110,
+            40
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "ಬ್ಯಾಂಕ್‌",
+          "bbox": [
+            1366,
+            631,
+            153,
+            47
+          ],
+          "confidence": 95.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "ಖಾತೆಗೆ",
+          "bbox": [
+            1558,
+            626,
+            124,
+            42
+          ],
+          "confidence": 95.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "ಹಣವನ್ನು",
+          "bbox": [
+            1721,
+            626,
+            200,
+            49
+          ],
+          "confidence": 94.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "ವರ್ಗಾವಣೆ",
+          "bbox": [
+            1959,
+            622,
+            201,
+            43
+          ],
+          "confidence": 95.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "ಮಾಡುವುದು",
+          "bbox": [
+            432,
+            693,
+            249,
+            49
+          ],
+          "confidence": 95.0,
+          "block_num": 6,
+          "line_num": 3
+        },
+        {
+          "text": ".",
+          "bbox": [
+            386,
+            819,
+            6,
+            6
+          ],
+          "confidence": 89.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಅರ್ಜಿದಾರರು",
+          "bbox": [
+            435,
+            787,
+            258,
+            40
+          ],
+          "confidence": 95.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಸೇವಾ",
+          "bbox": [
+            718,
+            786,
+            111,
+            43
+          ],
+          "confidence": 95.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಸಿಂಧು",
+          "bbox": [
+            854,
+            786,
+            120,
+            49
+          ],
+          "confidence": 23.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಪೋರ್ಟಲ್‌",
+          "bbox": [
+            1021,
+            785,
+            209,
+            49
+          ],
+          "confidence": 93.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಮೂಲಕವಾಗಲೀ",
+          "bbox": [
+            1254,
+            779,
+            319,
+            45
+          ],
+          "confidence": 91.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಅಥವಾ",
+          "bbox": [
+            1599,
+            782,
+            143,
+            48
+          ],
+          "confidence": 92.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಭೌತಿಕವಾಗಿಯಾಗಲೀ",
+          "bbox": [
+            1767,
+            774,
+            393,
+            55
+          ],
+          "confidence": 90.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಅರ್ಜಿ",
+          "bbox": [
+            436,
+            852,
+            110,
+            37
+          ],
+          "confidence": 96.0,
+          "block_num": 8,
+          "line_num": 1
+        },
+        {
+          "text": "ಸಲ್ಲಿಸಲು",
+          "bbox": [
+            560,
+            845,
+            174,
+            52
+          ],
+          "confidence": 96.0,
+          "block_num": 8,
+          "line_num": 1
+        },
+        {
+          "text": "ಅವಕಾಶ",
+          "bbox": [
+            750,
+            848,
+            166,
+            38
+          ],
+          "confidence": 93.0,
+          "block_num": 8,
+          "line_num": 1
+        },
+        {
+          "text": "ಕಲ್ಪಿಸತಕ್ಕದ್ದು",
+          "bbox": [
+            931,
+            843,
+            270,
+            52
+          ],
+          "confidence": 92.0,
+          "block_num": 8,
+          "line_num": 1
+        },
+        {
+          "text": ".",
+          "bbox": [
+            389,
+            1010,
+            6,
+            5
+          ],
+          "confidence": 80.0,
+          "block_num": 9,
+          "line_num": 1
+        },
+        {
+          "text": "ಅರ್ಜಿದಾರರು",
+          "bbox": [
+            438,
+            977,
+            257,
+            45
+          ],
+          "confidence": 96.0,
+          "block_num": 9,
+          "line_num": 1
+        },
+        {
+          "text": "ಸಲ್ಲಿಸುವ",
+          "bbox": [
+            724,
+            972,
+            174,
+            53
+          ],
+          "confidence": 95.0,
+          "block_num": 9,
+          "line_num": 1
+        },
+        {
+          "text": "ಪೂರ್ಣ",
+          "bbox": [
+            926,
+            976,
+            143,
+            47
+          ],
+          "confidence": 95.0,
+          "block_num": 9,
+          "line_num": 1
+        },
+        {
+          "text": "ಪ್ರಮಾಣದ",
+          "bbox": [
+            1091,
+            975,
+            211,
+            49
+          ],
+          "confidence": 96.0,
+          "block_num": 9,
+          "line_num": 1
+        },
+        {
+          "text": "ಅರ್ಜಿಯಲ್ಲಿನ",
+          "bbox": [
+            1332,
+            970,
+            252,
+            52
+          ],
+          "confidence": 93.0,
+          "block_num": 9,
+          "line_num": 1
+        },
+        {
+          "text": "ಸ್ವಯ೦",
+          "bbox": [
+            1613,
+            972,
+            144,
+            48
+          ],
+          "confidence": 66.0,
+          "block_num": 9,
+          "line_num": 1
+        },
+        {
+          "text": "ಘೋಷಣೆ",
+          "bbox": [
+            1786,
+            967,
+            177,
+            51
+          ],
+          "confidence": 71.0,
+          "block_num": 9,
+          "line_num": 1
+        },
+        {
+          "text": "ಆಧಾರದ",
+          "bbox": [
+            1992,
+            966,
+            170,
+            49
+          ],
+          "confidence": 95.0,
+          "block_num": 9,
+          "line_num": 1
+        },
+        {
+          "text": "ಮೇಲೆ",
+          "bbox": [
+            438,
+            1037,
+            112,
+            42
+          ],
+          "confidence": 96.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಂಜೂರಾತಿ",
+          "bbox": [
+            582,
+            1037,
+            255,
+            39
+          ],
+          "confidence": 47.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ನೀಡುವುದು.",
+          "bbox": [
+            869,
+            1034,
+            232,
+            49
+          ],
+          "confidence": 96.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ಅರ್ಜಿಯಲ್ಲಿನ",
+          "bbox": [
+            1133,
+            1032,
+            253,
+            52
+          ],
+          "confidence": 93.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ಅ೦ಶಗಳ",
+          "bbox": [
+            1418,
+            1033,
+            170,
+            40
+          ],
+          "confidence": 89.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ಬಗ್ಗೆ",
+          "bbox": [
+            1620,
+            1031,
+            82,
+            49
+          ],
+          "confidence": 93.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ತದನ೦ತರ",
+          "bbox": [
+            1733,
+            1025,
+            203,
+            45
+          ],
+          "confidence": 89.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ಪರಿಶೀಲನೆ",
+          "bbox": [
+            1968,
+            1000,
+            195,
+            79
+          ],
+          "confidence": 96.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಾಡುವುದು.",
+          "bbox": [
+            438,
+            1098,
+            257,
+            47
+          ],
+          "confidence": 95.0,
+          "block_num": 10,
+          "line_num": 2
+        },
+        {
+          "text": "ತಪ್ಪು",
+          "bbox": [
+            746,
+            1097,
+            101,
+            48
+          ],
+          "confidence": 96.0,
+          "block_num": 10,
+          "line_num": 2
+        },
+        {
+          "text": "ಮಾಹಿತಿ",
+          "bbox": [
+            875,
+            1094,
+            153,
+            42
+          ],
+          "confidence": 96.0,
+          "block_num": 10,
+          "line_num": 2
+        },
+        {
+          "text": "ನೀಡಿ",
+          "bbox": [
+            1056,
+            1095,
+            95,
+            43
+          ],
+          "confidence": 96.0,
+          "block_num": 10,
+          "line_num": 2
+        },
+        {
+          "text": "ಸೌಲಭ್ಯ",
+          "bbox": [
+            1178,
+            1096,
+            148,
+            48
+          ],
+          "confidence": 95.0,
+          "block_num": 10,
+          "line_num": 2
+        },
+        {
+          "text": "ಪಡೆದಿರುವುದು",
+          "bbox": [
+            1353,
+            1094,
+            274,
+            47
+          ],
+          "confidence": 96.0,
+          "block_num": 10,
+          "line_num": 2
+        },
+        {
+          "text": "ಕಂಡುಬಂದಲ್ಲಿ,",
+          "bbox": [
+            1654,
+            1061,
+            299,
+            82
+          ],
+          "confidence": 80.0,
+          "block_num": 10,
+          "line_num": 2
+        },
+        {
+          "text": "ಈಗಾಗಲೇ",
+          "bbox": [
+            1980,
+            1085,
+            184,
+            42
+          ],
+          "confidence": 95.0,
+          "block_num": 10,
+          "line_num": 2
+        },
+        {
+          "text": "ಪಾವತಿಸಲಾಗಿರುವ",
+          "bbox": [
+            439,
+            1157,
+            357,
+            39
+          ],
+          "confidence": 90.0,
+          "block_num": 10,
+          "line_num": 3
+        },
+        {
+          "text": "ಹಣವನ್ನು",
+          "bbox": [
+            815,
+            1157,
+            201,
+            48
+          ],
+          "confidence": 93.0,
+          "block_num": 10,
+          "line_num": 3
+        },
+        {
+          "text": "ಅರ್ಜಿದಾರರಿ೦ದ",
+          "bbox": [
+            1033,
+            1156,
+            306,
+            40
+          ],
+          "confidence": 63.0,
+          "block_num": 10,
+          "line_num": 3
+        },
+        {
+          "text": "ವಸೂಲು",
+          "bbox": [
+            1359,
+            1155,
+            169,
+            39
+          ],
+          "confidence": 96.0,
+          "block_num": 10,
+          "line_num": 3
+        },
+        {
+          "text": "ಮಾಡುವುದು",
+          "bbox": [
+            1548,
+            1151,
+            245,
+            47
+          ],
+          "confidence": 95.0,
+          "block_num": 10,
+          "line_num": 3
+        },
+        {
+          "text": "ಮತ್ತು",
+          "bbox": [
+            1812,
+            1142,
+            114,
+            55
+          ],
+          "confidence": 95.0,
+          "block_num": 10,
+          "line_num": 3
+        },
+        {
+          "text": "ಅಂತಹವರ",
+          "bbox": [
+            1946,
+            1139,
+            218,
+            47
+          ],
+          "confidence": 96.0,
+          "block_num": 10,
+          "line_num": 3
+        },
+        {
+          "text": "LT,",
+          "bbox": [
+            440,
+            1216,
+            148,
+            48
+          ],
+          "confidence": 60.0,
+          "block_num": 10,
+          "line_num": 4
+        },
+        {
+          "text": "ಸೂಕ್ತ",
+          "bbox": [
+            602,
+            1217,
+            112,
+            48
+          ],
+          "confidence": 96.0,
+          "block_num": 10,
+          "line_num": 4
+        },
+        {
+          "text": "ಕ್ರಮ",
+          "bbox": [
+            728,
+            1217,
+            93,
+            48
+          ],
+          "confidence": 95.0,
+          "block_num": 10,
+          "line_num": 4
+        },
+        {
+          "text": "ಕೈಗೊಳ್ಳುವುದು;",
+          "bbox": [
+            836,
+            1216,
+            288,
+            50
+          ],
+          "confidence": 91.0,
+          "block_num": 10,
+          "line_num": 4
+        },
+        {
+          "text": "ಈ",
+          "bbox": [
+            440,
+            1347,
+            46,
+            38
+          ],
+          "confidence": 96.0,
+          "block_num": 11,
+          "line_num": 1
+        },
+        {
+          "text": "ಯೋಜನೆಯ",
+          "bbox": [
+            503,
+            1345,
+            246,
+            42
+          ],
+          "confidence": 95.0,
+          "block_num": 11,
+          "line_num": 1
+        },
+        {
+          "text": "ಸೌಲಭ್ಯ",
+          "bbox": [
+            766,
+            1346,
+            151,
+            47
+          ],
+          "confidence": 94.0,
+          "block_num": 11,
+          "line_num": 1
+        },
+        {
+          "text": "ಪಡೆಯಲು",
+          "bbox": [
+            932,
+            1345,
+            203,
+            39
+          ],
+          "confidence": 95.0,
+          "block_num": 11,
+          "line_num": 1
+        },
+        {
+          "text": "ಫಲಾನುಭವಿಯ",
+          "bbox": [
+            1151,
+            1342,
+            302,
+            50
+          ],
+          "confidence": 49.0,
+          "block_num": 11,
+          "line_num": 1
+        },
+        {
+          "text": "ಬ್ಯಾಂಕ್‌",
+          "bbox": [
+            1471,
+            1344,
+            153,
+            46
+          ],
+          "confidence": 91.0,
+          "block_num": 11,
+          "line_num": 1
+        },
+        {
+          "text": "ಖಾತೆ",
+          "bbox": [
+            1639,
+            1339,
+            94,
+            40
+          ],
+          "confidence": 95.0,
+          "block_num": 11,
+          "line_num": 1
+        },
+        {
+          "text": "ಮತ್ತು",
+          "bbox": [
+            1751,
+            1339,
+            113,
+            47
+          ],
+          "confidence": 95.0,
+          "block_num": 11,
+          "line_num": 1
+        },
+        {
+          "text": "ಆಧಾರ",
+          "bbox": [
+            1881,
+            1336,
+            133,
+            48
+          ],
+          "confidence": 95.0,
+          "block_num": 11,
+          "line_num": 1
+        },
+        {
+          "text": "ಕಾರ್ಡ್‌",
+          "bbox": [
+            2031,
+            1337,
+            136,
+            37
+          ],
+          "confidence": 96.0,
+          "block_num": 11,
+          "line_num": 1
+        },
+        {
+          "text": "ಗಳನ್ನು",
+          "bbox": [
+            441,
+            1406,
+            142,
+            48
+          ],
+          "confidence": 94.0,
+          "block_num": 11,
+          "line_num": 2
+        },
+        {
+          "text": "ಜೋಡಣೆ",
+          "bbox": [
+            595,
+            1405,
+            178,
+            42
+          ],
+          "confidence": 96.0,
+          "block_num": 11,
+          "line_num": 2
+        },
+        {
+          "text": "ಮಾಡುವುದು",
+          "bbox": [
+            788,
+            1405,
+            247,
+            47
+          ],
+          "confidence": 95.0,
+          "block_num": 11,
+          "line_num": 2
+        },
+        {
+          "text": ".",
+          "bbox": [
+            395,
+            1589,
+            6,
+            7
+          ],
+          "confidence": 70.0,
+          "block_num": 12,
+          "line_num": 1
+        },
+        {
+          "text": "ಈ",
+          "bbox": [
+            442,
+            1558,
+            47,
+            38
+          ],
+          "confidence": 72.0,
+          "block_num": 12,
+          "line_num": 1
+        },
+        {
+          "text": "ಕೆಳಕಂಡ",
+          "bbox": [
+            503,
+            1556,
+            173,
+            40
+          ],
+          "confidence": 72.0,
+          "block_num": 12,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಾನದಂಡಗಳನ್ನು",
+          "bbox": [
+            692,
+            1550,
+            373,
+            53
+          ],
+          "confidence": 42.0,
+          "block_num": 12,
+          "line_num": 1
+        },
+        {
+          "text": "ಹೊ೦ದಿರುವವರು",
+          "bbox": [
+            1078,
+            1553,
+            330,
+            40
+          ],
+          "confidence": 90.0,
+          "block_num": 12,
+          "line_num": 1
+        },
+        {
+          "text": "ಈ",
+          "bbox": [
+            1423,
+            1553,
+            45,
+            38
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 1
+        },
+        {
+          "text": "ಯೋಜನೆಗೆ",
+          "bbox": [
+            1483,
+            1549,
+            208,
+            43
+          ],
+          "confidence": 95.0,
+          "block_num": 12,
+          "line_num": 1
+        },
+        {
+          "text": "ಅರ್ಹರಾಗಿರುವುದಿಲ್ಲ;",
+          "bbox": [
+            1705,
+            1547,
+            404,
+            46
+          ],
+          "confidence": 96.0,
+          "block_num": 12,
+          "line_num": 1
+        },
+        {
+          "text": "i",
+          "bbox": [
+            496,
+            1645,
+            18,
+            35
+          ],
+          "confidence": 26.0,
+          "block_num": 13,
+          "line_num": 1
+        },
+        {
+          "text": "ಕುಟುಂಬದ.",
+          "bbox": [
+            589,
+            1641,
+            217,
+            39
+          ],
+          "confidence": 92.0,
+          "block_num": 13,
+          "line_num": 1
+        },
+        {
+          "text": "ಯಜಮಾನಿ",
+          "bbox": [
+            864,
+            1637,
+            219,
+            42
+          ],
+          "confidence": 87.0,
+          "block_num": 13,
+          "line_num": 1
+        },
+        {
+          "text": "ಅಥವಾ.",
+          "bbox": [
+            1192,
+            1638,
+            140,
+            48
+          ],
+          "confidence": 93.0,
+          "block_num": 13,
+          "line_num": 1
+        },
+        {
+          "text": "ಯಜಮಾನಿಯ",
+          "bbox": [
+            1388,
+            1633,
+            282,
+            42
+          ],
+          "confidence": 96.0,
+          "block_num": 13,
+          "line_num": 1
+        },
+        {
+          "text": "ಪತಿ",
+          "bbox": [
+            1726,
+            1632,
+            70,
+            39
+          ],
+          "confidence": 94.0,
+          "block_num": 13,
+          "line_num": 1
+        },
+        {
+          "text": "ಆದಾಯ",
+          "bbox": [
+            1853,
+            1630,
+            166,
+            40
+          ],
+          "confidence": 96.0,
+          "block_num": 13,
+          "line_num": 1
+        },
+        {
+          "text": "ತೆರಿಗೆ",
+          "bbox": [
+            2076,
+            1627,
+            91,
+            41
+          ],
+          "confidence": 96.0,
+          "block_num": 13,
+          "line_num": 1
+        },
+        {
+          "text": "ಪಾವತಿದಾರರಾಗಿದ್ದಲ್ಲಿ",
+          "bbox": [
+            590,
+            1704,
+            424,
+            52
+          ],
+          "confidence": 87.0,
+          "block_num": 13,
+          "line_num": 2
+        },
+        {
+          "text": "1...",
+          "bbox": [
+            490,
+            1814,
+            25,
+            28
+          ],
+          "confidence": 59.0,
+          "block_num": 14,
+          "line_num": 1
+        },
+        {
+          "text": "ಕುಟುಂಬದ",
+          "bbox": [
+            590,
+            1802,
+            218,
+            40
+          ],
+          "confidence": 95.0,
+          "block_num": 14,
+          "line_num": 1
+        },
+        {
+          "text": "ಯಜಮಾನಿ",
+          "bbox": [
+            865,
+            1799,
+            219,
+            41
+          ],
+          "confidence": 95.0,
+          "block_num": 14,
+          "line_num": 1
+        },
+        {
+          "text": "ಅಥವಾ",
+          "bbox": [
+            1140,
+            1800,
+            140,
+            46
+          ],
+          "confidence": 95.0,
+          "block_num": 14,
+          "line_num": 1
+        },
+        {
+          "text": "ಯಜಮಾನಿಯ",
+          "bbox": [
+            1335,
+            1795,
+            281,
+            41
+          ],
+          "confidence": 95.0,
+          "block_num": 14,
+          "line_num": 1
+        },
+        {
+          "text": "ಪತಿ.",
+          "bbox": [
+            1672,
+            1795,
+            68,
+            38
+          ],
+          "confidence": 91.0,
+          "block_num": 14,
+          "line_num": 1
+        },
+        {
+          "text": "ಜಿಎಸ್‌ಟಿ",
+          "bbox": [
+            1797,
+            1790,
+            161,
+            45
+          ],
+          "confidence": 94.0,
+          "block_num": 14,
+          "line_num": 1
+        },
+        {
+          "text": "ರಿಟರ್ನ್ಸ್‌",
+          "bbox": [
+            2014,
+            1792,
+            156,
+            47
+          ],
+          "confidence": 94.0,
+          "block_num": 14,
+          "line_num": 1
+        },
+        {
+          "text": "-",
+          "bbox": [
+            503,
+            1888,
+            4,
+            5
+          ],
+          "confidence": 6.0,
+          "block_num": 14,
+          "line_num": 2
+        },
+        {
+          "text": "ಸಲ್ಲಿಸುವವರಾಗಿದ್ದಲ್ಲಿ",
+          "bbox": [
+            592,
+            1866,
+            407,
+            62
+          ],
+          "confidence": 71.0,
+          "block_num": 14,
+          "line_num": 2
+        },
+        {
+          "text": "ಈ",
+          "bbox": [
+            447,
+            1999,
+            46,
+            38
+          ],
+          "confidence": 96.0,
+          "block_num": 15,
+          "line_num": 1
+        },
+        {
+          "text": "ಆದೇಶವನ್ನು",
+          "bbox": [
+            513,
+            1996,
+            245,
+            48
+          ],
+          "confidence": 96.0,
+          "block_num": 15,
+          "line_num": 1
+        },
+        {
+          "text": "ಸಚಿವ",
+          "bbox": [
+            776,
+            1995,
+            116,
+            39
+          ],
+          "confidence": 96.0,
+          "block_num": 15,
+          "line_num": 1
+        },
+        {
+          "text": "ಸಂಪುಟವು",
+          "bbox": [
+            911,
+            1993,
+            200,
+            47
+          ],
+          "confidence": 32.0,
+          "block_num": 15,
+          "line_num": 1
+        },
+        {
+          "text": "ಪ್ರಕರಣ",
+          "bbox": [
+            1162,
+            1991,
+            149,
+            47
+          ],
+          "confidence": 95.0,
+          "block_num": 15,
+          "line_num": 1
+        },
+        {
+          "text": "ಸ೦ಖ್ಯೆ",
+          "bbox": [
+            1330,
+            1988,
+            118,
+            48
+          ],
+          "confidence": 94.0,
+          "block_num": 15,
+          "line_num": 1
+        },
+        {
+          "text": "322/2023",
+          "bbox": [
+            1467,
+            1991,
+            178,
+            43
+          ],
+          "confidence": 96.0,
+          "block_num": 15,
+          "line_num": 1
+        },
+        {
+          "text": "ರಲ್ಲಿ",
+          "bbox": [
+            1664,
+            1983,
+            84,
+            52
+          ],
+          "confidence": 96.0,
+          "block_num": 15,
+          "line_num": 1
+        },
+        {
+          "text": "ದಿನಾ೦ಕ",
+          "bbox": [
+            1767,
+            1986,
+            162,
+            39
+          ],
+          "confidence": 89.0,
+          "block_num": 15,
+          "line_num": 1
+        },
+        {
+          "text": "02-06-2023",
+          "bbox": [
+            1949,
+            1988,
+            220,
+            43
+          ],
+          "confidence": 96.0,
+          "block_num": 15,
+          "line_num": 1
+        },
+        {
+          "text": "ನೀಡಿರುವ",
+          "bbox": [
+            439,
+            2065,
+            188,
+            43
+          ],
+          "confidence": 96.0,
+          "block_num": 15,
+          "line_num": 2
+        },
+        {
+          "text": "ಅನುಮೋದನೆ",
+          "bbox": [
+            644,
+            2061,
+            272,
+            42
+          ],
+          "confidence": 93.0,
+          "block_num": 15,
+          "line_num": 2
+        },
+        {
+          "text": "ಯನ್ವಯ",
+          "bbox": [
+            931,
+            2060,
+            178,
+            47
+          ],
+          "confidence": 90.0,
+          "block_num": 15,
+          "line_num": 2
+        },
+        {
+          "text": "ಹೊರಡಿಸಲಾಗಿದೆ.",
+          "bbox": [
+            1124,
+            2055,
+            328,
+            42
+          ],
+          "confidence": 95.0,
+          "block_num": 15,
+          "line_num": 2
+        },
+        {
+          "text": "ಕರ್ನಾಟಕ",
+          "bbox": [
+            1326,
+            2183,
+            188,
+            39
+          ],
+          "confidence": 95.0,
+          "block_num": 16,
+          "line_num": 1
+        },
+        {
+          "text": "ರಾಜ್ಯ",
+          "bbox": [
+            1529,
+            2191,
+            106,
+            37
+          ],
+          "confidence": 94.0,
+          "block_num": 16,
+          "line_num": 1
+        },
+        {
+          "text": "ಪಾಲರ",
+          "bbox": [
+            1650,
+            2182,
+            134,
+            38
+          ],
+          "confidence": 96.0,
+          "block_num": 16,
+          "line_num": 1
+        },
+        {
+          "text": "ಆಜ್ಞಾನುಸಾರ",
+          "bbox": [
+            1799,
+            2180,
+            256,
+            48
+          ],
+          "confidence": 89.0,
+          "block_num": 16,
+          "line_num": 1
+        },
+        {
+          "text": "ಮತ್ತು",
+          "bbox": [
+            1449,
+            2244,
+            119,
+            54
+          ],
+          "confidence": 65.0,
+          "block_num": 16,
+          "line_num": 2
+        },
+        {
+          "text": "ಅವರ",
+          "bbox": [
+            1584,
+            2250,
+            112,
+            38
+          ],
+          "confidence": 95.0,
+          "block_num": 16,
+          "line_num": 2
+        },
+        {
+          "text": "ಹೆಸರಿನಲ್ಲಿ",
+          "bbox": [
+            1711,
+            2245,
+            197,
+            52
+          ],
+          "confidence": 96.0,
+          "block_num": 16,
+          "line_num": 2
+        },
+        {
+          "text": "V-",
+          "bbox": [
+            1466,
+            2361,
+            62,
+            43
+          ],
+          "confidence": 8.0,
+          "block_num": 17,
+          "line_num": 1
+        },
+        {
+          "text": "5.101",
+          "bbox": [
+            1541,
+            2356,
+            47,
+            41
+          ],
+          "confidence": 24.0,
+          "block_num": 17,
+          "line_num": 1
+        },
+        {
+          "text": "ಆಟೆಯ",
+          "bbox": [
+            1596,
+            2348,
+            300,
+            48
+          ],
+          "confidence": 24.0,
+          "block_num": 17,
+          "line_num": 1
+        },
+        {
+          "text": "೬",
+          "bbox": [
+            1843,
+            2344,
+            57,
+            75
+          ],
+          "confidence": 29.0,
+          "block_num": 17,
+          "line_num": 1
+        },
+        {
+          "text": "ಲ೮10/2ಎಾ",
+          "bbox": [
+            1790,
+            2396,
+            239,
+            63
+          ],
+          "confidence": 0.0,
+          "block_num": 17,
+          "line_num": 2
+        },
+        {
+          "text": "(ನಿರ್ಮಲಾ",
+          "bbox": [
+            1412,
+            2456,
+            198,
+            54
+          ],
+          "confidence": 86.0,
+          "block_num": 17,
+          "line_num": 3
+        },
+        {
+          "text": "ಎಸ್‌.",
+          "bbox": [
+            1625,
+            2459,
+            92,
+            36
+          ],
+          "confidence": 93.0,
+          "block_num": 17,
+          "line_num": 3
+        },
+        {
+          "text": "ಖಟಾವ್‌ಕರ್‌)",
+          "bbox": [
+            1732,
+            2455,
+            249,
+            57
+          ],
+          "confidence": 87.0,
+          "block_num": 17,
+          "line_num": 3
+        },
+        {
+          "text": "ಸರ್ಕಾರದ",
+          "bbox": [
+            1365,
+            2526,
+            186,
+            42
+          ],
+          "confidence": 96.0,
+          "block_num": 18,
+          "line_num": 1
+        },
+        {
+          "text": "ಅಧೀನ",
+          "bbox": [
+            1567,
+            2517,
+            134,
+            57
+          ],
+          "confidence": 93.0,
+          "block_num": 18,
+          "line_num": 1
+        },
+        {
+          "text": "ಕಾರ್ಯದರ್ಶಿ-1",
+          "bbox": [
+            1715,
+            2513,
+            286,
+            52
+          ],
+          "confidence": 91.0,
+          "block_num": 18,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಹಿಳಾ",
+          "bbox": [
+            1163,
+            2597,
+            151,
+            43
+          ],
+          "confidence": 96.0,
+          "block_num": 18,
+          "line_num": 2
+        },
+        {
+          "text": "ಮತ್ತು",
+          "bbox": [
+            1329,
+            2585,
+            105,
+            66
+          ],
+          "confidence": 95.0,
+          "block_num": 18,
+          "line_num": 2
+        },
+        {
+          "text": "ಮಕ್ಕಳ",
+          "bbox": [
+            1461,
+            2585,
+            92,
+            66
+          ],
+          "confidence": 96.0,
+          "block_num": 18,
+          "line_num": 2
+        },
+        {
+          "text": "ಅಭಿವೃದ್ಧಿ;",
+          "bbox": [
+            1601,
+            2593,
+            202,
+            52
+          ],
+          "confidence": 87.0,
+          "block_num": 18,
+          "line_num": 2
+        },
+        {
+          "text": "ವಿಕಲಚೇತನರ",
+          "bbox": [
+            1819,
+            2593,
+            274,
+            42
+          ],
+          "confidence": 94.0,
+          "block_num": 18,
+          "line_num": 2
+        },
+        {
+          "text": "ಹಾಗೂ",
+          "bbox": [
+            1214,
+            2670,
+            132,
+            40
+          ],
+          "confidence": 95.0,
+          "block_num": 18,
+          "line_num": 3
+        },
+        {
+          "text": "ಹಿರಿಯ",
+          "bbox": [
+            1363,
+            2666,
+            135,
+            42
+          ],
+          "confidence": 95.0,
+          "block_num": 18,
+          "line_num": 3
+        },
+        {
+          "text": "ನಾಗರೀಕರ",
+          "bbox": [
+            1513,
+            2666,
+            202,
+            41
+          ],
+          "confidence": 95.0,
+          "block_num": 18,
+          "line_num": 3
+        },
+        {
+          "text": "ಸಬಲೀಕರಣ",
+          "bbox": [
+            1731,
+            2661,
+            237,
+            47
+          ],
+          "confidence": 95.0,
+          "block_num": 18,
+          "line_num": 3
+        },
+        {
+          "text": "ಇಲಾಖೆ",
+          "bbox": [
+            1984,
+            2662,
+            137,
+            43
+          ],
+          "confidence": 88.0,
+          "block_num": 18,
+          "line_num": 3
+        },
+        {
+          "text": "A",
+          "bbox": [
+            1162,
+            2701,
+            69,
+            82
+          ],
+          "confidence": 68.0,
+          "block_num": 19,
+          "line_num": 1
+        },
+        {
+          "text": "ಪ್ರಧಾನ",
+          "bbox": [
+            449,
+            2863,
+            145,
+            49
+          ],
+          "confidence": 96.0,
+          "block_num": 20,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಹಾಲೇಖಪಾಲರು",
+          "bbox": [
+            610,
+            2858,
+            378,
+            44
+          ],
+          "confidence": 95.0,
+          "block_num": 20,
+          "line_num": 1
+        },
+        {
+          "text": "(",
+          "bbox": [
+            1005,
+            2860,
+            49,
+            42
+          ],
+          "confidence": 91.0,
+          "block_num": 20,
+          "line_num": 1
+        },
+        {
+          "text": "&",
+          "bbox": [
+            1070,
+            2859,
+            33,
+            34
+          ],
+          "confidence": 91.0,
+          "block_num": 20,
+          "line_num": 1
+        },
+        {
+          "text": "ಇ),",
+          "bbox": [
+            1117,
+            2858,
+            57,
+            40
+          ],
+          "confidence": 85.0,
+          "block_num": 20,
+          "line_num": 1
+        },
+        {
+          "text": "ಕರ್ನಾಟಕ,",
+          "bbox": [
+            1188,
+            2850,
+            201,
+            45
+          ],
+          "confidence": 95.0,
+          "block_num": 20,
+          "line_num": 1
+        },
+        {
+          "text": "ಅಂಜೆ",
+          "bbox": [
+            1404,
+            2847,
+            116,
+            41
+          ],
+          "confidence": 14.0,
+          "block_num": 20,
+          "line_num": 1
+        },
+        {
+          "text": "ಪೆಟ್ಟೆಗೆ:5398,",
+          "bbox": [
+            1535,
+            2844,
+            238,
+            51
+          ],
+          "confidence": 66.0,
+          "block_num": 20,
+          "line_num": 1
+        },
+        {
+          "text": "ಬೆ೦ಗಳೂರು",
+          "bbox": [
+            1791,
+            2843,
+            218,
+            40
+          ],
+          "confidence": 95.0,
+          "block_num": 20,
+          "line_num": 1
+        },
+        {
+          "text": "ಸರ್ಕಾರದ",
+          "bbox": [
+            450,
+            2932,
+            199,
+            41
+          ],
+          "confidence": 96.0,
+          "block_num": 20,
+          "line_num": 2
+        },
+        {
+          "text": "ಮುಖ್ಯ",
+          "bbox": [
+            648,
+            2931,
+            136,
+            46
+          ],
+          "confidence": 96.0,
+          "block_num": 20,
+          "line_num": 2
+        },
+        {
+          "text": "ಕಾರ್ಯದರ್ಶಿ,",
+          "bbox": [
+            799,
+            2920,
+            262,
+            49
+          ],
+          "confidence": 95.0,
+          "block_num": 20,
+          "line_num": 2
+        },
+        {
+          "text": "ಕರ್ನಾಟಕ",
+          "bbox": [
+            1076,
+            2921,
+            192,
+            42
+          ],
+          "confidence": 96.0,
+          "block_num": 20,
+          "line_num": 2
+        },
+        {
+          "text": "ಸರ್ಕಾರ,",
+          "bbox": [
+            1283,
+            2919,
+            156,
+            44
+          ],
+          "confidence": 95.0,
+          "block_num": 20,
+          "line_num": 2
+        },
+        {
+          "text": "ಬೆ೦ಗಳೂರು",
+          "bbox": [
+            1456,
+            2916,
+            220,
+            41
+          ],
+          "confidence": 95.0,
+          "block_num": 20,
+          "line_num": 2
+        },
+        {
+          "text": ".",
+          "bbox": [
+            403,
+            3039,
+            7,
+            8
+          ],
+          "confidence": 67.0,
+          "block_num": 21,
+          "line_num": 1
+        },
+        {
+          "text": "ಸರ್ಕಾರದ",
+          "bbox": [
+            449,
+            2998,
+            195,
+            48
+          ],
+          "confidence": 95.0,
+          "block_num": 21,
+          "line_num": 1
+        },
+        {
+          "text": "ಅಪರ",
+          "bbox": [
+            655,
+            2997,
+            115,
+            46
+          ],
+          "confidence": 95.0,
+          "block_num": 21,
+          "line_num": 1
+        },
+        {
+          "text": "ಮುಖ್ಯ",
+          "bbox": [
+            784,
+            3003,
+            130,
+            46
+          ],
+          "confidence": 95.0,
+          "block_num": 21,
+          "line_num": 1
+        },
+        {
+          "text": "ಕಾರ್ಯದರ್ಶಿ,",
+          "bbox": [
+            927,
+            2992,
+            261,
+            55
+          ],
+          "confidence": 94.0,
+          "block_num": 21,
+          "line_num": 1
+        },
+        {
+          "text": "ಬೆ೦ಗಳೂರು",
+          "bbox": [
+            1203,
+            2993,
+            220,
+            42
+          ],
+          "confidence": 96.0,
+          "block_num": 21,
+          "line_num": 1
+        },
+        {
+          "text": "ಸರ್ಕಾರದ",
+          "bbox": [
+            449,
+            3070,
+            190,
+            42
+          ],
+          "confidence": 96.0,
+          "block_num": 22,
+          "line_num": 1
+        },
+        {
+          "text": "ಅಪರ",
+          "bbox": [
+            655,
+            3069,
+            113,
+            40
+          ],
+          "confidence": 95.0,
+          "block_num": 22,
+          "line_num": 1
+        },
+        {
+          "text": "ಮುಖ್ಯ",
+          "bbox": [
+            784,
+            3068,
+            130,
+            46
+          ],
+          "confidence": 96.0,
+          "block_num": 22,
+          "line_num": 1
+        },
+        {
+          "text": "ಕಾರ್ಯದರ್ಶಿ",
+          "bbox": [
+            928,
+            3057,
+            253,
+            48
+          ],
+          "confidence": 96.0,
+          "block_num": 22,
+          "line_num": 1
+        },
+        {
+          "text": "ಹಾಗೂ",
+          "bbox": [
+            1194,
+            3060,
+            134,
+            40
+          ],
+          "confidence": 96.0,
+          "block_num": 22,
+          "line_num": 1
+        },
+        {
+          "text": "ಅಭಿವೃದ್ಧಿ",
+          "bbox": [
+            1344,
+            3055,
+            193,
+            51
+          ],
+          "confidence": 89.0,
+          "block_num": 22,
+          "line_num": 1
+        },
+        {
+          "text": "ಆಯುಕ್ತರು,",
+          "bbox": [
+            1554,
+            3049,
+            235,
+            53
+          ],
+          "confidence": 95.0,
+          "block_num": 22,
+          "line_num": 1
+        },
+        {
+          "text": "ಬೆ೦ಗಳೂರು",
+          "bbox": [
+            1807,
+            3048,
+            217,
+            42
+          ],
+          "confidence": 95.0,
+          "block_num": 22,
+          "line_num": 1
+        },
+        {
+          "text": "೧3662013",
+          "bbox": [
+            1152,
+            3163,
+            193,
+            43
+          ],
+          "confidence": 82.0,
+          "block_num": 23,
+          "line_num": 1
+        }
+      ],
+      "low_conf_percentage": 8.3,
+      "ocr_preprocessing": "kannada_sharpen"
     },
     {
       "page_number": 3,
-      "page_type": "TEXT",
+      "page_type": "SCANNED",
       "tags": [
-        "TEXT"
+        "SCANNED"
       ],
-      "extraction_method": "direct_pymupdf",
+      "extraction_method": "tesseract_ocr",
       "dpi": 300,
       "blocks": [
         {
-          "bbox": [
-            279.1,
-            737.5,
-            5.1,
-            8.8
-          ],
-          "text": "\"\"IJ",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 1,
+          "text": "10. 11.",
+          "word_count": 2
         },
         {
-          "bbox": [
-            281.1,
-            738.3,
-            15.3,
-            10.0
-          ],
-          "text": "\"' \nOil",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 2,
+          "text": "12.",
+          "word_count": 1
         },
         {
-          "bbox": [
-            294.3,
-            739.3,
-            4.5,
-            7.0
-          ],
-          "text": "(1)",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 3,
+          "text": "13.",
+          "word_count": 1
         },
         {
-          "bbox": [
-            301.8,
-            737.4,
-            6.4,
-            8.9
-          ],
-          "text": "VJ",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 4,
+          "text": "ಸರ್ಕಾರದ ಅಪರ ಮುಖ್ಯ ಕಾರ್ಯದರ್ಶಿ, ಆರ್ಥಿಕ ಇಲಾಖೆ, ಬೆ೦ಗಳೂರು ಸರ್ಕಾರದ ಅಪರ ಮುಖ್ಯ ಕಾರ್ಯದರ್ಶಿ, ನಗರಾಭಿವೃದ್ದಿ ಇಲಾಖೆ, ಬೆ೦ಗಳೂರು ಸರ್ಕಾರದ ಅಪರ ಮುಖ್ಯ ಕಾರ್ಯದರ್ಶಿ, ಗ್ರಾಮೀಣ ಅಭಿವೃದ್ಧಿಮತ್ತು ಪಂಚಾಯತ್‌ ರಾಜ ಇಲಾಖೆ, ಬೆ೦ಗಳೂರು ಸರ್ಕಾರದ ಅಪರ ಮುಖ್ಯ ಕಾರ್ಯದರ್ಶಿ, ಯೋಜನಾ ಕಾರ್ಯಕ್ರಮ ಸ೦ಯೋಜನೆ ಮತ್ತು ಸಾ೦ಖ್ಯಿಕ ಇಲಾಖೆ, ಬೆ೦ಗಳೂರು ಸರ್ಕಾರದ ಕಾರ್ಯದರ್ಶಿ, ಇ-ಆಡಳಿತ ಇಲಾಖೆ, ಬೆ೦ಗಳೂರು ವಿರ್ದೇಶಕರು, ಮಹಿಳಾ ಮತ್ತು ಮಕ್ಕಳ ಅಭಿವೃದ್ದಿ ಇಲಾಖೆ, ಬೆ೦ಗಳೂರು",
+          "word_count": 47
         },
         {
-          "bbox": [
-            308.8,
-            736.8,
-            10.9,
-            9.6
-          ],
-          "text": "S?,",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 5,
+          "text": "ನಿರ್ದೇಶಕರು, ಪಿಎ೦ಐ ವಿಭಾಗ, ಯೋಜನಾ ಕಾರ್ಯಕ್ರಮ ಸ೦ಯೋಜನೆ ಮತ್ತು ಸಾಂಖಿಕ ಇಲಾಖೆ, ಬೆ೦ಗಳೂರು",
+          "word_count": 10
         },
         {
-          "bbox": [
-            321.0,
-            737.4,
-            6.4,
-            8.9
-          ],
-          "text": "VJ",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 6,
+          "text": "ಸರ್ಕಾರದ ಜ೦ಟಿ ಕಾರ್ಯದರ್ಶಿ, ಸಚಿವ ಸಂಪುಟ ಶಾಖೆ, ಬೆ೦ಗಳೂರು (ಸಚಿವ ಸಂಪುಟ ವಿಷಯ ಸಂ: 322/2023 ದಿನಾ೦ಕ 2-6-2023) ) %083 ನಿರ್ದೇಶಕರು, ಐಸಿಡಿಎಸ್‌/ ಪಿಡಿಎ೦, ಮಹಿಳಾ ಮತ್ತು ಮಕ್ಕಳ ಅಭಿವೃದ್ದಿ ಇಲಾಖೆ, ಬೆ೦ಗಳೂರು",
+          "word_count": 25
         },
         {
-          "bbox": [
-            87.8,
-            335.8,
-            4.6,
-            106.1
-          ],
-          "text": "....l \n__,I, \n---l. \n--\" \n....l",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 7,
+          "text": ". ಎಲ್ಲಾ ಜಿಲ್ಲೆಗಳ ಜಿಲ್ಲಾಧಿಕಾರಿಗಳು/ಜಿಲ್ಲಾ ಮುಖ್ಯ ಕಾರ್ಯನಿರ್ವಹಣಾಧಿಕಾರಿಗಳು,",
+          "word_count": 6
         },
         {
-          "bbox": [
-            93.4,
-            336.1,
-            9.7,
-            41.6
-          ],
-          "text": ":--J 0 \n!-11",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 8,
+          "text": "ಜಿಲ್ಲಾಪ೦ಚಾಯತ್‌/ ಉಪನಿರ್ದೇಶಕರು, ಮಹಿಳಾ ಮತ್ತು ಮಕ್ಕಳ ಅಭಿವೃದ್ಧಿ ಇಲಾಖೆ/ ಜಿಲ್ಲಾ ನಿರೂಪಣಾಧಿಕಾರಿಗಳು/ ಶಿಶು ಅಭಿವೃದ್ಧಿ ಯೋಜನಾಧಿಕಾರಿಗಳು",
+          "word_count": 12
         },
         {
-          "bbox": [
-            82.8,
-            58.2,
-            15.1,
-            238.7
-          ],
-          "text": ".....l. \n--1 \n__,I, \n-....l\\.O \n(X) \n-..JO)V, \n!-\" \n!'-' \n-9 · \n....",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 9,
+          "text": "- ಲಲ್ಲಾ ತಾಲ್ಲೂಕು ತಹಸೀಲ್ದಾರರರುಗಳು /ಉಪ ತಹಸೀಲ್ದಾರರುಗಳು . ಸರ್ಕಾರದ ಅಧೀನ ಕಾರ್ಯದರ್ಶಿ, ಅರ್ಥಿಕ ಇಲಾಖೆ (ವೆಚ್ಚ-10, ಬೆ೦ಗಳೂರು . ಮಾನ್ಯ ಮಹಿಳಾ ಮತ್ತು ಮಕ್ಕಳ ಅಭಿವೃದ್ದಿ, ವಿಕಲಚೇತನರ ಮತ್ತು ಹಿರಿಯ ನಾಗರೀಕರ",
+          "word_count": 24
         },
         {
-          "bbox": [
-            99.5,
-            63.6,
-            16.5,
-            378.9
-          ],
-          "text": "l~liliUli~u~~£1.~lili.23uuli~li.23lilili",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 10,
+          "text": "ಸಬಲೀಕರಣ ಇಲಾಖಾ ಸಚಿವರ ಆಪ್ತ ಕಾರ್ಯದರ್ಶಿಗಳು",
+          "word_count": 5
         },
         {
-          "bbox": [
-            123.6,
-            64.7,
-            31.5,
-            378.0
-          ],
-          "text": "e) ~\"1 Cs>2..l.\"1Je) ~Jt>IJQ} ~~W\"10'>9'9'\"18,\"1 \nQ'.) \n\"1 \"1 \"1 \na.\"1 a.a\"' O.(ol fila \n?!) \n~0.P..QiQiO.\"' ap.,aaa \n~rrrra.yrr~~~ \na.~~D.£1.ellell£lell£1.£1.rrrrrr",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 11,
+          "text": ". ಸರ್ಕಾರದ ಕಾರ್ಯದರ್ಶಿ, ಮಹಿಳಾ ಮತ್ತುಮಕ್ಕಳ ಅಭಿವೃದ್ಧಿ ಇಲಾಖೆ ಇವರ ಆಪ್ತ",
+          "word_count": 9
         },
         {
-          "bbox": [
-            145.1,
-            65.5,
-            40.0,
-            379.9
-          ],
-          "text": "e \ne3 8 .. a~-D~~\n0 q2~g__9-_9-~~cgg_cgaa \nell :::t \n-D 3(!) \n3u.. \nw o \neJ \nfil fil \n~D~~~ygaa.fil~~aa.",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 12,
+          "text": "ಕಾರ್ಯದರ್ಶಿಗಳು `",
+          "word_count": 2
         },
         {
-          "bbox": [
-            179.1,
-            66.0,
-            56.0,
-            379.6
-          ],
-          "text": "Cd c \neJ \nu. \nCY \nCllJ. -e_ \n?1 di \nQJ \n8-' \"1 -\nQ) \nfl fl \n' \n-ri~y~~~' \n.e-~~&o~D.£1.Et&yrr \ni \n2:L L~ g \"3:': \n2 \ne3 ell g \ne3 \ng_ \n0 r r \nr:u \nff. \n-ri \n2.-- r;-, ct \nG f .23 \nt \nt",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 13,
+          "text": ". ಶಾಖಾ ರಕ್ನಾ ಕಡತ/ ಹೆಚ್ಚುವರಿ ಪ್ರತಿಗಳು",
+          "word_count": 6
         },
         {
-          "bbox": [
-            218.6,
-            66.0,
-            46.9,
-            377.9
-          ],
-          "text": "fl \nM ha. a R, \nr \n-~ L~ a g \nw g g \nfil \nC,-\n4-\n\"1 \nN ~ \"1 \n2:J N \n-\n--'-\nC,-\nQ \n0 \ng.o~-e.~g~CliCY \n,~li nell~",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            256.0,
-            66.2,
-            32.5,
-            377.8
-          ],
-          "text": "\"\"' \nCl \n\\b :::tU.ell:::t \n4'> \nc:,,4-\nCd \n\"1 \n\"1 u.u. \n:::t \n<!IL a-s>~ba~ \nt--\nEl \n~-e. \n£1. \n£1.~~ \nW-u\"1Co y~ \nfJ \n,,...cg.23",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            282.8,
-            68.6,
-            22.5,
-            343.6
-          ],
-          "text": "fl O El ell a \nfl \n2:L \n-fJ \n\"1 \n21. a \nt,-~\"'.Q3d \nt,-\n0 \n0 \nQ) \n-\n:::t",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            296.3,
-            68.4,
-            34.6,
-            346.1
-          ],
-          "text": "I~ \"1 p \nfil ,,... g-' 3~ \n-\n@ \np \n8. \n-~ \nY~ \nY \nwP£1. \nt-fJell",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            324.9,
-            71.7,
-            31.6,
-            343.2
-          ],
-          "text": "St j_ \nR 2.--\ny y \n8.. \ng \ng_ \nfl \nP \n-e,~0~~-Dedv \n-rieJ~ \nPeJ",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            350.8,
-            67.5,
-            45.0,
-            347.8
-          ],
-          "text": "n, \nr: \nDe) \nLV \nfl \nN \nSL a a \nn, \"' \n\\b \n,,... \n' a CY \n\"' \nc,-\nu. \nfl -\n0 \ndi \n\\b \n.ID \n-u \n~_gg:::tY \nCd \ng_ \nc,-£1. \n-u~g. \np \n0. fi :::t \n{ \nLv \n2:L g_ \ng \np \n:::t",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            384.6,
-            69.6,
-            34.1,
-            344.8
-          ],
-          "text": "p \nyg_~ \negg \nY \ng 8,~ \nJt \no?ifj,~ \n,,. \nell \nc... a \nfl \nc,- o a",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            407.4,
-            74.2,
-            22.0,
-            338.8
-          ],
-          "text": "\"' \nI~ \n-u ;i_ \n2:L \nQJ \nV \nt,-\nCd :::t V",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            415.7,
-            85.7,
-            45.4,
-            328.2
-          ],
-          "text": ".ID \nQ \np '--\" \n4'> \nfl \n1v ie_ \n8-'\n0 \nD~ \ncg \nEl \nGt. \n6L \nfil~ \na \ng \no \n8\\. \n-u \n2:L \nfl \n8, \n0 \nv",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            452.0,
-            98.4,
-            40.9,
-            315.9
-          ],
-          "text": ".23 \np \nO \nt,-\nt \ni. -D \np i \n1~ \nfl \ng",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            485.9,
-            105.0,
-            16.5,
-            308.9
-          ],
-          "text": "a \n:::t \n'~ \n.23 \nGt. \nCllJ.",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            498.7,
-            133.3,
-            18.6,
-            280.8
-          ],
-          "text": "a \nSZ \n~g \nm o \ny",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            514.6,
-            135.0,
-            16.5,
-            281.5
-          ],
-          "text": "1fil \n_$-\ng \nL~",
-          "type": "text",
-          "confidence": 100.0
-        },
-        {
-          "bbox": [
-            43.6,
-            21.7,
-            21.1,
-            13.3
-          ],
-          "text": "\"",
-          "type": "text",
-          "confidence": 100.0
+          "block_number": 14,
+          "text": "೧3663 013",
+          "word_count": 2
         }
       ],
       "tables": [],
       "forms": null,
-      "full_text": "\"\"IJ\n\"' \nOil\n(1)\nVJ\nS?,\nVJ\n....l \n__,I, \n---l. \n--\" \n....l\n:--J 0 \n!-11\n.....l. \n--1 \n__,I, \n-....l\\.O \n(X) \n-..JO)V, \n!-\" \n!'-' \n-9 · \n....\nl~liliUli~u~~£1.~lili.23uuli~li.23lilili\ne) ~\"1 Cs>2..l.\"1Je) ~Jt>IJQ} ~~W\"10'>9'9'\"18,\"1 \nQ'.) \n\"1 \"1 \"1 \na.\"1 a.a\"' O.(ol fila \n?!) \n~0.P..QiQiO.\"' ap.,aaa \n~rrrra.yrr~~~ \na.~~D.£1.ellell£lell£1.£1.rrrrrr\ne \ne3 8 .. a~-D~~\n0 q2~g__9-_9-~~cgg_cgaa \nell :::t \n-D 3(!) \n3u.. \nw o \neJ \nfil fil \n~D~~~ygaa.fil~~aa.\nCd c \neJ \nu. \nCY \nCllJ. -e_ \n?1 di \nQJ \n8-' \"1 -\nQ) \nfl fl \n' \n-ri~y~~~' \n.e-~~&o~D.£1.Et&yrr \ni \n2:L L~ g \"3:': \n2 \ne3 ell g \ne3 \ng_ \n0 r r \nr:u \nff. \n-ri \n2.-- r;-, ct \nG f .23 \nt \nt\nfl \nM ha. a R, \nr \n-~ L~ a g \nw g g \nfil \nC,-\n4-\n\"1 \nN ~ \"1 \n2:J N \n-\n--'-\nC,-\nQ \n0 \ng.o~-e.~g~CliCY \n,~li nell~\n\"\"' \nCl \n\\b :::tU.ell:::t \n4'> \nc:,,4-\nCd \n\"1 \n\"1 u.u. \n:::t \n<!IL a-s>~ba~ \nt--\nEl \n~-e. \n£1. \n£1.~~ \nW-u\"1Co y~ \nfJ \n,,...cg.23\nfl O El ell a \nfl \n2:L \n-fJ \n\"1 \n21. a \nt,-~\"'.Q3d \nt,-\n0 \n0 \nQ) \n-\n:::t\nI~ \"1 p \nfil ,,... g-' 3~ \n-\n@ \np \n8. \n-~ \nY~ \nY \nwP£1. \nt-fJell\nSt j_ \nR 2.--\ny y \n8.. \ng \ng_ \nfl \nP \n-e,~0~~-Dedv \n-rieJ~ \nPeJ\nn, \nr: \nDe) \nLV \nfl \nN \nSL a a \nn, \"' \n\\b \n,,... \n' a CY \n\"' \nc,-\nu. \nfl -\n0 \ndi \n\\b \n.ID \n-u \n~_gg:::tY \nCd \ng_ \nc,-£1. \n-u~g. \np \n0. fi :::t \n{ \nLv \n2:L g_ \ng \np \n:::t\np \nyg_~ \negg \nY \ng 8,~ \nJt \no?ifj,~ \n,,. \nell \nc... a \nfl \nc,- o a\n\"' \nI~ \n-u ;i_ \n2:L \nQJ \nV \nt,-\nCd :::t V\n.ID \nQ \np '--\" \n4'> \nfl \n1v ie_ \n8-'\n0 \nD~ \ncg \nEl \nGt. \n6L \nfil~ \na \ng \no \n8\\. \n-u \n2:L \nfl \n8, \n0 \nv\n.23 \np \nO \nt,-\nt \ni. -D \np i \n1~ \nfl \ng\na \n:::t \n'~ \n.23 \nGt. \nCllJ.\na \nSZ \n~g \nm o \ny\n1fil \n_$-\ng \nL~\n\"",
-      "avg_confidence": 100.0
+      "full_text": "10. 11.\n12.\n13.\nಸರ್ಕಾರದ ಅಪರ ಮುಖ್ಯ ಕಾರ್ಯದರ್ಶಿ, ಆರ್ಥಿಕ ಇಲಾಖೆ, ಬೆ೦ಗಳೂರು ಸರ್ಕಾರದ ಅಪರ ಮುಖ್ಯ ಕಾರ್ಯದರ್ಶಿ, ನಗರಾಭಿವೃದ್ದಿ ಇಲಾಖೆ, ಬೆ೦ಗಳೂರು ಸರ್ಕಾರದ ಅಪರ ಮುಖ್ಯ ಕಾರ್ಯದರ್ಶಿ, ಗ್ರಾಮೀಣ ಅಭಿವೃದ್ಧಿಮತ್ತು ಪಂಚಾಯತ್‌ ರಾಜ ಇಲಾಖೆ, ಬೆ೦ಗಳೂರು ಸರ್ಕಾರದ ಅಪರ ಮುಖ್ಯ ಕಾರ್ಯದರ್ಶಿ, ಯೋಜನಾ ಕಾರ್ಯಕ್ರಮ ಸ೦ಯೋಜನೆ ಮತ್ತು ಸಾ೦ಖ್ಯಿಕ ಇಲಾಖೆ, ಬೆ೦ಗಳೂರು ಸರ್ಕಾರದ ಕಾರ್ಯದರ್ಶಿ, ಇ-ಆಡಳಿತ ಇಲಾಖೆ, ಬೆ೦ಗಳೂರು ವಿರ್ದೇಶಕರು, ಮಹಿಳಾ ಮತ್ತು ಮಕ್ಕಳ ಅಭಿವೃದ್ದಿ ಇಲಾಖೆ, ಬೆ೦ಗಳೂರು\nನಿರ್ದೇಶಕರು, ಪಿಎ೦ಐ ವಿಭಾಗ, ಯೋಜನಾ ಕಾರ್ಯಕ್ರಮ ಸ೦ಯೋಜನೆ ಮತ್ತು ಸಾಂಖಿಕ ಇಲಾಖೆ, ಬೆ೦ಗಳೂರು\nಸರ್ಕಾರದ ಜ೦ಟಿ ಕಾರ್ಯದರ್ಶಿ, ಸಚಿವ ಸಂಪುಟ ಶಾಖೆ, ಬೆ೦ಗಳೂರು (ಸಚಿವ ಸಂಪುಟ ವಿಷಯ ಸಂ: 322/2023 ದಿನಾ೦ಕ 2-6-2023) ) %083 ನಿರ್ದೇಶಕರು, ಐಸಿಡಿಎಸ್‌/ ಪಿಡಿಎ೦, ಮಹಿಳಾ ಮತ್ತು ಮಕ್ಕಳ ಅಭಿವೃದ್ದಿ ಇಲಾಖೆ, ಬೆ೦ಗಳೂರು\n. ಎಲ್ಲಾ ಜಿಲ್ಲೆಗಳ ಜಿಲ್ಲಾಧಿಕಾರಿಗಳು/ಜಿಲ್ಲಾ ಮುಖ್ಯ ಕಾರ್ಯನಿರ್ವಹಣಾಧಿಕಾರಿಗಳು,\nಜಿಲ್ಲಾಪ೦ಚಾಯತ್‌/ ಉಪನಿರ್ದೇಶಕರು, ಮಹಿಳಾ ಮತ್ತು ಮಕ್ಕಳ ಅಭಿವೃದ್ಧಿ ಇಲಾಖೆ/ ಜಿಲ್ಲಾ ನಿರೂಪಣಾಧಿಕಾರಿಗಳು/ ಶಿಶು ಅಭಿವೃದ್ಧಿ ಯೋಜನಾಧಿಕಾರಿಗಳು\n- ಲಲ್ಲಾ ತಾಲ್ಲೂಕು ತಹಸೀಲ್ದಾರರರುಗಳು /ಉಪ ತಹಸೀಲ್ದಾರರುಗಳು . ಸರ್ಕಾರದ ಅಧೀನ ಕಾರ್ಯದರ್ಶಿ, ಅರ್ಥಿಕ ಇಲಾಖೆ (ವೆಚ್ಚ-10, ಬೆ೦ಗಳೂರು . ಮಾನ್ಯ ಮಹಿಳಾ ಮತ್ತು ಮಕ್ಕಳ ಅಭಿವೃದ್ದಿ, ವಿಕಲಚೇತನರ ಮತ್ತು ಹಿರಿಯ ನಾಗರೀಕರ\nಸಬಲೀಕರಣ ಇಲಾಖಾ ಸಚಿವರ ಆಪ್ತ ಕಾರ್ಯದರ್ಶಿಗಳು\n. ಸರ್ಕಾರದ ಕಾರ್ಯದರ್ಶಿ, ಮಹಿಳಾ ಮತ್ತುಮಕ್ಕಳ ಅಭಿವೃದ್ಧಿ ಇಲಾಖೆ ಇವರ ಆಪ್ತ\nಕಾರ್ಯದರ್ಶಿಗಳು `\n. ಶಾಖಾ ರಕ್ನಾ ಕಡತ/ ಹೆಚ್ಚುವರಿ ಪ್ರತಿಗಳು\n೧3663 013",
+      "avg_confidence": 87.7,
+      "is_ocr": true,
+      "ocr_engine": "tesseract",
+      "words": [
+        {
+          "text": "10.",
+          "bbox": [
+            359,
+            767,
+            54,
+            35
+          ],
+          "confidence": 77.0,
+          "block_num": 1,
+          "line_num": 1
+        },
+        {
+          "text": "11.",
+          "bbox": [
+            363,
+            834,
+            53,
+            36
+          ],
+          "confidence": 95.0,
+          "block_num": 1,
+          "line_num": 2
+        },
+        {
+          "text": "12.",
+          "bbox": [
+            362,
+            953,
+            54,
+            34
+          ],
+          "confidence": 95.0,
+          "block_num": 2,
+          "line_num": 1
+        },
+        {
+          "text": "13.",
+          "bbox": [
+            364,
+            1070,
+            53,
+            34
+          ],
+          "confidence": 96.0,
+          "block_num": 3,
+          "line_num": 1
+        },
+        {
+          "text": "ಸರ್ಕಾರದ",
+          "bbox": [
+            423,
+            293,
+            195,
+            42
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಅಪರ",
+          "bbox": [
+            634,
+            299,
+            115,
+            37
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಮುಖ್ಯ",
+          "bbox": [
+            765,
+            300,
+            133,
+            46
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಕಾರ್ಯದರ್ಶಿ,",
+          "bbox": [
+            912,
+            291,
+            265,
+            54
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಆರ್ಥಿಕ",
+          "bbox": [
+            1194,
+            303,
+            142,
+            46
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಇಲಾಖೆ,",
+          "bbox": [
+            1352,
+            303,
+            151,
+            44
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಬೆ೦ಗಳೂರು",
+          "bbox": [
+            1521,
+            303,
+            225,
+            39
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಸರ್ಕಾರದ",
+          "bbox": [
+            425,
+            360,
+            194,
+            42
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಅಪರ",
+          "bbox": [
+            635,
+            365,
+            115,
+            38
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಮುಖ್ಯ",
+          "bbox": [
+            766,
+            367,
+            133,
+            47
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಕಾರ್ಯದರ್ಶಿ,",
+          "bbox": [
+            913,
+            363,
+            264,
+            48
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ನಗರಾಭಿವೃದ್ದಿ",
+          "bbox": [
+            1194,
+            368,
+            280,
+            50
+          ],
+          "confidence": 37.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಇಲಾಖೆ,",
+          "bbox": [
+            1489,
+            371,
+            151,
+            44
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಬೆ೦ಗಳೂರು",
+          "bbox": [
+            1658,
+            371,
+            225,
+            39
+          ],
+          "confidence": 87.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಸರ್ಕಾರದ",
+          "bbox": [
+            426,
+            427,
+            193,
+            42
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಅಪರ",
+          "bbox": [
+            654,
+            433,
+            113,
+            37
+          ],
+          "confidence": 94.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಮುಖ್ಯ",
+          "bbox": [
+            800,
+            435,
+            133,
+            46
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಕಾರ್ಯದರ್ಶಿ,",
+          "bbox": [
+            965,
+            430,
+            264,
+            49
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಗ್ರಾಮೀಣ",
+          "bbox": [
+            1262,
+            436,
+            182,
+            48
+          ],
+          "confidence": 93.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಅಭಿವೃದ್ಧಿಮತ್ತು",
+          "bbox": [
+            1477,
+            436,
+            311,
+            50
+          ],
+          "confidence": 87.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಪಂಚಾಯತ್‌",
+          "bbox": [
+            1821,
+            439,
+            253,
+            37
+          ],
+          "confidence": 33.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ರಾಜ",
+          "bbox": [
+            2105,
+            446,
+            95,
+            29
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಇಲಾಖೆ,",
+          "bbox": [
+            427,
+            497,
+            152,
+            45
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 2
+        },
+        {
+          "text": "ಬೆ೦ಗಳೂರು",
+          "bbox": [
+            597,
+            498,
+            225,
+            42
+          ],
+          "confidence": 93.0,
+          "block_num": 4,
+          "line_num": 2
+        },
+        {
+          "text": "ಸರ್ಕಾರದ",
+          "bbox": [
+            427,
+            564,
+            194,
+            41
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಅಪರ",
+          "bbox": [
+            657,
+            569,
+            114,
+            38
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಮುಖ್ಯ",
+          "bbox": [
+            805,
+            570,
+            133,
+            47
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಕಾರ್ಯದರ್ಶಿ,",
+          "bbox": [
+            971,
+            566,
+            264,
+            49
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಯೋಜನಾ",
+          "bbox": [
+            1271,
+            572,
+            208,
+            40
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಕಾರ್ಯಕ್ರಮ",
+          "bbox": [
+            1511,
+            575,
+            251,
+            46
+          ],
+          "confidence": 93.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಸ೦ಯೋಜನೆ",
+          "bbox": [
+            1796,
+            572,
+            253,
+            41
+          ],
+          "confidence": 88.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಮತ್ತು",
+          "bbox": [
+            2084,
+            573,
+            117,
+            47
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಸಾ೦ಖ್ಯಿಕ",
+          "bbox": [
+            429,
+            632,
+            181,
+            48
+          ],
+          "confidence": 76.0,
+          "block_num": 4,
+          "line_num": 2
+        },
+        {
+          "text": "ಇಲಾಖೆ,",
+          "bbox": [
+            627,
+            635,
+            152,
+            44
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 2
+        },
+        {
+          "text": "ಬೆ೦ಗಳೂರು",
+          "bbox": [
+            795,
+            636,
+            224,
+            38
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 2
+        },
+        {
+          "text": "ಸರ್ಕಾರದ",
+          "bbox": [
+            429,
+            699,
+            194,
+            40
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಕಾರ್ಯದರ್ಶಿ,",
+          "bbox": [
+            638,
+            698,
+            267,
+            48
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಇ-ಆಡಳಿತ",
+          "bbox": [
+            921,
+            704,
+            209,
+            40
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಇಲಾಖೆ,",
+          "bbox": [
+            1146,
+            706,
+            150,
+            43
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಬೆ೦ಗಳೂರು",
+          "bbox": [
+            1312,
+            706,
+            224,
+            40
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ವಿರ್ದೇಶಕರು,",
+          "bbox": [
+            431,
+            763,
+            254,
+            48
+          ],
+          "confidence": 88.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಹಿಳಾ",
+          "bbox": [
+            702,
+            767,
+            157,
+            40
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಮತ್ತು",
+          "bbox": [
+            873,
+            770,
+            117,
+            48
+          ],
+          "confidence": 95.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಕ್ಕಳ",
+          "bbox": [
+            1005,
+            771,
+            133,
+            48
+          ],
+          "confidence": 94.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಅಭಿವೃದ್ದಿ",
+          "bbox": [
+            1153,
+            771,
+            196,
+            51
+          ],
+          "confidence": 70.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಇಲಾಖೆ,",
+          "bbox": [
+            1365,
+            774,
+            150,
+            54
+          ],
+          "confidence": 96.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ಬೆ೦ಗಳೂರು",
+          "bbox": [
+            1532,
+            774,
+            225,
+            39
+          ],
+          "confidence": 83.0,
+          "block_num": 4,
+          "line_num": 1
+        },
+        {
+          "text": "ನಿರ್ದೇಶಕರು,",
+          "bbox": [
+            432,
+            831,
+            254,
+            49
+          ],
+          "confidence": 0.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "ಪಿಎ೦ಐ",
+          "bbox": [
+            720,
+            836,
+            153,
+            39
+          ],
+          "confidence": 90.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "ವಿಭಾಗ,",
+          "bbox": [
+            902,
+            836,
+            149,
+            49
+          ],
+          "confidence": 86.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "ಯೋಜನಾ",
+          "bbox": [
+            1084,
+            839,
+            207,
+            41
+          ],
+          "confidence": 95.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "ಕಾರ್ಯಕ್ರಮ",
+          "bbox": [
+            1322,
+            843,
+            248,
+            47
+          ],
+          "confidence": 93.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "ಸ೦ಯೋಜನೆ",
+          "bbox": [
+            1603,
+            842,
+            252,
+            42
+          ],
+          "confidence": 90.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "ಮತ್ತು",
+          "bbox": [
+            1888,
+            842,
+            117,
+            48
+          ],
+          "confidence": 93.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "ಸಾಂಖಿಕ",
+          "bbox": [
+            2038,
+            840,
+            166,
+            40
+          ],
+          "confidence": 83.0,
+          "block_num": 5,
+          "line_num": 1
+        },
+        {
+          "text": "ಇಲಾಖೆ,",
+          "bbox": [
+            433,
+            893,
+            152,
+            44
+          ],
+          "confidence": 96.0,
+          "block_num": 5,
+          "line_num": 2
+        },
+        {
+          "text": "ಬೆ೦ಗಳೂರು",
+          "bbox": [
+            602,
+            893,
+            224,
+            41
+          ],
+          "confidence": 95.0,
+          "block_num": 5,
+          "line_num": 2
+        },
+        {
+          "text": "ಸರ್ಕಾರದ",
+          "bbox": [
+            433,
+            951,
+            193,
+            39
+          ],
+          "confidence": 93.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಜ೦ಟಿ",
+          "bbox": [
+            644,
+            951,
+            111,
+            41
+          ],
+          "confidence": 89.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಕಾರ್ಯದರ್ಶಿ,",
+          "bbox": [
+            772,
+            951,
+            266,
+            48
+          ],
+          "confidence": 95.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಸಚಿವ",
+          "bbox": [
+            1056,
+            954,
+            118,
+            41
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಸಂಪುಟ",
+          "bbox": [
+            1191,
+            960,
+            155,
+            45
+          ],
+          "confidence": 37.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಶಾಖೆ,",
+          "bbox": [
+            1363,
+            960,
+            103,
+            44
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಬೆ೦ಗಳೂರು",
+          "bbox": [
+            1486,
+            960,
+            225,
+            39
+          ],
+          "confidence": 95.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "(ಸಚಿವ",
+          "bbox": [
+            1729,
+            962,
+            131,
+            43
+          ],
+          "confidence": 95.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಸಂಪುಟ",
+          "bbox": [
+            1879,
+            961,
+            158,
+            46
+          ],
+          "confidence": 90.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ವಿಷಯ",
+          "bbox": [
+            2055,
+            958,
+            150,
+            40
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಸಂ:",
+          "bbox": [
+            434,
+            1009,
+            75,
+            37
+          ],
+          "confidence": 88.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "322/2023",
+          "bbox": [
+            524,
+            1014,
+            184,
+            38
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "ದಿನಾ೦ಕ",
+          "bbox": [
+            725,
+            1014,
+            166,
+            36
+          ],
+          "confidence": 85.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "2-6-2023)",
+          "bbox": [
+            907,
+            1014,
+            190,
+            49
+          ],
+          "confidence": 93.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": ")",
+          "bbox": [
+            1186,
+            1029,
+            6,
+            5
+          ],
+          "confidence": 69.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": "%083",
+          "bbox": [
+            435,
+            1065,
+            110,
+            41
+          ],
+          "confidence": 76.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ನಿರ್ದೇಶಕರು,",
+          "bbox": [
+            578,
+            1067,
+            255,
+            47
+          ],
+          "confidence": 93.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಐಸಿಡಿಎಸ್‌/",
+          "bbox": [
+            867,
+            1072,
+            222,
+            44
+          ],
+          "confidence": 90.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಪಿಡಿಎ೦,",
+          "bbox": [
+            1120,
+            1075,
+            163,
+            44
+          ],
+          "confidence": 51.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಹಿಳಾ",
+          "bbox": [
+            1316,
+            1075,
+            155,
+            41
+          ],
+          "confidence": 95.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಮತ್ತು",
+          "bbox": [
+            1503,
+            1079,
+            116,
+            47
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಕ್ಕಳ",
+          "bbox": [
+            1652,
+            1079,
+            135,
+            47
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಅಭಿವೃದ್ದಿ",
+          "bbox": [
+            1819,
+            1077,
+            199,
+            51
+          ],
+          "confidence": 92.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಇಲಾಖೆ,",
+          "bbox": [
+            2052,
+            1077,
+            153,
+            44
+          ],
+          "confidence": 96.0,
+          "block_num": 6,
+          "line_num": 1
+        },
+        {
+          "text": "ಬೆ೦ಗಳೂರು",
+          "bbox": [
+            436,
+            1134,
+            224,
+            41
+          ],
+          "confidence": 95.0,
+          "block_num": 6,
+          "line_num": 2
+        },
+        {
+          "text": ".",
+          "bbox": [
+            411,
+            1232,
+            7,
+            6
+          ],
+          "confidence": 77.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಎಲ್ಲಾ",
+          "bbox": [
+            436,
+            1203,
+            118,
+            47
+          ],
+          "confidence": 75.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಜಿಲ್ಲೆಗಳ",
+          "bbox": [
+            632,
+            1203,
+            158,
+            48
+          ],
+          "confidence": 90.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಜಿಲ್ಲಾಧಿಕಾರಿಗಳು/ಜಿಲ್ಲಾ",
+          "bbox": [
+            867,
+            1209,
+            454,
+            50
+          ],
+          "confidence": 88.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಮುಖ್ಯ",
+          "bbox": [
+            1398,
+            1213,
+            130,
+            47
+          ],
+          "confidence": 93.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಕಾರ್ಯನಿರ್ವಹಣಾಧಿಕಾರಿಗಳು,",
+          "bbox": [
+            1605,
+            1212,
+            600,
+            50
+          ],
+          "confidence": 71.0,
+          "block_num": 7,
+          "line_num": 1
+        },
+        {
+          "text": "ಜಿಲ್ಲಾಪ೦ಚಾಯತ್‌/",
+          "bbox": [
+            437,
+            1270,
+            381,
+            47
+          ],
+          "confidence": 65.0,
+          "block_num": 8,
+          "line_num": 1
+        },
+        {
+          "text": "ಉಪನಿರ್ದೇಶಕರು,",
+          "bbox": [
+            840,
+            1272,
+            344,
+            47
+          ],
+          "confidence": 86.0,
+          "block_num": 8,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಹಿಳಾ",
+          "bbox": [
+            1208,
+            1275,
+            156,
+            42
+          ],
+          "confidence": 96.0,
+          "block_num": 8,
+          "line_num": 1
+        },
+        {
+          "text": "ಮತ್ತು",
+          "bbox": [
+            1386,
+            1280,
+            116,
+            47
+          ],
+          "confidence": 96.0,
+          "block_num": 8,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಕ್ಕಳ",
+          "bbox": [
+            1525,
+            1281,
+            133,
+            46
+          ],
+          "confidence": 96.0,
+          "block_num": 8,
+          "line_num": 1
+        },
+        {
+          "text": "ಅಭಿವೃದ್ಧಿ",
+          "bbox": [
+            1682,
+            1279,
+            197,
+            51
+          ],
+          "confidence": 43.0,
+          "block_num": 8,
+          "line_num": 1
+        },
+        {
+          "text": "ಇಲಾಖೆ/",
+          "bbox": [
+            1903,
+            1281,
+            163,
+            43
+          ],
+          "confidence": 90.0,
+          "block_num": 8,
+          "line_num": 1
+        },
+        {
+          "text": "ಜಿಲ್ಲಾ",
+          "bbox": [
+            2089,
+            1285,
+            117,
+            45
+          ],
+          "confidence": 96.0,
+          "block_num": 8,
+          "line_num": 1
+        },
+        {
+          "text": "ನಿರೂಪಣಾಧಿಕಾರಿಗಳು/",
+          "bbox": [
+            437,
+            1334,
+            452,
+            54
+          ],
+          "confidence": 60.0,
+          "block_num": 8,
+          "line_num": 2
+        },
+        {
+          "text": "ಶಿಶು",
+          "bbox": [
+            903,
+            1336,
+            78,
+            42
+          ],
+          "confidence": 95.0,
+          "block_num": 8,
+          "line_num": 2
+        },
+        {
+          "text": "ಅಭಿವೃದ್ಧಿ",
+          "bbox": [
+            998,
+            1340,
+            196,
+            55
+          ],
+          "confidence": 83.0,
+          "block_num": 8,
+          "line_num": 2
+        },
+        {
+          "text": "ಯೋಜನಾಧಿಕಾರಿಗಳು",
+          "bbox": [
+            1209,
+            1344,
+            416,
+            49
+          ],
+          "confidence": 96.0,
+          "block_num": 8,
+          "line_num": 2
+        },
+        {
+          "text": "-",
+          "bbox": [
+            413,
+            1433,
+            7,
+            6
+          ],
+          "confidence": 56.0,
+          "block_num": 9,
+          "line_num": 1
+        },
+        {
+          "text": "ಲಲ್ಲಾ",
+          "bbox": [
+            438,
+            1411,
+            118,
+            40
+          ],
+          "confidence": 57.0,
+          "block_num": 9,
+          "line_num": 1
+        },
+        {
+          "text": "ತಾಲ್ಲೂಕು",
+          "bbox": [
+            571,
+            1406,
+            193,
+            46
+          ],
+          "confidence": 93.0,
+          "block_num": 9,
+          "line_num": 1
+        },
+        {
+          "text": "ತಹಸೀಲ್ದಾರರರುಗಳು",
+          "bbox": [
+            780,
+            1407,
+            403,
+            48
+          ],
+          "confidence": 71.0,
+          "block_num": 9,
+          "line_num": 1
+        },
+        {
+          "text": "/ಉಪ",
+          "bbox": [
+            1195,
+            1413,
+            108,
+            40
+          ],
+          "confidence": 72.0,
+          "block_num": 9,
+          "line_num": 1
+        },
+        {
+          "text": "ತಹಸೀಲ್ದಾರರುಗಳು",
+          "bbox": [
+            1318,
+            1413,
+            368,
+            48
+          ],
+          "confidence": 72.0,
+          "block_num": 9,
+          "line_num": 1
+        },
+        {
+          "text": ".",
+          "bbox": [
+            414,
+            1501,
+            7,
+            6
+          ],
+          "confidence": 92.0,
+          "block_num": 9,
+          "line_num": 2
+        },
+        {
+          "text": "ಸರ್ಕಾರದ",
+          "bbox": [
+            438,
+            1471,
+            192,
+            39
+          ],
+          "confidence": 95.0,
+          "block_num": 9,
+          "line_num": 2
+        },
+        {
+          "text": "ಅಧೀನ",
+          "bbox": [
+            646,
+            1474,
+            138,
+            45
+          ],
+          "confidence": 95.0,
+          "block_num": 9,
+          "line_num": 2
+        },
+        {
+          "text": "ಕಾರ್ಯದರ್ಶಿ,",
+          "bbox": [
+            799,
+            1471,
+            267,
+            49
+          ],
+          "confidence": 95.0,
+          "block_num": 9,
+          "line_num": 2
+        },
+        {
+          "text": "ಅರ್ಥಿಕ",
+          "bbox": [
+            1082,
+            1479,
+            145,
+            45
+          ],
+          "confidence": 96.0,
+          "block_num": 9,
+          "line_num": 2
+        },
+        {
+          "text": "ಇಲಾಖೆ",
+          "bbox": [
+            1243,
+            1480,
+            140,
+            40
+          ],
+          "confidence": 93.0,
+          "block_num": 9,
+          "line_num": 2
+        },
+        {
+          "text": "(ವೆಚ್ಚ-10,",
+          "bbox": [
+            1400,
+            1480,
+            201,
+            49
+          ],
+          "confidence": 89.0,
+          "block_num": 9,
+          "line_num": 2
+        },
+        {
+          "text": "ಬೆ೦ಗಳೂರು",
+          "bbox": [
+            1618,
+            1482,
+            225,
+            39
+          ],
+          "confidence": 96.0,
+          "block_num": 9,
+          "line_num": 2
+        },
+        {
+          "text": ".",
+          "bbox": [
+            415,
+            1567,
+            6,
+            7
+          ],
+          "confidence": 92.0,
+          "block_num": 9,
+          "line_num": 3
+        },
+        {
+          "text": "ಮಾನ್ಯ",
+          "bbox": [
+            438,
+            1537,
+            135,
+            47
+          ],
+          "confidence": 96.0,
+          "block_num": 9,
+          "line_num": 3
+        },
+        {
+          "text": "ಮಹಿಳಾ",
+          "bbox": [
+            607,
+            1536,
+            158,
+            41
+          ],
+          "confidence": 95.0,
+          "block_num": 9,
+          "line_num": 3
+        },
+        {
+          "text": "ಮತ್ತು",
+          "bbox": [
+            799,
+            1541,
+            118,
+            47
+          ],
+          "confidence": 96.0,
+          "block_num": 9,
+          "line_num": 3
+        },
+        {
+          "text": "ಮಕ್ಕಳ",
+          "bbox": [
+            951,
+            1543,
+            132,
+            47
+          ],
+          "confidence": 95.0,
+          "block_num": 9,
+          "line_num": 3
+        },
+        {
+          "text": "ಅಭಿವೃದ್ದಿ,",
+          "bbox": [
+            1117,
+            1543,
+            204,
+            50
+          ],
+          "confidence": 89.0,
+          "block_num": 9,
+          "line_num": 3
+        },
+        {
+          "text": "ವಿಕಲಚೇತನರ",
+          "bbox": [
+            1357,
+            1545,
+            279,
+            43
+          ],
+          "confidence": 95.0,
+          "block_num": 9,
+          "line_num": 3
+        },
+        {
+          "text": "ಮತ್ತು",
+          "bbox": [
+            1671,
+            1551,
+            117,
+            46
+          ],
+          "confidence": 96.0,
+          "block_num": 9,
+          "line_num": 3
+        },
+        {
+          "text": "ಹಿರಿಯ",
+          "bbox": [
+            1822,
+            1548,
+            141,
+            41
+          ],
+          "confidence": 95.0,
+          "block_num": 9,
+          "line_num": 3
+        },
+        {
+          "text": "ನಾಗರೀಕರ",
+          "bbox": [
+            1998,
+            1553,
+            208,
+            39
+          ],
+          "confidence": 96.0,
+          "block_num": 9,
+          "line_num": 3
+        },
+        {
+          "text": "ಸಬಲೀಕರಣ",
+          "bbox": [
+            439,
+            1601,
+            244,
+            44
+          ],
+          "confidence": 96.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ಇಲಾಖಾ",
+          "bbox": [
+            699,
+            1615,
+            169,
+            32
+          ],
+          "confidence": 96.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ಸಚಿವರ",
+          "bbox": [
+            882,
+            1609,
+            152,
+            38
+          ],
+          "confidence": 95.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ಆಪ್ತ",
+          "bbox": [
+            1050,
+            1612,
+            87,
+            46
+          ],
+          "confidence": 94.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": "ಕಾರ್ಯದರ್ಶಿಗಳು",
+          "bbox": [
+            1152,
+            1608,
+            336,
+            44
+          ],
+          "confidence": 94.0,
+          "block_num": 10,
+          "line_num": 1
+        },
+        {
+          "text": ".",
+          "bbox": [
+            416,
+            1701,
+            7,
+            7
+          ],
+          "confidence": 92.0,
+          "block_num": 11,
+          "line_num": 1
+        },
+        {
+          "text": "ಸರ್ಕಾರದ",
+          "bbox": [
+            440,
+            1672,
+            192,
+            52
+          ],
+          "confidence": 94.0,
+          "block_num": 11,
+          "line_num": 1
+        },
+        {
+          "text": "ಕಾರ್ಯದರ್ಶಿ,",
+          "bbox": [
+            685,
+            1670,
+            266,
+            49
+          ],
+          "confidence": 95.0,
+          "block_num": 11,
+          "line_num": 1
+        },
+        {
+          "text": "ಮಹಿಳಾ",
+          "bbox": [
+            1006,
+            1675,
+            155,
+            41
+          ],
+          "confidence": 92.0,
+          "block_num": 11,
+          "line_num": 1
+        },
+        {
+          "text": "ಮತ್ತುಮಕ್ಕಳ",
+          "bbox": [
+            1213,
+            1680,
+            246,
+            49
+          ],
+          "confidence": 88.0,
+          "block_num": 11,
+          "line_num": 1
+        },
+        {
+          "text": "ಅಭಿವೃದ್ಧಿ",
+          "bbox": [
+            1510,
+            1680,
+            204,
+            54
+          ],
+          "confidence": 88.0,
+          "block_num": 11,
+          "line_num": 1
+        },
+        {
+          "text": "ಇಲಾಖೆ",
+          "bbox": [
+            1759,
+            1684,
+            144,
+            41
+          ],
+          "confidence": 95.0,
+          "block_num": 11,
+          "line_num": 1
+        },
+        {
+          "text": "ಇವರ",
+          "bbox": [
+            1956,
+            1687,
+            109,
+            39
+          ],
+          "confidence": 95.0,
+          "block_num": 11,
+          "line_num": 1
+        },
+        {
+          "text": "ಆಪ್ತ",
+          "bbox": [
+            2119,
+            1688,
+            88,
+            47
+          ],
+          "confidence": 95.0,
+          "block_num": 11,
+          "line_num": 1
+        },
+        {
+          "text": "ಕಾರ್ಯದರ್ಶಿಗಳು",
+          "bbox": [
+            441,
+            1731,
+            340,
+            63
+          ],
+          "confidence": 95.0,
+          "block_num": 12,
+          "line_num": 1
+        },
+        {
+          "text": "`",
+          "bbox": [
+            1799,
+            1748,
+            3,
+            4
+          ],
+          "confidence": 11.0,
+          "block_num": 12,
+          "line_num": 1
+        },
+        {
+          "text": ".",
+          "bbox": [
+            418,
+            1836,
+            6,
+            7
+          ],
+          "confidence": 94.0,
+          "block_num": 13,
+          "line_num": 1
+        },
+        {
+          "text": "ಶಾಖಾ",
+          "bbox": [
+            442,
+            1814,
+            119,
+            30
+          ],
+          "confidence": 93.0,
+          "block_num": 13,
+          "line_num": 1
+        },
+        {
+          "text": "ರಕ್ನಾ",
+          "bbox": [
+            576,
+            1808,
+            102,
+            48
+          ],
+          "confidence": 63.0,
+          "block_num": 13,
+          "line_num": 1
+        },
+        {
+          "text": "ಕಡತ/",
+          "bbox": [
+            694,
+            1809,
+            127,
+            42
+          ],
+          "confidence": 77.0,
+          "block_num": 13,
+          "line_num": 1
+        },
+        {
+          "text": "ಹೆಚ್ಚುವರಿ",
+          "bbox": [
+            833,
+            1804,
+            192,
+            53
+          ],
+          "confidence": 95.0,
+          "block_num": 13,
+          "line_num": 1
+        },
+        {
+          "text": "ಪ್ರತಿಗಳು",
+          "bbox": [
+            1041,
+            1812,
+            159,
+            46
+          ],
+          "confidence": 95.0,
+          "block_num": 13,
+          "line_num": 1
+        },
+        {
+          "text": "೧3663",
+          "bbox": [
+            1162,
+            3080,
+            116,
+            39
+          ],
+          "confidence": 68.0,
+          "block_num": 14,
+          "line_num": 1
+        },
+        {
+          "text": "013",
+          "bbox": [
+            1293,
+            3078,
+            66,
+            34
+          ],
+          "confidence": 68.0,
+          "block_num": 14,
+          "line_num": 1
+        }
+      ],
+      "low_conf_percentage": 3.9,
+      "ocr_preprocessing": "kannada_sharpen"
     }
   ]
 }

@@ -1,52 +1,12 @@
 {
   "scheme_name": null,
   "department": null,
-  "document_type": null,
+  "document_type": "unknown",
   "document_date": null,
   "version_information": null,
   "purpose": null,
-  "eligibility_rules": [
-    {
-      "rule": "Must be a Professor in the subject of Agriculture or hold a relevant qualification.",
-      "type": "eligibility",
-      "value": null,
-      "category": "occupation",
-      "evidence": {
-        "page_number": 1,
-        "source_text": "Professor in the subject of Agriculture Member Economics Two Progressive Farmers to be nominated by Members the Government Two Farmer Producer Organization’s Members representatives (reputed at National /International level) to be nominated by the Government",
-        "section": null,
-        "table_index": null,
-        "row_index": null,
-        "column_index": null,
-        "cell_text": null,
-        "ocr_confidence": 88.4
-      },
-      "semantic_confidence": 0.9,
-      "review_required": false,
-      "review_reasons": []
-    }
-  ],
-  "exclusion_rules": [
-    {
-      "rule": "Government employees are excluded.",
-      "type": "exclusion",
-      "value": null,
-      "category": "employment",
-      "evidence": {
-        "page_number": 1,
-        "source_text": "Member",
-        "section": null,
-        "table_index": null,
-        "row_index": null,
-        "column_index": null,
-        "cell_text": null,
-        "ocr_confidence": 88.4
-      },
-      "semantic_confidence": 0.9,
-      "review_required": false,
-      "review_reasons": []
-    }
-  ],
+  "eligibility_rules": [],
+  "exclusion_rules": [],
   "sources": [],
   "review_required": true,
   "review_reasons": [
@@ -54,11 +14,11 @@
   ],
   "extraction_metadata": {
     "pipeline_version": "1.0_semantic_extraction",
-    "model": "qwen2.5:3b-instruct",
-    "processed_at": "2026-10-05T14:58:09.388965+00:00",
+    "model": "qwen3-vl:4b-instruct",
+    "processed_at": "2026-10-06T05:17:48.201385+00:00",
     "source_document": "02a9ac3f_SecondaryAgriculturedirectorateGO.pdf",
     "validation_status": "review_needed",
-    "rule_count": 2,
+    "rule_count": 0,
     "review_required_count": 1,
     "errors": []
   }

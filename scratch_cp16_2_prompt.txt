@@ -1,0 +1,668 @@
+<USER_REQUEST>
+Checkpoint 16.2: Kannada Rule Understanding & Recall
+
+You are continuing the Karnataka Government Scheme Eligibility AI Agent project.
+
+CP16.1 is COMPLETE and MUST remain the safety baseline.
+
+CP16.1 successfully fixed the major hallucination problem:
+
+- False positives: 6 → 0
+- Hallucinated rules: 6 → 0
+- Evidence grounding: 100%
+- Committee false positives: 2 → 0
+- Mojibake pages are now detected and routed to OCR
+- 166/166 tests pass
+- CP16 baseline artifacts remain untouched
+- CP16.1 artifacts remain untouched
+
+However, CP16.1 has a major remaining problem:
+
+- TP = 0
+- FN = 5
+- Recall = 0%
+- F1 = 0%
+
+The system is now too conservative and/or the qwen3-vl:4b-instruct model is unable to reliably convert valid Kannada evidence into structured eligibility/exclusion rules.
+
+The purpose of CP16.2 is:
+
+KANNADA RULE UNDERSTANDING + RECALL IMPROVEMENT
+
+while preserving the CP16.1 zero-hallucination safety behavior.
+
+==================================================
+1. DO NOT DESTROY CP16.1
+==================================================
+
+Do NOT:
+
+- overwrite checkpoint16_report.json
+- overwrite checkpoint16_report.md
+- overwrite checkpoint16_1_report.json
+- overwrite checkpoint16_1_report.md
+- remove CP16.1 grounding validation
+- remove mojibake detection
+- remove OCR fallback
+- remove committee filters
+- remove funding-table filters
+- loosen grounding merely to improve recall
+- hard-code expected gold-standard rules
+
+CP16.1 is the safety baseline.
+
+All existing tests must continue to pass.
+
+==================================================
+2. CURRENT GOLD-STANDARD TARGET
+==================================================
+
+Use the exact same CP16 evaluation dataset and gold labels.
+
+Do NOT modify the gold labels.
+
+Gold standard:
+
+Secondary Agriculture Directorate:
+- 0 eligibility
+- 0 exclusion
+
+Gruha Lakshmi:
+- 1 eligibility
+- 1 exclusion
+
+CM Raitha Vidyanidhi:
+- 1 eligibility
+- 2 exclusions
+
+RKVY:
+- 0 eligibility
+- 0 exclusion
+
+PM-KISAN Karnataka Top-Up:
+- 0 eligibility
+- 0 exclusion
+
+Therefore:
+
+Expected genuine rules = 5.
+
+These are evaluation targets only.
+
+DO NOT hard-code these rules into the implementation.
+
+The system must discover rules from document evidence.
+
+==================================================
+3. FIRST DIAGNOSE THE FAILURE
+==================================================
+
+Before changing the extraction logic, inspect the actual CP16.1 outputs.
+
+For each of the five documents, examine:
+
+- OCR text
+- page number
+- OCR confidence
+- structured document JSON
+- image availability
+- extracted evidence
+- LLM input
+- LLM raw output
+- sanitized output
+- grounding result
+- review reasons
+
+Determine exactly why genuine rules are not being extracted.
+
+Especially investigate:
+
+Gruha Lakshmi:
+Kannada OCR successfully produced:
+
+"ಕುಟುಂಬದ ಯಜಮಾನಿ ಮಹಿಳೆ"
+
+but the final rule extractor returned zero rules.
+
+CM Raitha Vidyanidhi:
+The document contains genuine candidate rules but extraction returned zero and review.
+
+Do not assume OCR is the problem if the OCR output already contains the relevant information.
+
+The purpose is to separate:
+
+A. OCR failure
+B. Kannada language-understanding failure
+C. prompt failure
+D. schema/output failure
+E. grounding failure
+F. over-aggressive sanitization
+G. over-aggressive review/rejection
+
+==================================================
+4. KEEP THE ORIGINAL KANNADA EVIDENCE
+==================================================
+
+Never replace the original Kannada evidence.
+
+Every accepted rule must retain:
+
+- original Kannada evidence
+- page number
+- source document
+- OCR/document-processing metadata
+
+If translation or normalization is introduced, it is an additional interpretation layer.
+
+Example:
+
+Original evidence:
+"ಕುಟುಂಬದ ಯಜಮಾನಿ ಮಹಿಳೆ"
+
+Possible interpretation:
+"Woman who is the head of the family"
+
+The English interpretation must NOT replace the original evidence.
+
+The original source remains authoritative.
+
+==================================================
+5. EXPERIMENT A — KANNADA TEXT ONLY
+==================================================
+
+Run the current qwen3-vl:4b-instruct model using the CP16.1 Kannada OCR/structured text.
+
+Do not change the model yet.
+
+Test whether the model can extract genuine rules when given clean Kannada evidence.
+
+Create a small diagnostic evaluation showing:
+
+Document
+Page
+Input evidence
+Raw model output
+Parsed rules
+Grounding result
+Final result
+
+This establishes the baseline for CP16.2.
+
+==================================================
+6. EXPERIMENT B — KANNADA + ENGLISH INTERPRETATION
+==================================================
+
+Add an optional interpretation layer.
+
+For Kannada evidence:
+
+Kannada source
+      ↓
+English interpretation
+      ↓
+Rule extraction
+
+But preserve the original Kannada evidence.
+
+The English interpretation can be produced by an available language model/service.
+
+Do NOT use external general knowledge to fill missing information.
+
+Translation must mean:
+
+"Translate/interpret what this text says."
+
+It must NOT mean:
+
+"Tell me the usual eligibility rules of this scheme."
+
+The translation layer must never introduce facts that aren't present in the source.
+
+Test whether this improves TP/recall without increasing FP.
+
+==================================================
+7. EXPERIMENT C — IMAGE + OCR + TEXT
+==================================================
+
+Because qwen3-vl:4b-instruct is a vision-language model, test whether giving the model the original page image in addition to OCR text improves understanding.
+
+For relevant pages:
+
+PDF
+ ↓
+page image
+ ↓
+Kannada OCR
+ ↓
+LLM receives:
+    - page image
+    - OCR text
+    - structured page information
+
+Ask the model to extract only candidate qualification/disqualification conditions.
+
+The model must still cite page/evidence.
+
+Do not allow it to rely on general knowledge.
+
+Compare:
+
+Text-only
+vs
+Image + text
+
+especially for:
+
+- tables
+- forms
+- degraded Kannada scans
+- mixed Kannada/English pages
+
+==================================================
+8. EXPERIMENT D — STRONGER MODEL
+==================================================
+
+Investigate whether the current qwen3-vl:4b-instruct model is simply too weak for this task.
+
+Check which suitable local models are already available through Ollama.
+
+If practical, benchmark one stronger model.
+
+Do not download huge models blindly.
+
+Record:
+
+- model name
+- size
+- inference time
+- memory requirements
+- TP
+- FP
+- FN
+- precision
+- recall
+- F1
+
+The purpose is to determine whether model capability is the bottleneck.
+
+==================================================
+9. EXPERIMENT E — SARVAM
+==================================================
+
+Investigate whether Sarvam can help with Kannada document understanding, translation, or structured interpretation in addition to OCR.
+
+If SARVAM_API_KEY is unavailable:
+
+- do not fake the experiment
+- do not claim Sarvam results
+- keep the adapter optional
+- document that credentials are required
+
+If credentials are available, test Sarvam on the relevant CP16 documents/pages.
+
+Compare:
+
+Sarvam interpretation
+vs
+qwen3-vl interpretation
+
+The original Kannada evidence must remain stored.
+
+==================================================
+10. DO NOT ASSUME TRANSLATION SOLVES EVERYTHING
+==================================================
+
+Translation is only an experiment.
+
+Do not automatically make:
+
+Kannada → English → LLM
+
+the permanent architecture unless the evaluation demonstrates improvement.
+
+The final architecture should be selected based on actual results.
+
+Possible architecture:
+
+PDF
+ ↓
+Reliable document text
+ ↓
+Kannada OCR
+ ↓
+Original Kannada evidence
+ ↓
+Optional interpretation/translation
+ ↓
+Rule extraction
+ ↓
+Strict grounding
+ ↓
+Validated rule
+
+==================================================
+11. IMPROVE THE RULE EXTRACTION PROMPT
+==================================================
+
+The current model is too conservative.
+
+Improve the extraction prompt so it understands:
+
+A candidate eligibility rule can be expressed indirectly.
+
+For example, if the document states that:
+
+"the woman who is the head of the family"
+
+this may represent an eligibility condition.
+
+The model should recognize the semantic condition rather than requiring the document to literally contain English words such as:
+
+"eligible applicant".
+
+However:
+
+DO NOT infer conditions that aren't actually stated.
+
+The model must distinguish:
+
+Explicitly stated condition
+vs
+reasonable semantic interpretation
+vs
+external/general knowledge.
+
+Only the first two may be accepted, and semantic interpretation must be supported by the source evidence.
+
+==================================================
+12. TWO-STAGE EXTRACTION
+==================================================
+
+Consider separating:
+
+Stage 1:
+Candidate condition identification
+
+Stage 2:
+Eligibility classification
+
+Example:
+
+Stage 1:
+"What candidate-related conditions are explicitly stated on this page?"
+
+Stage 2:
+"For each condition, does it determine eligibility or exclusion?"
+
+This may be better than asking the small model to perform:
+
+OCR understanding + semantic interpretation + eligibility classification + structured output
+
+all at once.
+
+Test this architecture if appropriate.
+
+==================================================
+13. KEEP STRICT GROUNDING AS THE FINAL GATE
+==================================================
+
+This is NON-NEGOTIABLE.
+
+The final pipeline must remain:
+
+LLM proposes rule
+       ↓
+Evidence grounding
+       ↓
+Validation
+       ↓
+Accept / Review / Reject
+
+The model is never the final authority.
+
+A rule without supporting source evidence must NOT be accepted.
+
+A rule based on general knowledge must NOT be accepted.
+
+A rule from another version/document must NOT be accepted.
+
+If uncertain:
+
+review_required = True
+
+Do not sacrifice grounding for recall.
+
+==================================================
+14. PREVENT REGRESSION OF CP16.1
+==================================================
+
+The following must remain false:
+
+- committee appointment → eligibility rule
+- funding allocation → beneficiary eligibility
+- absence statement → exclusion rule
+- generic PM-KISAN knowledge → Karnataka order rule
+- unrelated OCR text → eligibility rule
+- model knowledge → source evidence
+
+The following must remain true:
+
+- mojibake is detected
+- unreliable digital text is routed to OCR
+- original evidence is preserved
+- weak evidence can trigger review
+- ungrounded rules are rejected/reviewed
+
+==================================================
+15. ADD TESTS
+==================================================
+
+Add regression tests for:
+
+A. Kannada phrase representing a genuine eligibility condition
+   → correctly extracted
+
+B. Kannada phrase representing a genuine exclusion condition
+   → correctly extracted
+
+C. Kannada evidence + English interpretation
+   → rule extracted and grounded
+
+D. Image + Kannada OCR
+   → rule extracted and grounded
+
+E. Translation introduces information not present in source
+   → reject/review
+
+F. Model uses general scheme knowledge
+   → reject/review
+
+G. Genuine Kannada rule with OCR variation
+   → accepted if evidence supports it
+
+H. Committee statement
+   → still rejected
+
+I. Funding allocation
+   → still rejected
+
+J. PM-KISAN generic rule not present in Karnataka order
+   → still rejected
+
+K. Missing evidence
+   → review/reject
+
+L. Unrelated evidence
+   → review/reject
+
+M. CP16.1 mojibake detection
+   → still works
+
+N. Scanned Kannada OCR
+   → still works
+
+O. Existing CP16.1 tests
+   → all pass
+
+==================================================
+16. RUN FULL EVALUATION
+==================================================
+
+After implementation:
+
+1. Run all existing tests.
+2. Run all CP16.1 tests.
+3. Run all new CP16.2 tests.
+4. Run the exact same five-document evaluation.
+5. Do not modify the gold standard.
+6. Generate new files:
+
+checkpoint16_2_report.json
+checkpoint16_2_report.md
+
+Do not overwrite earlier reports.
+
+==================================================
+17. REQUIRED METRICS
+==================================================
+
+Report:
+
+- TP
+- FP
+- FN
+- precision
+- recall
+- F1
+
+Separately for:
+
+Eligibility
+Exclusion
+Combined
+
+Also report:
+
+- hallucinated rules
+- evidence grounding accuracy
+- review-required rules
+- rejected rules
+- OCR failures
+- model failures
+- translation failures
+- per-document results
+
+Compare:
+
+CP16
+CP16.1
+CP16.2
+
+Example:
+
+                 CP16    CP16.1    CP16.2
+TP                 0        0         ?
+FP                 6        0         ?
+FN                 5        5         ?
+Precision          0        N/A       ?
+Recall             0        0         ?
+F1                 0        0         ?
+
+==================================================
+18. SUCCESS CRITERION
+==================================================
+
+The ideal result is:
+
+TP = 5
+FP = 0
+FN = 0
+
+But do NOT artificially force this result.
+
+A result such as:
+
+TP = 3
+FP = 0
+FN = 2
+
+is better than:
+
+TP = 5
+FP = 4
+FN = 0
+
+because hallucination prevention remains critical.
+
+The most important constraint is:
+
+IMPROVE RECALL WITHOUT BRINGING BACK FALSE POSITIVES.
+
+==================================================
+19. DO NOT DO THESE THINGS
+==================================================
+
+Do NOT:
+
+- hard-code Gruha Lakshmi rules
+- hard-code CM Raitha rules
+- hard-code any gold-standard answer
+- use scheme-specific exceptions to pass evaluation
+- remove grounding
+- weaken evidence requirements
+- import internet knowledge
+- import general PM-KISAN knowledge
+- modify the gold labels
+- replace CP16.1 reports
+- redesign PostgreSQL
+- add RAG
+- add pgvector
+- add LangGraph
+- add JEV
+- optimize the agent loop
+- build frontend
+
+CP16.2 is specifically:
+
+KANNADA UNDERSTANDING
++
+RULE RECALL
++
+ZERO-HALLUCINATION SAFETY
+
+==================================================
+20. FINAL REPORT
+==================================================
+
+At the end, clearly answer:
+
+1. Is OCR still the bottleneck?
+2. Is Kannada language understanding the bottleneck?
+3. Is qwen3-vl:4b too weak for this task?
+4. Does English interpretation improve recall?
+5. Does image + OCR improve recall?
+6. Does Sarvam improve recall if available?
+7. Which approach gives the best TP/FP/FN?
+8. Did CP16.1's zero-hallucination safety remain intact?
+9. What should become the production architecture?
+10. What should be done in CP17?
+
+Do not claim success based only on more extracted text.
+
+The final success criterion is:
+
+Can the system correctly identify genuine Karnataka government scheme eligibility/exclusion conditions from Kannada government documents while remaining strictly grounded in the source?
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-06T14:08:49+05:30.
+
+The user's current state is as follows:
+Active Document: d:\scheme\.env (LANGUAGE_UNSPECIFIED)
+Cursor is on line: 4
+Other open documents:
+- d:\scheme\app\registry.py (LANGUAGE_PYTHON)
+- d:\scheme\.gitignore (LANGUAGE_UNSPECIFIED)
+- d:\scheme\app\__init__.py (LANGUAGE_PYTHON)
+- d:\scheme\scripts\seed_sources.py (LANGUAGE_PYTHON)
+- d:\scheme\data\tessdata\.gitkeep (LANGUAGE_UNSPECIFIED)
+</ADDITIONAL_METADATA>

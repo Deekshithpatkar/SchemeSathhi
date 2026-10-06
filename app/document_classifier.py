@@ -32,6 +32,10 @@ def classify_page(
     """
     raw_text = page.get_text().strip()
     text_usable = is_text_usable(raw_text)
+    from app.text_reliability import assess_text_reliability
+    reliability_assessment = assess_text_reliability(raw_text)
+    if not reliability_assessment.reliable:
+        text_usable = False
     images_count = len(page.get_images())
     text_blocks = page.get_text("blocks")
 
@@ -94,4 +98,5 @@ def classify_page(
         "table_cells_count": len(cell_boxes),
         "is_form": is_form,
         "form_fields_count": form_res["fields_count"],
+        "text_reliability": reliability_assessment.model_dump(),
     }

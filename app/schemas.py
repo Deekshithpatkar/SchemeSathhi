@@ -28,6 +28,14 @@ class SchemeEvidence(BaseModel):
         le=100.0,
         description="Physical OCR confidence percentage (0-100) from Step 9"
     )
+    original_kannada_evidence: Optional[str] = Field(
+        default=None,
+        description="Original verbatim Kannada source text"
+    )
+    english_interpretation: Optional[str] = Field(
+        default=None,
+        description="English translation or semantic interpretation of the rule/evidence"
+    )
 
 
 class RuleItem(BaseModel):
