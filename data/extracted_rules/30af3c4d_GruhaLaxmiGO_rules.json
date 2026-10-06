@@ -1,0 +1,65 @@
+{
+  "scheme_name": null,
+  "department": null,
+  "document_type": null,
+  "document_date": null,
+  "version_information": null,
+  "purpose": null,
+  "eligibility_rules": [
+    {
+      "rule": "Must be a small farmer owning less than 2 Ha of land",
+      "type": "eligibility",
+      "value": "2 Ha",
+      "category": "land_size",
+      "evidence": {
+        "page_number": 3,
+        "source_text": "Must be a small farmer owning < 2 Ha",
+        "section": null,
+        "table_index": null,
+        "row_index": null,
+        "column_index": null,
+        "cell_text": null,
+        "ocr_confidence": 100.0
+      },
+      "semantic_confidence": 0.95,
+      "review_required": false,
+      "review_reasons": []
+    }
+  ],
+  "exclusion_rules": [
+    {
+      "rule": "Government employees are excluded",
+      "type": "exclusion",
+      "value": null,
+      "category": "employment",
+      "evidence": {
+        "page_number": 3,
+        "source_text": "Government employees are excluded",
+        "section": null,
+        "table_index": null,
+        "row_index": null,
+        "column_index": null,
+        "cell_text": null,
+        "ocr_confidence": 100.0
+      },
+      "semantic_confidence": 0.95,
+      "review_required": false,
+      "review_reasons": []
+    }
+  ],
+  "sources": [],
+  "review_required": true,
+  "review_reasons": [
+    "Scheme name could not be definitively identified from document text."
+  ],
+  "extraction_metadata": {
+    "pipeline_version": "1.0_semantic_extraction",
+    "model": "qwen2.5:3b-instruct",
+    "processed_at": "2026-10-05T15:05:49.706123+00:00",
+    "source_document": "30af3c4d_GruhaLaxmiGO.pdf",
+    "validation_status": "review_needed",
+    "rule_count": 2,
+    "review_required_count": 1,
+    "errors": []
+  }
+}

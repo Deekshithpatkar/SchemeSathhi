@@ -38,15 +38,20 @@ Your objective is to inspect trusted Karnataka government scheme sources, discov
 You have access to a specific suite of registered tools. You MUST NOT invent tool names, run raw Python/shell code, or bypass validation.
 
 CRITICAL ORCHESTRATION RULES:
-1. WORKFLOW & TOOL ORDER:
-   - Call 'discover_sources' or 'get_current_rules' to retrieve official URLs and existing scheme keys. NEVER fabricate or invent URLs or scheme keys.
-   - When calling 'discover_documents', always provide the official URL returned by 'discover_sources'.
-   - When calling 'get_current_rules' or 'get_historical_versions', provide the scheme_key from the task or state.
-2. EFFICIENCY & REASONED EARLY STOPPING:
-   - If a downloaded document has the exact same SHA-256 hash as an existing active version, the document is UNCHANGED. Conclude immediately and call 'finish'. DO NOT run expensive OCR, rule extraction, or database updates on unchanged documents!
+1. ADVANCE SEQUENTIALLY (DO NOT REPEAT PREVIOUSLY EXECUTED TOOLS):
+   Once a tool succeeds, DO NOT call it again! Advance to the next logical step:
+   - Step 1: 'discover_sources' -> Provides official portal URLs. (Call only once at start)
+   - Step 2: 'discover_documents' -> Call with source_url from Step 1.
+   - Step 3: 'download_document' -> Call with document_url found in Step 2 or provided in task.
+   - Step 4: If downloaded hash matches an active version, document is UNCHANGED -> call 'finish' immediately!
+   - Step 5: 'process_document' -> Perform OCR and layout understanding using file_path from download.
+   - Step 6: 'extract_eligibility_rules' -> Extract candidate rules using structured_json_path from process_document.
+   - Step 7: 'update_knowledge_base' -> Persist validated rules to PostgreSQL.
+   - Step 8: 'finish' -> Conclude with structured summary.
+2. EFFICIENCY & EARLY STOPPING:
+   - If a downloaded document has the exact same SHA-256 hash as an existing active version, the document is UNCHANGED. Call 'finish' immediately without running expensive OCR or extraction!
 3. HUMAN REVIEW SAFETY:
-   - If extraction or rule comparison indicates 'review_required' or 'uncertain' relevance, store the update with force_review=True in update_knowledge_base. DO NOT attempt to force active status.
-   - When finished, summarize the review reasons clearly.
+   - If extraction or rule comparison indicates 'review_required' or 'uncertain' relevance, store the update with force_review=True in update_knowledge_base.
 4. STRUCTURED ACTION FORMAT:
    On every turn, you MUST return a valid JSON object matching this schema:
    {
@@ -230,9 +235,47 @@ Decide the next single action. Return ONLY valid JSON matching the AgentAction s
 
             # Case D: Execute registered tool
             tool_name = action.action
-            t_start = time.perf_counter()
-            tool_result = execute_tool(tool_name, action.arguments)
-            t_duration_ms = round((time.perf_counter() - t_start) * 1000, 2)
+
+            # Auto-fill missing arguments from current working state
+            if tool_name == "process_document" and not action.arguments.get("file_path") and state.current_document_path:
+                action.arguments["file_path"] = state.current_document_path
+            elif tool_name == "extract_eligibility_rules" and not action.arguments.get("structured_json_path") and state.processed_document_path:
+                action.arguments["structured_json_path"] = state.processed_document_path
+            elif tool_name == "update_knowledge_base":
+                if not action.arguments.get("scheme_key") and state.scheme_key:
+                    action.arguments["scheme_key"] = state.scheme_key
+                if not action.arguments.get("scheme_name") and state.scheme_name:
+                    action.arguments["scheme_name"] = state.scheme_name
+                if not action.arguments.get("document_hash") and state.current_document_hash:
+                    action.arguments["document_hash"] = state.current_document_hash
+                if not action.arguments.get("version_label"):
+                    action.arguments["version_label"] = "2026-v1"
+                if not action.arguments.get("rules_extraction") and state.current_extraction:
+                    action.arguments["rules_extraction"] = state.current_extraction
+
+            # Track unnecessary calls if repeating identical successful tool call
+            if trace and trace[-1].tool_name == action.action and trace[-1].arguments == action.arguments and trace[-1].success:
+                logger.warning(f"Repeated tool call to '{action.action}' detected.")
+                unnecessary_tool_calls += 1
+
+            # Optimization: If rules already extracted in this run, reuse without re-calling expensive LLM
+            if tool_name == "extract_eligibility_rules" and state.current_extraction is not None:
+                tool_result = {
+                    "status": "success",
+                    "scheme_name": state.current_extraction.get("scheme_name"),
+                    "department": state.current_extraction.get("department"),
+                    "eligibility_rules_count": len(state.current_extraction.get("eligibility_rules", [])),
+                    "exclusion_rules_count": len(state.current_extraction.get("exclusion_rules", [])),
+                    "review_required": state.current_extraction.get("review_required", False),
+                    "review_reasons": state.current_extraction.get("review_reasons", []),
+                    "extraction_data": state.current_extraction,
+                    "already_completed": True,
+                }
+                t_duration_ms = 0.0
+            else:
+                t_start = time.perf_counter()
+                tool_result = execute_tool(tool_name, action.arguments)
+                t_duration_ms = round((time.perf_counter() - t_start) * 1000, 2)
 
             is_success = tool_result.get("status") != "failed"
 
@@ -385,23 +428,35 @@ Decide the next single action. Return ONLY valid JSON matching the AgentAction s
                     break
 
     def _summarize_tool_result(self, tool_name: str, result: Dict[str, Any]) -> str:
-        """Constructs a concise summary string for trace logging."""
+        """Constructs an informative summary string for trace logging and LLM context."""
         if tool_name == "discover_sources":
-            return f"Found {result.get('sources_count', 0)} registered sources."
+            sources = result.get("sources", [])
+            sources_preview = ", ".join([f"{s.get('source_name')}: {s.get('official_url')}" for s in sources[:2]])
+            return f"Found {result.get('sources_count', 0)} sources: [{sources_preview}]."
         if tool_name == "discover_documents":
-            return f"Discovered {result.get('documents_count', 0)} relevant documents."
+            docs = result.get("documents", [])
+            if not docs:
+                return "Discovered 0 relevant documents on this page."
+            docs_preview = ", ".join([f"{d.get('title', '')} (url='{d.get('document_url')}')" for d in docs[:2]])
+            return f"Discovered {len(docs)} documents: [{docs_preview}]."
         if tool_name == "download_document":
-            return f"Downloaded {result.get('file_name')} (Hash: {str(result.get('file_hash'))[:10]}..., Size: {result.get('file_size')} bytes)."
+            return f"Downloaded {result.get('file_name')} to file_path='{result.get('file_path')}' (Hash: {str(result.get('file_hash'))[:10]}..., Size: {result.get('file_size')} bytes)."
         if tool_name == "process_document":
-            return f"Processed {result.get('total_pages')} pages (OCR pages: {result.get('scanned_pages_count')}, Tables: {result.get('tables_detected_count')})."
+            return f"Processed {result.get('total_pages')} pages (OCR: {result.get('ocr_performed')}, Tables: {result.get('tables_detected_count')}). Structured output at structured_json_path='{result.get('structured_json_path')}'."
         if tool_name == "extract_eligibility_rules":
-            return f"Extracted {result.get('eligibility_rules_count')} eligibility rules and {result.get('exclusion_rules_count')} exclusion rules."
+            return (
+                f"Extracted {result.get('eligibility_rules_count')} eligibility rules and {result.get('exclusion_rules_count')} exclusion rules. "
+                "Extraction complete. Next action MUST be 'update_knowledge_base' to persist rules, or 'finish'."
+            )
         if tool_name == "compare_documents":
             return f"Comparison: Status='{result.get('overall_status')}', Relevance='{result.get('eligibility_relevance')}'."
         if tool_name == "compare_rules":
             return f"Rule comparison: {result.get('summary')} (Relevance: {result.get('eligibility_relevance')})."
         if tool_name == "update_knowledge_base":
-            return f"Knowledge base: Status='{result.get('kb_status')}', Version='{result.get('version_status')}', Action='{result.get('action_taken')}'."
+            return (
+                f"Knowledge base: Status='{result.get('kb_status')}', Version='{result.get('version_status')}', Stored: {result.get('rules_stored')} rules. "
+                "Database updated. Next action MUST be 'finish'."
+            )
         if tool_name == "get_current_rules":
             if result.get("status") == "not_found":
                 return result.get("message", "Scheme not found in knowledge base.")

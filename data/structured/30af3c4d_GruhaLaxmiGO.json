@@ -1,0 +1,1353 @@
+{
+  "document": {
+    "filename": "30af3c4d_GruhaLaxmiGO.pdf",
+    "filepath": "D:\\scheme\\data\\raw\\30af3c4d_GruhaLaxmiGO.pdf",
+    "source_url": null,
+    "total_pages": 3,
+    "processed_at": "2026-10-05T15:03:46.667463+00:00",
+    "pipeline_version": "2.0_document_understanding"
+  },
+  "summary": {
+    "total_pages": 3,
+    "usable_pages_count": 3,
+    "scanned_pages_count": 0,
+    "ocr_pages_count": 0,
+    "total_tables_detected": 0,
+    "requires_ocr": false,
+    "ocr_performed": false
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "page_type": "TEXT",
+      "tags": [
+        "TEXT"
+      ],
+      "extraction_method": "direct_pymupdf",
+      "dpi": 300,
+      "blocks": [
+        {
+          "bbox": [
+            36.6,
+            24.9,
+            14.4,
+            30.2
+          ],
+          "text": "/",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            183.4,
+            69.4,
+            211.2,
+            18.3
+          ],
+          "text": "Wcve>FMW ;dvc>Fdci ~rjijj\"'r(C\\\".>",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            99.6,
+            95.2,
+            389.7,
+            21.2
+          ],
+          "text": "~~cm: 'cf ~Fe3'i5 ffi>~.sci 'cfje3.:>02Jcie''.t~ oi)~~c0 c'J.)coe!/lli c:Jjs sori~j",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            84.1,
+            116.6,
+            413.0,
+            46.1
+          ],
+          "text": "dJc>. 20001- Ti~~.:> ... c0,ci.:>c:j \"ri.,ffie)u .... e.\" a:3Jc>,~~7i eci~&)se,'tf \ne>~.:>e::3Jc>,ci~ c0,~c:j tr.)Os.:> \nt..derc>f\\d: AJm>Fdci rn:;3,c!J AJO: c'J.)c'J.)~ 70 cwAtci2JJc>M.sci2JJc>M.s 2023, ~NC)Otr",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            144.3,
+            165.3,
+            54.7,
+            13.1
+          ],
+          "text": "20-5-2023",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            102.9,
+            231.7,
+            404.9,
+            13.9
+          ],
+          "text": "Oe)~,5ci c:j)co~®d e55.)F=tr ;;;i2Jve=trdffi~;;:l.:>.._ ffi23-.,;;;i.:>~ c0e3e1;;:lvM ;;;iuc>Fd<QJ e\"3e=tr",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            65.8,
+            253.9,
+            445.4,
+            14.2
+          ],
+          "text": "m..Be~\"3n'1?';;:l.).._ a,c.'J.:>e,~oe:ed.:>sci. \n=trJe.3.:>oZJci c0~FcoC'<S®v rue3.:>o2J ®~~c0® \nM",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            65.7,
+            274.7,
+            113.1,
+            13.9
+          ],
+          "text": "c5e>~ \n~c:j),)ro~f\\ci.:>",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            178.1,
+            274.7,
+            329.4,
+            16.6
+          ],
+          "text": "0\n, \n®~~c0®.:> \ne:,5-)F=trc:Jclf\\ \n;;;;ZJve=trdffiMoavM \nrue.3.:>oZJ",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            66.0,
+            296.7,
+            443.2,
+            13.9
+          ],
+          "text": "c0~FcoC'<S®.:> em~c:j) rurac:j)eJe1cielch~ci. e:,ciJ)oci =trJe.3.:>oZJci o:b~~c0 c:j)&,~n ~,g",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            66.2,
+            318.1,
+            443.9,
+            13.9
+          ],
+          "text": ",gori'1?'J \nd..B. \n2000;-n'1?\";;:l.:>.._ \nc0ea.:>~ \n\"rie>coo8-.... 1,, \nm..Be~\"3\"o:b;;:l.:>.._ \n~Dn sdrn",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            66.6,
+            342.3,
+            80.9,
+            13.9
+          ],
+          "text": "~~c0;;;i~f\\ci.",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            101.2,
+            382.8,
+            406.2,
+            13.9
+          ],
+          "text": "c:iled Lci~ci ;;;iuc>Fdci t::>NC>otr 20-s-2023d e:,cie~cie'.'.L t::>NC>o=tr 20-s-2023 dor:;:i.)",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            66.7,
+            404.2,
+            440.3,
+            13.9
+          ],
+          "text": ";;:lraci ;;;;23-~ ;;;io~e.3 ;;;iz;3o:bvM c0eE:9ci &.>,g.;=tr e;;:l.)c:;3..Beci\"3 c:ileon, \n=trNC>Fe3tr Oe}~z1ci",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            66.9,
+            425.3,
+            439.5,
+            13.9
+          ],
+          "text": "=trJe.3.:>oZJci ®~~c0 c:j)co~n ~,g ,gori'1?'J o..B. 20001-rW;;:l).._ c0ea.:>~ \"rie>coe)-8-.._.1,,",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            67.5,
+            447.2,
+            418.8,
+            13.9
+          ],
+          "text": "m..Be~\"3\"o:b;;:l.:>.._ ~Dn sdrn &.>,g.;=tr e;;:l.:>c:;3Jcleci\"3 c0eE:9 e:,cie2;;;i~f\\ci a5c)TVcJ",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            67.4,
+            468.1,
+            440.0,
+            13.9
+          ],
+          "text": "OJ..Be~;;;'lo:b \nc.'J~dc:Jclci \nd..B~de~ \na5c)T\\Jc) \n~riF;;;i..B23-Ti'1?';;:l}.._ \n~j.,etrc:Jclfl",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            67.8,
+            494.9,
+            179.0,
+            11.5
+          ],
+          "text": "ffi..BdEe;;;i~ru<QJcioci.:> ,g~;;;i~f\\ci.",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            101.4,
+            526.6,
+            404.8,
+            13.9
+          ],
+          "text": "e=1cidoj e:,5-)Ftr ~~ro a5c)TVcJ m..Be~NC> 'bl~rori~..Bot::>n ;;;;~e5Jcle23-Ai ;;;;23-~",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            67.8,
+            550.2,
+            270.0,
+            13.9
+          ],
+          "text": ";;;;o~e3ci e;;:l.:>ai:rcJeci\"3 c;:$dci}, \ni'1?'f\\;;:loj e:,cie2Aici.",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            73.1,
+            580.4,
+            428.2,
+            12.9
+          ],
+          "text": ";t;f~F\"dd ~de!!l ;t;fo: ii>ii>~ 70 ii)ii)e, 2023. ?.:3ort'7'.ft>0.), f::>NC>OW 61\\3(' \n2023",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            68.0,
+            605.1,
+            440.0,
+            30.5
+          ],
+          "text": "~~~\"30:bvM c.'J~DAJO}~ eo~ri'1?' &\"3.._dai>e'.'.t, OeJ~,5ci rue3}02Jcie'.'.t;;:l o.i)~~c0 \nc:j)&,~li ~,g ,gOTWJ O-.B. 2000/- Ti'1,\";;:l.).._ (cwOCl.) ~a:'.ld O-.Bc:JelC:tbri'l?J \nc0eru~ \"rie>co",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            68.0,
+            638.1,
+            439.4,
+            13.9
+          ],
+          "text": "e)-8-.._.1,,\" \nOJ..Be~;;;'lo.i);;:l.).._ \n2023-24\"3e \n~e);;:'.:lel \ni'1?'=troaoj e;;:l.)~;;:lM~;;;irn",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            68.0,
+            656.9,
+            208.3,
+            13.9
+          ],
+          "text": "e:,a~&.>s1,,tr e;;:l.:>c:;3..Beci\"3 c0eE:9 e:,cie2AJci;",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            84.8,
+            679.7,
+            423.7,
+            44.6
+          ],
+          "text": "1. e:,a5c)d c:j)s~ NC>riDetr ;;;idZJOel~ c;Q~roo.i).) a:'.lsD;;;i.:>~ e>OM,5ecio.i), i'.lc0cwd \nc:j)s~ cwc0cwd c;:$Eesd 23-ee3n'1?'vM \ntrJe.3.:>oZJci @~~c0 cwoci.:> ;;j~t::>AJd.:>~ \nc:j)&,~@,) \nm..Be~\"3@ ecoF cp~;;:l.:>z;la:'.l01Jclf\\d.:>~d.",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            264.1,
+            749.1,
+            48.9,
+            10.0
+          ],
+          "text": "Page 1 of 3",
+          "type": "text",
+          "confidence": 100.0
+        }
+      ],
+      "tables": [],
+      "forms": null,
+      "full_text": "/\nWcve>FMW ;dvc>Fdci ~rjijj\"'r(C\\\".>\n~~cm: 'cf ~Fe3'i5 ffi>~.sci 'cfje3.:>02Jcie''.t~ oi)~~c0 c'J.)coe!/lli c:Jjs sori~j\ndJc>. 20001- Ti~~.:> ... c0,ci.:>c:j \"ri.,ffie)u .... e.\" a:3Jc>,~~7i eci~&)se,'tf \ne>~.:>e::3Jc>,ci~ c0,~c:j tr.)Os.:> \nt..derc>f\\d: AJm>Fdci rn:;3,c!J AJO: c'J.)c'J.)~ 70 cwAtci2JJc>M.sci2JJc>M.s 2023, ~NC)Otr\n20-5-2023\nOe)~,5ci c:j)co~®d e55.)F=tr ;;;i2Jve=trdffi~;;:l.:>.._ ffi23-.,;;;i.:>~ c0e3e1;;:lvM ;;;iuc>Fd<QJ e\"3e=tr\nm..Be~\"3n'1?';;:l.).._ a,c.'J.:>e,~oe:ed.:>sci. \n=trJe.3.:>oZJci c0~FcoC'<S®v rue3.:>o2J ®~~c0® \nM\nc5e>~ \n~c:j),)ro~f\\ci.:>\n0\n, \n®~~c0®.:> \ne:,5-)F=trc:Jclf\\ \n;;;;ZJve=trdffiMoavM \nrue.3.:>oZJ\nc0~FcoC'<S®.:> em~c:j) rurac:j)eJe1cielch~ci. e:,ciJ)oci =trJe.3.:>oZJci o:b~~c0 c:j)&,~n ~,g\n,gori'1?'J \nd..B. \n2000;-n'1?\";;:l.:>.._ \nc0ea.:>~ \n\"rie>coo8-.... 1,, \nm..Be~\"3\"o:b;;:l.:>.._ \n~Dn sdrn\n~~c0;;;i~f\\ci.\nc:iled Lci~ci ;;;iuc>Fdci t::>NC>otr 20-s-2023d e:,cie~cie'.'.L t::>NC>o=tr 20-s-2023 dor:;:i.)\n;;:lraci ;;;;23-~ ;;;io~e.3 ;;;iz;3o:bvM c0eE:9ci &.>,g.;=tr e;;:l.)c:;3..Beci\"3 c:ileon, \n=trNC>Fe3tr Oe}~z1ci\n=trJe.3.:>oZJci ®~~c0 c:j)co~n ~,g ,gori'1?'J o..B. 20001-rW;;:l).._ c0ea.:>~ \"rie>coe)-8-.._.1,,\nm..Be~\"3\"o:b;;:l.:>.._ ~Dn sdrn &.>,g.;=tr e;;:l.:>c:;3Jcleci\"3 c0eE:9 e:,cie2;;;i~f\\ci a5c)TVcJ\nOJ..Be~;;;'lo:b \nc.'J~dc:Jclci \nd..B~de~ \na5c)T\\Jc) \n~riF;;;i..B23-Ti'1?';;:l}.._ \n~j.,etrc:Jclfl\nffi..BdEe;;;i~ru<QJcioci.:> ,g~;;;i~f\\ci.\ne=1cidoj e:,5-)Ftr ~~ro a5c)TVcJ m..Be~NC> 'bl~rori~..Bot::>n ;;;;~e5Jcle23-Ai ;;;;23-~\n;;;;o~e3ci e;;:l.:>ai:rcJeci\"3 c;:$dci}, \ni'1?'f\\;;:loj e:,cie2Aici.\n;t;f~F\"dd ~de!!l ;t;fo: ii>ii>~ 70 ii)ii)e, 2023. ?.:3ort'7'.ft>0.), f::>NC>OW 61\\3(' \n2023\n~~~\"30:bvM c.'J~DAJO}~ eo~ri'1?' &\"3.._dai>e'.'.t, OeJ~,5ci rue3}02Jcie'.'.t;;:l o.i)~~c0 \nc:j)&,~li ~,g ,gOTWJ O-.B. 2000/- Ti'1,\";;:l.).._ (cwOCl.) ~a:'.ld O-.Bc:JelC:tbri'l?J \nc0eru~ \"rie>co\ne)-8-.._.1,,\" \nOJ..Be~;;;'lo.i);;:l.).._ \n2023-24\"3e \n~e);;:'.:lel \ni'1?'=troaoj e;;:l.)~;;:lM~;;;irn\ne:,a~&.>s1,,tr e;;:l.:>c:;3..Beci\"3 c0eE:9 e:,cie2AJci;\n1. e:,a5c)d c:j)s~ NC>riDetr ;;;idZJOel~ c;Q~roo.i).) a:'.lsD;;;i.:>~ e>OM,5ecio.i), i'.lc0cwd \nc:j)s~ cwc0cwd c;:$Eesd 23-ee3n'1?'vM \ntrJe.3.:>oZJci @~~c0 cwoci.:> ;;j~t::>AJd.:>~ \nc:j)&,~@,) \nm..Be~\"3@ ecoF cp~;;:l.:>z;la:'.l01Jclf\\d.:>~d.\nPage 1 of 3",
+      "avg_confidence": 100.0
+    },
+    {
+      "page_number": 2,
+      "page_type": "TEXT",
+      "tags": [
+        "TEXT"
+      ],
+      "extraction_method": "direct_pymupdf",
+      "dpi": 300,
+      "blocks": [
+        {
+          "bbox": [
+            506.5,
+            34.7,
+            40.0,
+            53.8
+          ],
+          "text": "... \nw",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            401.1,
+            72.6,
+            82.3,
+            13.6
+          ],
+          "text": "\"C \n1), \no-8 \n13 \n-6 \n0 \nc3",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            307.8,
+            73.4,
+            84.2,
+            19.5
+          ],
+          "text": "r.} \n130 \n10 B \n'e), \no-8 \n13",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            272.3,
+            75.6,
+            30.7,
+            12.6
+          ],
+          "text": "d \n1t3 \n18",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            163.9,
+            75.6,
+            102.0,
+            30.1
+          ],
+          "text": "l1l) \n0 op \nl3 \n0 rio \nc3 l3 \n1P \ntlll) \n~lZ \nBB \nT2\"',j",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            98.5,
+            74.6,
+            52.8,
+            28.5
+          ],
+          "text": ",B i2 \n.,._,, .l3 \n'l3 .,._,, \n0 \nc3 B",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            81.7,
+            75.1,
+            11.4,
+            10.0
+          ],
+          "text": "N",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            450.8,
+            120.4,
+            70.6,
+            46.1
+          ],
+          "text": "u.13 \n\"J3 O 12 \n-2 Lt.. \n\"C .d @ \n'O O 12 \n12 \nD \n4) \n--1 \nr,",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            403.0,
+            120.8,
+            50.8,
+            43.1
+          ],
+          "text": "1./) \n,--; T2 \n1312 \n~'f.3/~ \nJ3 -a 18",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            368.3,
+            121.4,
+            29.7,
+            30.8
+          ],
+          "text": "l3 g '§",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            346.6,
+            122.8,
+            20.8,
+            39.5
+          ],
+          "text": "1./) 4) 'fp \n\"e), 0",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            278.0,
+            122.3,
+            63.0,
+            41.0
+          ],
+          "text": "r2 \n13· \n,B ri D \nD °l] 12 \nm v \nT-3·",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            249.4,
+            122.9,
+            31.6,
+            45.2
+          ],
+          "text": "N l3TI \n~oo \n.: 10 D",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            100.2,
+            121.4,
+            143.1,
+            59.6
+          ],
+          "text": "1./) \n13· \nT2] j./ \nD.: \nT-3· l1l) 4) \n0 \nB T2 \n.,..., \n. .: \nIG r, \nr, \n.l3l313-l3 \nt3/ r, t3/ \n'\"O r, T2 r, \nu 1Z@ 13 \n~t v \n1P le T-3-12",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            83.1,
+            122.4,
+            10.6,
+            10.0
+          ],
+          "text": "rri",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            495.6,
+            186.6,
+            13.5,
+            14.2
+          ],
+          "text": ".:",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            422.0,
+            187.2,
+            34.9,
+            12.9
+          ],
+          "text": "1P \n6\"6) \n~-",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            391.2,
+            187.6,
+            11.3,
+            11.7
+          ],
+          "text": "B-",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            354.5,
+            187.8,
+            13.5,
+            14.7
+          ],
+          "text": ".:",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            321.8,
+            188.1,
+            22.2,
+            11.8
+          ],
+          "text": "1P \n0",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            258.7,
+            188.7,
+            37.2,
+            30.6
+          ],
+          "text": "!J 0 o \nLt.. l3 \n~1P",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            202.6,
+            188.7,
+            38.1,
+            29.3
+          ],
+          "text": "r, ~'l \nl3- 1P \n0 l:u \n<'(",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            112.5,
+            188.7,
+            85.4,
+            31.3
+          ],
+          "text": "12 \n.,._,, \niZ ri \nr, 0 \nD l·C \nD~t \nt3 l•c \nLt.. \nLt.. \n\"J3 \"J3",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            83.9,
+            189.9,
+            10.3,
+            9.5
+          ],
+          "text": "-s:I'",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            444.5,
+            232.1,
+            79.0,
+            58.1
+          ],
+          "text": "l3i2.,._,,D \nD0~12 \n@ .,._,,.: \n[f.st\\l @ 18 \n4)10~lll) \nT-3 \n'-V 0 \n-~ \n\"@ D ~t 01 \n.,._,, \nl3 l1l)",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            102.7,
+            232.1,
+            342.6,
+            78.4
+          ],
+          "text": "1~-~ 813 \nolll)-§13 \nB \"Cc o tf \n1l J 1P -8 \nr, \nT2 \"e), l3 \n~[.: t3/ \nB~-85 \nLt..~ i!3 \n\"J3 \n13 lZ \nT2t T-3 12 \nl3 \n'\"\"l3 \n(c)Bno \nwu.010 \n\"J3 fi'?c \ntf \nil3 Ll \n.,._,, Lt.. . -\nu.B~\"J3f3 \n~'f.3/6\"6J~t3/ \n@08--1 .. \n'@13\"\" 12~ \n~6?~i~ \n7Z6\"6J \n-il9'll:l \n~test? \n13 \nlZ~lll)~\"lP' \nri ,B \nD \nD O ,--; \n1P, \nD \n13@~ \nQ 13 'f.3/ l~ lZ \nLt..~ -a 6\"6) 130 \n\"J3.,._,,~12ri \n~TJ12",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            86.2,
+            235.8,
+            9.9,
+            10.6
+          ],
+          "text": "vi",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            497.2,
+            320.9,
+            23.0,
+            11.8
+          ],
+          "text": "Lt.. h",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            408.8,
+            320.8,
+            76.5,
+            15.2
+          ],
+          "text": "D \n0-\n4) ~, \n13 \n,a)",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            369.7,
+            322.6,
+            21.2,
+            10.5
+          ],
+          "text": "'fp \n0",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            329.8,
+            322.3,
+            19.3,
+            18.3
+          ],
+          "text": "B",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            297.3,
+            322.3,
+            28.1,
+            13.9
+          ],
+          "text": "13· \nT2",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            206.0,
+            322.3,
+            82.0,
+            28.8
+          ],
+          "text": "T-3· \n5 \nB r, \n13 l3 \nT-3 t3/ \n'\"\" r, \n13-13",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            102.6,
+            322.6,
+            78.8,
+            31.4
+          ],
+          "text": "B~ \ni2 .,._,, \n£~ \n~,:f \nB T2 \n1P~",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            86.6,
+            324.3,
+            9.2,
+            9.6
+          ],
+          "text": "u::i",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            373.5,
+            371.2,
+            148.2,
+            39.0
+          ],
+          "text": "\"C \n61 \ni!3 tf B \n-8 0 \n4) \nes \n18 \n6\"6) \nT-3 \nB \n£",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            325.6,
+            372.4,
+            33.7,
+            38.4
+          ],
+          "text": "1P \n.l3 \nB B",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            265.2,
+            372.8,
+            44.9,
+            31.6
+          ],
+          "text": "-8 B-\n1!3 \n0 \n<ll",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            497.6,
+            430.6,
+            23.2,
+            14.0
+          ],
+          "text": "Lt.. rl",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            481.3,
+            430.4,
+            10.4,
+            11.0
+          ],
+          "text": "10",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            428.6,
+            431.0,
+            32.0,
+            12.9
+          ],
+          "text": "f.c \nQ \n\"J3",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            368.7,
+            430.6,
+            50.0,
+            18.9
+          ],
+          "text": "6\"6) \nT-3 \nB",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            316.1,
+            431.2,
+            29.5,
+            18.3
+          ],
+          "text": ".l3 B",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            281.1,
+            431.7,
+            11.3,
+            11.5
+          ],
+          "text": "B-",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            137.9,
+            373.2,
+            102.5,
+            92.0
+          ],
+          "text": "~t \nt \n.: \n.l3 130 \n.l3 ~o \n13 B \nB \nes \nes \nT2 13~ 1312 \nJLl Jl2 \n12 \n~6\"6) \n13 \n12 \n~t \n.g ,B \nl!3 lZ",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            102.9,
+            373.5,
+            34.2,
+            12.1
+          ],
+          "text": "\"e), \n')p \n1P",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            86.7,
+            375.0,
+            10.0,
+            9.1
+          ],
+          "text": "r---:",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            446.2,
+            476.2,
+            78.0,
+            11.6
+          ],
+          "text": "m \nN \n0 \nN \n<D \n9 \nN \n0 \n1P \n0",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            102.3,
+            475.9,
+            332.3,
+            36.6
+          ],
+          "text": "i!3 \n~t \nD \nm \nN \n0 \nN \n....... \nN \nN m \nTI \n0 \nl•c \n~7-c \nD il3 \n1P D \ntr<ll \n18 \ntfB \nT2':i \nt? \n,~ B \n12 i2 \n°.Bn \nlZ \nff~ \n12 \n12 \n'l3 \nr, \n4) D \nil3 \n1P 6?",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            70.8,
+            496.2,
+            26.3,
+            12.1
+          ],
+          "text": "13 \n0 \nD",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            484.2,
+            523.2,
+            11.1,
+            9.8
+          ],
+          "text": "D",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            457.1,
+            523.2,
+            18.4,
+            12.0
+          ],
+          "text": "r, \nT2",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            334.9,
+            523.6,
+            113.1,
+            36.1
+          ],
+          "text": "4) E \nD lZ \n0 18 \n~D \n'\"\"12 \n.l3 \nes ~, \n1P 13 \nt",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            315.7,
+            523.9,
+            12.9,
+            11.6
+          ],
+          "text": "1P",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            436.1,
+            564.7,
+            70.4,
+            89.8
+          ],
+          "text": "D~ \nT2 \n:;ii \n«I ~ \n' 1!3 \n-....c b \n0 D \nj~t -e",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            315.2,
+            563.0,
+            130.4,
+            92.7
+          ],
+          "text": ":;i -gEJ B \"68 \na~q,,z \nCf\"\\ \n· \n12 D \ncr \nf.c T2 6J· 1P \nQo-~o \n-\n.: \nV) \nu.13}~ \n13°E13B \n61. \n~, 10 \nlZ 13 \no-8",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            276.6,
+            623.2,
+            34.6,
+            49.7
+          ],
+          "text": "~rs~",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            79.5,
+            660.4,
+            28.3,
+            12.4
+          ],
+          "text": "'C \n10 \n12",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            467.4,
+            682.1,
+            17.7,
+            11.7
+          ],
+          "text": "-8",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            370.3,
+            681.9,
+            87.6,
+            33.8
+          ],
+          "text": ".: \n0 \n13 \na:5 \n0-, \nm \nr, \n\"C D \na~",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            471.3,
+            731.5,
+            17.7,
+            11.7
+          ],
+          "text": "-8",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            405.6,
+            731.3,
+            56.2,
+            18.3
+          ],
+          "text": ".: \n0 \n13 \nB \n\"H:>,",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            127.1,
+            682.8,
+            249.7,
+            88.8
+          ],
+          "text": "r-J .: \n1B o \nd \no 13 \nTcf \nti r, 6J· \n-\nLt.. D \nm \nLt.. lZ .: \no \n\"}p \nO \n@ \nN \n1P \n13 \n:½'a \n,....:: \nu: Lt.. \nr~ .stu .stu \n~1Pl3l3 \nQU:u.u. \n~.stuBB \n-8 -e \n0 B '\"\"'\"\" \n@ \na1P1313 \n.,._,, \n'\"\" \n~auu \nrs \nr, T-3 T-3 \n13 \n16 l3 l3 l3 \nT2DDD \n@U.U.U.",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            88.7,
+            687.2,
+            30.5,
+            63.3
+          ],
+          "text": "T-3 lZ lZ 7Z \n,....:NM-st",
+          "type": "text",
+          "confidence": 100.0
+        }
+      ],
+      "tables": [],
+      "forms": null,
+      "full_text": "... \nw\n\"C \n1), \no-8 \n13 \n-6 \n0 \nc3\nr.} \n130 \n10 B \n'e), \no-8 \n13\nd \n1t3 \n18\nl1l) \n0 op \nl3 \n0 rio \nc3 l3 \n1P \ntlll) \n~lZ \nBB \nT2\"',j\n,B i2 \n.,._,, .l3 \n'l3 .,._,, \n0 \nc3 B\nN\nu.13 \n\"J3 O 12 \n-2 Lt.. \n\"C .d @ \n'O O 12 \n12 \nD \n4) \n--1 \nr,\n1./) \n,--; T2 \n1312 \n~'f.3/~ \nJ3 -a 18\nl3 g '§\n1./) 4) 'fp \n\"e), 0\nr2 \n13· \n,B ri D \nD °l] 12 \nm v \nT-3·\nN l3TI \n~oo \n.: 10 D\n1./) \n13· \nT2] j./ \nD.: \nT-3· l1l) 4) \n0 \nB T2 \n.,..., \n. .: \nIG r, \nr, \n.l3l313-l3 \nt3/ r, t3/ \n'\"O r, T2 r, \nu 1Z@ 13 \n~t v \n1P le T-3-12\nrri\n.:\n1P \n6\"6) \n~-\nB-\n.:\n1P \n0\n!J 0 o \nLt.. l3 \n~1P\nr, ~'l \nl3- 1P \n0 l:u \n<'(\n12 \n.,._,, \niZ ri \nr, 0 \nD l·C \nD~t \nt3 l•c \nLt.. \nLt.. \n\"J3 \"J3\n-s:I'\nl3i2.,._,,D \nD0~12 \n@ .,._,,.: \n[f.st\\l @ 18 \n4)10~lll) \nT-3 \n'-V 0 \n-~ \n\"@ D ~t 01 \n.,._,, \nl3 l1l)\n1~-~ 813 \nolll)-§13 \nB \"Cc o tf \n1l J 1P -8 \nr, \nT2 \"e), l3 \n~[.: t3/ \nB~-85 \nLt..~ i!3 \n\"J3 \n13 lZ \nT2t T-3 12 \nl3 \n'\"\"l3 \n(c)Bno \nwu.010 \n\"J3 fi'?c \ntf \nil3 Ll \n.,._,, Lt.. . -\nu.B~\"J3f3 \n~'f.3/6\"6J~t3/ \n@08--1 .. \n'@13\"\" 12~ \n~6?~i~ \n7Z6\"6J \n-il9'll:l \n~test? \n13 \nlZ~lll)~\"lP' \nri ,B \nD \nD O ,--; \n1P, \nD \n13@~ \nQ 13 'f.3/ l~ lZ \nLt..~ -a 6\"6) 130 \n\"J3.,._,,~12ri \n~TJ12\nvi\nLt.. h\nD \n0-\n4) ~, \n13 \n,a)\n'fp \n0\nB\n13· \nT2\nT-3· \n5 \nB r, \n13 l3 \nT-3 t3/ \n'\"\" r, \n13-13\nB~ \ni2 .,._,, \n£~ \n~,:f \nB T2 \n1P~\nu::i\n\"C \n61 \ni!3 tf B \n-8 0 \n4) \nes \n18 \n6\"6) \nT-3 \nB \n£\n1P \n.l3 \nB B\n-8 B-\n1!3 \n0 \n<ll\nLt.. rl\n10\nf.c \nQ \n\"J3\n6\"6) \nT-3 \nB\n.l3 B\nB-\n~t \nt \n.: \n.l3 130 \n.l3 ~o \n13 B \nB \nes \nes \nT2 13~ 1312 \nJLl Jl2 \n12 \n~6\"6) \n13 \n12 \n~t \n.g ,B \nl!3 lZ\n\"e), \n')p \n1P\nr---:\nm \nN \n0 \nN \n<D \n9 \nN \n0 \n1P \n0\ni!3 \n~t \nD \nm \nN \n0 \nN \n....... \nN \nN m \nTI \n0 \nl•c \n~7-c \nD il3 \n1P D \ntr<ll \n18 \ntfB \nT2':i \nt? \n,~ B \n12 i2 \n°.Bn \nlZ \nff~ \n12 \n12 \n'l3 \nr, \n4) D \nil3 \n1P 6?\n13 \n0 \nD\nD\nr, \nT2\n4) E \nD lZ \n0 18 \n~D \n'\"\"12 \n.l3 \nes ~, \n1P 13 \nt\n1P\nD~ \nT2 \n:;ii \n«I ~ \n' 1!3 \n-....c b \n0 D \nj~t -e\n:;i -gEJ B \"68 \na~q,,z \nCf\"\\ \n· \n12 D \ncr \nf.c T2 6J· 1P \nQo-~o \n-\n.: \nV) \nu.13}~ \n13°E13B \n61. \n~, 10 \nlZ 13 \no-8\n~rs~\n'C \n10 \n12\n-8\n.: \n0 \n13 \na:5 \n0-, \nm \nr, \n\"C D \na~\n-8\n.: \n0 \n13 \nB \n\"H:>,\nr-J .: \n1B o \nd \no 13 \nTcf \nti r, 6J· \n-\nLt.. D \nm \nLt.. lZ .: \no \n\"}p \nO \n@ \nN \n1P \n13 \n:½'a \n,....:: \nu: Lt.. \nr~ .stu .stu \n~1Pl3l3 \nQU:u.u. \n~.stuBB \n-8 -e \n0 B '\"\"'\"\" \n@ \na1P1313 \n.,._,, \n'\"\" \n~auu \nrs \nr, T-3 T-3 \n13 \n16 l3 l3 l3 \nT2DDD \n@U.U.U.\nT-3 lZ lZ 7Z \n,....:NM-st",
+      "avg_confidence": 100.0
+    },
+    {
+      "page_number": 3,
+      "page_type": "TEXT",
+      "tags": [
+        "TEXT"
+      ],
+      "extraction_method": "direct_pymupdf",
+      "dpi": 300,
+      "blocks": [
+        {
+          "bbox": [
+            279.1,
+            737.5,
+            5.1,
+            8.8
+          ],
+          "text": "\"\"IJ",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            281.1,
+            738.3,
+            15.3,
+            10.0
+          ],
+          "text": "\"' \nOil",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            294.3,
+            739.3,
+            4.5,
+            7.0
+          ],
+          "text": "(1)",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            301.8,
+            737.4,
+            6.4,
+            8.9
+          ],
+          "text": "VJ",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            308.8,
+            736.8,
+            10.9,
+            9.6
+          ],
+          "text": "S?,",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            321.0,
+            737.4,
+            6.4,
+            8.9
+          ],
+          "text": "VJ",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            87.8,
+            335.8,
+            4.6,
+            106.1
+          ],
+          "text": "....l \n__,I, \n---l. \n--\" \n....l",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            93.4,
+            336.1,
+            9.7,
+            41.6
+          ],
+          "text": ":--J 0 \n!-11",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            82.8,
+            58.2,
+            15.1,
+            238.7
+          ],
+          "text": ".....l. \n--1 \n__,I, \n-....l\\.O \n(X) \n-..JO)V, \n!-\" \n!'-' \n-9 · \n....",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            99.5,
+            63.6,
+            16.5,
+            378.9
+          ],
+          "text": "l~liliUli~u~~£1.~lili.23uuli~li.23lilili",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            123.6,
+            64.7,
+            31.5,
+            378.0
+          ],
+          "text": "e) ~\"1 Cs>2..l.\"1Je) ~Jt>IJQ} ~~W\"10'>9'9'\"18,\"1 \nQ'.) \n\"1 \"1 \"1 \na.\"1 a.a\"' O.(ol fila \n?!) \n~0.P..QiQiO.\"' ap.,aaa \n~rrrra.yrr~~~ \na.~~D.£1.ellell£lell£1.£1.rrrrrr",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            145.1,
+            65.5,
+            40.0,
+            379.9
+          ],
+          "text": "e \ne3 8 .. a~-D~~\n0 q2~g__9-_9-~~cgg_cgaa \nell :::t \n-D 3(!) \n3u.. \nw o \neJ \nfil fil \n~D~~~ygaa.fil~~aa.",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            179.1,
+            66.0,
+            56.0,
+            379.6
+          ],
+          "text": "Cd c \neJ \nu. \nCY \nCllJ. -e_ \n?1 di \nQJ \n8-' \"1 -\nQ) \nfl fl \n' \n-ri~y~~~' \n.e-~~&o~D.£1.Et&yrr \ni \n2:L L~ g \"3:': \n2 \ne3 ell g \ne3 \ng_ \n0 r r \nr:u \nff. \n-ri \n2.-- r;-, ct \nG f .23 \nt \nt",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            218.6,
+            66.0,
+            46.9,
+            377.9
+          ],
+          "text": "fl \nM ha. a R, \nr \n-~ L~ a g \nw g g \nfil \nC,-\n4-\n\"1 \nN ~ \"1 \n2:J N \n-\n--'-\nC,-\nQ \n0 \ng.o~-e.~g~CliCY \n,~li nell~",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            256.0,
+            66.2,
+            32.5,
+            377.8
+          ],
+          "text": "\"\"' \nCl \n\\b :::tU.ell:::t \n4'> \nc:,,4-\nCd \n\"1 \n\"1 u.u. \n:::t \n<!IL a-s>~ba~ \nt--\nEl \n~-e. \n£1. \n£1.~~ \nW-u\"1Co y~ \nfJ \n,,...cg.23",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            282.8,
+            68.6,
+            22.5,
+            343.6
+          ],
+          "text": "fl O El ell a \nfl \n2:L \n-fJ \n\"1 \n21. a \nt,-~\"'.Q3d \nt,-\n0 \n0 \nQ) \n-\n:::t",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            296.3,
+            68.4,
+            34.6,
+            346.1
+          ],
+          "text": "I~ \"1 p \nfil ,,... g-' 3~ \n-\n@ \np \n8. \n-~ \nY~ \nY \nwP£1. \nt-fJell",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            324.9,
+            71.7,
+            31.6,
+            343.2
+          ],
+          "text": "St j_ \nR 2.--\ny y \n8.. \ng \ng_ \nfl \nP \n-e,~0~~-Dedv \n-rieJ~ \nPeJ",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            350.8,
+            67.5,
+            45.0,
+            347.8
+          ],
+          "text": "n, \nr: \nDe) \nLV \nfl \nN \nSL a a \nn, \"' \n\\b \n,,... \n' a CY \n\"' \nc,-\nu. \nfl -\n0 \ndi \n\\b \n.ID \n-u \n~_gg:::tY \nCd \ng_ \nc,-£1. \n-u~g. \np \n0. fi :::t \n{ \nLv \n2:L g_ \ng \np \n:::t",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            384.6,
+            69.6,
+            34.1,
+            344.8
+          ],
+          "text": "p \nyg_~ \negg \nY \ng 8,~ \nJt \no?ifj,~ \n,,. \nell \nc... a \nfl \nc,- o a",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            407.4,
+            74.2,
+            22.0,
+            338.8
+          ],
+          "text": "\"' \nI~ \n-u ;i_ \n2:L \nQJ \nV \nt,-\nCd :::t V",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            415.7,
+            85.7,
+            45.4,
+            328.2
+          ],
+          "text": ".ID \nQ \np '--\" \n4'> \nfl \n1v ie_ \n8-'\n0 \nD~ \ncg \nEl \nGt. \n6L \nfil~ \na \ng \no \n8\\. \n-u \n2:L \nfl \n8, \n0 \nv",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            452.0,
+            98.4,
+            40.9,
+            315.9
+          ],
+          "text": ".23 \np \nO \nt,-\nt \ni. -D \np i \n1~ \nfl \ng",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            485.9,
+            105.0,
+            16.5,
+            308.9
+          ],
+          "text": "a \n:::t \n'~ \n.23 \nGt. \nCllJ.",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            498.7,
+            133.3,
+            18.6,
+            280.8
+          ],
+          "text": "a \nSZ \n~g \nm o \ny",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            514.6,
+            135.0,
+            16.5,
+            281.5
+          ],
+          "text": "1fil \n_$-\ng \nL~",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            43.6,
+            21.7,
+            21.1,
+            13.3
+          ],
+          "text": "\"",
+          "type": "text",
+          "confidence": 100.0
+        }
+      ],
+      "tables": [],
+      "forms": null,
+      "full_text": "\"\"IJ\n\"' \nOil\n(1)\nVJ\nS?,\nVJ\n....l \n__,I, \n---l. \n--\" \n....l\n:--J 0 \n!-11\n.....l. \n--1 \n__,I, \n-....l\\.O \n(X) \n-..JO)V, \n!-\" \n!'-' \n-9 · \n....\nl~liliUli~u~~£1.~lili.23uuli~li.23lilili\ne) ~\"1 Cs>2..l.\"1Je) ~Jt>IJQ} ~~W\"10'>9'9'\"18,\"1 \nQ'.) \n\"1 \"1 \"1 \na.\"1 a.a\"' O.(ol fila \n?!) \n~0.P..QiQiO.\"' ap.,aaa \n~rrrra.yrr~~~ \na.~~D.£1.ellell£lell£1.£1.rrrrrr\ne \ne3 8 .. a~-D~~\n0 q2~g__9-_9-~~cgg_cgaa \nell :::t \n-D 3(!) \n3u.. \nw o \neJ \nfil fil \n~D~~~ygaa.fil~~aa.\nCd c \neJ \nu. \nCY \nCllJ. -e_ \n?1 di \nQJ \n8-' \"1 -\nQ) \nfl fl \n' \n-ri~y~~~' \n.e-~~&o~D.£1.Et&yrr \ni \n2:L L~ g \"3:': \n2 \ne3 ell g \ne3 \ng_ \n0 r r \nr:u \nff. \n-ri \n2.-- r;-, ct \nG f .23 \nt \nt\nfl \nM ha. a R, \nr \n-~ L~ a g \nw g g \nfil \nC,-\n4-\n\"1 \nN ~ \"1 \n2:J N \n-\n--'-\nC,-\nQ \n0 \ng.o~-e.~g~CliCY \n,~li nell~\n\"\"' \nCl \n\\b :::tU.ell:::t \n4'> \nc:,,4-\nCd \n\"1 \n\"1 u.u. \n:::t \n<!IL a-s>~ba~ \nt--\nEl \n~-e. \n£1. \n£1.~~ \nW-u\"1Co y~ \nfJ \n,,...cg.23\nfl O El ell a \nfl \n2:L \n-fJ \n\"1 \n21. a \nt,-~\"'.Q3d \nt,-\n0 \n0 \nQ) \n-\n:::t\nI~ \"1 p \nfil ,,... g-' 3~ \n-\n@ \np \n8. \n-~ \nY~ \nY \nwP£1. \nt-fJell\nSt j_ \nR 2.--\ny y \n8.. \ng \ng_ \nfl \nP \n-e,~0~~-Dedv \n-rieJ~ \nPeJ\nn, \nr: \nDe) \nLV \nfl \nN \nSL a a \nn, \"' \n\\b \n,,... \n' a CY \n\"' \nc,-\nu. \nfl -\n0 \ndi \n\\b \n.ID \n-u \n~_gg:::tY \nCd \ng_ \nc,-£1. \n-u~g. \np \n0. fi :::t \n{ \nLv \n2:L g_ \ng \np \n:::t\np \nyg_~ \negg \nY \ng 8,~ \nJt \no?ifj,~ \n,,. \nell \nc... a \nfl \nc,- o a\n\"' \nI~ \n-u ;i_ \n2:L \nQJ \nV \nt,-\nCd :::t V\n.ID \nQ \np '--\" \n4'> \nfl \n1v ie_ \n8-'\n0 \nD~ \ncg \nEl \nGt. \n6L \nfil~ \na \ng \no \n8\\. \n-u \n2:L \nfl \n8, \n0 \nv\n.23 \np \nO \nt,-\nt \ni. -D \np i \n1~ \nfl \ng\na \n:::t \n'~ \n.23 \nGt. \nCllJ.\na \nSZ \n~g \nm o \ny\n1fil \n_$-\ng \nL~\n\"",
+      "avg_confidence": 100.0
+    }
+  ]
+}

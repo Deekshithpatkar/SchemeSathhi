@@ -68,8 +68,15 @@ def download_file(url: str, output_dir: Path = RAW_DIR, timeout: int = 30) -> Op
     """
     try:
         logger.info(f"Downloading: {url}")
-        response = requests.get(url, headers=DEFAULT_HEADERS, timeout=timeout, stream=True)
-        response.raise_for_status()
+        try:
+            response = requests.get(url, headers=DEFAULT_HEADERS, timeout=timeout, stream=True)
+            response.raise_for_status()
+        except requests.exceptions.SSLError:
+            logger.warning(f"SSL certificate verification failed for {url}. Retrying download without verification...")
+            import urllib3
+            urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+            response = requests.get(url, headers=DEFAULT_HEADERS, timeout=timeout, stream=True, verify=False)
+            response.raise_for_status()
 
         content = response.content
         if not content:
@@ -102,6 +109,28 @@ def download_file(url: str, output_dir: Path = RAW_DIR, timeout: int = 30) -> Op
 
     except requests.RequestException as e:
         logger.error(f"Failed to download {url}: {e}")
+        # If remote is unreachable, check if a genuine downloaded copy exists locally
+        try:
+            base_name = os.path.basename(unquote(urlparse(url).path))
+            clean_base = re.sub(r'[\\/*?:"<>| ]', "_", base_name)
+            if not clean_base.lower().endswith(".pdf"):
+                clean_base += ".pdf"
+            candidates = list(output_dir.glob(f"*_{clean_base}")) if clean_base else []
+            if candidates and candidates[0].exists():
+                cand = candidates[0]
+                content = cand.read_bytes()
+                f_hash = calculate_sha256(content)
+                logger.info(f"Using existing raw file for {url}: {cand.name}")
+                return {
+                    "source_url": url,
+                    "file_path": str(cand),
+                    "file_name": cand.name,
+                    "file_hash": f_hash,
+                    "file_size": len(content),
+                    "is_pdf": is_valid_pdf_content(content),
+                }
+        except Exception as fallback_err:
+            logger.debug(f"Local fallback check failed: {fallback_err}")
         return None
 
 

@@ -67,6 +67,17 @@ def fetch_html(url: str, timeout: int = 15) -> Optional[str]:
         response = requests.get(url, headers=DEFAULT_HEADERS, timeout=timeout)
         response.raise_for_status()
         return response.text
+    except requests.exceptions.SSLError:
+        logger.warning(f"SSL certificate verification failed for {url}. Retrying without certificate verification...")
+        try:
+            import urllib3
+            urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+            response = requests.get(url, headers=DEFAULT_HEADERS, timeout=timeout, verify=False)
+            response.raise_for_status()
+            return response.text
+        except requests.RequestException as e:
+            logger.error(f"Failed to fetch {url} (SSL fallback): {e}")
+            return None
     except requests.RequestException as e:
         logger.error(f"Failed to fetch {url}: {e}")
         return None

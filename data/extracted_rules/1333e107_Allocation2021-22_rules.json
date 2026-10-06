@@ -1,0 +1,25 @@
+{
+  "scheme_name": null,
+  "department": null,
+  "document_type": null,
+  "document_date": null,
+  "version_information": null,
+  "purpose": null,
+  "eligibility_rules": [],
+  "exclusion_rules": [],
+  "sources": [],
+  "review_required": true,
+  "review_reasons": [
+    "Scheme name could not be definitively identified from document text."
+  ],
+  "extraction_metadata": {
+    "pipeline_version": "1.0_semantic_extraction",
+    "model": "qwen2.5:3b-instruct",
+    "processed_at": "2026-10-05T17:05:19.020080+00:00",
+    "source_document": "1333e107_Allocation2021-22.pdf",
+    "validation_status": "review_needed",
+    "rule_count": 0,
+    "review_required_count": 1,
+    "errors": []
+  }
+}

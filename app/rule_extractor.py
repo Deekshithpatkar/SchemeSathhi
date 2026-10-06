@@ -26,7 +26,7 @@ Your sole purpose is to extract explicit rules that determine whether an individ
 CRITICAL INSTRUCTIONS & ANTI-HALLUCINATION GUARDRAILS:
 
 1. FOCUS ONLY ON CANDIDATE QUALIFICATION:
-   Extract ONLY rules that directly decide if a person qualifies:
+   Extract ONLY rules that directly decide if an individual person/citizen qualifies:
    A. ELIGIBILITY RULES (eligibility_rules):
       - Farmer status (e.g. 'Must be a small or marginal farmer')
       - Land ownership & land size (e.g. 'Must own less than 2 hectares of cultivable land')
@@ -56,23 +56,36 @@ CRITICAL INSTRUCTIONS & ANTI-HALLUCINATION GUARDRAILS:
    - If the document contains NO explicit candidate qualification rules, return EMPTY lists:
      "eligibility_rules": [], "exclusion_rules": []
 
-3. STRICT FACTUALITY & ZERO HALLUCINATION:
+3. REJECT AND IGNORE ADMINISTRATIVE FUNDING, BUDGET ALLOCATION & FISCAL DISTRIBUTION:
+   You MUST IGNORE:
+   - State-wise, UT-wise, or district-wise fund/grant allocation tables and outlay figures:
+     e.g., 'State-wise Allocation under Normal RKVY', 'District-wise physical and financial outlay', 'Central share 60% and State share 40%', 'financial outlay approved' -> MUST BE IGNORED.
+     These describe government macro-budget distribution, NOT individual citizen eligibility!
+   - DO NOT invent eligibility rules like 'Must be a resident of the state or UT as per the allocation' from funding allocation tables!
+   - However, if the text explicitly states an INDIVIDUAL BENEFICIARY restriction (e.g. 'Only farmers residing in Belagavi, Haveri and Gadag districts are eligible'), that IS a valid candidate eligibility rule.
+
+4. NEVER CREATE FAKE EXCLUSION RULES FOR ABSENCE OF CRITERIA:
+   - Statements like 'No specific exclusion rules provided in the document', 'No exclusions mentioned', 'No specific exclusion criteria', 'None provided' MUST NEVER be extracted as exclusion rules!
+   - If there are no genuine exclusion rules stated in the document, return an empty array:
+     "exclusion_rules": []
+
+5. STRICT FACTUALITY & ZERO HALLUCINATION:
    - Extract ONLY rules physically supported by the text and tables in this document.
    - Do NOT use outside general knowledge of PM-KISAN, Karnataka schemes, or general farming policies.
    - If the document does NOT contain explicit eligibility or exclusion criteria, return empty lists:
      "eligibility_rules": [], "exclusion_rules": []
    - A correct empty result is far better than a fabricated rule!
 
-4. EVIDENCE IS MANDATORY:
+6. EVIDENCE IS MANDATORY:
    - Every rule must have an 'evidence' object with:
      * 'page_number': 1-based page number where the rule appears
      * 'source_text': verbatim quote from the document
      * 'ocr_confidence': the OCR confidence score (0-100) from the source block/cell
      * 'table_index', 'row_index', 'column_index', 'cell_text' if from a table
 
-5. SEMANTIC CONFIDENCE:
+7. SEMANTIC CONFIDENCE & EVIDENCE QUALITY:
    - Set 'semantic_confidence' to a realistic value (default 0.85). Never set 1.0.
-   - If meaning is ambiguous or text is degraded, set 'review_required': true.
+   - If meaning is ambiguous, evidence text is garbled/noisy, or text is degraded, set 'review_required': true.
 """
 
 
@@ -146,16 +159,213 @@ def format_document_context(doc_json: Dict[str, Any], max_text_chars: int = 1200
     return full_context
 
 
+def is_absence_statement(text: Optional[str]) -> bool:
+    """
+    Checks if a statement merely asserts the absence of rules rather than
+    defining an actual candidate eligibility or exclusion rule.
+    E.g. 'No specific exclusion rules provided in the document', 'No exclusions mentioned'.
+    """
+    if not text:
+        return False
+    t = str(text).strip().lower()
+    absence_phrases = [
+        "no specific exclusion",
+        "no exclusion rule",
+        "no exclusions mentioned",
+        "no specific exclusion criteria",
+        "no exclusion criteria",
+        "no exclusion rules provided",
+        "no exclusions provided",
+        "no exclusion provided",
+        "no exclusions found",
+        "no exclusion stated",
+        "no specific eligibility",
+        "no eligibility rule",
+        "no eligibility criteria",
+        "no eligibility rules provided",
+        "no eligibility provided",
+        "no specific rules",
+        "none mentioned",
+        "none provided",
+        "none stated",
+        "not mentioned in document",
+        "not specified in document",
+        "not provided in document",
+        "not available in document",
+        "ಯಾವುದೇ ಅನರ್ಹತೆ ನಿಯಮಗಳಿಲ್ಲ",
+        "ಯಾವುದೇ ಅರ್ಹತಾ ನಿಯಮಗಳಿಲ್ಲ",
+    ]
+    for phrase in absence_phrases:
+        if phrase in t:
+            return True
+    if t.startswith(("no exclusion", "no eligibility", "no specific exclusion", "no candidate exclusion")):
+        return True
+    return False
+
+
+def is_administrative_funding_statement(rule_text: str, evidence_text: str) -> tuple[bool, str]:
+    """
+    Evaluates whether a statement is primarily about macro-level funding, state/UT/district
+    allocations, budget outlays, central/state funding shares, or utilization certificates
+    rather than individual beneficiary eligibility.
+
+    Guards against false positives like:
+    'State-wise allocation under RKVY' -> REJECTED
+    'Must be a resident of the state or UT as per the allocation' -> REJECTED (when evidence is allocation table/header)
+
+    Allows genuine individual beneficiary location/district conditions like:
+    'Only beneficiaries residing in districts X, Y and Z are eligible' -> ACCEPTED
+    'Farmers owning land in Belagavi district are eligible' -> ACCEPTED
+    """
+    rule_lower = (rule_text or "").strip().lower()
+    evidence_lower = (evidence_text or "").strip().lower()
+    combined = f"{rule_lower} {evidence_lower}"
+
+    admin_funding_indicators = [
+        # Allocations
+        "state-wise allocation",
+        "state wise allocation",
+        "district-wise allocation",
+        "district wise allocation",
+        "state/ut allocation",
+        "state and ut allocation",
+        "allocation to state",
+        "allocation to states",
+        "allocation under",
+        "allocations under",
+        "allocation for the year",
+        "allocation table",
+        "fund allocation",
+        "allocation of fund",
+        "allocation of funds",
+        "district-wise physical and financial",
+        "district-wise financial",
+        # Budget / Outlay / Funding pattern
+        "budget allocation",
+        "financial outlay",
+        "budget outlay",
+        "annual outlay",
+        "budget provision",
+        "central share",
+        "state share",
+        "funding share",
+        "funding pattern",
+        "department funding",
+        "scheme implementation funding",
+        "grant-in-aid",
+        "grants-in-aid",
+        "utilization certificate",
+        "utilization certificates",
+        "fund distribution",
+        "expenditure ceiling",
+        "department-level expenditure",
+        "expenditure statement",
+        "release of funds",
+        "funds released",
+        # Kannada indicators
+        "ಅನುದಾನ ಹಂಚಿಕೆ",
+        "ಅನುದಾನ ಬಿಡುಗಡೆ",
+        "ಜಿಲ್ಲಾವಾರು ಹಂಚಿಕೆ",
+        "ರಾಜ್ಯವಾರು ಹಂಚಿಕೆ",
+        "ಆಯವ್ಯಯ ಹಂಚಿಕೆ",
+        "ಬಜೆಟ್ ಹಂಚಿಕೆ",
+        "ಕೇಂದ್ರದ ಪಾಲು",
+        "ರಾಜ್ಯದ ಪಾಲು",
+        "ಬಳಕೆ ಪ್ರಮಾಣಪತ್ರ",
+        "ವೆಚ್ಚದ ವಿವರ",
+    ]
+
+    has_funding_indicator = any(ind in combined for ind in admin_funding_indicators)
+    if not has_funding_indicator:
+        return False, ""
+
+    # If funding indicators are present, check whether this describes an INDIVIDUAL BENEFICIARY condition
+    # An individual beneficiary condition requires:
+    # 1. An individual entity (beneficiary, farmer, applicant, candidate, person, student, family)
+    # 2. A qualification/eligibility condition (eligible, must reside, residing in, qualifies, entitled, restricted to)
+    individual_entity_keywords = [
+        "beneficiary", "beneficiaries", "applicant", "applicants", "farmer", "farmers",
+        "person", "persons", "citizen", "citizens", "candidate", "candidates",
+        "individual", "individuals", "student", "students", "family", "families", "household", "households",
+        # Kannada
+        "ಫಲಾನುಭವಿ", "ಫಲಾನುಭವಿಗಳು", "ಅರ್ಜಿದಾರ", "ಅರ್ಜಿದಾರರು", "ರೈತ", "ರೈತರು",
+        "ವ್ಯಕ್ತಿ", "ವ್ಯಕ್ತಿಗಳು", "ಕುಟುಂಬ", "ವಿದ್ಯಾರ್ಥಿ", "ವಿದ್ಯಾರ್ಥಿಗಳು",
+    ]
+    individual_qualification_keywords = [
+        "eligible", "eligibility", "qualifies", "qualify", "qualification",
+        "must reside", "residing in", "resident of", "domiciled in", "must possess", "must own",
+        "shall be eligible", "entitled to receive", "can apply", "restricted to",
+        # Kannada
+        "ಅರ್ಹ", "ಅರ್ಹರು", "ಅರ್ಹತೆ", "ವಾಸವಾಗಿರುವ", "ನಿವಾಸಿ", "ಪಡೆಯಲು ಅರ್ಹರು", "ಅರ್ಜಿ ಸಲ್ಲಿಸಲು",
+    ]
+
+    evidence_has_entity = any(k in evidence_lower for k in individual_entity_keywords)
+    evidence_has_qual = any(k in evidence_lower for k in individual_qualification_keywords)
+
+    if evidence_has_entity and evidence_has_qual:
+        # Genuine individual beneficiary condition that mentions location/funding category
+        return False, ""
+
+    return True, "Statement describes government funding, budget outlay, or state/district allocation rather than individual beneficiary eligibility"
+
+
+def assess_evidence_quality(rule: RuleItem, low_conf_threshold: float = 60.0) -> tuple[bool, Optional[str]]:
+    """
+    Evaluates the quality of evidence supporting a rule.
+    Returns (is_weak, reason_if_weak).
+
+    If the rule is plausible but its supporting evidence is clearly garbled,
+    incomplete, contradictory, or insufficient to confidently establish an individual
+    condition without human verification, returns is_weak=True.
+    """
+    if not rule.evidence:
+        return True, f"Rule '{rule.rule[:40]}' has no supporting physical evidence"
+
+    ev = rule.evidence
+    src = (ev.source_text or "").strip()
+
+    # 1. OCR Confidence check
+    if ev.ocr_confidence is not None and ev.ocr_confidence < low_conf_threshold:
+        return True, f"Low OCR confidence ({ev.ocr_confidence:.1f}%) on page {ev.page_number} for rule: '{rule.rule[:40]}'"
+
+    # 2. Missing or extremely short evidence text
+    if not src or len(src) < 10:
+        return True, f"Supporting evidence is missing or too short ({len(src)} chars) for rule: '{rule.rule[:40]}'"
+
+    # 3. Garbled text detection
+    # Checks for garbled OCR / mojibake (dense symbols inside words, non-linguistic character noise)
+    # E.g. "dOe; ;j:meje$aaocb (G&SSA)zaap, rde erodxb, abdjoe,eomsd"
+    garbled_symbols = set("$;%^~{}|\\&_`")
+    symbol_count = sum(1 for ch in src if ch in garbled_symbols)
+    has_consecutive_symbols = any(
+        src[i] in garbled_symbols and src[i+1] in garbled_symbols
+        for i in range(len(src) - 1)
+    )
+
+    words = src.split()
+    noisy_words = 0
+    for w in words:
+        if any(ch in garbled_symbols for ch in w) and any(ch.isalpha() for ch in w):
+            noisy_words += 1
+
+    if symbol_count >= 3 or has_consecutive_symbols or (len(words) > 0 and (noisy_words / len(words)) >= 0.25):
+        return True, f"Supporting evidence appears garbled or corrupted by OCR noise for rule: '{rule.rule[:40]}'"
+
+    return False, None
+
+
 def is_candidate_qualification_rule(rule: RuleItem) -> tuple[bool, str]:
     """
     Evaluates whether an extracted rule genuinely represents an explicit candidate
     qualification, disqualification, or condition that directly affects eligibility.
 
-    Rejects any statement about:
-    - amendments or document status (e.g. 'no change in said notification', 'remains in force')
-    - administrative handling (e.g. internal forwarding, officer appointments, record preservation)
-    - notifications or procedural circulars (e.g. gazette publication, dispatch lists)
-    - application instructions or blank form fields
+    Rejects:
+    - Statements asserting absence of rules (e.g. 'No specific exclusion rules provided in the document')
+    - Administrative funding, fiscal outlays, or state/district allocation tables
+    - Amendments or document status (e.g. 'no change in said notification', 'remains in force')
+    - Administrative handling (e.g. internal forwarding, officer appointments, record preservation)
+    - Notifications or procedural circulars (e.g. gazette publication, dispatch lists)
+    - Application instructions or blank form fields
 
     Returns (is_valid, reason).
     """
@@ -164,12 +374,21 @@ def is_candidate_qualification_rule(rule: RuleItem) -> tuple[bool, str]:
     if rule.evidence and rule.evidence.source_text:
         evidence_text = str(rule.evidence.source_text).strip()
 
-    combined = f"{rule_text} {evidence_text}".lower()
-
     if not rule_text or rule_text.lower() in ("null", "none", ""):
         return False, "Empty or null rule statement"
 
-    # 1. Non-qualification patterns: Amendments, Document Status, Notifications & Procedural
+    # 1. Absence statements check (e.g. "No specific exclusion rules provided in the document")
+    if is_absence_statement(rule_text) or is_absence_statement(evidence_text):
+        return False, "Statement asserts absence of rules rather than defining an actual candidate qualification"
+
+    # 2. Administrative funding, budget allocation & fiscal distribution check
+    is_funding, fund_reason = is_administrative_funding_statement(rule_text, evidence_text)
+    if is_funding:
+        return False, fund_reason
+
+    combined = f"{rule_text} {evidence_text}".lower()
+
+    # 3. Non-qualification patterns: Amendments, Document Status, Notifications & Procedural
     amendment_and_status_patterns = [
         "ಬದಲಾವಣೆ ಇರುವುದಿಲ್ಲ", "ಬದಲಾವಣೆಯಿಲ್ಲ", "ಬದಲಾವಣೆ ಇಲ್ಲ", "ಯಾವುದೇ ಬದಲಾವಣೆ",
         "ಉಳಿದಂತೆ ಸದರಿ", "ಅಧಿಸೂಚನೆಯಲ್ಲಿ ಯಾವುದೇ", "ತಿದ್ದುಪಡಿ", "ಜಾರಿಯಲ್ಲಿರುತ್ತದೆ",
@@ -182,7 +401,7 @@ def is_candidate_qualification_rule(rule: RuleItem) -> tuple[bool, str]:
         if pat in combined:
             return False, f"Statement pertains to amendment, document status, or notification ('{pat}') rather than candidate eligibility"
 
-    # 2. Administrative handling, office procedures, forwarding & dispatch
+    # 4. Administrative handling, office procedures, forwarding & dispatch
     admin_handling_patterns = [
         "ಕಳುಹಿಸಲಾಗುವುದು", "ರವಾನಿಸಲಾಗಿದೆ", "ರವಾನೆ", "ಸಂರಕ್ಷಿಸಲು",
         "ಪರಿಶೀಲಿಸಲು ಮತ್ತು ಸಂರಕ್ಷಿಸಲು", "ಕಛೇರಿಗೆ", "ಕಚೇರಿಗೆ", "ಕಛೇರಿ", "ಕಚೇರಿ",
@@ -199,7 +418,7 @@ def is_candidate_qualification_rule(rule: RuleItem) -> tuple[bool, str]:
         if pat in combined:
             return False, f"Statement pertains to administrative handling or office procedure ('{pat}')"
 
-    # 3. Explicit Candidate Qualification / Disqualification Condition Check:
+    # 5. Explicit Candidate Qualification / Disqualification Condition Check:
     # Rule or evidence must describe an actual qualification, disqualification, or condition
     # that directly affects a candidate's eligibility.
     candidate_qualification_patterns = [
@@ -243,10 +462,11 @@ def audit_and_enhance_extraction(
 ) -> SchemeExtraction:
     """
     Quality control post-processor:
-    1. Rejects non-candidate qualification rules (amendments, document status, administrative handling).
-    2. Checks physical OCR confidence on all evidence items.
-    3. Flags review_required if OCR confidence is below threshold.
-    4. Calculates rule counts and review counts with 100% internal consistency.
+    1. Rejects non-candidate qualification rules (amendments, document status, administrative handling, funding allocations).
+    2. Rejects fake absence rules (e.g. 'No specific exclusion rules provided in the document').
+    3. Checks physical OCR confidence and evidence quality on all evidence items.
+    4. Flags review_required if OCR confidence is below threshold or evidence is garbled/incomplete.
+    5. Calculates rule counts and review counts with 100% internal consistency.
     """
     review_reasons = list(extraction.review_reasons)
     rule_review_count = 0
@@ -259,12 +479,16 @@ def audit_and_enhance_extraction(
             logger.info(f"Filtering out invalid candidate eligibility rule: '{rule.rule[:60]}' - Reason: {reason}")
             continue
 
-        if rule.evidence and rule.evidence.ocr_confidence is not None:
-            if rule.evidence.ocr_confidence < low_conf_threshold:
-                rule.review_required = True
-                rev_reason = f"Low OCR confidence ({rule.evidence.ocr_confidence:.1f}%) on page {rule.evidence.page_number} for rule: '{rule.rule[:40]}'"
-                rule.review_reasons.append(rev_reason)
-                review_reasons.append(rev_reason)
+        # Assess evidence quality
+        is_weak, weak_reason = assess_evidence_quality(rule, low_conf_threshold=low_conf_threshold)
+        if is_weak and weak_reason:
+            rule.review_required = True
+            if weak_reason not in rule.review_reasons:
+                rule.review_reasons.append(weak_reason)
+            review_reasons.append(weak_reason)
+            # Moderately cap semantic confidence on weak evidence
+            if rule.semantic_confidence > 0.70:
+                rule.semantic_confidence = 0.70
 
         if rule.review_required:
             rule_review_count += 1
@@ -280,12 +504,16 @@ def audit_and_enhance_extraction(
             logger.info(f"Filtering out invalid candidate exclusion rule: '{rule.rule[:60]}' - Reason: {reason}")
             continue
 
-        if rule.evidence and rule.evidence.ocr_confidence is not None:
-            if rule.evidence.ocr_confidence < low_conf_threshold:
-                rule.review_required = True
-                rev_reason = f"Low OCR confidence ({rule.evidence.ocr_confidence:.1f}%) on page {rule.evidence.page_number} for exclusion: '{rule.rule[:40]}'"
-                rule.review_reasons.append(rev_reason)
-                review_reasons.append(rev_reason)
+        # Assess evidence quality
+        is_weak, weak_reason = assess_evidence_quality(rule, low_conf_threshold=low_conf_threshold)
+        if is_weak and weak_reason:
+            rule.review_required = True
+            if weak_reason not in rule.review_reasons:
+                rule.review_reasons.append(weak_reason)
+            review_reasons.append(weak_reason)
+            # Moderately cap semantic confidence on weak evidence
+            if rule.semantic_confidence > 0.70:
+                rule.semantic_confidence = 0.70
 
         if rule.review_required:
             rule_review_count += 1
@@ -453,6 +681,8 @@ Return valid JSON matching the format above.
 
 REMEMBER:
 - Extract ONLY explicit candidate qualifications (eligibility) or disqualifications (exclusions).
+- Statements describing government funding distribution, state/UT allocations, district-wise budget outlay, central/state funding shares, or grant tables MUST BE IGNORED. Do NOT turn an allocation table into a resident rule!
+- NEVER extract "No specific exclusion rules provided in the document" or similar absence statements as exclusion rules. If no genuine exclusion rules exist, return "exclusion_rules": [].
 - Statements about amendments, document status (e.g. 'no change in said notification' / 'ಸದರಿ ಅಧಿಸೂಚನೆಯಲ್ಲಿ ಯಾವುದೇ ಬದಲಾವಣೆ ಇರುವುದಿಲ್ಲ'), notifications, administrative handling, office dispatch, or procedural changes MUST BE IGNORED.
 - DO NOT convert blank form fields (Name, Gender, Mobile, Aadhaar) into eligibility rules.
 - If the document contains NO actual candidate qualification rules, return:

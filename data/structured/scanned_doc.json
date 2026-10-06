@@ -1,10 +1,10 @@
 {
   "document": {
     "filename": "scanned_doc.pdf",
-    "filepath": "C:\\Users\\deeks\\AppData\\Local\\Temp\\pytest-of-deeks\\pytest-34\\test_process_with_ocr_fallback1\\scanned_doc.pdf",
+    "filepath": "C:\\Users\\deeks\\AppData\\Local\\Temp\\pytest-of-deeks\\pytest-54\\test_process_with_ocr_fallback1\\scanned_doc.pdf",
     "source_url": null,
     "total_pages": 1,
-    "processed_at": "2026-10-05T09:26:56.371596+00:00",
+    "processed_at": "2026-10-05T17:09:32.275095+00:00",
     "pipeline_version": "2.0_document_understanding"
   },
   "summary": {

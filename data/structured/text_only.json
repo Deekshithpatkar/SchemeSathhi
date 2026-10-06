@@ -1,10 +1,10 @@
 {
   "document": {
     "filename": "text_only.pdf",
-    "filepath": "C:\\Users\\deeks\\AppData\\Local\\Temp\\pytest-of-deeks\\pytest-34\\test_process_with_ocr_fallback0\\text_only.pdf",
+    "filepath": "C:\\Users\\deeks\\AppData\\Local\\Temp\\pytest-of-deeks\\pytest-54\\test_process_with_ocr_fallback0\\text_only.pdf",
     "source_url": null,
     "total_pages": 1,
-    "processed_at": "2026-10-05T09:26:55.881931+00:00",
+    "processed_at": "2026-10-05T17:09:31.600525+00:00",
     "pipeline_version": "2.0_document_understanding"
   },
   "summary": {

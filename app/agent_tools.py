@@ -100,11 +100,27 @@ def tool_discover_documents(
 ) -> Dict[str, Any]:
     """
     Discovers relevant scheme documents (guidelines, government orders, notifications)
-    on an official Karnataka government webpage.
+    on an official Karnataka government webpage, or handles a direct document URL.
     """
     try:
         if not source_url:
             return {"status": "failed", "error": "source_url is required"}
+
+        # If source_url is already a direct PDF URL
+        if source_url.lower().endswith(".pdf"):
+            doc_name = source_url.split("/")[-1]
+            return {
+                "status": "success",
+                "documents_count": 1,
+                "documents": [{
+                    "document_url": source_url,
+                    "title": doc_name,
+                    "document_type": "order" if any(k in doc_name.lower() for k in ["go", "order"]) else "guideline",
+                    "source_page_url": source_url,
+                    "published_date": None,
+                    "is_scheme_document": True,
+                }],
+            }
 
         docs = discover_documents_from_page(
             page_url=source_url,

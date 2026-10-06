@@ -1,0 +1,579 @@
+{
+  "document": {
+    "filename": "e116e94b_PMKISANKarnatakaGO.pdf",
+    "filepath": "D:\\scheme\\data\\raw\\e116e94b_PMKISANKarnatakaGO.pdf",
+    "source_url": null,
+    "total_pages": 2,
+    "processed_at": "2026-10-05T15:37:50.468501+00:00",
+    "pipeline_version": "2.0_document_understanding"
+  },
+  "summary": {
+    "total_pages": 2,
+    "usable_pages_count": 2,
+    "scanned_pages_count": 0,
+    "ocr_pages_count": 0,
+    "total_tables_detected": 0,
+    "requires_ocr": false,
+    "ocr_performed": false
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "page_type": "TEXT",
+      "tags": [
+        "TEXT"
+      ],
+      "extraction_method": "direct_pymupdf",
+      "dpi": 300,
+      "blocks": [
+        {
+          "bbox": [
+            111.8,
+            102.0,
+            151.2,
+            26.7
+          ],
+          "text": "cdo$: diseru^ld roasTb",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            233.8,
+            85.7,
+            142.3,
+            14.7
+          ],
+          "text": "J--( \n-J \nJ--J-) \nJJ-).aJ.J-\ngNg. gJs :Jog. 9(J N(€CJYIIYJ",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            283.2,
+            101.6,
+            281.1,
+            27.7
+          ],
+          "text": "DQ(.BdldG)dS+ d.o.80.00 *oe $iisod \n'",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            157.4,
+            127.6,
+            245.1,
+            26.8
+          ],
+          "text": "dr4.2,200.00 doegsrigri z\"od: sno dqfDd .{.",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            105.4,
+            155.7,
+            336.4,
+            26.8
+          ],
+          "text": "t dersnd: f. iaSil ioC:Bd se&doedd Omod:05.08.2019.",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            156.5,
+            179.5,
+            349.5,
+            26.9
+          ],
+          "text": "2. sQine3;3 icsS.:ic{:nt 21 adi3 2019, OacS:09.08.2019.\n,au",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            109.9,
+            211.7,
+            37.4,
+            19.2
+          ],
+          "text": "gigds:",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            149.5,
+            227.4,
+            373.5,
+            29.7
+          ],
+          "text": "e\"dd imrdood d.Oo; dr:o9 Esoil' ndt$ DQ (PM-KISAN)",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            107.0,
+            254.2,
+            417.1,
+            25.4
+          ],
+          "text": "CneesdoS: doilrf,ozSo$d,oiJ sdr idi^oil d;a.2,000 dod :-ed: do3:ri$Q",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            107.0,
+            275.4,
+            418.9,
+            29.3
+          ],
+          "text": "6rJ&rd d.ra.6,000ilsJ uQrd -dd Oederorbgd. qodd 'erdr ddgod @8,",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            107.0,
+            308.1,
+            435.8,
+            25.3
+          ],
+          "text": "HrardOodqo de 8oil9d dra.2000/-dod adCg: tsoei3S dr0.4000/-i19&4 .",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            107.3,
+            328.5,
+            418.0,
+            51.6
+          ],
+          "text": ",so&rdEsoR dd nmoi: clede;: Sedotrtud;, * ie.::mn ;i,od\" eJd-, SeArdctA\na\ner$6!d e-dA:utooagutcqood qddj drle.::d ;z{iis. nOe;a lQcgJo;",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            61.0,
+            377.1,
+            486.4,
+            54.2
+          ],
+          "text": "--__\n'eione.:; 7iDOeD.6 AQdJ$, do.80.00 d.eetiilgod &0.2200.00 d-eeSd9d z\"cd:\n....,.\nzroo d.;J:ron cqcudedd troe;d d€F* \nd>e ei i,\"ie;acd",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            108.0,
+            433.3,
+            310.4,
+            22.0
+          ],
+          "text": "oasood:05.08.2019docir n$d :3od:l^:d erd:dlaedd aeao.",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            130.6,
+            461.2,
+            396.1,
+            27.1
+          ],
+          "text": "iz3t io$t:d ud:do€ddoiris-c$ io5oeoi: dudmdris.: c:gr ai.i d*r",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            108.2,
+            491.2,
+            417.1,
+            21.4
+          ],
+          "text": "qerosSo$) rooen.dr CIQoi:isn iueei(2)dQ t de>d eQirea3doS:Q &e.80.00",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            108.5,
+            513.5,
+            417.9,
+            24.7
+          ],
+          "text": "Eoet^3r19od dra.2200.00 iioesdgii z.od> a:oo d_.itmfr eprreS; d:nod",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            108.5,
+            537.0,
+            418.3,
+            51.6
+          ],
+          "text": "a€tucbsgd.. e{ood PM-KISAN olne aad:A edr orUod F-scxDCS\nsd:ild d;ods: dr dSdodod sde5:.rd..",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            144.0,
+            601.3,
+            342.6,
+            21.3
+          ],
+          "text": "qrded io&lr: qrq 03 Eeoqf 2019, a3od$,-ocb, oo?od:I3.08.2019.",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            115.9,
+            624.7,
+            412.7,
+            26.1
+          ],
+          "text": "1': -{poddo$g -ge:icbfr u-cdrorlernfr zpdd frterdd €.qiDl d:c9 Sxld",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            134.4,
+            652.5,
+            392.7,
+            22.0
+          ],
+          "text": "ndoo;, AQ (PM-KISAN) oieer;3o3: dorirdnz,3o3:*c3: erdr de,gori",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            134.6,
+            677.8,
+            393.8,
+            24.0
+          ],
+          "text": "cnxu ialrdoodqo 5i,9 ecd9,i d.ra.2000/-dod add: doedQ d6.4000/-",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            134.6,
+            700.1,
+            393.0,
+            27.4
+          ],
+          "text": "i1$drd ED&rdEDR dd nmd: Oede.:: d.,o.1000.00 &eet^3il$is* moend:",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            484.6,
+            769.8,
+            44.8,
+            15.8
+          ],
+          "text": "d:..3.doe",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            134.9,
+            729.6,
+            135.9,
+            20.6
+          ],
+          "text": "DQcS-.od sdrrid dFGd.",
+          "type": "text",
+          "confidence": 100.0
+        }
+      ],
+      "tables": [],
+      "forms": null,
+      "full_text": "cdo$: diseru^ld roasTb\nJ--( \n-J \nJ--J-) \nJJ-).aJ.J-\ngNg. gJs :Jog. 9(J N(€CJYIIYJ\nDQ(.BdldG)dS+ d.o.80.00 *oe $iisod \n'\ndr4.2,200.00 doegsrigri z\"od: sno dqfDd .{.\nt dersnd: f. iaSil ioC:Bd se&doedd Omod:05.08.2019.\n2. sQine3;3 icsS.:ic{:nt 21 adi3 2019, OacS:09.08.2019.\n,au\ngigds:\ne\"dd imrdood d.Oo; dr:o9 Esoil' ndt$ DQ (PM-KISAN)\nCneesdoS: doilrf,ozSo$d,oiJ sdr idi^oil d;a.2,000 dod :-ed: do3:ri$Q\n6rJ&rd d.ra.6,000ilsJ uQrd -dd Oederorbgd. qodd 'erdr ddgod @8,\nHrardOodqo de 8oil9d dra.2000/-dod adCg: tsoei3S dr0.4000/-i19&4 .\n,so&rdEsoR dd nmoi: clede;: Sedotrtud;, * ie.::mn ;i,od\" eJd-, SeArdctA\na\ner$6!d e-dA:utooagutcqood qddj drle.::d ;z{iis. nOe;a lQcgJo;\n--__\n'eione.:; 7iDOeD.6 AQdJ$, do.80.00 d.eetiilgod &0.2200.00 d-eeSd9d z\"cd:\n....,.\nzroo d.;J:ron cqcudedd troe;d d€F* \nd>e ei i,\"ie;acd\noasood:05.08.2019docir n$d :3od:l^:d erd:dlaedd aeao.\niz3t io$t:d ud:do€ddoiris-c$ io5oeoi: dudmdris.: c:gr ai.i d*r\nqerosSo$) rooen.dr CIQoi:isn iueei(2)dQ t de>d eQirea3doS:Q &e.80.00\nEoet^3r19od dra.2200.00 iioesdgii z.od> a:oo d_.itmfr eprreS; d:nod\na€tucbsgd.. e{ood PM-KISAN olne aad:A edr orUod F-scxDCS\nsd:ild d;ods: dr dSdodod sde5:.rd..\nqrded io&lr: qrq 03 Eeoqf 2019, a3od$,-ocb, oo?od:I3.08.2019.\n1': -{poddo$g -ge:icbfr u-cdrorlernfr zpdd frterdd €.qiDl d:c9 Sxld\nndoo;, AQ (PM-KISAN) oieer;3o3: dorirdnz,3o3:*c3: erdr de,gori\ncnxu ialrdoodqo 5i,9 ecd9,i d.ra.2000/-dod add: doedQ d6.4000/-\ni1$drd ED&rdEDR dd nmd: Oede.:: d.,o.1000.00 &eet^3il$is* moend:\nd:..3.doe\nDQcS-.od sdrrid dFGd.",
+      "avg_confidence": 100.0
+    },
+    {
+      "page_number": 2,
+      "page_type": "TEXT",
+      "tags": [
+        "TEXT"
+      ],
+      "extraction_method": "direct_pymupdf",
+      "dpi": 300,
+      "blocks": [
+        {
+          "bbox": [
+            118.8,
+            70.4,
+            161.3,
+            26.6
+          ],
+          "text": "2. di d?dddbd d.raded d",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            136.1,
+            99.0,
+            141.2,
+            45.9
+          ],
+          "text": "General Service erB\nucorrcilS;-2de do.tsjg",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            133.2,
+            261.0,
+            184.0,
+            24.5
+          ],
+          "text": "z;e;id eeDoo$ ?3rjDe%OdDnd.",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            116.9,
+            176.9,
+            5.8,
+            14.3
+          ],
+          "text": "aJ.",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            116.2,
+            222.7,
+            7.6,
+            8.9
+          ],
+          "text": "-1.",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            133.7,
+            149.5,
+            393.3,
+            118.9
+          ],
+          "text": "Fo%S eed \"$cbd;oaenitdd:.\nT.-* \nlQc$cd ^o*le* ddoirrr:il 6s s;iJd doad (2)dO&JoJ\ndd, Se.rsdilijibd sgd dleS n{mn .Jab.raOrdd-cb-\nxiDo%s DQol:od scbild dndend di deoisn cJodd eomai:iig.:-2de\ndo$ id.jdg E rbdraed;jojoiot dndde dso3r:djcb iosJoe:Jd dre ;id:",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            325.2,
+            54.6,
+            19.6,
+            22.0
+          ],
+          "text": "-2-",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            281.0,
+            79.5,
+            246.9,
+            23.9
+          ],
+          "text": "{Ae\"lrd 8000-00-224-0-00 Miscellaneous",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            289.7,
+            102.3,
+            240.1,
+            25.4
+          ],
+          "text": "z\"dAducd siscndOod 6oxbdcn. C/odd",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            295.7,
+            128.0,
+            231.4,
+            19.8
+          ],
+          "text": "eJd,5e.l,rE 24Ot-00-800-l-05_100_dAo3:g",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            408.0,
+            264.9,
+            8.3,
+            20.6
+          ],
+          "text": "..",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            357.4,
+            293.8,
+            167.9,
+            19.3
+          ],
+          "text": "drnro.id uorra:e;d sdeaed:rnd",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            393.1,
+            310.5,
+            99.3,
+            21.5
+          ],
+          "text": "dteb srdd ddOde\nJ-el",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            98.6,
+            428.9,
+            33.3,
+            14.9
+          ],
+          "text": "*1c.J\n'ir.!Ul l:",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            284.2,
+            316.4,
+            234.2,
+            125.0
+          ],
+          "text": "@,,\ntslelrq\n(da:p.o.dneC)\nimrdd erud uoo$s€9r\n...:.. \nuQrd tena3(agr.sd&a.:r.:r)\nffir",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            447.1,
+            586.9,
+            76.4,
+            17.3
+          ],
+          "text": "dJd.ddr, teogi,",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            128.9,
+            447.7,
+            394.1,
+            91.8
+          ],
+          "text": "1. doe; ;j:meje$aaocb (G&SSA)zaap, rde erodxb, abdjoe,eomsd\nd*eooi: dgob dqd, dcarcd, dadO mdF- di, co? zsee.:\n;jos5r:532 9 /5369, ejorlgo6_56000 l.\n2. dO:i atoJ:rd5ril(o, $and_2, meda;u dod -d€id, riooediid,\nCcfr$odo.",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            127.9,
+            545.0,
+            7.0,
+            12.4
+          ],
+          "text": "J.",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            127.7,
+            564.6,
+            7.5,
+            12.4
+          ],
+          "text": "4.",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            127.4,
+            583.2,
+            7.1,
+            11.7
+          ],
+          "text": "5.",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            124.8,
+            536.3,
+            397.4,
+            213.1
+          ],
+          "text": ";iardd ao$rdgr, dr& te;oa3, z;d:d:dB d$d, ejori$,ocb.\neici)dcb, dr& \"aoos8, deaoe dd, z,joil$ocb.\nOdes-Jdd:, aJarod qe;e&J, lde ilda, ineGol:o egd,\nm.n.t:d.uoCeQd .)eO, ejoils.racb_560001.\n6. edd clderdddc, a)aod rieod a-oe.:.Qdf-dmp frqd, Zajg d:d*,\nia\\& \n^JJJ \n)^ \nr^\nri.Jr3 zJil-, xo.49, Bs.G.dedoax sdi: dd, dorigocb_56d0.01.\n7. a:c$ .lderddcb, oo*d d:aocb $aod, d.od rodresOd duddg;,\n;3rdd:orl d{, z3ori*.odi-560001. \n--.--\"\n8' ?u* du-c*Qaeo,.e)d dddr, ]de abda, deed a$a:eJealme.:d dgieo,\nd:,d0 mfr df^, coz3 aiee.:?oa3r,5329/5;69, ajorigod:_l\n,. :jmr-dd seed aaoJ:rdar, uerd qetsd (dry;a a$6^ 5), Opd::,id,",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            142.8,
+            744.7,
+            50.7,
+            17.2
+          ],
+          "text": "aiodgocb",
+          "type": "text",
+          "confidence": 100.0
+        },
+        {
+          "bbox": [
+            124.3,
+            757.0,
+            185.2,
+            24.4
+          ],
+          "text": "10. ais;: dur ddd/dQdo gi€rldc.",
+          "type": "text",
+          "confidence": 100.0
+        }
+      ],
+      "tables": [],
+      "forms": null,
+      "full_text": "2. di d?dddbd d.raded d\nGeneral Service erB\nucorrcilS;-2de do.tsjg\nz;e;id eeDoo$ ?3rjDe%OdDnd.\naJ.\n-1.\nFo%S eed \"$cbd;oaenitdd:.\nT.-* \nlQc$cd ^o*le* ddoirrr:il 6s s;iJd doad (2)dO&JoJ\ndd, Se.rsdilijibd sgd dleS n{mn .Jab.raOrdd-cb-\nxiDo%s DQol:od scbild dndend di deoisn cJodd eomai:iig.:-2de\ndo$ id.jdg E rbdraed;jojoiot dndde dso3r:djcb iosJoe:Jd dre ;id:\n-2-\n{Ae\"lrd 8000-00-224-0-00 Miscellaneous\nz\"dAducd siscndOod 6oxbdcn. C/odd\neJd,5e.l,rE 24Ot-00-800-l-05_100_dAo3:g\n..\ndrnro.id uorra:e;d sdeaed:rnd\ndteb srdd ddOde\nJ-el\n*1c.J\n'ir.!Ul l:\n@,,\ntslelrq\n(da:p.o.dneC)\nimrdd erud uoo$s€9r\n...:.. \nuQrd tena3(agr.sd&a.:r.:r)\nffir\ndJd.ddr, teogi,\n1. doe; ;j:meje$aaocb (G&SSA)zaap, rde erodxb, abdjoe,eomsd\nd*eooi: dgob dqd, dcarcd, dadO mdF- di, co? zsee.:\n;jos5r:532 9 /5369, ejorlgo6_56000 l.\n2. dO:i atoJ:rd5ril(o, $and_2, meda;u dod -d€id, riooediid,\nCcfr$odo.\nJ.\n4.\n5.\n;iardd ao$rdgr, dr& te;oa3, z;d:d:dB d$d, ejori$,ocb.\neici)dcb, dr& \"aoos8, deaoe dd, z,joil$ocb.\nOdes-Jdd:, aJarod qe;e&J, lde ilda, ineGol:o egd,\nm.n.t:d.uoCeQd .)eO, ejoils.racb_560001.\n6. edd clderdddc, a)aod rieod a-oe.:.Qdf-dmp frqd, Zajg d:d*,\nia\\& \n^JJJ \n)^ \nr^\nri.Jr3 zJil-, xo.49, Bs.G.dedoax sdi: dd, dorigocb_56d0.01.\n7. a:c$ .lderddcb, oo*d d:aocb $aod, d.od rodresOd duddg;,\n;3rdd:orl d{, z3ori*.odi-560001. \n--.--\"\n8' ?u* du-c*Qaeo,.e)d dddr, ]de abda, deed a$a:eJealme.:d dgieo,\nd:,d0 mfr df^, coz3 aiee.:?oa3r,5329/5;69, ajorigod:_l\n,. :jmr-dd seed aaoJ:rdar, uerd qetsd (dry;a a$6^ 5), Opd::,id,\naiodgocb\n10. ais;: dur ddd/dQdo gi€rldc.",
+      "avg_confidence": 100.0
+    }
+  ]
+}

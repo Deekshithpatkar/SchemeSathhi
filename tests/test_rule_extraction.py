@@ -37,6 +37,9 @@ from app.rule_extractor import (
     extract_scheme_rules,
     save_extracted_rules,
     is_candidate_qualification_rule,
+    is_absence_statement,
+    is_administrative_funding_statement,
+    assess_evidence_quality,
 )
 
 
@@ -532,4 +535,277 @@ def test_scenario_18_rules_rejected_unless_candidate_qualification(sample_step9_
 
     assert len(audited.exclusion_rules) == 1
     assert audited.exclusion_rules[0].rule == "ಸರ್ಕಾರಿ ನೌಕರರು ಮತ್ತು ಆದಾಯ ತೆರಿಗೆ ಪಾವತಿದಾರರು ಅನರ್ಹರು"
+
+
+def test_scenario_19_rkvy_statewise_allocation_rejected(sample_step9_json):
+    """
+    Scenario 19 (Regression FIX 1): RKVY CP15 false positive where state-wise funding allocation
+    table header was hallucinated into an individual residency eligibility rule must be rejected.
+    """
+    rkvy_false_positive = RuleItem(
+        rule="Must be a resident of the state or UT as per the allocation",
+        type="eligibility",
+        category="residency",
+        evidence=SchemeEvidence(
+            page_number=2,
+            source_text="State-wise Allocation under Normal RKVY - RAFTAAR General, SCSP and TSP (2021-22)",
+            ocr_confidence=78.0
+        )
+    )
+    is_valid, reason = is_candidate_qualification_rule(rkvy_false_positive)
+    assert is_valid is False
+    assert "funding" in reason.lower() or "allocation" in reason.lower()
+
+    # Integration audit test
+    extraction = SchemeExtraction(
+        scheme_name="RKVY Allocation",
+        eligibility_rules=[rkvy_false_positive],
+        exclusion_rules=[]
+    )
+    audited = audit_and_enhance_extraction(extraction, sample_step9_json, model_name="mock-model")
+    assert audited.eligibility_rules == []
+    assert audited.extraction_metadata.rule_count == 0
+
+
+def test_scenario_20_districtwise_allocation_and_budget_outlay_rejected(sample_step9_json):
+    """
+    Scenario 20 (Regression FIX 1): District-wise allocation tables, central/state funding shares,
+    budget outlays, and utilization certificates must be rejected as candidate eligibility rules.
+    """
+    statements = [
+        RuleItem(
+            rule="District-wise physical and financial outlay for 2021-22",
+            type="eligibility",
+            evidence=SchemeEvidence(page_number=1, source_text="District-wise physical and financial outlay under RKVY")
+        ),
+        RuleItem(
+            rule="Central share 60% and State share 40% funding pattern",
+            type="eligibility",
+            evidence=SchemeEvidence(page_number=1, source_text="Funding pattern is 60:40 between Central and State Government")
+        ),
+        RuleItem(
+            rule="Submission of utilization certificate",
+            type="eligibility",
+            evidence=SchemeEvidence(page_number=2, source_text="Implementing department must submit utilization certificates within 3 months")
+        ),
+        RuleItem(
+            rule="Total budget outlay of Rs. 1000 crore",
+            type="eligibility",
+            evidence=SchemeEvidence(page_number=1, source_text="The total financial outlay approved is Rs. 1000 crore")
+        ),
+    ]
+
+    for item in statements:
+        is_valid, reason = is_candidate_qualification_rule(item)
+        assert is_valid is False, f"Expected '{item.rule}' to be rejected, got reason: {reason}"
+
+    extraction = SchemeExtraction(
+        scheme_name="Budget Circular",
+        eligibility_rules=statements,
+        exclusion_rules=[]
+    )
+    audited = audit_and_enhance_extraction(extraction, sample_step9_json, model_name="mock-model")
+    assert audited.eligibility_rules == []
+
+
+def test_scenario_21_valid_beneficiary_residency_condition_accepted(sample_step9_json):
+    """
+    Scenario 21 (Regression FIX 1): A genuine individual beneficiary residency requirement
+    must be accepted (words like 'state' or 'karnataka' must not cause false rejection).
+    """
+    valid_residency_rule = RuleItem(
+        rule="Applicant must be a permanent resident of Karnataka",
+        type="eligibility",
+        category="residency",
+        evidence=SchemeEvidence(
+            page_number=1,
+            source_text="Applicant must be a permanent resident of Karnataka state with valid domicile certificate.",
+            ocr_confidence=95.0
+        )
+    )
+    is_valid, reason = is_candidate_qualification_rule(valid_residency_rule)
+    assert is_valid is True, f"Expected rule to be accepted, got: {reason}"
+
+    extraction = SchemeExtraction(
+        scheme_name="State Farmer Scheme",
+        eligibility_rules=[valid_residency_rule],
+        exclusion_rules=[]
+    )
+    audited = audit_and_enhance_extraction(extraction, sample_step9_json, model_name="mock-model")
+    assert len(audited.eligibility_rules) == 1
+    assert audited.eligibility_rules[0].rule == "Applicant must be a permanent resident of Karnataka"
+
+
+def test_scenario_22_valid_district_restriction_on_beneficiaries_accepted(sample_step9_json):
+    """
+    Scenario 22 (Regression FIX 1): A genuine district-level restriction on beneficiaries
+    must be accepted (the word 'district' does not cause false rejection when describing individuals).
+    """
+    valid_district_rule = RuleItem(
+        rule="Only small farmers residing in Belagavi, Haveri and Gadag districts are eligible",
+        type="eligibility",
+        category="geographic_location",
+        evidence=SchemeEvidence(
+            page_number=1,
+            source_text="Under this component, only small farmers residing in Belagavi, Haveri and Gadag districts are eligible to apply.",
+            ocr_confidence=96.0
+        )
+    )
+    is_valid, reason = is_candidate_qualification_rule(valid_district_rule)
+    assert is_valid is True, f"Expected rule to be accepted, got: {reason}"
+
+    extraction = SchemeExtraction(
+        scheme_name="Drought Relief Scheme",
+        eligibility_rules=[valid_district_rule],
+        exclusion_rules=[]
+    )
+    audited = audit_and_enhance_extraction(extraction, sample_step9_json, model_name="mock-model")
+    assert len(audited.eligibility_rules) == 1
+    assert audited.eligibility_rules[0].category == "geographic_location"
+
+
+def test_scenario_23_no_specific_exclusion_rules_produces_empty_list(sample_step9_json):
+    """
+    Scenario 23 (Regression FIX 2): 'No specific exclusion rules provided in the document'
+    must produce zero exclusion rules (empty list), never a RuleItem with type='exclusion'.
+    """
+    raw_dict = {
+        "scheme_name": "RKVY",
+        "eligibility_rules": [],
+        "exclusion_rules": [
+            {
+                "rule": "No specific exclusion rules provided in the document",
+                "type": "exclusion",
+                "evidence": {
+                    "page_number": 2,
+                    "source_text": "No specific exclusion rules provided in the document",
+                    "ocr_confidence": 78.0
+                }
+            }
+        ]
+    }
+
+    # 1. Pydantic validation drops it
+    extraction = SchemeExtraction.model_validate(raw_dict)
+    assert extraction.exclusion_rules == []
+
+    # 2. RuleItem check directly
+    item = RuleItem(
+        rule="No specific exclusion rules provided in the document",
+        type="exclusion",
+        evidence=SchemeEvidence(page_number=2, source_text="No specific exclusion rules provided in the document")
+    )
+    is_valid, reason = is_candidate_qualification_rule(item)
+    assert is_valid is False
+    assert "absence" in reason.lower()
+
+
+def test_scenario_24_absence_statement_variants_produce_empty_list(sample_step9_json):
+    """
+    Scenario 24 (Regression FIX 2): Various metadata absence assertions must all be rejected,
+    leaving exclusion_rules empty.
+    """
+    variants = [
+        "No exclusions mentioned",
+        "No specific exclusion criteria",
+        "No exclusion rules provided",
+        "No exclusions provided",
+        "No exclusions found",
+        "None provided",
+        "Not mentioned in document",
+        "ಯಾವುದೇ ಅನರ್ಹತೆ ನಿಯಮಗಳಿಲ್ಲ",
+    ]
+
+    for var in variants:
+        assert is_absence_statement(var) is True
+        item = RuleItem(
+            rule=var,
+            type="exclusion",
+            evidence=SchemeEvidence(page_number=1, source_text=var)
+        )
+        is_valid, reason = is_candidate_qualification_rule(item)
+        assert is_valid is False, f"Expected '{var}' to be rejected as absence statement"
+
+    # Integration test with raw dict containing multiple absence statements
+    raw_dict = {
+        "scheme_name": "Test Scheme",
+        "eligibility_rules": [],
+        "exclusion_rules": [{"rule": v, "type": "exclusion"} for v in variants]
+    }
+    extraction = SchemeExtraction.model_validate(raw_dict)
+    assert extraction.exclusion_rules == []
+
+
+def test_scenario_25_weak_garbled_evidence_triggers_review(sample_step9_json):
+    """
+    Scenario 25 (Regression FIX 3): Plausible candidate qualification rule with garbled/corrupted
+    OCR text in evidence must be accepted provisionally, but review_required must be set to True.
+    """
+    garbled_rule = RuleItem(
+        rule="Must be a small or marginal farmer",
+        type="eligibility",
+        category="farmer_status",
+        evidence=SchemeEvidence(
+            page_number=1,
+            source_text="dOe; ;j:meje$aaocb (G&SSA)zaap, rde erodxb, abdjoe,eomsd",
+            ocr_confidence=95.0
+        ),
+        semantic_confidence=0.85
+    )
+
+    # The rule statement itself is a valid candidate qualification
+    is_valid, _ = is_candidate_qualification_rule(garbled_rule)
+    assert is_valid is True
+
+    # But evidence quality assessment detects garbled symbols
+    is_weak, weak_reason = assess_evidence_quality(garbled_rule)
+    assert is_weak is True
+    assert "garbled" in weak_reason.lower() or "ocr" in weak_reason.lower()
+
+    # In audit_and_enhance_extraction, rule is kept but flagged for review
+    extraction = SchemeExtraction(
+        scheme_name="PM-KISAN Karnataka",
+        eligibility_rules=[garbled_rule],
+        exclusion_rules=[]
+    )
+    audited = audit_and_enhance_extraction(extraction, sample_step9_json, model_name="mock-model")
+
+    assert len(audited.eligibility_rules) == 1
+    assert audited.eligibility_rules[0].review_required is True
+    assert audited.eligibility_rules[0].semantic_confidence <= 0.70
+    assert audited.review_required is True
+    assert any("garbled" in r.lower() or "ocr" in r.lower() for r in audited.review_reasons)
+
+
+def test_scenario_26_clean_rule_with_good_evidence_does_not_trigger_review(sample_step9_json):
+    """
+    Scenario 26 (Regression FIX 3): Good candidate qualification rule with clean, unambiguous
+    evidence must be accepted with review_required=False and unpenalized confidence.
+    """
+    clean_rule = RuleItem(
+        rule="Small farmers owning cultivable land up to 2 hectares in Karnataka are eligible",
+        type="eligibility",
+        category="land_size",
+        evidence=SchemeEvidence(
+            page_number=1,
+            source_text="Small and marginal farmers with cultivable land up to 2 hectares in Karnataka are eligible for assistance.",
+            ocr_confidence=98.0
+        ),
+        semantic_confidence=0.85
+    )
+
+    is_weak, _ = assess_evidence_quality(clean_rule)
+    assert is_weak is False
+
+    extraction = SchemeExtraction(
+        scheme_name="Clean Karnataka Scheme",
+        eligibility_rules=[clean_rule],
+        exclusion_rules=[]
+    )
+    audited = audit_and_enhance_extraction(extraction, sample_step9_json, model_name="mock-model")
+
+    assert len(audited.eligibility_rules) == 1
+    assert audited.eligibility_rules[0].review_required is False
+    assert audited.eligibility_rules[0].semantic_confidence == 0.85
+    assert audited.review_required is False
 

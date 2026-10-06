@@ -94,6 +94,49 @@ class ExtractionMetadata(BaseModel):
     errors: List[str] = Field(default_factory=list, description="Any validation or parsing errors encountered")
 
 
+def is_rule_absence_statement(text: Optional[str]) -> bool:
+    """
+    Returns True if the statement merely asserts the absence of rules
+    (e.g., 'No specific exclusion rules provided in the document', 'No exclusions mentioned').
+    """
+    if not text:
+        return False
+    t = str(text).strip().lower()
+    absence_markers = [
+        "no specific exclusion",
+        "no exclusion rule",
+        "no exclusions mentioned",
+        "no specific exclusion criteria",
+        "no exclusion criteria",
+        "no exclusion rules provided",
+        "no exclusions provided",
+        "no exclusion provided",
+        "no exclusions found",
+        "no exclusion stated",
+        "no specific eligibility",
+        "no eligibility rule",
+        "no eligibility criteria",
+        "no eligibility rules provided",
+        "no eligibility provided",
+        "no specific rules",
+        "none mentioned",
+        "none provided",
+        "none stated",
+        "not mentioned in document",
+        "not specified in document",
+        "not provided in document",
+        "not available in document",
+        "ಯಾವುದೇ ಅನರ್ಹತೆ ನಿಯಮಗಳಿಲ್ಲ",
+        "ಯಾವುದೇ ಅರ್ಹತಾ ನಿಯಮಗಳಿಲ್ಲ",
+    ]
+    for m in absence_markers:
+        if m in t:
+            return True
+    if t.startswith(("no exclusion", "no eligibility", "no specific exclusion", "no candidate exclusion")):
+        return True
+    return False
+
+
 class SchemeExtraction(BaseModel):
     """
     Master schema for Checkpoint 10: Semantic Eligibility & Rule Extraction.
@@ -135,6 +178,7 @@ class SchemeExtraction(BaseModel):
         """Backward-compatibility alias."""
         return self.exclusion_rules
 
+
     @model_validator(mode="before")
     @classmethod
     def sanitize_input(cls, data: Any) -> Any:
@@ -143,6 +187,7 @@ class SchemeExtraction(BaseModel):
         1. Maps 'eligibility' -> 'eligibility_rules' and 'exclusions' -> 'exclusion_rules' if provided.
         2. Converts null lists into empty lists.
         3. Cleans empty dummy rule objects.
+        4. Drops fake rules that merely assert absence of exclusions or eligibility criteria.
         """
         if isinstance(data, dict):
             # Backward-compatible mapping of aliases
@@ -164,8 +209,16 @@ class SchemeExtraction(BaseModel):
                             if isinstance(item.get("evidence"), dict) and not any(v is not None for v in item["evidence"].values()):
                                 item["evidence"] = None
 
-                            # Require rule statement
-                            if not item.get("rule") or str(item.get("rule")).strip() in ("", "null", "None"):
+                            rule_str = str(item.get("rule", "")).strip()
+                            # Require non-empty rule statement
+                            if not rule_str or rule_str.lower() in ("null", "none", ""):
+                                continue
+
+                            # Drop fake rules asserting absence of criteria (e.g. "No specific exclusion rules provided")
+                            ev_text = ""
+                            if isinstance(item.get("evidence"), dict):
+                                ev_text = str(item["evidence"].get("source_text", ""))
+                            if is_rule_absence_statement(rule_str) or is_rule_absence_statement(ev_text):
                                 continue
 
                             # Ensure type field is consistent

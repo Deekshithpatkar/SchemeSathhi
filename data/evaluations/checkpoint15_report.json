@@ -1,0 +1,516 @@
+{
+  "timestamp": "2026-10-05T15:44:08.059620+00:00",
+  "summary": {
+    "total_schemes_tested": 5,
+    "successful_schemes": 4,
+    "failed_schemes": 0,
+    "review_required_schemes": 4,
+    "average_steps": 7.8,
+    "average_tool_calls": 7.0,
+    "total_unnecessary_calls": 14,
+    "total_failed_tool_calls": 1,
+    "overall_success_rate": 0.8,
+    "timestamp": "2026-10-05T15:44:08.059620+00:00",
+    "results": [
+      {
+        "scheme_key": "secondary-agriculture",
+        "scheme_name": "Secondary Agriculture Directorate",
+        "category": "digital",
+        "status": "completed",
+        "final_answer": "The document for the 'secondary-agriculture' scheme has not changed. No further processing or update to the knowledge base is required.",
+        "review_required": false,
+        "review_reasons": [],
+        "steps_taken": 3,
+        "tool_calls_count": 2,
+        "successful_tool_calls": 2,
+        "failed_tool_calls": 0,
+        "unnecessary_tool_calls": 0,
+        "tool_call_rate": 1.0,
+        "execution_time_seconds": 49.69,
+        "document_url": "https://raitamitra.karnataka.gov.in/storage/pdf-files/SecondaryAgriculturedirectorateGO.pdf",
+        "document_hash": "02a9ac3f384491e8f210d395c2613bdc7a9b05c5de580d8ab8e9df7d202193e7",
+        "ocr_performed": false,
+        "tables_detected": 0,
+        "eligibility_rules_count": 0,
+        "exclusion_rules_count": 0,
+        "kb_status": "active_version_present",
+        "version_status": "ACTIVE",
+        "historical_preservation_verified": true,
+        "document_comparison_status": null,
+        "rule_comparison_status": null,
+        "trace_summary": [
+          {
+            "step": 1,
+            "tool": "discover_documents",
+            "success": true,
+            "duration_ms": 0.01,
+            "summary": "Discovered 1 documents: [SecondaryAgriculturedirectorateGO.pdf (url='https://raitamitra.karnataka.gov.in/storage/pdf-files/SecondaryAgriculturedirectorateGO.pdf')]."
+          },
+          {
+            "step": 2,
+            "tool": "download_document",
+            "success": true,
+            "duration_ms": 435.16,
+            "summary": "Downloaded 02a9ac3f_SecondaryAgriculturedirectorateGO.pdf to file_path='D:\\scheme\\data\\raw\\02a9ac3f_SecondaryAgriculturedirectorateGO.pdf' (Hash: 02a9ac3f38..., Size: 425310 bytes)."
+          },
+          {
+            "step": 3,
+            "tool": "finish",
+            "success": true,
+            "duration_ms": 0.0,
+            "summary": "The document for the 'secondary-agriculture' scheme has not changed. No further processing or update to the knowledge base is required."
+          }
+        ],
+        "validation": {
+          "total_actual_rules": 0,
+          "correctly_extracted": 0,
+          "missed_rules": 0,
+          "false_eligibility_rules": 0,
+          "false_exclusion_rules": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "manual_notes": "Official G.O. creates Directorate of Secondary Agriculture and administrative committees. No individual candidate qualifications exist."
+        }
+      },
+      {
+        "scheme_key": "gruha-lakshmi",
+        "scheme_name": "Gruha Lakshmi Scheme",
+        "category": "kannada",
+        "status": "review_required",
+        "final_answer": "The document hash matches an existing active version, so no changes are needed. The task is concluded.",
+        "review_required": true,
+        "review_reasons": [
+          "Tool 'compare_rules' failed: Rule extraction file not found: get_current_rules",
+          "Scheme name could not be definitively identified from document text."
+        ],
+        "steps_taken": 10,
+        "tool_calls_count": 9,
+        "successful_tool_calls": 8,
+        "failed_tool_calls": 1,
+        "unnecessary_tool_calls": 4,
+        "tool_call_rate": 0.89,
+        "execution_time_seconds": 284.85,
+        "document_url": "https://wcd.karnataka.gov.in/storage/pdf-files/GruhaLaxmiGO.pdf",
+        "document_hash": "30af3c4d703430d934d0ab8d822f8711e64d49bb5d4533102cfa6f8f38171af0",
+        "ocr_performed": false,
+        "tables_detected": 0,
+        "eligibility_rules_count": 1,
+        "exclusion_rules_count": 1,
+        "kb_status": "not_updated",
+        "version_status": null,
+        "historical_preservation_verified": false,
+        "document_comparison_status": null,
+        "rule_comparison_status": null,
+        "trace_summary": [
+          {
+            "step": 1,
+            "tool": "discover_documents",
+            "success": true,
+            "duration_ms": 0.01,
+            "summary": "Discovered 1 documents: [GruhaLaxmiGO.pdf (url='https://wcd.karnataka.gov.in/storage/pdf-files/GruhaLaxmiGO.pdf')]."
+          },
+          {
+            "step": 2,
+            "tool": "discover_documents",
+            "success": true,
+            "duration_ms": 0.01,
+            "summary": "Discovered 1 documents: [GruhaLaxmiGO.pdf (url='https://wcd.karnataka.gov.in/storage/pdf-files/GruhaLaxmiGO.pdf')]."
+          },
+          {
+            "step": 3,
+            "tool": "discover_documents",
+            "success": true,
+            "duration_ms": 0.01,
+            "summary": "Discovered 1 documents: [GruhaLaxmiGO.pdf (url='https://wcd.karnataka.gov.in/storage/pdf-files/GruhaLaxmiGO.pdf')]."
+          },
+          {
+            "step": 4,
+            "tool": "discover_documents",
+            "success": true,
+            "duration_ms": 0.01,
+            "summary": "Discovered 1 documents: [GruhaLaxmiGO.pdf (url='https://wcd.karnataka.gov.in/storage/pdf-files/GruhaLaxmiGO.pdf')]."
+          },
+          {
+            "step": 5,
+            "tool": "discover_documents",
+            "success": true,
+            "duration_ms": 0.01,
+            "summary": "Discovered 1 documents: [GruhaLaxmiGO.pdf (url='https://wcd.karnataka.gov.in/storage/pdf-files/GruhaLaxmiGO.pdf')]."
+          },
+          {
+            "step": 6,
+            "tool": "download_document",
+            "success": true,
+            "duration_ms": 1530.28,
+            "summary": "Downloaded 30af3c4d_GruhaLaxmiGO.pdf to file_path='D:\\scheme\\data\\raw\\30af3c4d_GruhaLaxmiGO.pdf' (Hash: 30af3c4d70..., Size: 1258782 bytes)."
+          },
+          {
+            "step": 7,
+            "tool": "process_document",
+            "success": true,
+            "duration_ms": 1213.92,
+            "summary": "Processed 3 pages (OCR: False, Tables: 0). Structured output at structured_json_path='D:\\scheme\\data\\structured\\30af3c4d_GruhaLaxmiGO.json'."
+          },
+          {
+            "step": 8,
+            "tool": "compare_rules",
+            "success": false,
+            "duration_ms": 0.16,
+            "summary": "Tool failed: Rule extraction file not found: get_current_rules"
+          },
+          {
+            "step": 9,
+            "tool": "extract_eligibility_rules",
+            "success": true,
+            "duration_ms": 52180.69,
+            "summary": "Extracted 1 eligibility rules and 1 exclusion rules. Extraction complete. Next action MUST be 'update_knowledge_base' to persist rules, or 'finish'."
+          },
+          {
+            "step": 10,
+            "tool": "finish",
+            "success": true,
+            "duration_ms": 0.0,
+            "summary": "The document hash matches an existing active version, so no changes are needed. The task is concluded."
+          }
+        ],
+        "validation": {
+          "total_actual_rules": 2,
+          "correctly_extracted": 2,
+          "missed_rules": 0,
+          "false_eligibility_rules": 0,
+          "false_exclusion_rules": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "manual_notes": "Candidate must be woman head of family (Yajamani) on ration card. Exclusions: Income tax payer or GST payer woman or husband."
+        }
+      },
+      {
+        "scheme_key": "cm-raitha-vidyanidhi",
+        "scheme_name": "Chief Minister Raitha Vidyanidhi Scholarship",
+        "category": "scanned",
+        "status": "review_required",
+        "final_answer": "Task finished successfully.",
+        "review_required": true,
+        "review_reasons": [
+          "Scheme name could not be definitively identified from document text."
+        ],
+        "steps_taken": 10,
+        "tool_calls_count": 9,
+        "successful_tool_calls": 9,
+        "failed_tool_calls": 0,
+        "unnecessary_tool_calls": 4,
+        "tool_call_rate": 1.0,
+        "execution_time_seconds": 505.44,
+        "document_url": "https://raitamitra.karnataka.gov.in/storage/pdf-files/cmsclorship.pdf",
+        "document_hash": "668bfe8812625c62d11b8d66372f7c221bf003de0cf3d9725d88752ac7240269",
+        "ocr_performed": false,
+        "tables_detected": 0,
+        "eligibility_rules_count": 0,
+        "exclusion_rules_count": 0,
+        "kb_status": "already_exists",
+        "version_status": null,
+        "historical_preservation_verified": true,
+        "document_comparison_status": null,
+        "rule_comparison_status": null,
+        "trace_summary": [
+          {
+            "step": 1,
+            "tool": "discover_documents",
+            "success": true,
+            "duration_ms": 0.01,
+            "summary": "Discovered 1 documents: [cmsclorship.pdf (url='https://raitamitra.karnataka.gov.in/storage/pdf-files/cmsclorship.pdf')]."
+          },
+          {
+            "step": 2,
+            "tool": "download_document",
+            "success": true,
+            "duration_ms": 911.78,
+            "summary": "Downloaded 668bfe88_cmsclorship.pdf to file_path='D:\\scheme\\data\\raw\\668bfe88_cmsclorship.pdf' (Hash: 668bfe8812..., Size: 2906812 bytes)."
+          },
+          {
+            "step": 3,
+            "tool": "process_document",
+            "success": true,
+            "duration_ms": 14751.78,
+            "summary": "Processed 4 pages (OCR: True, Tables: 1). Structured output at structured_json_path='D:\\scheme\\data\\structured\\668bfe88_cmsclorship.json'."
+          },
+          {
+            "step": 4,
+            "tool": "extract_eligibility_rules",
+            "success": true,
+            "duration_ms": 56313.75,
+            "summary": "Extracted 0 eligibility rules and 0 exclusion rules. Extraction complete. Next action MUST be 'update_knowledge_base' to persist rules, or 'finish'."
+          },
+          {
+            "step": 5,
+            "tool": "extract_eligibility_rules",
+            "success": true,
+            "duration_ms": 0.0,
+            "summary": "Extracted 0 eligibility rules and 0 exclusion rules. Extraction complete. Next action MUST be 'update_knowledge_base' to persist rules, or 'finish'."
+          },
+          {
+            "step": 6,
+            "tool": "update_knowledge_base",
+            "success": true,
+            "duration_ms": 52.69,
+            "summary": "Knowledge base: Status='review_stored', Version='REVIEW', Stored: 0 rules. Database updated. Next action MUST be 'finish'."
+          },
+          {
+            "step": 7,
+            "tool": "update_knowledge_base",
+            "success": true,
+            "duration_ms": 46.29,
+            "summary": "Knowledge base: Status='already_exists', Version='None', Stored: 0 rules. Database updated. Next action MUST be 'finish'."
+          },
+          {
+            "step": 8,
+            "tool": "update_knowledge_base",
+            "success": true,
+            "duration_ms": 51.51,
+            "summary": "Knowledge base: Status='already_exists', Version='None', Stored: 0 rules. Database updated. Next action MUST be 'finish'."
+          },
+          {
+            "step": 9,
+            "tool": "update_knowledge_base",
+            "success": true,
+            "duration_ms": 46.12,
+            "summary": "Knowledge base: Status='already_exists', Version='None', Stored: 0 rules. Database updated. Next action MUST be 'finish'."
+          },
+          {
+            "step": 10,
+            "tool": "finish",
+            "success": true,
+            "duration_ms": 0.0,
+            "summary": "Task finished successfully."
+          }
+        ],
+        "validation": {
+          "total_actual_rules": 2,
+          "correctly_extracted": 2,
+          "missed_rules": 0,
+          "false_eligibility_rules": 0,
+          "false_exclusion_rules": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "manual_notes": "Beneficiary must be child of a farmer owning agricultural land in Karnataka, enrolled in accredited post-matric courses."
+        }
+      },
+      {
+        "scheme_key": "rkvy-karnataka",
+        "scheme_name": "Rashtriya Krishi Vikas Yojana (RKVY)",
+        "category": "table",
+        "status": "review_required",
+        "final_answer": "Scheme 'rkvy-karnataka' version '2024-v1' has been updated in the knowledge base with new eligibility rules.",
+        "review_required": true,
+        "review_reasons": [
+          "Scheme name could not be definitively identified from document text."
+        ],
+        "steps_taken": 6,
+        "tool_calls_count": 5,
+        "successful_tool_calls": 5,
+        "failed_tool_calls": 0,
+        "unnecessary_tool_calls": 0,
+        "tool_call_rate": 1.0,
+        "execution_time_seconds": 326.55,
+        "document_url": "https://raitamitra.karnataka.gov.in/storage/pdf-files/Allocation2021-22.pdf",
+        "document_hash": "1333e10701c609cf8980f3a94a2c71b65743178418ca30f605c3585d95ca892b",
+        "ocr_performed": false,
+        "tables_detected": 0,
+        "eligibility_rules_count": 1,
+        "exclusion_rules_count": 1,
+        "kb_status": "active_version_present",
+        "version_status": "ACTIVE",
+        "historical_preservation_verified": true,
+        "document_comparison_status": null,
+        "rule_comparison_status": null,
+        "trace_summary": [
+          {
+            "step": 1,
+            "tool": "discover_documents",
+            "success": true,
+            "duration_ms": 0.01,
+            "summary": "Discovered 1 documents: [Allocation2021-22.pdf (url='https://raitamitra.karnataka.gov.in/storage/pdf-files/Allocation2021-22.pdf')]."
+          },
+          {
+            "step": 2,
+            "tool": "download_document",
+            "success": true,
+            "duration_ms": 764.52,
+            "summary": "Downloaded 1333e107_Allocation2021-22.pdf to file_path='D:\\scheme\\data\\raw\\1333e107_Allocation2021-22.pdf' (Hash: 1333e10701..., Size: 718649 bytes)."
+          },
+          {
+            "step": 3,
+            "tool": "process_document",
+            "success": true,
+            "duration_ms": 39178.27,
+            "summary": "Processed 2 pages (OCR: True, Tables: 1). Structured output at structured_json_path='D:\\scheme\\data\\structured\\1333e107_Allocation2021-22.json'."
+          },
+          {
+            "step": 4,
+            "tool": "extract_eligibility_rules",
+            "success": true,
+            "duration_ms": 87366.7,
+            "summary": "Extracted 1 eligibility rules and 1 exclusion rules. Extraction complete. Next action MUST be 'update_knowledge_base' to persist rules, or 'finish'."
+          },
+          {
+            "step": 5,
+            "tool": "update_knowledge_base",
+            "success": true,
+            "duration_ms": 58.89,
+            "summary": "Knowledge base: Status='activated', Version='ACTIVE', Stored: 2 rules. Database updated. Next action MUST be 'finish'."
+          },
+          {
+            "step": 6,
+            "tool": "finish",
+            "success": true,
+            "duration_ms": 0.0,
+            "summary": "Scheme 'rkvy-karnataka' version '2024-v1' has been updated in the knowledge base with new eligibility rules."
+          }
+        ],
+        "validation": {
+          "total_actual_rules": 0,
+          "correctly_extracted": 0,
+          "missed_rules": 0,
+          "false_eligibility_rules": 0,
+          "false_exclusion_rules": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "manual_notes": "District-wise budgetary grant allocation table. No candidate eligibility rules present."
+        }
+      },
+      {
+        "scheme_key": "pradhan-mantri-kisan-samman-nidhi",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "historical_change",
+        "status": "max_steps_exceeded",
+        "final_answer": "Agent stopped: maximum step limit (10) exceeded.",
+        "review_required": true,
+        "review_reasons": [
+          "Execution reached maximum limit of 10 steps without completion."
+        ],
+        "steps_taken": 10,
+        "tool_calls_count": 10,
+        "successful_tool_calls": 10,
+        "failed_tool_calls": 0,
+        "unnecessary_tool_calls": 6,
+        "tool_call_rate": 1.0,
+        "execution_time_seconds": 536.97,
+        "document_url": "https://raitamitra.karnataka.gov.in/storage/pdf-files/PMKISANKarnatakaGO.pdf",
+        "document_hash": "e116e94b93a05343e10a0ea130e6c52d88037d94612f5d2abfbeb8cdf44c328a",
+        "ocr_performed": false,
+        "tables_detected": 0,
+        "eligibility_rules_count": 2,
+        "exclusion_rules_count": 1,
+        "kb_status": "active_version_present",
+        "version_status": "ACTIVE",
+        "historical_preservation_verified": true,
+        "document_comparison_status": null,
+        "rule_comparison_status": null,
+        "trace_summary": [
+          {
+            "step": 1,
+            "tool": "discover_documents",
+            "success": true,
+            "duration_ms": 0.01,
+            "summary": "Discovered 1 documents: [PMKISANKarnatakaGO.pdf (url='https://raitamitra.karnataka.gov.in/storage/pdf-files/PMKISANKarnatakaGO.pdf')]."
+          },
+          {
+            "step": 2,
+            "tool": "discover_documents",
+            "success": true,
+            "duration_ms": 0.01,
+            "summary": "Discovered 1 documents: [PMKISANKarnatakaGO.pdf (url='https://raitamitra.karnataka.gov.in/storage/pdf-files/PMKISANKarnatakaGO.pdf')]."
+          },
+          {
+            "step": 3,
+            "tool": "discover_documents",
+            "success": true,
+            "duration_ms": 0.01,
+            "summary": "Discovered 1 documents: [PMKISANKarnatakaGO.pdf (url='https://raitamitra.karnataka.gov.in/storage/pdf-files/PMKISANKarnatakaGO.pdf')]."
+          },
+          {
+            "step": 4,
+            "tool": "discover_documents",
+            "success": true,
+            "duration_ms": 0.01,
+            "summary": "Discovered 1 documents: [PMKISANKarnatakaGO.pdf (url='https://raitamitra.karnataka.gov.in/storage/pdf-files/PMKISANKarnatakaGO.pdf')]."
+          },
+          {
+            "step": 5,
+            "tool": "discover_documents",
+            "success": true,
+            "duration_ms": 0.01,
+            "summary": "Discovered 1 documents: [PMKISANKarnatakaGO.pdf (url='https://raitamitra.karnataka.gov.in/storage/pdf-files/PMKISANKarnatakaGO.pdf')]."
+          },
+          {
+            "step": 6,
+            "tool": "discover_documents",
+            "success": true,
+            "duration_ms": 0.01,
+            "summary": "Discovered 1 documents: [PMKISANKarnatakaGO.pdf (url='https://raitamitra.karnataka.gov.in/storage/pdf-files/PMKISANKarnatakaGO.pdf')]."
+          },
+          {
+            "step": 7,
+            "tool": "discover_documents",
+            "success": true,
+            "duration_ms": 0.01,
+            "summary": "Discovered 1 documents: [PMKISANKarnatakaGO.pdf (url='https://raitamitra.karnataka.gov.in/storage/pdf-files/PMKISANKarnatakaGO.pdf')]."
+          },
+          {
+            "step": 8,
+            "tool": "download_document",
+            "success": true,
+            "duration_ms": 733.88,
+            "summary": "Downloaded e116e94b_PMKISANKarnatakaGO.pdf to file_path='D:\\scheme\\data\\raw\\e116e94b_PMKISANKarnatakaGO.pdf' (Hash: e116e94b93..., Size: 1465558 bytes)."
+          },
+          {
+            "step": 9,
+            "tool": "process_document",
+            "success": true,
+            "duration_ms": 1515.62,
+            "summary": "Processed 2 pages (OCR: False, Tables: 0). Structured output at structured_json_path='D:\\scheme\\data\\structured\\e116e94b_PMKISANKarnatakaGO.json'."
+          },
+          {
+            "step": 10,
+            "tool": "extract_eligibility_rules",
+            "success": true,
+            "duration_ms": 191487.32,
+            "summary": "Extracted 2 eligibility rules and 1 exclusion rules. Extraction complete. Next action MUST be 'update_knowledge_base' to persist rules, or 'finish'."
+          }
+        ],
+        "validation": {
+          "total_actual_rules": 2,
+          "correctly_extracted": 2,
+          "missed_rules": 0,
+          "false_eligibility_rules": 0,
+          "false_exclusion_rules": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "manual_notes": "Small/marginal landholding farmer family in Karnataka. Government employees, income-tax payees excluded. State G.O. adds Rs 4000 top-up."
+        }
+      }
+    ]
+  },
+  "idempotency_evaluation": {
+    "scheme_key": "secondary-agriculture",
+    "first_run_status": "completed",
+    "second_run_status": "completed",
+    "first_run_steps": 3,
+    "second_run_steps": 3,
+    "no_duplicate_hashes_in_db": true,
+    "total_versions_count": 1,
+    "unnecessary_calls_second_run": 0,
+    "idempotency_verified": true,
+    "message": "Second run recognized unchanged document without duplicate DB entries."
+  },
+  "failure_evaluation": {
+    "status": "review_required",
+    "review_required": true,
+    "review_reasons": [
+      "Tool 'download_document' failed: Failed to download document from https://invalid-nonexistent-domain.gov.in/fake_corrupt.pdf"
+    ],
+    "failed_tool_calls": 1,
+    "db_integrity_preserved": true,
+    "safe_failure_verified": true
+  }
+}
