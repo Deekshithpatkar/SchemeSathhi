@@ -1,0 +1,154 @@
+{
+  "evaluation_name": "Checkpoint 17: Citizen Eligibility Evaluation Engine Benchmark",
+  "timestamp": "2026-10-07T03:43:52.538203+00:00",
+  "engine_version": "17.0_deterministic",
+  "summary": {
+    "total_benchmark_cases": 9,
+    "passed_cases": 9,
+    "failed_cases": 0,
+    "benchmark_accuracy_pct": 100.0,
+    "deterministic_decision_rate_pct": 100.0,
+    "evidence_traceability_rate_pct": 100.0,
+    "page_traceability_rate_pct": 100.0
+  },
+  "safety_metrics": {
+    "contradicted_rules_used_as_decisive": 0,
+    "review_required_rules_used_as_decisive": 0,
+    "external_knowledge_violations": 0,
+    "unsupported_decision_rate_pct": 0,
+    "unsafe_decisions_count": 0,
+    "false_positive_eligibility_count": 0,
+    "false_negative_eligibility_count": 0
+  },
+  "case_evaluations": [
+    {
+      "case_id": "A",
+      "name": "Gruha Lakshmi Eligible Citizen",
+      "scheme_key": "gruha-lakshmi",
+      "expected": "ELIGIBLE/NEEDS_REVIEW",
+      "actual": "NEEDS_REVIEW",
+      "passed": true,
+      "summary": "Eligibility for 'ಗೃಹಲಕ್ಷ್ಮಿ ಯೋಜನೆ' could not be definitively determined (NEEDS_REVIEW). Details: Exclusion rule requires review: Rule is quarantined (REVIEW_REQUIRED): Scope Generalization: Rule asserts general income tax disqualification but evidence specifically states GST returns. Cannot produce a definitive eligibility decision.",
+      "review_reasons": [
+        "Exclusion rule requires review: Rule is quarantined (REVIEW_REQUIRED): Scope Generalization: Rule asserts general income tax disqualification but evidence specifically states GST returns. Cannot produce a definitive eligibility decision."
+      ],
+      "missing_information": [],
+      "rules_evaluated": 3,
+      "evidence_count": 2
+    },
+    {
+      "case_id": "B",
+      "name": "Gruha Lakshmi Taxpayer / GST Review Case",
+      "scheme_key": "gruha-lakshmi",
+      "expected": "NEEDS_REVIEW",
+      "actual": "NEEDS_REVIEW",
+      "passed": true,
+      "summary": "Eligibility for 'ಗೃಹಲಕ್ಷ್ಮಿ ಯೋಜನೆ' could not be definitively determined (NEEDS_REVIEW). Details: Exclusion rule requires review: Rule is quarantined (REVIEW_REQUIRED): Scope Generalization: Rule asserts general income tax disqualification but evidence specifically states GST returns. Cannot produce a definitive eligibility decision.",
+      "review_reasons": [
+        "Exclusion rule requires review: Rule is quarantined (REVIEW_REQUIRED): Scope Generalization: Rule asserts general income tax disqualification but evidence specifically states GST returns. Cannot produce a definitive eligibility decision."
+      ],
+      "missing_information": [],
+      "rules_evaluated": 3,
+      "evidence_count": 2
+    },
+    {
+      "case_id": "C",
+      "name": "Gruha Lakshmi Second Household Woman (Beneficiary Limit)",
+      "scheme_key": "gruha-lakshmi",
+      "expected": "NOT_ELIGIBLE",
+      "actual": "NOT_ELIGIBLE",
+      "passed": true,
+      "summary": "Citizen is NOT ELIGIBLE for 'ಗೃಹಲಕ್ಷ್ಮಿ ಯೋಜನೆ' due to household constraint(s): Beneficiary limit reached: 1 other member(s) in household already received benefit.",
+      "review_reasons": [],
+      "missing_information": [],
+      "rules_evaluated": 3,
+      "evidence_count": 2
+    },
+    {
+      "case_id": "D",
+      "name": "CM Raitha Vidyanidhi Student Failed/Repeated",
+      "scheme_key": "cm-raitha-vidyanidhi",
+      "expected": "NOT_ELIGIBLE",
+      "actual": "NOT_ELIGIBLE",
+      "passed": true,
+      "summary": "Citizen is NOT ELIGIBLE for 'cm-raitha-vidyanidhi' due to disqualification rule(s): Citizen triggers exclusion: failed semester.",
+      "review_reasons": [],
+      "missing_information": [],
+      "rules_evaluated": 2,
+      "evidence_count": 2
+    },
+    {
+      "case_id": "E",
+      "name": "CM Raitha Vidyanidhi Student Completed Higher Course",
+      "scheme_key": "cm-raitha-vidyanidhi",
+      "expected": "NOT_ELIGIBLE",
+      "actual": "NOT_ELIGIBLE",
+      "passed": true,
+      "summary": "Citizen is NOT ELIGIBLE for 'cm-raitha-vidyanidhi' due to disqualification rule(s): Citizen has already completed an equivalent or higher course.",
+      "review_reasons": [],
+      "missing_information": [],
+      "rules_evaluated": 2,
+      "evidence_count": 2
+    },
+    {
+      "case_id": "F",
+      "name": "CM Raitha Vidyanidhi Contradicted Landowner Rule Case",
+      "scheme_key": "cm-raitha-vidyanidhi",
+      "expected": "NEEDS_REVIEW",
+      "actual": "NEEDS_REVIEW",
+      "passed": true,
+      "summary": "No trusted candidate eligibility rules are available for 'cm-raitha-vidyanidhi'. Document contains 0 trusted citizen criteria.",
+      "review_reasons": [
+        "No trusted candidate eligibility rules available in active knowledge base."
+      ],
+      "missing_information": [],
+      "rules_evaluated": 2,
+      "evidence_count": 2
+    },
+    {
+      "case_id": "G",
+      "name": "RKVY Allocation Document (Zero Candidate Rules)",
+      "scheme_key": "rkvy",
+      "expected": "NEEDS_REVIEW",
+      "actual": "NEEDS_REVIEW",
+      "passed": true,
+      "summary": "No trusted candidate eligibility rules are available for 'rkvy-karnataka'. Document contains 0 trusted citizen criteria.",
+      "review_reasons": [
+        "No trusted candidate eligibility rules available in active knowledge base."
+      ],
+      "missing_information": [],
+      "rules_evaluated": 0,
+      "evidence_count": 0
+    },
+    {
+      "case_id": "H",
+      "name": "Secondary Agriculture Directorate (Zero Candidate Rules)",
+      "scheme_key": "secondary-agriculture",
+      "expected": "NEEDS_REVIEW",
+      "actual": "NEEDS_REVIEW",
+      "passed": true,
+      "summary": "No trusted candidate eligibility rules are available for 'Secondary Agriculture Directorate'. Document contains 0 trusted citizen criteria.",
+      "review_reasons": [
+        "No trusted candidate eligibility rules available in active knowledge base."
+      ],
+      "missing_information": [],
+      "rules_evaluated": 0,
+      "evidence_count": 0
+    },
+    {
+      "case_id": "I",
+      "name": "PM-KISAN Karnataka Top-Up (Zero Candidate Rules / External Knowledge Rejection)",
+      "scheme_key": "pm-kisan-karnataka",
+      "expected": "NEEDS_REVIEW",
+      "actual": "NEEDS_REVIEW",
+      "passed": true,
+      "summary": "No trusted candidate eligibility rules are available for 'ಕರ್ನಾಟಕ ರಾಜ್ಯ ಕೃಷಿ ಇಲಾಖೆ'. Document contains 0 trusted citizen criteria.",
+      "review_reasons": [
+        "No trusted candidate eligibility rules available in active knowledge base."
+      ],
+      "missing_information": [],
+      "rules_evaluated": 0,
+      "evidence_count": 0
+    }
+  ]
+}

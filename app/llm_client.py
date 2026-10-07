@@ -74,8 +74,57 @@ class LLMClient:
                 if not response_text:
                     raise ValueError("LLM returned an empty response.")
 
-                # Parse JSON
-                parsed_json = json.loads(response_text)
+                # Parse JSON with robust fallback
+                try:
+                    parsed_json = json.loads(response_text)
+                except json.JSONDecodeError:
+                    import re
+                    cleaned = response_text.strip()
+                    if cleaned.startswith("```json"):
+                        cleaned = cleaned[7:]
+                    elif cleaned.startswith("```"):
+                        cleaned = cleaned[3:]
+                    if cleaned.endswith("```"):
+                        cleaned = cleaned[:-3]
+                    cleaned = cleaned.strip()
+                    try:
+                        parsed_json = json.loads(cleaned)
+                    except json.JSONDecodeError:
+                        m = re.search(r"(\{.*\})", cleaned, re.DOTALL)
+                        if m:
+                            cand = m.group(1)
+                            try:
+                                parsed_json = json.loads(cand)
+                            except json.JSONDecodeError:
+                                # Replace inner quotes or trailing broken strings
+                                fixed = re.sub(r'([^\\])"([^:,\]\}]+)"([^\\])', r"\1'\2'\3", cand)
+                                try:
+                                    parsed_json = json.loads(fixed)
+                                except Exception:
+                                    # Fallback: extract eligibility and exclusion items via regex
+                                    elig_items = []
+                                    excl_items = []
+                                    for r_match in re.finditer(r'\{[^{}]*"rule"\s*:\s*"([^"]+)"[^{}]*\}', cand):
+                                        item_str = r_match.group(0)
+                                        rule_m = re.search(r'"rule"\s*:\s*"([^"]+)"', item_str)
+                                        type_m = re.search(r'"type"\s*:\s*"([^"]+)"', item_str)
+                                        ev_m = re.search(r'"evidence"\s*:\s*"([^"]+)"', item_str)
+                                        if rule_m:
+                                            r_data = {
+                                                "rule": rule_m.group(1),
+                                                "type": type_m.group(1) if type_m else "eligibility",
+                                                "evidence": ev_m.group(1) if ev_m else ""
+                                            }
+                                            if r_data["type"] == "exclusion" or "excl" in item_str:
+                                                excl_items.append(r_data)
+                                            else:
+                                                elig_items.append(r_data)
+                                    parsed_json = {
+                                        "eligibility_rules": elig_items,
+                                        "exclusion_rules": excl_items
+                                    }
+                        else:
+                            raise
                 logger.info(f"LLM response successfully received and parsed ({len(response_text)} chars).")
                 return parsed_json
 

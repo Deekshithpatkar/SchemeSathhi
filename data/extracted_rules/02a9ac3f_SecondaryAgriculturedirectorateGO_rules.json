@@ -1,7 +1,7 @@
 {
   "scheme_name": null,
   "department": null,
-  "document_type": "unknown",
+  "document_type": "government_order",
   "document_date": null,
   "version_information": null,
   "purpose": null,
@@ -13,9 +13,9 @@
     "Scheme name could not be definitively identified from document text."
   ],
   "extraction_metadata": {
-    "pipeline_version": "1.0_semantic_extraction",
+    "pipeline_version": "1.0_semantic_validation_cp16_3",
     "model": "qwen3-vl:4b-instruct",
-    "processed_at": "2026-10-06T05:17:48.201385+00:00",
+    "processed_at": "2026-10-07T02:43:55.017176+00:00",
     "source_document": "02a9ac3f_SecondaryAgriculturedirectorateGO.pdf",
     "validation_status": "review_needed",
     "rule_count": 0,

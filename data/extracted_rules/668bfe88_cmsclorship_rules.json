@@ -1,25 +1,111 @@
 {
   "scheme_name": null,
-  "department": "Karnataka Government",
-  "document_type": "unknown",
-  "document_date": null,
-  "version_information": null,
+  "department": null,
+  "document_type": "circular",
+  "document_date": "07.08.2021",
+  "version_information": "681-AML/141/2021",
   "purpose": null,
-  "eligibility_rules": [],
-  "exclusion_rules": [],
+  "eligibility_rules": [
+    {
+      "rule": "Farmers' children are eligible for the scholarship if both their parents are landless farmers.",
+      "type": "eligibility",
+      "value": null,
+      "category": "general",
+      "evidence": {
+        "page_number": 3,
+        "source_text": "೫ ರೈತರ ಮಕ್ಕಳ ತಂದೆ-ತಾಯಿ ಇಬ್ಬರೂ ಕಷಿ ಜಮೀನಿನ `ಒಡೆಯರಾಗಿದ್ದರೆ, ' = ಗ . ಯೋಜನೆಯಲ್ಲಿ ಒಂದು ಶಿಷ್ಯವೇತನಕ್ಕೆ ಮಾತ್ರ ರೈತರ ಮಕ್ಕಳು ಅರ್ಹರಾಗಿರುತ್ತಾ ರ.",
+        "section": null,
+        "table_index": null,
+        "row_index": null,
+        "column_index": null,
+        "cell_text": null,
+        "ocr_confidence": 68.8,
+        "original_kannada_evidence": "೫ ರೈತರ ಮಕ್ಕಳ ತಂದೆ-ತಾಯಿ ಇಬ್ಬರೂ ಕಷಿ ಜಮೀನಿನ `ಒಡೆಯರಾಗಿದ್ದರೆ, ' = ಗ . ಯೋಜನೆಯಲ್ಲಿ ಒಂದು ಶಿಷ್ಯವೇತನಕ್ಕೆ ಮಾತ್ರ ರೈತರ ಮಕ್ಕಳು ಅರ್ಹರಾಗಿರುತ್ತಾ ರ.",
+        "english_interpretation": "Farmers' children are eligible for the scholarship if both their parents are landless farmers.",
+        "evidence_consistency_status": "CONTRADICTED",
+        "semantic_validation_reason": "Semantic Inversion detected: Rule claims 'landless' but Kannada evidence specifies 'ಜಮೀನಿನ ಒಡೆಯ' (land owner).",
+        "semantic_validation_confidence": 1.0
+      },
+      "semantic_confidence": 0.85,
+      "rule_scope": "candidate",
+      "evidence_consistency_status": "CONTRADICTED",
+      "semantic_validation_reason": "Semantic Inversion detected: Rule claims 'landless' but Kannada evidence specifies 'ಜಮೀನಿನ ಒಡೆಯ' (land owner).",
+      "review_required": true,
+      "review_reasons": [
+        "Semantic Inversion detected: Rule claims 'landless' but Kannada evidence specifies 'ಜಮೀನಿನ ಒಡೆಯ' (land owner)."
+      ]
+    }
+  ],
+  "exclusion_rules": [
+    {
+      "rule": "Students who have failed or are repeating a semester/academic year are not eligible for the scholarship.",
+      "type": "exclusion",
+      "value": null,
+      "category": "general",
+      "evidence": {
+        "page_number": 3,
+        "source_text": "1) ಈ ಶಿಷ್ಯವೇತನವು ಶಿಕ್ಷಣದ ಯಾವುದೇ ಕೋರ್ಸಿನ ಸೆಮಿಸ್ಮರ್‌ / ಶೈಕ್ಷಣಿಕ ವರ್ಷಗಳಿಗೆ ಗೊ. ಮಿತಿಯಾಗಿರತಕ್ಕದ್ದು. ಕೋರ್ಸ್‌ನ ಸೆಮೆಸ್ಕರ್‌ನಲ್ಲಿ / ಶೈಕ್ಷಣಿಕ ವರ್ಷದಲ್ಲಿ ಅನುತ್ತೀರ್ಣ ...... ಹೊಂದಿ ಪುನ: ಆ ಸೆಮಿಸ್ಟರ್‌ / ಶೈಕ್ಷಣಿಕ ವರ್ಷದಲ್ಲಿ ' ವಿದ್ಯಾಭ್ಯಾಸದ ಟಂ _ ಪುನರಾವರ್ತನೆಯಾದರೆ. (ಪುನಃ ಪರೀಕ್ಷೆ ತೆಗೆದುಕೊ೦ಡರೆ) ವಿದ್ಯಾರ್ಥಿಗಳು '.. o ಶಿಷ್ಯವೇತನವನ್ನು ಪಡೆಯಲು ಅರ್ಹರಾಗಿರುವುದಿಲ್ಲ.",
+        "section": null,
+        "table_index": null,
+        "row_index": null,
+        "column_index": null,
+        "cell_text": null,
+        "ocr_confidence": 68.8,
+        "original_kannada_evidence": "1) ಈ ಶಿಷ್ಯವೇತನವು ಶಿಕ್ಷಣದ ಯಾವುದೇ ಕೋರ್ಸಿನ ಸೆಮಿಸ್ಮರ್‌ / ಶೈಕ್ಷಣಿಕ ವರ್ಷಗಳಿಗೆ ಗೊ. ಮಿತಿಯಾಗಿರತಕ್ಕದ್ದು. ಕೋರ್ಸ್‌ನ ಸೆಮೆಸ್ಕರ್‌ನಲ್ಲಿ / ಶೈಕ್ಷಣಿಕ ವರ್ಷದಲ್ಲಿ ಅನುತ್ತೀರ್ಣ ...... ಹೊಂದಿ ಪುನ: ಆ ಸೆಮಿಸ್ಟರ್‌ / ಶೈಕ್ಷಣಿಕ ವರ್ಷದಲ್ಲಿ ' ವಿದ್ಯಾಭ್ಯಾಸದ ಟಂ _ ಪುನರಾವರ್ತನೆಯಾದರೆ. (ಪುನಃ ಪರೀಕ್ಷೆ ತೆಗೆದುಕೊ೦ಡರೆ) ವಿದ್ಯಾರ್ಥಿಗಳು '.. o ಶಿಷ್ಯವೇತನವನ್ನು ಪಡೆಯಲು ಅರ್ಹರಾಗಿರುವುದಿಲ್ಲ.",
+        "english_interpretation": "Students who have failed or are repeating a semester/academic year are not eligible for the scholarship.",
+        "evidence_consistency_status": "SUPPORTED",
+        "semantic_validation_reason": "Rule is accurately grounded in and entailed by authoritative Kannada evidence.",
+        "semantic_validation_confidence": 0.95
+      },
+      "semantic_confidence": 0.85,
+      "rule_scope": "candidate",
+      "evidence_consistency_status": "SUPPORTED",
+      "semantic_validation_reason": "Rule is accurately grounded in and entailed by authoritative Kannada evidence.",
+      "review_required": false,
+      "review_reasons": []
+    },
+    {
+      "rule": "Students who have already completed a higher education course are not eligible for a scholarship in a different course.",
+      "type": "exclusion",
+      "value": null,
+      "category": "general",
+      "evidence": {
+        "page_number": 3,
+        "source_text": "೬ ಉದಾಹರಣೆಗೆ, X ಎಂಬ ಸ್ನಾತಕೋತ್ತರ ಪದವಿಯನ್ನು ಪೂರೈಸಿದ ನಂತರ ¥ ಎ೦ಬ... ` ಸ್ನಾತಕೋತ್ತರ ಕೋರ್ಸ್‌ಗೆ ವಿದ್ಯಾರ್ಥಿಯು ಪ್ರವೇಶ ಪಡೆದಲ್ಲಿ, ಈ . ಕೋರ್ಸ್‌ಗೆ B ಶಿಷ್ಯವೇತನವನ್ನು ಪಡೆಯಲು ಅರ್ಹವಾಗುವುದಿಲ್ಲ.",
+        "section": null,
+        "table_index": null,
+        "row_index": null,
+        "column_index": null,
+        "cell_text": null,
+        "ocr_confidence": 68.8,
+        "original_kannada_evidence": "೬ ಉದಾಹರಣೆಗೆ, X ಎಂಬ ಸ್ನಾತಕೋತ್ತರ ಪದವಿಯನ್ನು ಪೂರೈಸಿದ ನಂತರ ¥ ಎ೦ಬ... ` ಸ್ನಾತಕೋತ್ತರ ಕೋರ್ಸ್‌ಗೆ ವಿದ್ಯಾರ್ಥಿಯು ಪ್ರವೇಶ ಪಡೆದಲ್ಲಿ, ಈ . ಕೋರ್ಸ್‌ಗೆ B ಶಿಷ್ಯವೇತನವನ್ನು ಪಡೆಯಲು ಅರ್ಹವಾಗುವುದಿಲ್ಲ.",
+        "english_interpretation": "Students who have already completed a higher education course are not eligible for a scholarship in a different course.",
+        "evidence_consistency_status": "SUPPORTED",
+        "semantic_validation_reason": "Rule is accurately grounded in and entailed by authoritative Kannada evidence.",
+        "semantic_validation_confidence": 0.95
+      },
+      "semantic_confidence": 0.85,
+      "rule_scope": "candidate",
+      "evidence_consistency_status": "SUPPORTED",
+      "semantic_validation_reason": "Rule is accurately grounded in and entailed by authoritative Kannada evidence.",
+      "review_required": false,
+      "review_reasons": []
+    }
+  ],
   "sources": [],
   "review_required": true,
   "review_reasons": [
-    "Scheme name could not be definitively identified from document text."
+    "Scheme name could not be definitively identified from document text.",
+    "Semantic Inversion detected: Rule claims 'landless' but Kannada evidence specifies 'ಜಮೀನಿನ ಒಡೆಯ' (land owner)."
   ],
   "extraction_metadata": {
-    "pipeline_version": "1.0_semantic_extraction",
+    "pipeline_version": "1.0_semantic_validation_cp16_3",
     "model": "qwen3-vl:4b-instruct",
-    "processed_at": "2026-10-06T05:29:38.772603+00:00",
+    "processed_at": "2026-10-07T02:43:55.050558+00:00",
     "source_document": "668bfe88_cmsclorship.pdf",
     "validation_status": "review_needed",
-    "rule_count": 0,
-    "review_required_count": 1,
+    "rule_count": 3,
+    "review_required_count": 2,
     "errors": []
   }
 }

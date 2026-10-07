@@ -1,9 +1,9 @@
 {
   "scheme_name": null,
   "department": null,
-  "document_type": null,
-  "document_date": null,
-  "version_information": null,
+  "document_type": "circular",
+  "document_date": "13.09.2019",
+  "version_information": "AA 03 BISF 2019",
   "purpose": null,
   "eligibility_rules": [],
   "exclusion_rules": [],
@@ -13,9 +13,9 @@
     "Scheme name could not be definitively identified from document text."
   ],
   "extraction_metadata": {
-    "pipeline_version": "1.0_semantic_extraction",
+    "pipeline_version": "1.0_semantic_validation_cp16_3",
     "model": "qwen3-vl:4b-instruct",
-    "processed_at": "2026-10-06T05:19:54.952673+00:00",
+    "processed_at": "2026-10-07T02:43:55.052702+00:00",
     "source_document": "e116e94b_PMKISANKarnatakaGO.pdf",
     "validation_status": "review_needed",
     "rule_count": 0,

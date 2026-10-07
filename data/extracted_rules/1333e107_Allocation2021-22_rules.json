@@ -1,25 +1,23 @@
 {
-  "scheme_name": null,
-  "department": null,
-  "document_type": "government_order",
-  "document_date": "4 May, 2021",
-  "version_information": "No. 7-1/2021-RKVY",
-  "purpose": null,
+  "scheme_name": "Rashtriya Krishi Vikas Yojana - RAFTAAR",
+  "department": "Ministry of Agriculture and Farmers Welfare",
+  "document_type": "circular",
+  "document_date": "4th May, 2021",
+  "version_information": "No. 011 -2378 2006 / 2307 0964",
+  "purpose": "To convey approval for inter-state allocation of funds under RKVY-RAFTAAR for 2021-22, including General, SCSP, and TSP components, and to specify funding pattern and utilization requirements.",
   "eligibility_rules": [],
   "exclusion_rules": [],
   "sources": [],
-  "review_required": true,
-  "review_reasons": [
-    "Scheme name could not be definitively identified from document text."
-  ],
+  "review_required": false,
+  "review_reasons": [],
   "extraction_metadata": {
-    "pipeline_version": "1.0_semantic_extraction",
+    "pipeline_version": "1.0_semantic_validation_cp16_3",
     "model": "qwen3-vl:4b-instruct",
-    "processed_at": "2026-10-06T05:28:42.009802+00:00",
+    "processed_at": "2026-10-07T02:43:55.051800+00:00",
     "source_document": "1333e107_Allocation2021-22.pdf",
-    "validation_status": "review_needed",
+    "validation_status": "valid",
     "rule_count": 0,
-    "review_required_count": 1,
+    "review_required_count": 0,
     "errors": []
   }
 }

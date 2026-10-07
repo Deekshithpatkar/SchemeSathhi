@@ -429,6 +429,51 @@ def tool_get_historical_versions(
         return {"status": "failed", "error": str(e)}
 
 
+def tool_evaluate_citizen_eligibility(
+    scheme_key: str = "",
+    citizen_profile: Optional[Dict[str, Any]] = None,
+    version_label: Optional[str] = None,
+    **kwargs: Any,
+) -> Dict[str, Any]:
+    """
+    Evaluates a citizen profile deterministically against the grounded active
+    rules of a Karnataka government scheme.
+    """
+    try:
+        from app.citizen_profile import CitizenProfile
+        from app.eligibility_engine import evaluate_citizen
+
+        if not scheme_key:
+            return {"status": "failed", "error": "scheme_key is required"}
+
+        profile_data = citizen_profile or {}
+        # Merge extra keyword arguments into profile if provided directly
+        for k, v in kwargs.items():
+            if k not in profile_data:
+                profile_data[k] = v
+
+        citizen = CitizenProfile.model_validate(profile_data)
+        eval_result = evaluate_citizen(citizen, scheme_key=scheme_key, version_label=version_label)
+
+        return {
+            "status": "success",
+            "decision": eval_result.decision.value,
+            "summary": eval_result.summary,
+            "scheme_name": eval_result.scheme_name,
+            "scheme_key": eval_result.scheme_key,
+            "review_reasons": eval_result.review_reasons,
+            "missing_information": eval_result.missing_information,
+            "eligibility_results": [r.model_dump(mode="json") for r in eval_result.eligibility_results],
+            "exclusion_results": [r.model_dump(mode="json") for r in eval_result.exclusion_results],
+            "household_results": [r.model_dump(mode="json") for r in eval_result.household_results],
+            "evidence": eval_result.evidence,
+            "evaluation_result": eval_result.model_dump(mode="json"),
+        }
+    except Exception as e:
+        logger.error(f"tool_evaluate_citizen_eligibility failed: {e}")
+        return {"status": "failed", "error": str(e)}
+
+
 # ==============================================================================
 # Central Tool Registry
 # ==============================================================================
@@ -516,6 +561,15 @@ TOOL_REGISTRY: Dict[str, Dict[str, Any]] = {
         "description": "Retrieves the historical timeline of all archived and active versions for a scheme from the PostgreSQL knowledge base.",
         "parameters": {
             "scheme_key": "str (required): Stable scheme identifier."
+        },
+    },
+    "evaluate_citizen_eligibility": {
+        "function": tool_evaluate_citizen_eligibility,
+        "description": "Evaluates a citizen profile deterministically against the grounded active rules of a Karnataka government scheme.",
+        "parameters": {
+            "scheme_key": "str (required): Stable scheme identifier (e.g. 'gruha-lakshmi', 'cm-raitha-vidyanidhi').",
+            "citizen_profile": "dict (required): Structured citizen profile attributes.",
+            "version_label": "str (optional): Target historical version label if evaluating past rules.",
         },
     },
 }

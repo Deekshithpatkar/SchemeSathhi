@@ -15,7 +15,7 @@ class SchemeEvidence(BaseModel):
     Physical evidence grounding an extracted rule or piece of information.
     Points directly to the Step 9 source coordinates, table cells, or text.
     """
-    page_number: int = Field(default=1, description="1-based page number where evidence was found")
+    page_number: Optional[int] = Field(default=1, description="1-based page number where evidence was found")
     source_text: Optional[str] = Field(default=None, description="Verbatim or near-verbatim text from the document")
     section: Optional[str] = Field(default=None, description="Section heading or context if available")
     table_index: Optional[int] = Field(default=None, description="0-based table index on the page")
@@ -35,6 +35,24 @@ class SchemeEvidence(BaseModel):
     english_interpretation: Optional[str] = Field(
         default=None,
         description="English translation or semantic interpretation of the rule/evidence"
+    )
+    evidence_consistency_status: Optional[str] = Field(
+        default="SUPPORTED",
+        description="Consistency status: SUPPORTED, CONTRADICTED, INSUFFICIENT, REVIEW_REQUIRED"
+    )
+    semantic_validation_reason: Optional[str] = Field(
+        default=None,
+        description="Explanation of semantic evidence consistency validation"
+    )
+    semantic_validation_confidence: Optional[float] = Field(
+        default=1.0,
+        ge=0.0,
+        le=1.0,
+        description="Confidence score for evidence consistency validation"
+    )
+    source_url: Optional[str] = Field(
+        default=None,
+        description="Official document or portal URL where evidence was located"
     )
 
 
@@ -62,6 +80,18 @@ class RuleItem(BaseModel):
         ge=0.0,
         le=1.0,
         description="Semantic extraction confidence score (0.0 to 1.0, default 0.85). Never assume 1.0 automatically."
+    )
+    rule_scope: Optional[str] = Field(
+        default="candidate",
+        description="Scope: candidate, household, beneficiary_limit, administrative, unknown"
+    )
+    evidence_consistency_status: Optional[str] = Field(
+        default="SUPPORTED",
+        description="Consistency status: SUPPORTED, CONTRADICTED, INSUFFICIENT, REVIEW_REQUIRED"
+    )
+    semantic_validation_reason: Optional[str] = Field(
+        default=None,
+        description="Reason for validation flag or contradiction"
     )
     review_required: bool = Field(default=False, description="Flag indicating human review is needed")
     review_reasons: List[str] = Field(

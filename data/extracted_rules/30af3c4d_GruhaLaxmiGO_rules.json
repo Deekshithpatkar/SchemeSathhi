@@ -1,25 +1,113 @@
 {
-  "scheme_name": null,
-  "department": null,
-  "document_type": "unknown",
-  "document_date": null,
-  "version_information": null,
-  "purpose": null,
-  "eligibility_rules": [],
-  "exclusion_rules": [],
+  "scheme_name": "ಗೃಹಲಕ್ಷ್ಮಿ ಯೋಜನೆ",
+  "department": "ಆರ್ಥಿಕ ಇಲಾಖೆ",
+  "document_type": "government_order",
+  "document_date": "6ನೇ ಜೂನ್‌ 2023",
+  "version_information": "ಮಮಇ 70 ಮಮಅ 2023",
+  "purpose": "ಕರ್ನಾಟಕ ರಾಜ್ಯದ ಕುಟುಂಬದ ಯಜಮಾನಿ ಮಹಿಳೆಗೆ ಪ್ರತಿ ತಿಂಗಳು ರೂ. 2000/- ಗಳನ್ನು ನೀಡುವ “ಗೃಹಲಕ್ಷ್ಮಿ” ಯೋಜನೆಯನ್ನು ಜಾರಿಗೆ ತರಲು ಆಡಳಿತಾತ್ಮಕ ಅನುಮೋದನೆ ನೀಡುವ ಕುರಿತು",
+  "eligibility_rules": [
+    {
+      "rule": "The woman who is the head of the family in Karnataka and is listed as 'ಕುಟುಂಬದ ಯಜಮಾನಿ' in the 'ಅಂತ್ಯೋದಯ', 'ಬಿಪಿಎಲ್', or 'ಎಪಿಎಲ್' category chit is eligible for this scheme.",
+      "type": "eligibility",
+      "value": null,
+      "category": "general",
+      "evidence": {
+        "page_number": 1,
+        "source_text": "ಆಹಾರ ಮತ್ತು ನಾಗರೀಕ ಸರಬರಾಜು ಇಲಾಖೆಯು ವಿತರಿಸುವ ಅಂತ್ಯೋದಯ, ಬಿಪಿಎಲ್‌ ಮತ್ತು ಎಪಿಎಲ್‌ ಪಡಿತರ ಚೀಟಿಗಳಲ್ಲಿ ಕುಟು೦ಬದ ಯಜಮಾನಿ ಎ೦ದು ನಮೂದಿಸಿರುವ ಮಹಿಳೆಯು ಈ ಯೋಜನೆಯ ಅರ್ಹ ಫಲಾನುಭವಿಯಾಗಿರುತ್ತಾರೆ.",
+        "section": null,
+        "table_index": null,
+        "row_index": null,
+        "column_index": null,
+        "cell_text": null,
+        "ocr_confidence": 84.5,
+        "original_kannada_evidence": "ಆಹಾರ ಮತ್ತು ನಾಗರೀಕ ಸರಬರಾಜು ಇಲಾಖೆಯು ವಿತರಿಸುವ ಅಂತ್ಯೋದಯ, ಬಿಪಿಎಲ್‌ ಮತ್ತು ಎಪಿಎಲ್‌ ಪಡಿತರ ಚೀಟಿಗಳಲ್ಲಿ ಕುಟು೦ಬದ ಯಜಮಾನಿ ಎ೦ದು ನಮೂದಿಸಿರುವ ಮಹಿಳೆಯು ಈ ಯೋಜನೆಯ ಅರ್ಹ ಫಲಾನುಭವಿಯಾಗಿರುತ್ತಾರೆ.",
+        "english_interpretation": "The woman who is the head of the family in Karnataka and is listed as 'ಕುಟುಂಬದ ಯಜಮಾನಿ' in the 'ಅಂತ್ಯೋದಯ', 'ಬಿಪಿಎಲ್', or 'ಎಪಿಎಲ್' category chit is eligible for this scheme.",
+        "evidence_consistency_status": "SUPPORTED",
+        "semantic_validation_reason": "Rule is accurately grounded in and entailed by authoritative Kannada evidence.",
+        "semantic_validation_confidence": 0.95
+      },
+      "semantic_confidence": 0.85,
+      "rule_scope": "candidate",
+      "evidence_consistency_status": "SUPPORTED",
+      "semantic_validation_reason": "Rule is accurately grounded in and entailed by authoritative Kannada evidence.",
+      "review_required": false,
+      "review_reasons": []
+    },
+    {
+      "rule": "Only one woman per household is eligible for the scheme.",
+      "type": "eligibility",
+      "value": null,
+      "category": "general",
+      "evidence": {
+        "page_number": 2,
+        "source_text": "ರಂದು ಇವರಿಗೆ: ಹಟ ಣ್‌ ಒಂದೇ ಕುಟುಂಬದಲ್ಲಿ ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಮಹಿಳೆಯರಿದ್ದಲ್ಲಿ, ಒ೦ದು ಮಹಿಳೆಗೆ ಮಾತ್ರ ಯೋಜನೆ ಅನ್ವಯಿಸತಕ್ಕದ್ದು",
+        "section": null,
+        "table_index": null,
+        "row_index": null,
+        "column_index": null,
+        "cell_text": null,
+        "ocr_confidence": 86.5,
+        "original_kannada_evidence": "ರಂದು ಇವರಿಗೆ: ಹಟ ಣ್‌ ಒಂದೇ ಕುಟುಂಬದಲ್ಲಿ ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಮಹಿಳೆಯರಿದ್ದಲ್ಲಿ, ಒ೦ದು ಮಹಿಳೆಗೆ ಮಾತ್ರ ಯೋಜನೆ ಅನ್ವಯಿಸತಕ್ಕದ್ದು",
+        "english_interpretation": "Only one woman per household is eligible for the scheme.",
+        "evidence_consistency_status": "SUPPORTED",
+        "semantic_validation_reason": "Rule is accurately grounded in and entailed by authoritative Kannada evidence.",
+        "semantic_validation_confidence": 0.95
+      },
+      "semantic_confidence": 0.85,
+      "rule_scope": "beneficiary_limit",
+      "evidence_consistency_status": "SUPPORTED",
+      "semantic_validation_reason": "Rule is accurately grounded in and entailed by authoritative Kannada evidence.",
+      "review_required": false,
+      "review_reasons": [
+        "Beneficiary/Household limit constraint rather than personal qualification predicate."
+      ]
+    }
+  ],
+  "exclusion_rules": [
+    {
+      "rule": "Individuals who are taxpayers (tax payers) are disqualified from availing the scheme.",
+      "type": "exclusion",
+      "value": null,
+      "category": "general",
+      "evidence": {
+        "page_number": 2,
+        "source_text": "ಕುಟುಂಬದ ಯಜಮಾನಿ ಅಥವಾ ಯಜಮಾನಿಯ ಪತಿ. ಜಿಎಸ್‌ಟಿ ರಿಟರ್ನ್ಸ್‌ - ಸಲ್ಲಿಸುವವರಾಗಿದ್ದಲ್ಲಿ",
+        "section": null,
+        "table_index": null,
+        "row_index": null,
+        "column_index": null,
+        "cell_text": null,
+        "ocr_confidence": 86.5,
+        "original_kannada_evidence": "ಕುಟುಂಬದ ಯಜಮಾನಿ ಅಥವಾ ಯಜಮಾನಿಯ ಪತಿ. ಜಿಎಸ್‌ಟಿ ರಿಟರ್ನ್ಸ್‌ - ಸಲ್ಲಿಸುವವರಾಗಿದ್ದಲ್ಲಿ",
+        "english_interpretation": "Individuals who are taxpayers (tax payers) are disqualified from availing the scheme.",
+        "evidence_consistency_status": "REVIEW_REQUIRED",
+        "semantic_validation_reason": "Scope Generalization: Rule asserts general income tax disqualification but evidence specifically states GST returns.",
+        "semantic_validation_confidence": 0.85
+      },
+      "semantic_confidence": 0.85,
+      "rule_scope": "candidate",
+      "evidence_consistency_status": "REVIEW_REQUIRED",
+      "semantic_validation_reason": "Scope Generalization: Rule asserts general income tax disqualification but evidence specifically states GST returns.",
+      "review_required": true,
+      "review_reasons": [
+        "Scope Generalization: Rule asserts general income tax disqualification but evidence specifically states GST returns."
+      ]
+    }
+  ],
   "sources": [],
   "review_required": true,
   "review_reasons": [
-    "Scheme name could not be definitively identified from document text."
+    "Beneficiary/Household limit constraint rather than personal qualification predicate.",
+    "Scope Generalization: Rule asserts general income tax disqualification but evidence specifically states GST returns."
   ],
   "extraction_metadata": {
-    "pipeline_version": "1.0_semantic_extraction",
+    "pipeline_version": "1.0_semantic_validation_cp16_3",
     "model": "qwen3-vl:4b-instruct",
-    "processed_at": "2026-10-06T05:18:53.394807+00:00",
+    "processed_at": "2026-10-07T02:43:55.048384+00:00",
     "source_document": "30af3c4d_GruhaLaxmiGO.pdf",
     "validation_status": "review_needed",
-    "rule_count": 0,
-    "review_required_count": 1,
+    "rule_count": 3,
+    "review_required_count": 2,
     "errors": []
   }
 }

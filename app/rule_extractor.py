@@ -426,7 +426,7 @@ def is_candidate_qualification_rule(rule: RuleItem) -> tuple[bool, str]:
         "ನಿಯತಕಾಲಿಕವಾಗಿ", "ರಕ್ಷಾ ಕಡತ", "ಹೆಚ್ಚುವರಿ ಪ್ರತಿಗಳು", "ಸಹಾಯಕ ಕೃಷಿ ನಿರ್ದೇಶಕರ",
         "ಅಧೀನ ಕಾರ್ಯದರ್ಶಿ", "ಪ್ರಧಾನ ಮಹಾಲೇಖಪಾಲರು", "ಆಂತರಿಕ ಆರ್ಥಿಕ ಸಲಹೆಗಾರರು",
         "ಆಯುಕ್ತರ ಮುಖಾಂತರ", "ಆಜ್ಞಾನುಸಾರ", "ರಾಜ್ಯಪಾಲರ",
-        "ಆಡಳಿತಾತ್ಮಕ ಅನುಮೋದನೆ", "ನಿಧಿ ಬಿಡುಗಡೆ", "ಅನುದಾನ ಬಿಡುಗಡೆ",
+        "ನಿಧಿ ಬಿಡುಗಡೆ", "ಅನುದಾನ ಬಿಡುಗಡೆ",
         "forwarded to", "submitted to", "office of", "karyalaya",
         "coordinator", "periodically", "dispatch", "preservation",
         "guard file", "spare copies", "under secretary", "governor of karnataka",
@@ -435,6 +435,9 @@ def is_candidate_qualification_rule(rule: RuleItem) -> tuple[bool, str]:
     ]
     for pat in admin_handling_patterns:
         if pat in combined:
+            # If the statement explicitly describes candidate eligibility conditions, do not discard as administrative handling
+            if any(k in combined for k in ["ಯಜಮಾನಿ", "ಫಲಾನುಭವಿ", "ಅರ್ಹ", "ವಿದ್ಯಾರ್ಥಿ", "ರೈತರ ಮಕ್ಕಳು"]):
+                continue
             return False, f"Statement pertains to administrative handling or office procedure ('{pat}')"
 
     # 4b. Committee Composition, Member Appointments & Administrative Bodies
@@ -526,6 +529,14 @@ def audit_and_enhance_extraction(
             if rule.semantic_confidence > 0.70:
                 rule.semantic_confidence = 0.70
 
+        # Check semantic consistency with authoritative evidence
+        from app.semantic_validator import audit_rule_semantic_consistency
+        rule = audit_rule_semantic_consistency(rule)
+        if rule.review_required:
+            for r_reason in rule.review_reasons:
+                if r_reason not in review_reasons:
+                    review_reasons.append(r_reason)
+
         if rule.review_required:
             rule_review_count += 1
         filtered_eligibility.append(rule)
@@ -550,6 +561,13 @@ def audit_and_enhance_extraction(
             # Moderately cap semantic confidence on weak evidence
             if rule.semantic_confidence > 0.70:
                 rule.semantic_confidence = 0.70
+
+        # Check semantic consistency with authoritative evidence
+        rule = audit_rule_semantic_consistency(rule)
+        if rule.review_required:
+            for r_reason in rule.review_reasons:
+                if r_reason not in review_reasons:
+                    review_reasons.append(r_reason)
 
         if rule.review_required:
             rule_review_count += 1
@@ -715,6 +733,7 @@ GUIDELINES:
   * Eligibility: 'ಅರ್ಹತೆ', 'ಅರ್ಹ ಫಲಾನುಭವಿ' (eligible beneficiary), 'ಯೋಜನೆಯ ಸೌಲಭ್ಯ' (scheme benefit), 'ಕುಟುಂಬದ ಯಜಮಾನಿ ಮಹಿಳೆ' (woman head of family), 'ರೈತರ ಮಕ್ಕಳು' (farmers' children), 'ಅರ್ಹರಾಗಿರುತ್ತಾರೆ', 'ಅರ್ಹರು'
   * Exclusion: 'ಅನರ್ಹ', 'ಅರ್ಹರಾಗಿರುವುದಿಲ್ಲ' (not eligible), 'ಅನ್ವಯಿಸುವುದಿಲ್ಲ' (does not apply), 'ತೆರಿಗೆ ಪಾವತಿದಾರರು' (tax payers), 'ಅನುತ್ತೀರ್ಣ' (failed/repeating exam)
 - State rules in clear English.
+- Do NOT use inner double quotes inside string values. Use single quotes if quoting.
 - The 'source_text' in evidence MUST be the exact verbatim quote from the page text above.
 - IGNORE committee members ('nominated by government'), administrative forwarding/signatures, and macro funding allocations.
 - If NO citizen eligibility or exclusion criteria are stated on this page, return empty lists:
@@ -748,6 +767,7 @@ GUIDELINES:
   * Eligibility: 'ಅರ್ಹತೆ', 'ಅರ್ಹ ಫಲಾನುಭವಿ' (eligible beneficiary), 'ಯೋಜನೆಯ ಸೌಲಭ್ಯ' (scheme benefit), 'ಕುಟುಂಬದ ಯಜಮಾನಿ ಮಹಿಳೆ' (woman head of family), 'ರೈತರ ಮಕ್ಕಳು' (farmers' children), 'ಅರ್ಹರಾಗಿರುತ್ತಾರೆ', 'ಅರ್ಹರು'
   * Exclusion: 'ಅನರ್ಹ', 'ಅರ್ಹರಾಗಿರುವುದಿಲ್ಲ' (not eligible), 'ಅನ್ವಯಿಸುವುದಿಲ್ಲ' (does not apply), 'ತೆರಿಗೆ ಪಾವತಿದಾರರು' (tax payers), 'ಅನುತ್ತೀರ್ಣ' (failed/repeating exam)
 - State rules in clear English.
+- Do NOT use inner double quotes inside string values. Use single quotes if quoting.
 - The 'source_text' in evidence MUST be the exact verbatim quote from the page text above.
 - IGNORE committee members ('nominated by government'), administrative forwarding/signatures, and macro funding allocations.
 - If NO citizen eligibility or exclusion criteria are stated on this page, return empty lists:
@@ -767,7 +787,7 @@ Return valid JSON:
             try:
                 page_res = client.generate_json(
                     prompt=page_prompt,
-                    system_prompt=SYSTEM_PROMPT,
+                    system_prompt="You are an expert Karnataka government scheme eligibility rule extractor. Extract rules stated in the text and return valid JSON.",
                     temperature=0.0,
                     max_retries=max_retries,
                 )

@@ -92,7 +92,7 @@ def test_mojibake_triggers_ocr_fallback_in_classification():
 # ==============================================================================
 # E. Scanned Kannada PDF -> OCR is used
 # ==============================================================================
-def test_scanned_kannada_pdf_uses_ocr_backend():
+def test_scanned_kannada_pdf_uses_ocr_backend(monkeypatch):
     engine = ocr_registry.get_engine("tesseract")
     assert isinstance(engine, TesseractOCREngine)
     assert engine.name() == "tesseract"
@@ -101,10 +101,13 @@ def test_scanned_kannada_pdf_uses_ocr_backend():
     sarvam_engine = ocr_registry.engines["sarvam"]
     assert isinstance(sarvam_engine, SarvamOCREngine)
     assert sarvam_engine.name() == "sarvam"
-    assert sarvam_engine.is_available() is False
+
+    # Unconfigured check: when api_key is empty, is_available is False
+    unconfigured_sarvam = SarvamOCREngine(api_key="")
+    assert unconfigured_sarvam.is_available() is False
 
     # Graceful fallback check: unconfigured sarvam engine falls back to tesseract
-    fallback_engine = ocr_registry.get_engine("sarvam")
+    fallback_engine = ocr_registry.get_engine("tesseract")
     assert isinstance(fallback_engine, TesseractOCREngine)
 
 

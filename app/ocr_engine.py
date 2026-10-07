@@ -63,7 +63,10 @@ class SarvamOCREngine(BaseOCREngine):
     """
 
     def __init__(self, api_key: Optional[str] = None):
-        self.api_key = api_key or os.getenv("SARVAM_API_KEY") or LLM_API_KEY
+        if api_key is not None:
+            self.api_key = api_key
+        else:
+            self.api_key = os.getenv("SARVAM_API_KEY")
 
     def name(self) -> str:
         return "sarvam"
